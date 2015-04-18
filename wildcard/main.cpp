@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const double alpha = 5;
+const double alpha = 7;
 
 int arr[1024][1024];
 
