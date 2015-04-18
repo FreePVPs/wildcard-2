@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const double alpha = 7;
+const double alpha = 1.55;
 
 int arr[1024][1024];
 
@@ -36,7 +36,7 @@ bool compare(vector<long long> &f1, vector<long long> &f2)
         }
     }
     long long ans = arr[f1.size()][f2.size()];
-    if(ans * alpha < f1.size() + f2.size())
+    if(ans * alpha < min(f1.size(), f2.size()))
         return 1;
     return 0;
 }
