@@ -2,9 +2,9 @@
 
 using namespace std;
 
-const double alpha = 1.55;
+const double alpha = 1.5;
 
-int arr[1024][1024];
+short arr[2000][2000];
 
 int dsu[128];
 
@@ -46,8 +46,12 @@ long long  phash(string s)
     long long ans = 0;
     for(int i=0;i<s.length();i++)
     {
-        if(s[i] == ' '  || s[i] == '\n' || s[i] == '\t')
+        if(s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == '\r')
             continue;
+        if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '/')
+            break;
+        if(s[i] == '#')
+            break;
         ans *= 257;
         ans += s[i];
     }
@@ -56,6 +60,7 @@ long long  phash(string s)
 
 int main()
 {
+    ios_base::sync_with_stdio(0);
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     int n;
