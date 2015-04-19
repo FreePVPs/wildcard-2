@@ -2,11 +2,13 @@
 
 using namespace std;
 
-const double alpha = 1.5;
+const double alpha = 1.6;
 
-short arr[2000][2000];
+int arr[2000][2000];
 
 int dsu[128];
+
+bool inComment;
 
 int dsu_root(int v)
 {
@@ -32,13 +34,23 @@ bool compare(vector<long long> &f1, vector<long long> &f2)
     {
         for(int j=1;j<=f2.size();j++)
         {
-            arr[i][j] = min(min(arr[i][j-1], arr[i-1][j]) + 1, (arr[i-1][j-1] + (f1[i-1] != f2[j-1])));
+              arr[i][j] = min(min(arr[i][j-1], arr[i-1][j]) + 1, (arr[i-1][j-1] + (f1[i] != f2[j])));
         }
     }
     long long ans = arr[f1.size()][f2.size()];
     if(ans * alpha < min(f1.size(), f2.size()))
         return 1;
     return 0;
+}
+
+inline bool isLetter(char a)
+{
+    return ('a' <= a && a <= 'z') || ('A' <= a && a <= 'Z');
+}
+
+inline bool isDigit(char a)
+{
+    return ('0' <= a && a <= '9');
 }
 
 long long  phash(string s)
@@ -50,8 +62,26 @@ long long  phash(string s)
             continue;
         if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '/')
             break;
+        if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '*')
+            inComment = 1;
+        if(i < s.length() - 1 && s[i] == '*' && s[i+1] == '/')
+            inComment = 0;
         if(s[i] == '#')
             break;
+        if(inComment)
+            continue;
+        if(isLetter(s[i]))
+        {
+            ans *= 257;
+            ans += '0';
+            continue;
+        }
+        if(isDigit(s[i]))
+        {
+            ans *= 257;
+            ans += '0';
+            continue;
+        }
         ans *= 257;
         ans += s[i];
     }
@@ -75,13 +105,14 @@ int main()
     vector<long long> file1, file2;
     for(int i=0;i<n-1;i++)
     {
-        for(int j=i+1;j<n;j++)
+        for(int j=1;j<n;j++)
         {
             fstream f1(files[i]);
             fstream f2(files[j]);
             file1.clear();
             file2.clear();
             string buf;
+            inComment = 0;
             while(!f1.eof())
             {
                 getline(f1, buf);
@@ -89,6 +120,7 @@ int main()
                 if(t)
                     file1.push_back(t);
             }
+            inComment = 0;
             while(!f2.eof())
             {
                 getline(f2, buf);
