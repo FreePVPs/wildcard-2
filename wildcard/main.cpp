@@ -2,13 +2,17 @@
 
 using namespace std;
 
-const double alpha = 1.6;
+const double alpha1 = 1.6;
+const double alpha2 = 1.15;
 
 int arr[2000][2000];
 
 int dsu[128];
 
 bool inComment;
+string curExt;
+
+vector<long long> hashes[128];
 
 int dsu_root(int v)
 {
@@ -22,6 +26,12 @@ void dsu_merge(int a, int b)
     a = dsu_root(a);
     b = dsu_root(b);
     dsu[a] = b;
+}
+
+string fileExt(string &f)
+{
+    int fp = f.find('.') + 1;
+    return f.substr(fp, f.size() - fp);
 }
 
 bool compare(vector<long long> &f1, vector<long long> &f2)
@@ -38,7 +48,27 @@ bool compare(vector<long long> &f1, vector<long long> &f2)
         }
     }
     long long ans = arr[f1.size()][f2.size()];
-    if(ans * alpha < min(f1.size(), f2.size()))
+    if(ans * alpha1 < min(f1.size(), f2.size()))
+        return 1;
+    int c = 0;
+    for(int i=0;i<f1.size();i++)
+    {
+        if(find(f2.begin(), f2.end(), f1[i]) != f2.end())
+        {
+            c++;
+        }
+    }
+    if(c * alpha2 > f1.size())
+        return 1;
+    c = 0;
+    for(int i=0;i<f2.size();i++)
+    {
+        if(find(f1.begin(), f1.end(), f2[i]) != f1.end())
+        {
+            c++;
+        }
+    }
+    if(c * alpha2 > f2.size())
         return 1;
     return 0;
 }
@@ -53,21 +83,39 @@ inline bool isDigit(char a)
     return ('0' <= a && a <= '9');
 }
 
-long long  phash(string s)
+long long phash(string s)
 {
     long long ans = 0;
+   /* if(curExt == "py")
+    {
+        if(s.substr(0, 6) == "import" || s.substr(0, 4) == "from")
+            return 0;
+    }
+    if(curExt[0] == 'j')
+    {
+        if(s.substr(0, 6) == "import")
+            return 0;
+    }*/
     for(int i=0;i<s.length();i++)
     {
         if(s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == '\r')
             continue;
-        if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '/')
-            break;
-        if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '*')
-            inComment = 1;
-        if(i < s.length() - 1 && s[i] == '*' && s[i+1] == '/')
-            inComment = 0;
-        if(s[i] == '#')
-            break;
+        if(curExt[0] == 'c' || curExt[0] == 'j') ///C-like
+        {
+            if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '/')
+                break;
+            if(i < s.length() - 1 && s[i] == '/' && s[i+1] == '*')
+                inComment = 1;
+            if(i < s.length() - 1 && s[i] == '*' && s[i+1] == '/')
+                inComment = 0;
+            if(s[i] == '#')
+                break;
+        }
+        if(curExt == "py")
+        {
+            if(s[i] == '#')
+                break;
+        }
         if(inComment)
             continue;
         if(isLetter(s[i]))
@@ -101,36 +149,28 @@ int main()
     {
         cin >> files[i];
         dsu[i] = i;
+        curExt = fileExt(files[i]);
+        fstream f1(files[i]);
+        string buf;
+        inComment = 0;
+        while(!f1.eof())
+        {
+            getline(f1, buf);
+            long long t = phash(buf);
+            if(t)
+                hashes[i].push_back(t);
+        }
+        f1.close();
     }
-    vector<long long> file1, file2;
     for(int i=0;i<n-1;i++)
     {
-        for(int j=1;j<n;j++)
+        for(int j=i+1;j<n;j++)
         {
-            fstream f1(files[i]);
-            fstream f2(files[j]);
-            file1.clear();
-            file2.clear();
-            string buf;
-            inComment = 0;
-            while(!f1.eof())
-            {
-                getline(f1, buf);
-                long long t = phash(buf);
-                if(t)
-                    file1.push_back(t);
-            }
-            inComment = 0;
-            while(!f2.eof())
-            {
-                getline(f2, buf);
-                long long t = phash(buf);
-                if(t)
-                    file2.push_back(t);
-            }
-            f1.close();
-            f2.close();
-            if(compare(file1, file2))
+            if(i == j)
+                continue;
+            if(fileExt(files[i]) != fileExt(files[j]))
+                continue;
+            if(compare(hashes[i], hashes[j]))
                 dsu_merge(i, j);
         }
     }
