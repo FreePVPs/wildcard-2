@@ -28,6 +28,8 @@ namespace Hola.Code.Analyze
         {
             Code = code;
             Language = language;
+
+            if (language.Length > 0 && language[0] == '.') Language = Language.Substring(1);
         }
         public virtual decimal Compare(CodeAnalyzer code)
         {

@@ -13,7 +13,7 @@ namespace Hola.Code
             return new[]
             {
                 new CodeAnalyzer(),
-                //new SuffixTreeCodeAnalyzer(),
+                new SuffixTreeCodeAnalyzer(),
                 new LevenshteinCodeAnalyzer()
             };
         }

@@ -87,7 +87,7 @@ namespace Hola.Code
             return new[]
             {
                 new CodeAnalyzer(),
-                //new SuffixTreeCodeAnalyzer(),
+                new SuffixTreeCodeAnalyzer(),
                 new LevenshteinCodeAnalyzer()
             };
         }
@@ -370,6 +370,8 @@ namespace Hola.Code.Analyze
         {
             Code = code;
             Language = language;
+
+            if (language.Length > 0 && language[0] == '.') Language = Language.Substring(1);
         }
         public virtual decimal Compare(CodeAnalyzer code)
         {
@@ -383,15 +385,23 @@ namespace Hola.Code.Analyze
 {
     class LevenshteinCodeAnalyzer : CodeAnalyzer
     {
-        const decimal alpha1 = 1.6M;
-        const decimal alpha2 = 1.15M;
+        const double alpha1 = 1.6;
+        const double alpha2 = 1.15;
 
-        static long[,] arr = new long[2000, 2000];
+        static int[,] arr = new int[2000, 2000];
 
         static bool inComment;
 
         List<long> hashes = new List<long>();
 
+        private bool isLetter(char a)
+        {
+            return ('a' <= a && a <= 'z') || ('A' <= a && a <= 'Z');
+        }
+        private bool isDigit(char a)
+        {
+            return ('0' <= a && a <= '9');
+        }
         private long phash(string s)
         {
             long ans = 0;
@@ -417,13 +427,13 @@ namespace Hola.Code.Analyze
                 }
                 if (inComment)
                     continue;
-                if (char.IsLetter(s[i]))
+                if (isLetter(s[i]))
                 {
                     ans *= 257;
                     ans += '0';
                     continue;
                 }
-                if (char.IsDigit(s[i]))
+                if (isDigit(s[i]))
                 {
                     ans *= 257;
                     ans += '0';
@@ -439,12 +449,18 @@ namespace Hola.Code.Analyze
             base.Analyze(language, code);
 
             inComment = false;
-            var lines = code.Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            var lines = new List<string>();
+            var reader = new StringReader(code);
+            while(reader.Peek() != -1)
+            {
+                lines.Add(reader.ReadLine());
+            }
 
             foreach (var line in lines)
             {
                 var t = phash(line);
-                if (t > 0)
+                if (t != 0)
                 {
                     hashes.Add(t);
                 }
@@ -455,8 +471,11 @@ namespace Hola.Code.Analyze
             if (code is LevenshteinCodeAnalyzer)
             {
                 var levenshtein = code as LevenshteinCodeAnalyzer;
-                var f1 = levenshtein.hashes;
-                var f2 = hashes;
+
+                if (code.Language != Language) return 0;
+
+                var f1 = hashes;
+                var f2 = levenshtein.hashes;
 
                 for (int i = 1; i < Math.Max(f1.Count, f2.Count); i++)
                 {
@@ -466,17 +485,10 @@ namespace Hola.Code.Analyze
                 {
                     for (int j = 1; j <= f2.Count; j++)
                     {
-                        if (i < f1.Count && j < f2.Count)
-                        {
-                            arr[i, j] = Math.Min(Math.Min(arr[i, j - 1], arr[i - 1, j]) + 1, (arr[i - 1, j - 1] + ((f1[i] != f2[j]) ? 1 : 0)));
-                        }
-                        else
-                        {
-                            arr[i, j] = Math.Min(Math.Min(arr[i, j - 1], arr[i - 1, j]) + 1, (arr[i - 1, j - 1] + 1));
-                        }
+                        arr[i, j] = Math.Min(Math.Min(arr[i, j - 1], arr[i - 1, j]) + 1, (arr[i - 1, j - 1] + (f1[i - 1] != f2[j - 1] ? 1 : 0)));
                     }
                 }
-                decimal ans = arr[f1.Count, f2.Count];
+                long ans = arr[f1.Count, f2.Count];
                 if (ans * alpha1 < Math.Min(f1.Count, f2.Count))
                     return 1;
                 int c = 0;
