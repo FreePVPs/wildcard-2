@@ -61,7 +61,7 @@ namespace Hola.Code
             }
 
             var chars = res.ToString().ToCharArray();
-            Array.Sort(chars);
+           // Array.Sort(chars);
 
             return new string(chars);
         }
@@ -76,6 +76,16 @@ namespace Hola.Code
                 {
                     if (codeLine.IndexOf(ignoredPrefix) == 0) return true;
                 }
+            }
+            return false;
+        }
+        private static bool SuffixContains<T>(this List<T> list, T item, int suffixSize)
+        {
+            int l = Math.Max(0, list.Count - suffixSize);
+            int r = list.Count - 1;
+            for(var i = l; i <=r; i++)
+            {
+                if (list[i].Equals(item)) return true;
             }
             return false;
         }
@@ -140,7 +150,14 @@ namespace Hola.Code
                 codeLines[i] = codeLines[i].CodeLineHash();
             }
 
-            return codeLines.ToArray();
+            var res = new List<string>();
+            foreach (var line in codeLines)
+            {
+                if (!res.SuffixContains(line, 10))
+                    res.Add(line);
+            }
+
+            return res.ToArray();
         }
     }
 }

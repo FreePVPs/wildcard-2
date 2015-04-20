@@ -24,7 +24,7 @@ namespace Hola.Code.Analyze
             Code = code;
             Language = language;
         }
-        public virtual double Compare(CodeAnalyzer code)
+        public virtual decimal Compare(CodeAnalyzer code)
         {
             if (code.Code == Code) return 1;
             else return 0;

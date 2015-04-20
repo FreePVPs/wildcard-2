@@ -12,8 +12,17 @@ namespace Hola
 {
     class Program
     {
+        static void InitIO()
+        {
+#if !DEBUG
+            Console.SetIn(new StreamReader("input.txt"));
+            Console.SetOut(new StreamWriter("output.txt"));
+#endif
+        }
         static void Main(string[] args)
         {
+            InitIO();
+
             var n = int.Parse(Console.ReadLine());
 
             var graph = new Graph<SuffixTreeCodeAnalyzer>();
@@ -38,13 +47,11 @@ namespace Hola
             {
                 for (var j = i + 1; j < n; j++)
                 {
-                    double compare = sources[i].Compare(sources[j]);
+                    decimal compare = sources[i].Compare(sources[j]);
                     
-#if DEBUG
                     Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
-#endif
 
-                    if (compare > 0.70)
+                    if (compare > 0.43M)
                     {
                         graph.AddEdge(sources[i], sources[j]);
                     }
@@ -56,6 +63,7 @@ namespace Hola
                       select c;
 
             Console.WriteLine(res.Count());
+            Console.Error.WriteLine(res.Count());
             foreach(var g in res)
             {
                 foreach(var code in g.Verticies)
@@ -64,6 +72,7 @@ namespace Hola
                 }
                 Console.WriteLine();
             }
+            Console.Out.Dispose();
         }
     }
 }

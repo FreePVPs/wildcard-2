@@ -12,8 +12,17 @@ namespace Hola
 {
     class Program
     {
+        static void InitIO()
+        {
+#if !DEBUG
+            Console.SetIn(new StreamReader("input.txt"));
+            Console.SetOut(new StreamWriter("output.txt"));
+#endif
+        }
         static void Main(string[] args)
         {
+            InitIO();
+
             var n = int.Parse(Console.ReadLine());
 
             var graph = new Graph<SuffixTreeCodeAnalyzer>();
@@ -38,13 +47,11 @@ namespace Hola
             {
                 for (var j = i + 1; j < n; j++)
                 {
-                    double compare = sources[i].Compare(sources[j]);
+                    decimal compare = sources[i].Compare(sources[j]);
                     
-#if DEBUG
                     Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
-#endif
 
-                    if (compare > 0.70)
+                    if (compare > 0.43M)
                     {
                         graph.AddEdge(sources[i], sources[j]);
                     }
@@ -56,6 +63,7 @@ namespace Hola
                       select c;
 
             Console.WriteLine(res.Count());
+            Console.Error.WriteLine(res.Count());
             foreach(var g in res)
             {
                 foreach(var code in g.Verticies)
@@ -64,6 +72,7 @@ namespace Hola
                 }
                 Console.WriteLine();
             }
+            Console.Out.Dispose();
         }
     }
 }
@@ -148,7 +157,7 @@ namespace Hola.Code
             }
 
             var chars = res.ToString().ToCharArray();
-            Array.Sort(chars);
+           // Array.Sort(chars);
 
             return new string(chars);
         }
@@ -163,6 +172,16 @@ namespace Hola.Code
                 {
                     if (codeLine.IndexOf(ignoredPrefix) == 0) return true;
                 }
+            }
+            return false;
+        }
+        private static bool SuffixContains<T>(this List<T> list, T item, int suffixSize)
+        {
+            int l = Math.Max(0, list.Count - suffixSize);
+            int r = list.Count - 1;
+            for(var i = l; i <=r; i++)
+            {
+                if (list[i].Equals(item)) return true;
             }
             return false;
         }
@@ -227,7 +246,14 @@ namespace Hola.Code
                 codeLines[i] = codeLines[i].CodeLineHash();
             }
 
-            return codeLines.ToArray();
+            var res = new List<string>();
+            foreach (var line in codeLines)
+            {
+                if (!res.SuffixContains(line, 10))
+                    res.Add(line);
+            }
+
+            return res.ToArray();
         }
     }
 }
@@ -253,7 +279,7 @@ namespace Hola.Code.Analyze
             Code = code;
             Language = language;
         }
-        public virtual double Compare(CodeAnalyzer code)
+        public virtual decimal Compare(CodeAnalyzer code)
         {
             if (code.Code == Code) return 1;
             else return 0;
@@ -265,7 +291,7 @@ namespace Hola.Code.Analyze
 {
     class SuffixTreeCodeAnalyzer : CodeAnalyzer
     {
-        const int MultilinePrice = 2;
+        const int MultilinePrice = 500;
 
         public SuffixTreeCodeAnalyzer() : base()
         {
@@ -294,7 +320,7 @@ namespace Hola.Code.Analyze
             }
         }
 
-        public override double Compare(CodeAnalyzer code)
+        public override decimal Compare(CodeAnalyzer code)
         {
             if (code is SuffixTreeCodeAnalyzer)
             {
@@ -332,8 +358,8 @@ namespace Hola.Code.Analyze
                     }
                 }
 
-                double a = length;
-                double b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
+                decimal a = length;
+                decimal b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
 
                 if (b == 0)
                 {

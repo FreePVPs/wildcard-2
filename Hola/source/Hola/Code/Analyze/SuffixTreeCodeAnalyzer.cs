@@ -8,7 +8,7 @@ namespace Hola.Code.Analyze
 {
     class SuffixTreeCodeAnalyzer : CodeAnalyzer
     {
-        const int MultilinePrice = 2;
+        const int MultilinePrice = 500;
 
         public SuffixTreeCodeAnalyzer() : base()
         {
@@ -37,7 +37,7 @@ namespace Hola.Code.Analyze
             }
         }
 
-        public override double Compare(CodeAnalyzer code)
+        public override decimal Compare(CodeAnalyzer code)
         {
             if (code is SuffixTreeCodeAnalyzer)
             {
@@ -75,8 +75,8 @@ namespace Hola.Code.Analyze
                     }
                 }
 
-                double a = length;
-                double b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
+                decimal a = length;
+                decimal b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
 
                 if (b == 0)
                 {
