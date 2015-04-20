@@ -48,11 +48,11 @@ namespace Hola
                 for (var j = i + 1; j < n; j++)
                 {
                     decimal compare = sources[i].Compare(sources[j]);
-                    
 
-                    if (compare > 0.35M)
+
+                    if (compare > 0.32M)
                     {
-                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
+                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
                         graph.AddEdge(sources[i], sources[j]);
                     }
                 }

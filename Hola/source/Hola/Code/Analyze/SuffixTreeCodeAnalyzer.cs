@@ -8,7 +8,7 @@ namespace Hola.Code.Analyze
 {
     class SuffixTreeCodeAnalyzer : CodeAnalyzer
     {
-        const int MultilinePrice = 500;
+        const int MultilinePrice = 10000;
 
         public SuffixTreeCodeAnalyzer() : base()
         {
