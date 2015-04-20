@@ -1,0 +1,5 @@
+source\Hola\*.cs
+source\Hola\Code\*.cs
+source\Hola\Code\Analyze\*.cs
+source\Hola\Structures\*.cs
+:end:

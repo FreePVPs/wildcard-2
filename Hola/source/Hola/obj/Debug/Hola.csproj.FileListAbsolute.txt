@@ -1,0 +1,4 @@
+C:\Users\Maxim\GitHub\wildcard-2\Hola\source\Hola\bin\Debug\Hola.exe
+C:\Users\Maxim\GitHub\wildcard-2\Hola\source\Hola\bin\Debug\Hola.pdb
+C:\Users\Maxim\GitHub\wildcard-2\Hola\source\Hola\obj\Debug\Hola.exe
+C:\Users\Maxim\GitHub\wildcard-2\Hola\source\Hola\obj\Debug\Hola.pdb
