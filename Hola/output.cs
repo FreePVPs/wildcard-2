@@ -49,10 +49,10 @@ namespace Hola
                 {
                     decimal compare = sources[i].Compare(sources[j]);
                     
-                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
 
-                    if (compare > 0.43M)
+                    if (compare > 0.35M)
                     {
+                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
                         graph.AddEdge(sources[i], sources[j]);
                     }
                 }
@@ -111,7 +111,7 @@ namespace Hola.Code
         {
             if (index + prefix.Length > line.Length) return false;
 
-            for(var i = 0; i < prefix.Length; i++)
+            for (var i = 0; i < prefix.Length; i++)
             {
                 if (line[index + i] != prefix[i]) return false;
             }
@@ -120,7 +120,7 @@ namespace Hola.Code
 
         public static bool IsWord(this string str)
         {
-            foreach(var ch in str)
+            foreach (var ch in str)
             {
                 if (!char.IsLetterOrDigit(ch) && ch != '_') return false;
             }
@@ -129,31 +129,59 @@ namespace Hola.Code
 
         private static SortedSet<char> IgnoredChars = new SortedSet<char>()
         {
-            '{', '}', '(', ')', ';', ':'
+            '{', '}', '(', ')', ';', '.'
         };
         private static SortedSet<string> IgnoredPrefixes = new SortedSet<string>()
         {
-            "using", "#", "import"
+            "using", "#", "import", "typedef", "void", "template"
+        };
+        private static Dictionary<string, string> WordTypes = new Dictionary<string, string>()
+        {
+            { "if", "1" },
+            {"else", "1" },
+            {"while", "2" },
+            {"for", "2" },
+            {"foreach", "2" }
         };
         private static string CodeLineHash(this string codeLine)
         {
             var res = new StringBuilder();
-            var lastIsWord = false;
+            var lastWord = new StringBuilder();
 
             foreach(var ch in codeLine)
             {
                 var isWord = char.IsLetterOrDigit(ch) || ch == '_';
 
-                if (isWord && lastIsWord)
+                if (isWord)
                 {
+                    lastWord.Append(ch);
                     continue;
                 }
-                lastIsWord = isWord;
+                else
+                {
+                    if (lastWord.Length > 0)
+                    {
+                        var word = lastWord.ToString();
+                        lastWord.Clear();
+
+                        if (WordTypes.ContainsKey(word)) res.Append(WordTypes[word]);
+                        else res.Append("0");
+                    }
+                }
 
                 if(!char.IsWhiteSpace(ch) && !IgnoredChars.Contains(ch))
                 {
-                    res.Append(isWord ? '0' : ch);
+                    res.Append(ch);
                 }
+            }
+
+            if (lastWord.Length > 0)
+            {
+                var word = lastWord.ToString();
+                lastWord.Clear();
+
+                if (WordTypes.ContainsKey(word)) res.Append(WordTypes[word]);
+                else res.Append("0");
             }
 
             var chars = res.ToString().ToCharArray();

@@ -49,10 +49,10 @@ namespace Hola
                 {
                     decimal compare = sources[i].Compare(sources[j]);
                     
-                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
 
-                    if (compare > 0.43M)
+                    if (compare > 0.35M)
                     {
+                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
                         graph.AddEdge(sources[i], sources[j]);
                     }
                 }
