@@ -16,7 +16,12 @@ namespace Hola.Code.Analyze
         {
             Analyze(language, code);
         }
+        public CodeAnalyzer(string fileName, string language, string code) : this(language, code)
+        {
+            FileName = fileName;
+        }
 
+        public virtual string FileName { get; set; }
         public virtual string Language { get; set; }
         public virtual string Code { get; set; }
         public virtual void Analyze(string language, string code)

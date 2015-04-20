@@ -8,7 +8,7 @@ namespace Hola.Code.Analyze
 {
     class SuffixTreeCodeAnalyzer : CodeAnalyzer
     {
-        const int MultilinePrice = 10000;
+        const long MultilinePrice = 100000;
 
         public SuffixTreeCodeAnalyzer() : base()
         {
@@ -37,6 +37,10 @@ namespace Hola.Code.Analyze
             }
         }
 
+        public static long Magic(long deep)
+        {
+            return MultilinePrice * (deep - 1);
+        }
         public override decimal Compare(CodeAnalyzer code)
         {
             if (code is SuffixTreeCodeAnalyzer)
@@ -45,22 +49,24 @@ namespace Hola.Code.Analyze
                 if (suffixCode.CodeLines.Length > CodeLines.Length) return code.Compare(this);
 
                 // TODO : Remove?
-                var deeps = new List<int>();
-                var lengs = new List<int>();
+                var deeps = new List<long>();
+                var lengs = new List<long>();
 
                 long length = 0;
+
+                var minDeep = 1;
 
                 for (var i = 0; i < suffixCode.CodeLines.Length;)
                 {
                     int deep = SuffixTree.GetDeep(suffixCode.CodeLines, i);
-                    if (deep == 0)
+                    if (deep < minDeep)
                     {
                         i++;
                         continue;
                     }
                     else
                     {
-                        var leng = MultilinePrice * (deep - 1);
+                        var leng = Magic(deep);
                         for (var j = 0; j < deep; j++)
                         {
                             leng += suffixCode.CodeLines[j + i].Length;
@@ -76,7 +82,7 @@ namespace Hola.Code.Analyze
                 }
 
                 decimal a = length;
-                decimal b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
+                decimal b = ParsedCodeLength + Magic(CodeLines.Length);
 
                 if (b == 0)
                 {

@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\Analyze\CodeAnalyzer.cs" />
+    <Compile Include="Code\Analyze\LevenshteinCodeAnalyzer.cs" />
     <Compile Include="Code\Analyze\SuffixTreeCodeAnalyzer.cs" />
+    <Compile Include="Code\CodeComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Code\CodeParser.cs" />

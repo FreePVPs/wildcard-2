@@ -14,10 +14,10 @@ namespace Hola
     {
         static void InitIO()
         {
-#if !DEBUG
+//#if !DEBUG
             Console.SetIn(new StreamReader("input.txt"));
             Console.SetOut(new StreamWriter("output.txt"));
-#endif
+//#endif
         }
         static void Main(string[] args)
         {
@@ -25,35 +25,34 @@ namespace Hola
 
             var n = int.Parse(Console.ReadLine());
 
-            var graph = new Graph<SuffixTreeCodeAnalyzer>();
-            var sources = new List<SuffixTreeCodeAnalyzer>();
-            var files = new Dictionary<SuffixTreeCodeAnalyzer, string>();
+            var graph = new Graph<string>();
+            var comparer = new CodeComparer(new CodeAnalyzerBuilder());
+            var files = new string[n];
 
             for (var i = 0; i < n; i++)
             {
-                var file = Console.ReadLine();
+                files[i] = Console.ReadLine();
 
-                var language = Path.GetExtension(file);
-                var code = File.ReadAllText(file);
+                var language = Path.GetExtension(files[i]);
+                var code = File.ReadAllText(files[i]);
 
                 var codeAnalyzer = new SuffixTreeCodeAnalyzer(language, code);
 
-                graph.AddVertex(codeAnalyzer);
-                sources.Add(codeAnalyzer);
-                files.Add(codeAnalyzer, file);
+                graph.AddVertex(files[i]);
+                comparer.Register(files[i], language, code);
             }
 
             for (var i = 0; i < n; i++)
             {
                 for (var j = i + 1; j < n; j++)
                 {
-                    decimal compare = sources[i].Compare(sources[j]);
+                    decimal compare = comparer.Compare(files[i], files[j]);
 
 
                     if (compare > 0.32M)
                     {
-                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
-                        graph.AddEdge(sources[i], sources[j]);
+                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
+                        graph.AddEdge(files[i], files[j]);
                     }
                 }
             }
@@ -66,11 +65,13 @@ namespace Hola
             Console.Error.WriteLine(res.Count());
             foreach(var g in res)
             {
-                foreach(var code in g.Verticies)
+                foreach(var file in g.Verticies)
                 {
-                    Console.Write(files[code] + " ");
+                    Console.Write(file + " ");
+                    Console.Error.Write(file + " ");
                 }
                 Console.WriteLine();
+                Console.Error.WriteLine();
             }
             Console.Out.Dispose();
         }

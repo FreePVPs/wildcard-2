@@ -14,10 +14,10 @@ namespace Hola
     {
         static void InitIO()
         {
-#if !DEBUG
+//#if !DEBUG
             Console.SetIn(new StreamReader("input.txt"));
             Console.SetOut(new StreamWriter("output.txt"));
-#endif
+//#endif
         }
         static void Main(string[] args)
         {
@@ -25,35 +25,34 @@ namespace Hola
 
             var n = int.Parse(Console.ReadLine());
 
-            var graph = new Graph<SuffixTreeCodeAnalyzer>();
-            var sources = new List<SuffixTreeCodeAnalyzer>();
-            var files = new Dictionary<SuffixTreeCodeAnalyzer, string>();
+            var graph = new Graph<string>();
+            var comparer = new CodeComparer(new CodeAnalyzerBuilder());
+            var files = new string[n];
 
             for (var i = 0; i < n; i++)
             {
-                var file = Console.ReadLine();
+                files[i] = Console.ReadLine();
 
-                var language = Path.GetExtension(file);
-                var code = File.ReadAllText(file);
+                var language = Path.GetExtension(files[i]);
+                var code = File.ReadAllText(files[i]);
 
                 var codeAnalyzer = new SuffixTreeCodeAnalyzer(language, code);
 
-                graph.AddVertex(codeAnalyzer);
-                sources.Add(codeAnalyzer);
-                files.Add(codeAnalyzer, file);
+                graph.AddVertex(files[i]);
+                comparer.Register(files[i], language, code);
             }
 
             for (var i = 0; i < n; i++)
             {
                 for (var j = i + 1; j < n; j++)
                 {
-                    decimal compare = sources[i].Compare(sources[j]);
+                    decimal compare = comparer.Compare(files[i], files[j]);
 
 
                     if (compare > 0.32M)
                     {
-                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[sources[i]], files[sources[j]], compare * 100);
-                        graph.AddEdge(sources[i], sources[j]);
+                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
+                        graph.AddEdge(files[i], files[j]);
                     }
                 }
             }
@@ -66,13 +65,67 @@ namespace Hola
             Console.Error.WriteLine(res.Count());
             foreach(var g in res)
             {
-                foreach(var code in g.Verticies)
+                foreach(var file in g.Verticies)
                 {
-                    Console.Write(files[code] + " ");
+                    Console.Write(file + " ");
+                    Console.Error.Write(file + " ");
                 }
                 Console.WriteLine();
+                Console.Error.WriteLine();
             }
             Console.Out.Dispose();
+        }
+    }
+}
+
+namespace Hola.Code
+{
+    class CodeAnalyzerBuilder
+    {
+        public virtual CodeAnalyzer[] Make()
+        {
+            return new[]
+            {
+                new CodeAnalyzer(),
+                //new SuffixTreeCodeAnalyzer(),
+                new LevenshteinCodeAnalyzer()
+            };
+        }
+    }
+    class CodeComparer
+    {
+        public CodeAnalyzerBuilder CodeAnalyzerBuilder { get; private set; }
+        public CodeComparer(CodeAnalyzerBuilder codeAnalyzerBuilder)
+        {
+            CodeAnalyzerBuilder = codeAnalyzerBuilder;
+        }
+
+        Dictionary<string, CodeAnalyzer[]> files = new Dictionary<string, CodeAnalyzer[]>();
+        public void Register(string fileName, string language, string code)
+        {
+            var analyzers = CodeAnalyzerBuilder.Make();
+            foreach(var analyzer in analyzers)
+            {
+                analyzer.Analyze(language, code);
+                analyzer.FileName = fileName;
+            }
+
+            files.Add(fileName, analyzers);
+        }
+
+        public decimal Compare(string file1, string file2)
+        {
+            decimal res = 0;
+
+            var analyzers1 = files[file1];
+            var analyzers2 = files[file2];
+
+            for(var i = 0; i < analyzers1.Length; i++)
+            {
+                res = Math.Max(res, analyzers1[i].Compare(analyzers2[i]));
+            }
+
+            return res;
         }
     }
 }
@@ -141,7 +194,13 @@ namespace Hola.Code
             {"else", "1" },
             {"while", "2" },
             {"for", "2" },
-            {"foreach", "2" }
+            {"foreach", "2" },
+            /*
+            {"break", "3" },
+            {"continue", "3" },
+            {"return", "4" },
+            {"switch", "1" },
+            {"case", "1" }*/
         };
         private static string CodeLineHash(this string codeLine)
         {
@@ -299,7 +358,12 @@ namespace Hola.Code.Analyze
         {
             Analyze(language, code);
         }
+        public CodeAnalyzer(string fileName, string language, string code) : this(language, code)
+        {
+            FileName = fileName;
+        }
 
+        public virtual string FileName { get; set; }
         public virtual string Language { get; set; }
         public virtual string Code { get; set; }
         public virtual void Analyze(string language, string code)
@@ -317,9 +381,139 @@ namespace Hola.Code.Analyze
 
 namespace Hola.Code.Analyze
 {
+    class LevenshteinCodeAnalyzer : CodeAnalyzer
+    {
+        const decimal alpha1 = 1.6M;
+        const decimal alpha2 = 1.15M;
+
+        static long[,] arr = new long[2000, 2000];
+
+        static bool inComment;
+
+        List<long> hashes = new List<long>();
+
+        private long phash(string s)
+        {
+            long ans = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == '\r')
+                    continue;
+                if (Language[0] == 'c' || Language[0] == 'j') ///C-like
+                {
+                    if (i < s.Length - 1 && s[i] == '/' && s[i + 1] == '/')
+                        break;
+                    if (i < s.Length - 1 && s[i] == '/' && s[i + 1] == '*')
+                        inComment = true;
+                    if (i < s.Length - 1 && s[i] == '*' && s[i + 1] == '/')
+                        inComment = false;
+                    if (s[i] == '#')
+                        break;
+                }
+                if (Language == "py")
+                {
+                    if (s[i] == '#')
+                        break;
+                }
+                if (inComment)
+                    continue;
+                if (char.IsLetter(s[i]))
+                {
+                    ans *= 257;
+                    ans += '0';
+                    continue;
+                }
+                if (char.IsDigit(s[i]))
+                {
+                    ans *= 257;
+                    ans += '0';
+                    continue;
+                }
+                ans *= 257;
+                ans += s[i];
+            }
+            return ans;
+        }
+        public override void Analyze(string language, string code)
+        {
+            base.Analyze(language, code);
+
+            inComment = false;
+            var lines = code.Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var line in lines)
+            {
+                var t = phash(line);
+                if (t > 0)
+                {
+                    hashes.Add(t);
+                }
+            }
+        }
+        public override decimal Compare(CodeAnalyzer code)
+        {
+            if (code is LevenshteinCodeAnalyzer)
+            {
+                var levenshtein = code as LevenshteinCodeAnalyzer;
+                var f1 = levenshtein.hashes;
+                var f2 = hashes;
+
+                for (int i = 1; i < Math.Max(f1.Count, f2.Count); i++)
+                {
+                    arr[0, i] = arr[i, 0] = i;
+                }
+                for (int i = 1; i <= f1.Count; i++)
+                {
+                    for (int j = 1; j <= f2.Count; j++)
+                    {
+                        if (i < f1.Count && j < f2.Count)
+                        {
+                            arr[i, j] = Math.Min(Math.Min(arr[i, j - 1], arr[i - 1, j]) + 1, (arr[i - 1, j - 1] + ((f1[i] != f2[j]) ? 1 : 0)));
+                        }
+                        else
+                        {
+                            arr[i, j] = Math.Min(Math.Min(arr[i, j - 1], arr[i - 1, j]) + 1, (arr[i - 1, j - 1] + 1));
+                        }
+                    }
+                }
+                decimal ans = arr[f1.Count, f2.Count];
+                if (ans * alpha1 < Math.Min(f1.Count, f2.Count))
+                    return 1;
+                int c = 0;
+                for (int i = 0; i < f1.Count; i++)
+                {
+                    if (f2.Contains(f1[i]))
+                    {
+                        c++;
+                    }
+                }
+                if (c * alpha2 > f1.Count)
+                    return 1;
+                c = 0;
+                for (int i = 0; i < f2.Count; i++)
+                {
+                    if (f1.Contains(f2[i]))
+                    {
+                        c++;
+                    }
+                }
+                if (c * alpha2 > f2.Count)
+                    return 1;
+                return 0;
+            }
+            else
+            {
+                return base.Compare(code);
+            }
+        }
+    }
+}
+
+namespace Hola.Code.Analyze
+{
     class SuffixTreeCodeAnalyzer : CodeAnalyzer
     {
-        const int MultilinePrice = 10000;
+        const long MultilinePrice = 100000;
 
         public SuffixTreeCodeAnalyzer() : base()
         {
@@ -348,6 +542,10 @@ namespace Hola.Code.Analyze
             }
         }
 
+        public static long Magic(long deep)
+        {
+            return MultilinePrice * (deep - 1);
+        }
         public override decimal Compare(CodeAnalyzer code)
         {
             if (code is SuffixTreeCodeAnalyzer)
@@ -356,22 +554,24 @@ namespace Hola.Code.Analyze
                 if (suffixCode.CodeLines.Length > CodeLines.Length) return code.Compare(this);
 
                 // TODO : Remove?
-                var deeps = new List<int>();
-                var lengs = new List<int>();
+                var deeps = new List<long>();
+                var lengs = new List<long>();
 
                 long length = 0;
+
+                var minDeep = 1;
 
                 for (var i = 0; i < suffixCode.CodeLines.Length;)
                 {
                     int deep = SuffixTree.GetDeep(suffixCode.CodeLines, i);
-                    if (deep == 0)
+                    if (deep < minDeep)
                     {
                         i++;
                         continue;
                     }
                     else
                     {
-                        var leng = MultilinePrice * (deep - 1);
+                        var leng = Magic(deep);
                         for (var j = 0; j < deep; j++)
                         {
                             leng += suffixCode.CodeLines[j + i].Length;
@@ -387,7 +587,7 @@ namespace Hola.Code.Analyze
                 }
 
                 decimal a = length;
-                decimal b = ParsedCodeLength + (CodeLines.Length - 1) * MultilinePrice;
+                decimal b = ParsedCodeLength + Magic(CodeLines.Length);
 
                 if (b == 0)
                 {

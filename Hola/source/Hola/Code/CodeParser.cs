@@ -45,7 +45,13 @@ namespace Hola.Code
             {"else", "1" },
             {"while", "2" },
             {"for", "2" },
-            {"foreach", "2" }
+            {"foreach", "2" },
+            /*
+            {"break", "3" },
+            {"continue", "3" },
+            {"return", "4" },
+            {"switch", "1" },
+            {"case", "1" }*/
         };
         private static string CodeLineHash(this string codeLine)
         {
