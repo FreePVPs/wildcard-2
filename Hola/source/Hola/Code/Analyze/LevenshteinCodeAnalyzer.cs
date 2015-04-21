@@ -123,7 +123,7 @@ namespace Hola.Code.Analyze
                     }
                 }
                 if (c * alpha2 > f1.Count)
-                    return 1;
+                    return 0.99M;
                 c = 0;
                 for (int i = 0; i < f2.Count; i++)
                 {
@@ -133,7 +133,7 @@ namespace Hola.Code.Analyze
                     }
                 }
                 if (c * alpha2 > f2.Count)
-                    return 1;
+                    return 0.99M;
                 return 0;
             }
             else

@@ -46,12 +46,20 @@ namespace Hola
             {
                 for (var j = i + 1; j < n; j++)
                 {
+                    if (files[i].Contains('-') && files[j].Contains('-'))
+                    {
+                        var id1 = files[i].Substring(0, files[i].IndexOf('-'));
+                        var id2 = files[j].Substring(0, files[j].IndexOf('-'));
+
+                        if (id1 == id2) continue;
+                    }
+
                     decimal compare = comparer.Compare(files[i], files[j]);
 
 
-                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
-                    if (compare > 0.32M)
+                    if (compare > 0.33M)
                     {
+                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                         graph.AddEdge(files[i], files[j]);
                     }
                 }
@@ -182,7 +190,14 @@ namespace Hola.Code
 
         private static SortedSet<char> IgnoredChars = new SortedSet<char>()
         {
-            '{', '}', '(', ')', ';', '.'
+            '{', '}',
+            '(', ')',
+            '[', ']',
+            ';',
+            '.',
+            ':',
+            //'\'',
+            //'\"'
         };
         private static SortedSet<string> IgnoredPrefixes = new SortedSet<string>()
         {
@@ -191,16 +206,15 @@ namespace Hola.Code
         private static Dictionary<string, string> WordTypes = new Dictionary<string, string>()
         {
             { "if", "1" },
-            {"else", "1" },
-            {"while", "2" },
-            {"for", "2" },
-            {"foreach", "2" },
-            /*
-            {"break", "3" },
-            {"continue", "3" },
-            {"return", "4" },
-            {"switch", "1" },
-            {"case", "1" }*/
+            { "else", "1" },
+            { "while", "2" },
+            { "for", "2" },
+            { "foreach", "2" },
+            //{"break", "3" },
+            //{"continue", "3" },
+            //{"return", "4" },
+            //{"switch", "1" },
+            //{"case", "1" }
         };
         private static string CodeLineHash(this string codeLine)
         {
@@ -311,6 +325,7 @@ namespace Hola.Code
             {
                 int l = 0;
                 int r = 0;
+                //*
                 while ((r = line.IndexOf(';', l)) != -1)
                 {
                     var codeLine = line.Substring(l, r - l + 1);
@@ -318,6 +333,7 @@ namespace Hola.Code
                     if (!IsIgnored(codeLine))
                         codeLines.Add(codeLine);
                 }
+                //*/
                 r = line.Length - 1;
 
                 if ((r - l + 1) > 1)
@@ -472,7 +488,7 @@ namespace Hola.Code.Analyze
             {
                 var levenshtein = code as LevenshteinCodeAnalyzer;
 
-                if (code.Language != Language) return 0;
+                //if (code.Language != Language) return 0;
 
                 var f1 = hashes;
                 var f2 = levenshtein.hashes;
@@ -500,7 +516,7 @@ namespace Hola.Code.Analyze
                     }
                 }
                 if (c * alpha2 > f1.Count)
-                    return 1;
+                    return 0.99M;
                 c = 0;
                 for (int i = 0; i < f2.Count; i++)
                 {
@@ -510,7 +526,7 @@ namespace Hola.Code.Analyze
                     }
                 }
                 if (c * alpha2 > f2.Count)
-                    return 1;
+                    return 0.99M;
                 return 0;
             }
             else
