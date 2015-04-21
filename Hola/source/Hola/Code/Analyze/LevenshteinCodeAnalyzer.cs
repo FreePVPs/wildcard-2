@@ -62,6 +62,12 @@ namespace Hola.Code.Analyze
                     ans += '0';
                     continue;
                 }
+                if (s[i] == '"')
+                {
+                    ans *= 257;
+                    ans += '\'';
+                    continue;
+                }
                 ans *= 257;
                 ans += s[i];
             }
