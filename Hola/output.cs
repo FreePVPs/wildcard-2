@@ -401,7 +401,7 @@ namespace Hola.Code.Analyze
 {
     class LevenshteinCodeAnalyzer : CodeAnalyzer
     {
-        const double alpha1 = 1.6;
+        const double alpha1 = 1.8;
         const double alpha2 = 1.15;
 
         static int[,] arr = new int[2000, 2000];
