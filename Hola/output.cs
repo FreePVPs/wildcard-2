@@ -49,9 +49,9 @@ namespace Hola
                     decimal compare = comparer.Compare(files[i], files[j]);
 
 
+                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                     if (compare > 0.32M)
                     {
-                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                         graph.AddEdge(files[i], files[j]);
                     }
                 }
