@@ -33,7 +33,14 @@ namespace Hola.Code
 
         private static SortedSet<char> IgnoredChars = new SortedSet<char>()
         {
-            '{', '}', '(', ')', ';', '.'
+            '{', '}',
+            '(', ')',
+            '[', ']',
+            ';',
+            '.',
+            ':',
+            //'\'',
+            //'\"'
         };
         private static SortedSet<string> IgnoredPrefixes = new SortedSet<string>()
         {
@@ -42,16 +49,15 @@ namespace Hola.Code
         private static Dictionary<string, string> WordTypes = new Dictionary<string, string>()
         {
             { "if", "1" },
-            {"else", "1" },
-            {"while", "2" },
-            {"for", "2" },
-            {"foreach", "2" },
-            /*
-            {"break", "3" },
-            {"continue", "3" },
-            {"return", "4" },
-            {"switch", "1" },
-            {"case", "1" }*/
+            { "else", "1" },
+            { "while", "2" },
+            { "for", "2" },
+            { "foreach", "2" },
+            //{"break", "3" },
+            //{"continue", "3" },
+            //{"return", "4" },
+            //{"switch", "1" },
+            //{"case", "1" }
         };
         private static string CodeLineHash(this string codeLine)
         {
@@ -162,6 +168,7 @@ namespace Hola.Code
             {
                 int l = 0;
                 int r = 0;
+                //*
                 while ((r = line.IndexOf(';', l)) != -1)
                 {
                     var codeLine = line.Substring(l, r - l + 1);
@@ -169,6 +176,7 @@ namespace Hola.Code
                     if (!IsIgnored(codeLine))
                         codeLines.Add(codeLine);
                 }
+                //*/
                 r = line.Length - 1;
 
                 if ((r - l + 1) > 1)

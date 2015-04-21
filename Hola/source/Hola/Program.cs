@@ -46,12 +46,20 @@ namespace Hola
             {
                 for (var j = i + 1; j < n; j++)
                 {
+                    if (files[i].Contains('-') && files[j].Contains('-'))
+                    {
+                        var id1 = files[i].Substring(0, files[i].IndexOf('-'));
+                        var id2 = files[j].Substring(0, files[j].IndexOf('-'));
+
+                        if (id1 == id2) continue;
+                    }
+
                     decimal compare = comparer.Compare(files[i], files[j]);
 
 
-                    Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
-                    if (compare > 0.32M)
+                    if (compare > 0.33M)
                     {
+                        Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                         graph.AddEdge(files[i], files[j]);
                     }
                 }

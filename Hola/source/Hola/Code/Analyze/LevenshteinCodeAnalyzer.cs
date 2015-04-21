@@ -95,7 +95,7 @@ namespace Hola.Code.Analyze
             {
                 var levenshtein = code as LevenshteinCodeAnalyzer;
 
-                if (code.Language != Language) return 0;
+                //if (code.Language != Language) return 0;
 
                 var f1 = hashes;
                 var f2 = levenshtein.hashes;
