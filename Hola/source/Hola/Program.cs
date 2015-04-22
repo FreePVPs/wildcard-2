@@ -19,11 +19,24 @@ namespace Hola
             Console.SetOut(new StreamWriter("output.txt"));
 //#endif
         }
+        static decimal Percent(decimal value, decimal max)
+        {
+            if (max == 0)
+            {
+                return 1;
+            }
+            return value / max * 100;
+        }
+        static void OnProgress(long value, long max)
+        {
+            Console.Error.WriteLine("{0}/{1} ({2}%)", value, max, Percent(value, max));
+        }
         static void Main(string[] args)
         {
             InitIO();
 
             var n = int.Parse(Console.ReadLine());
+            Console.Error.WriteLine("Input files: {0}", n);
 
             var graph = new Graph<string>();
             var comparer = new CodeComparer(new CodeAnalyzerBuilder());
@@ -42,10 +55,17 @@ namespace Hola
                 comparer.Register(files[i], language, code);
             }
 
+            var maximum = (long)(n) * (long)(n - 1) / 2;
+            var progress = (long)0;
             for (var i = 0; i < n; i++)
             {
                 for (var j = i + 1; j < n; j++)
                 {
+                    if(++progress % 1000 == 0)
+                    {
+                        OnProgress(progress, maximum);
+                    }
+
                     if (files[i].Contains('-') && files[j].Contains('-'))
                     {
                         var id1 = files[i].Substring(0, files[i].IndexOf('-'));
@@ -64,6 +84,8 @@ namespace Hola
                     }
                 }
             }
+
+            OnProgress(progress, maximum);
 
             var res = from c in graph.GetConnectedComponents()
                       where c.Count >= 2
