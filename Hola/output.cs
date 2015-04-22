@@ -57,6 +57,8 @@ namespace Hola
 
             var maximum = (long)(n) * (long)(n - 1) / 2;
             var progress = (long)0;
+
+            OnProgress(progress, maximum);
             for (var i = 0; i < n; i++)
             {
                 for (var j = i + 1; j < n; j++)
