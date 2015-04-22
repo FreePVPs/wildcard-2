@@ -149,19 +149,19 @@ namespace Hola.Code
                 var line = lines[i].Trim();
                 for (var j = 0; j < line.Length; j++)
                 {
-                    if (line.PrefixIs("/*"))
+                    if (line.PrefixIs("/*", j))
                     {
                         commented = true;
                         j++;
                         continue;
                     }
-                    if (line.PrefixIs("*/"))
+                    if (line.PrefixIs("*/", j))
                     {
                         commented = false;
                         j++;
                         continue;
                     }
-                    if (line.PrefixIs("//")) break;
+                    if (line.PrefixIs("//", j)) break;
 
                     if (!commented) sb.Append(line[j]);
                 }
