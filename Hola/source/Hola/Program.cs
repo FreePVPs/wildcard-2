@@ -29,7 +29,11 @@ namespace Hola
         }
         static void OnProgress(long value, long max)
         {
-            Console.Error.WriteLine("{0}/{1} ({2}%)", value, max, Percent(value, max));
+            OnProgress(string.Empty, value, max);
+        }
+        static void OnProgress(string prefix, long value, long max)
+        {
+            Console.Error.WriteLine(prefix + "{0}/{1} ({2:0.00}%)", value, max, Percent(value, max));
         }
         static void Main(string[] args)
         {
@@ -53,12 +57,17 @@ namespace Hola
 
                 graph.AddVertex(files[i]);
                 comparer.Register(files[i], language, code);
+
+                if ((i + 1) % 100 == 0)
+                {
+                    OnProgress("Parsed: ", i + 1, n);
+                }
             }
 
             var maximum = (long)(n) * (long)(n - 1) / 2;
             var progress = (long)0;
 
-            OnProgress(progress, maximum);
+            OnProgress("Compared: ", progress, maximum);
             for (var i = 0; i < n; i++)
             {
                 for (var j = i + 1; j < n; j++)
@@ -79,7 +88,7 @@ namespace Hola
                     decimal compare = comparer.Compare(files[i], files[j]);
 
 
-                    if (compare > 0.33M)
+                    if (compare > 0.20M)
                     {
                         Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                         graph.AddEdge(files[i], files[j]);
