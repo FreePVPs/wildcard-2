@@ -72,7 +72,7 @@ namespace Hola
             {
                 for (var j = i + 1; j < n; j++)
                 {
-                    if(++progress % 1000 == 0)
+                    if(++progress % 10000 == 0)
                     {
                         OnProgress(progress, maximum);
                     }
@@ -88,7 +88,7 @@ namespace Hola
                     decimal compare = comparer.Compare(files[i], files[j]);
 
 
-                    if (compare > 0.20M)
+                    if (compare > 0.33M)
                     {
                         Console.Error.WriteLine("{0} | {1} -> {2:0.00}%", files[i], files[j], compare * 100);
                         graph.AddEdge(files[i], files[j]);

@@ -14,7 +14,7 @@ namespace Hola.Code
             {
                 new CodeAnalyzer(),
                 new SuffixTreeCodeAnalyzer(),
-                new LevenshteinCodeAnalyzer()
+               // new LevenshteinCodeAnalyzer()
             };
         }
     }
