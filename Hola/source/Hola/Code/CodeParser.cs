@@ -44,7 +44,13 @@ namespace Hola.Code
         };
         private static SortedSet<string> IgnoredPrefixes = new SortedSet<string>()
         {
-            "using", "#", "import", "typedef", "void", "template"
+            "using",
+            "#",
+            "import",
+            "typedef",
+            "void",
+            "template",
+            "const"
         };
         private static Dictionary<string, string> WordTypes = new Dictionary<string, string>()
         {
@@ -156,6 +162,7 @@ namespace Hola.Code
                         continue;
                     }
                     if (line.PrefixIs("//")) break;
+                    if (line.PrefixIs("#")) break;
 
                     if (!commented) sb.Append(line[j]);
                 }
