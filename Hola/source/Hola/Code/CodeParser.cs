@@ -162,7 +162,6 @@ namespace Hola.Code
                         continue;
                     }
                     if (line.PrefixIs("//")) break;
-                    if (line.PrefixIs("#")) break;
 
                     if (!commented) sb.Append(line[j]);
                 }
