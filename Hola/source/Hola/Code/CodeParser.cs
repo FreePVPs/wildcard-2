@@ -50,7 +50,7 @@ namespace Hola.Code
             "typedef",
             "void",
             "template",
-            "const"
+            //"const"
         };
         private static Dictionary<string, string> WordTypes = new Dictionary<string, string>()
         {
@@ -137,6 +137,8 @@ namespace Hola.Code
         }
         public static string[] ParseCode(this string code, string language)
         {
+            code = code.Replace('\'', '\"');
+
             var codeLines = new List<string>();
 
             var lines = code.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
