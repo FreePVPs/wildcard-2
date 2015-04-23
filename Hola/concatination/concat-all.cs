@@ -15,10 +15,10 @@ class Program
         while ((pattern = Console.ReadLine()) != ":end:")
         {
             Console.Error.WriteLine("> " + Path.Combine(Environment.CurrentDirectory, pattern));
-            foreach(var file in Directory.GetFiles(Environment.CurrentDirectory, pattern))
+            foreach (var file in Directory.GetFiles(Environment.CurrentDirectory, pattern))
             {
                 var lines = File.ReadAllLines(file);
-                foreach(var line in lines)
+                foreach (var line in lines)
                 {
                     if (line.Trim().IndexOf("using") == 0)
                     {
@@ -38,7 +38,7 @@ class Program
 
         usings.Sort();
         var last = string.Empty;
-        for(var i = 0; i < usings.Count; i++)
+        for (var i = 0; i < usings.Count; i++)
         {
             if (usings[i] != last)
             {

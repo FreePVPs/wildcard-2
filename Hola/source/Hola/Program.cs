@@ -44,6 +44,7 @@ namespace Hola
 
             var graph = new Graph<string>();
             var comparer = new CodeComparer(new CodeAnalyzerBuilder());
+            var signatures = new Signatures();
             var files = new string[n];
 
             for (var i = 0; i < n; i++)
@@ -52,6 +53,7 @@ namespace Hola
 
                 var language = Path.GetExtension(files[i]);
                 var code = File.ReadAllText(files[i]);
+                code = signatures.FormatCode(code);
 
                 var codeAnalyzer = new SuffixTreeCodeAnalyzer(language, code);
 
