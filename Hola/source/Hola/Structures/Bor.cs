@@ -5,18 +5,18 @@ using System.Text;
 
 namespace Hola.Structures
 {
-    class SuffixTree<T>
+    class Bor<T>
     {
-        Dictionary<T, SuffixTree<T>> Nodes = new Dictionary<T, SuffixTree<T>>();
+        Dictionary<T, Bor<T>> Nodes = new Dictionary<T, Bor<T>>();
 
         public void Push(T[] array, int index)
         {
             if (index >= array.Length) return;
 
-            SuffixTree<T> node;
+            Bor<T> node;
             if (!Nodes.TryGetValue(array[index], out node))
             {
-                node = new SuffixTree<T>();
+                node = new Bor<T>();
                 Nodes[array[index]] = node;
             }
 
@@ -26,7 +26,7 @@ namespace Hola.Structures
         {
             if (index >= array.Length) return 0;
 
-            SuffixTree<T> node;
+            Bor<T> node;
             if (!Nodes.TryGetValue(array[index], out node))
             {
                 return 0;

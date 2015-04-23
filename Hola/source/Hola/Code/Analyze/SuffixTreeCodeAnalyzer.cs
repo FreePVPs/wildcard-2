@@ -20,7 +20,7 @@ namespace Hola.Code.Analyze
         }
 
         string[] CodeLines;
-        SuffixTree<string> SuffixTree;
+        Bor<string> SuffixTree;
         int ParsedCodeLength = 0;
 
         public override void Analyze(string language, string code)
@@ -28,7 +28,7 @@ namespace Hola.Code.Analyze
             base.Analyze(language, code);
 
             CodeLines = code.ParseCode(language);
-            SuffixTree = new SuffixTree<string>();
+            SuffixTree = new Bor<string>();
 
             for (var i = 0; i < CodeLines.Length; i++)
             {
