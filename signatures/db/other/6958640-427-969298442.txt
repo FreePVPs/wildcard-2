@@ -1,0 +1,8 @@
+void calheight(int *r,int *sa,int n){
+//  memset(height,0,sizeof(height));
+//  memset(rank,0,sizeof(rank));
+    int i,j,k=0;
+    for(i=1;i<=n;i++) rank[sa[i]]=i;
+    for(i=0;i<n; height[rank[i++]] = k )
+    for(k?k--:0,j=sa[rank[i]-1]; r[i+k]==r[j+k]; k++);
+}

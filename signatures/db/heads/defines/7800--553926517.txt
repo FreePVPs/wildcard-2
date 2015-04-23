@@ -1,0 +1,1 @@
+#define df(i,a,b) for(typeof(b) i=a;i>=b;i--)

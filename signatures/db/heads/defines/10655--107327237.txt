@@ -1,0 +1,1 @@
+#define foriz(i, p) for(int i = 0; i < p; ++i)

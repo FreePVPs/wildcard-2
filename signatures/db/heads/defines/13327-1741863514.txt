@@ -1,0 +1,1 @@
+#define foreach(c,itr) for(auto itr=(c).begin();itr!=(c).end();itr++)

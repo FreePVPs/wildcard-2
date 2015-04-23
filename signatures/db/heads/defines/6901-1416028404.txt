@@ -1,0 +1,1 @@
+#define fr(x, E) for (__typeof(E.begin()) x = E.begin(); x != E.end(); x++)

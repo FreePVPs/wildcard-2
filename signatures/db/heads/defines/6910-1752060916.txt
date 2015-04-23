@@ -1,0 +1,1 @@
+#define Ford(i,a,b) for(int i = (int)(a), _t = (int)(b); i >= _t; i--)

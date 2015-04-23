@@ -1,0 +1,1 @@
+#define rep(var,n)  for(int var=0,lim=(n);var<lim;var++)

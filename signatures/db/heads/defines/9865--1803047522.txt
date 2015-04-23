@@ -1,0 +1,1 @@
+#define RFOR(i, n, m) for(i = (n) - 1; i >= (m); --i)

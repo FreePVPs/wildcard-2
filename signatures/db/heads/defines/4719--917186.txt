@@ -1,0 +1,1 @@
+#define ERR(args...) { vector<string> _v = split(#args, ','); err(_v.begin(), args); }

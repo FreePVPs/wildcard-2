@@ -1,0 +1,1 @@
+#define FAIL { cerr<<"assertion failed on line "<<__LINE__<<endl; exit(123);}

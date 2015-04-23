@@ -1,0 +1,1 @@
+#define frj(b)    for(int j = 0; j < b; j++)

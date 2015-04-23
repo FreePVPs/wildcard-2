@@ -1,0 +1,1 @@
+#define rof(i,a,b) for(decltype(a) (i)=(a);(i) > (b); --(i))

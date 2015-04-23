@@ -1,0 +1,7 @@
+
+typedef long long               ll;
+typedef unsigned int            uint;
+typedef unsigned long long      ull;
+typedef vector<int>             vint;
+typedef vector<string>          vstring;
+typedef pair<int, int>          PII;

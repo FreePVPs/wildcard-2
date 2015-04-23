@@ -1,0 +1,1 @@
+#define FORIT(X, Y) for(typeof((Y).begin()) X = (Y).begin(); X != (Y).end(); X++)

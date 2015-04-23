@@ -1,0 +1,1 @@
+template<class T> T bigmod(T b,T p,T m){if(p==0) return 1%m; T x=b; T ans=1; while(p){ if(p&1) ans=(ans*x)%m; p>>=1; x=(x*x)%m; } return ans; }

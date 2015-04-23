@@ -1,0 +1,1 @@
+#define repcase int t, Case = 1; for (cin >> t; t; --t)

@@ -1,0 +1,1 @@
+template<class T> string vtos(const vector<T>& vi) { SS ss; REP(i, vi.SZ) { if (i > 0) ss << ' '; ss << vi[i]; } return ss.str(); }

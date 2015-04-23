@@ -1,0 +1,1 @@
+            const int left_value = j > 0 ? shortcuts[i][j - 1] : 0;

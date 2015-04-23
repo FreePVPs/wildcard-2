@@ -1,0 +1,1 @@
+#define REP(i,n) for(long long i=0,_n=(n);i<_n;++i)

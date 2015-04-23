@@ -1,0 +1,1 @@
+#define FJ(x) for(int j=0; j<(x); ++j)

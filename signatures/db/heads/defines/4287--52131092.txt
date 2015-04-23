@@ -1,0 +1,1 @@
+#define forit(it,m) for(typeof(m.begin()) it=m.begin();it!=m.end();++it)

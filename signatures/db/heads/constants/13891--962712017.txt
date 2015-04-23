@@ -1,0 +1,1 @@
+const int maxn = 10000005,INF = 0x7fffffff;

@@ -1,0 +1,1 @@
+#define foreach(it,set) for(__typeof((set).begin()) it=(set).begin();it!=(set).end();it++)

@@ -1,0 +1,1 @@
+const int MAX2 = 15*7+1, MAX3=15*4+1, MAX5=16, MAX7=16;

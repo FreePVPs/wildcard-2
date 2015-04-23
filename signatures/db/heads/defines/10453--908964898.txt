@@ -1,0 +1,1 @@
+#define FR(i,a,n) for(__typeof(n) i=a;i<n;i++)

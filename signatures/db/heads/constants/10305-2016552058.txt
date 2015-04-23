@@ -1,0 +1,1 @@
+const   finp='210B.inp';

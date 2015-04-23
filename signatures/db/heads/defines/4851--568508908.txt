@@ -1,0 +1,1 @@
+#define FOR(i,s,f) for(int i = s; i < f; i++)

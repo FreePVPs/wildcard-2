@@ -1,0 +1,1 @@
+#define repi(_,A,B) for(register int _=A;_<=B;++_)

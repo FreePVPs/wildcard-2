@@ -1,0 +1,1 @@
+#define RFOR(i, s, n) for(TYPE(n) VAR(start)=(n)-1, VAR(end)=(s), i=VAR(start);  i >= VAR(end);  i--)

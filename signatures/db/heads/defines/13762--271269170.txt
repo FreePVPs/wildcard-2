@@ -1,0 +1,1 @@
+#define RA(begin,end,arr) for(int i=begin;i<end;i++)cin>>arr[i]

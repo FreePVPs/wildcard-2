@@ -1,0 +1,1 @@
+#define printArray(a,len) for(int ia = 0; ia < len; ia++) printf("%d%c",a[ia],(ia==len-1)?'\n':' ')

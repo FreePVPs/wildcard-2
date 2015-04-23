@@ -1,0 +1,1 @@
+#define fd(i,x,y) for(ll i=x-1; i>=y; --i)

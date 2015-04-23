@@ -1,0 +1,1 @@
+#define REV_IT(a,it) for(auto it=a.rbegin(); it != a.rend(); it++)

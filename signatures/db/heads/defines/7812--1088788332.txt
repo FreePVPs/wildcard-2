@@ -1,0 +1,1 @@
+#define Fo(i,j,n) for(i=n-1;i>=j;--i)

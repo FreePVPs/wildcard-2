@@ -1,0 +1,1 @@
+#define free(i,b,a) for(i = b; i >= a;i--)

@@ -1,0 +1,1 @@
+#define REP_G( i, u ) for ( int i = pos[ u ]; i; i = g[ i ].frt )

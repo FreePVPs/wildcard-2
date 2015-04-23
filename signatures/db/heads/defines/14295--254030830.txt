@@ -1,0 +1,1 @@
+#define forvecr(vType, vecName, varName) for (vector<vType>::reverse_iterator varName = vecName.rbegin(); varName != vecName.rend(); varName++)

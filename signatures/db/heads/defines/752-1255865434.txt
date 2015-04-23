@@ -1,0 +1,1 @@
+#define foredge(i,a) for (int i = last[a];i != -1;i = prev[i])

@@ -1,0 +1,1 @@
+const cint cEPS=0; /// Needed when flow can be floating

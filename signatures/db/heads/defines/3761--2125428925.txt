@@ -1,0 +1,1 @@
+#define forn1(N)          for(ll i = 1; i<=(int)N; i++)

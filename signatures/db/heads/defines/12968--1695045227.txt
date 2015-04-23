@@ -1,0 +1,1 @@
+#define per(a,b,c) for(int a = b; i > c ; b--)

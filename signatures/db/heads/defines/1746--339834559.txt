@@ -1,0 +1,1 @@
+#define getvec(nt,i,sz) vector< nt > i(sz);for(int j=0;j<sz;j++)cin>>i[j];

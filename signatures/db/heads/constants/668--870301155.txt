@@ -1,0 +1,1 @@
+const int modNum = 1e9 + 7;

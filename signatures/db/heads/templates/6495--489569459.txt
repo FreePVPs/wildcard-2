@@ -1,0 +1,1 @@
+template<class T> void debug(vector< basic_string<T> >& e){int i,j;REP(i,SZ(e)) {REP(j,SZ(e[i])) cout<<e[i][j];cout<<endl;} cout<<endl;}

@@ -1,0 +1,1 @@
+#define ROF(x, s, e) for(int x = (s); x >= (e); --x)

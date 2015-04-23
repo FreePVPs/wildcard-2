@@ -1,0 +1,1 @@
+#define f(a,b,c) for(ll int i=a;i<b;i+=c)

@@ -1,0 +1,1 @@
+const int nmax = 100000 + 18, mmax = 100;

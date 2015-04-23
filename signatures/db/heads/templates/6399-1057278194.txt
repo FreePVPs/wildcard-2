@@ -1,0 +1,1 @@
+template<class T> void print(T const &x) {ostringstream os; os<<x; cout<<os.str()<<endl;}

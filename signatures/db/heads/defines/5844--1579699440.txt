@@ -1,0 +1,1 @@
+#define rev(var,s,n,it) for(var=(n-1);var>(s-1);(var)-=it)

@@ -1,0 +1,1 @@
+#define forrd(i,n,e,d) for(ll i=(n);i>=(e);i-=(d))

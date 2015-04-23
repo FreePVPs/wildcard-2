@@ -1,0 +1,1 @@
+#define Path(i, s) for (int i = s; i; i = d[i].next)

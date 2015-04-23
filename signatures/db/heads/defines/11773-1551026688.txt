@@ -1,0 +1,1 @@
+#define forz(b)    for(int z = 0; z < b; z++)

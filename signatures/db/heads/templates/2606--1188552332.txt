@@ -1,0 +1,1 @@
+template<typename T> ostream& operator << (ostream &os, const set<T>& S) {os << "("; FOREACH(i,S) os << *i << (*i==*S.rbegin()?"":","); return os << ")"; }

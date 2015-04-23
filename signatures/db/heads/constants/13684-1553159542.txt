@@ -1,0 +1,1 @@
+const int maxn=310,maxk=10,inf=(int)1e9;

@@ -1,0 +1,1 @@
+#define fldit(it,c) for(it=c.end();it>=c.begin();it--)

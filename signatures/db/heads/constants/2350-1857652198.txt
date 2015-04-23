@@ -1,0 +1,1 @@
+    const TFoo res = calc_hemming(a, b);

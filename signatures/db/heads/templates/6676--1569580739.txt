@@ -1,0 +1,1 @@
+template<class T> inline T rev(const T & a){T _=a; reverse(_.begin(),_.end()); return _;}

@@ -1,0 +1,1 @@
+#define siter(n,T1)  for(set<T1>::iterator it=n.begin();it!=n.end();it++)

@@ -1,0 +1,1 @@
+      const int rank_jk = j+k<n ? rank[j+k] : -1;

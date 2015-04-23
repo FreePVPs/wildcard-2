@@ -1,0 +1,24 @@
+
+#define clz(x)        __builtin_clz(n)
+#define clzl(x)       __builtin_clzll(x) //number of leading zeroes in a digit
+#define nl            printf("\n")
+#define spc           printf(" ")
+#define yes           printf("YES\n")
+#define no            printf("NO\n")
+#define si(x)         scanf("%I64d",&x)
+#define sii(x,y)      scanf("%I64d %I64d",&x,&y)
+#define siii(x,y,z)   scanf("%I64d %I64d %I64d",&x,&y,&z)
+#define sd(a)         scanf("%lf",&a)
+#define sdd(a,b)      scanf("%lf %lf",&a,&b)
+#define pi(x)         printf("%I64d",x)
+#define pin(x)        printf("%I64d\n",x)
+#define pis(x)        printf("%I64d ",x)
+#define pii(a,b)      printf("%I64d %I64d",a,b)
+#define piii(a,b,c)   printf("%I64d %I64d %I64d",a,b,c)
+#define pd(a)         printf("%lf",a)
+#define pdd(a,b)      printf("%lf %lf",a,b)
+#define caset         long long ___T,cas=1;scanf("%I64d ",&___T);while(___T--)
+#define case0(n)      long long cas=1;while(scanf("%I64d",&n)!=EOF&&n)
+#define casen(n)      long long cas=1;while(scanf("%I64d",&n)!=EOF)
+#define pcs           printf("Case %I64d: ",cas);cas++;
+#define mp            make_pair

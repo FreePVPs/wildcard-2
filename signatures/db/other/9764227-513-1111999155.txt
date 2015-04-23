@@ -1,0 +1,1 @@
+inline void pisz(int n) { printf("%d\n",n); }

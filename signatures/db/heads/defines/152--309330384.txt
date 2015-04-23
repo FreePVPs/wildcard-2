@@ -1,0 +1,1 @@
+#define DOW_1(i,n) for(int i=(n);0<i;--i)

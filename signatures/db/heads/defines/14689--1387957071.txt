@@ -1,0 +1,1 @@
+#define EACH_EDGE(e,init) for(__typeof__(init) e=init; e; e=e->next)

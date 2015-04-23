@@ -1,0 +1,1 @@
+#define rep(__z,__Z) for(int __z = 0; __z < __Z ; __z++ )

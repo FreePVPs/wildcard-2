@@ -1,0 +1,1 @@
+#define trv(y,x)    for(typeof(x.begin())y=x.begin();y!=x.end();y++)

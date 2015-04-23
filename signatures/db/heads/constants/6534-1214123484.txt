@@ -1,0 +1,1 @@
+		const int &v = ve[u][i].first, &id = ve[u][i].second;

@@ -1,0 +1,1 @@
+#define slluarray(a,n) for(lli i=0;i<n;i++)sllu(a[i])

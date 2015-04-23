@@ -1,0 +1,1 @@
+#define F(x,y,i) for(int i = x;i > y; i--)

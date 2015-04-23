@@ -1,0 +1,1 @@
+const int MAXN=5000+100,INF=0x7fffffff;

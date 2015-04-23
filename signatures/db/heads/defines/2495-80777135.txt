@@ -1,0 +1,1 @@
+#define reps(i, s) for(i = 0; (s)[i]; ++i)

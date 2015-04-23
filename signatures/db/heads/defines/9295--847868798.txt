@@ -1,0 +1,1 @@
+#define loopset(a,b,n) for(int a=b;a<=n;a++)

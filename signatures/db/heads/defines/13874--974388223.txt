@@ -1,0 +1,1 @@
+#define loop(var,init,end) for(var=init;var<=end;var++)

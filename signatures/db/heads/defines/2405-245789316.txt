@@ -1,0 +1,1 @@
+#define testcases()		int t; for(s(t);t;--t)

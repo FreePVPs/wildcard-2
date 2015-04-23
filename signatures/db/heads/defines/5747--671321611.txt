@@ -1,0 +1,1 @@
+#define ina(x,n); rep(i,n)cin>>x[i];

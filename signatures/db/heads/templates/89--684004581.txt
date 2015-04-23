@@ -1,0 +1,1 @@
+template<typename T>inline VS PARSE(T str){VS res;string s;istringstream os(str);while(os>>s)res.PB(s);return res;}

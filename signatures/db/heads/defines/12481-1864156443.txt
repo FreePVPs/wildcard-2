@@ -1,0 +1,1 @@
+#define REP(k,x,y) for(k=x;k<y;k++)

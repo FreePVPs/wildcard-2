@@ -1,0 +1,15 @@
+
+#define pb            push_back
+#define MS0(x)        memset(x,0,sizeof(x))
+#define MS1(x)        memset(x,-1,sizeof(x))
+#define SEP(x)        ((x)?'\n':' ')
+#define fi            first
+#define se            second
+#define ONLINE_JUDGE ;
+#ifdef  ONLINE_JUDGE
+#define FILEIO(x)     freopen(#x ".in","r",stdin);freopen(#x ".out","w",stdout);
+#define FILEIOS       freopen("in.in","r",stdin);//freopen("out.out","w",stdout);
+#else
+#define FILEIO(x) ;
+#define FILEIOS ;
+#endif

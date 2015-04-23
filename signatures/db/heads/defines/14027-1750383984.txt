@@ -1,0 +1,1 @@
+#define GO {puts("NO");return 0;}

@@ -1,0 +1,1 @@
+const int RN=100000;

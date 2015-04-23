@@ -1,0 +1,21 @@
+    var i,j,x,m : longint;
+    begin
+        i := left;
+        j := right;
+        m := a[(left+right) div 2];
+        repeat
+            while (a[i] < m) do inc(i);
+            while (a[j] > m) do dec(j);
+            if i <= j then begin
+                x := a[i];
+                a[i] := a[j];
+                a[j] := x;
+                inc(i);
+                dec(j);
+            end;            
+        until i > j;
+        
+        if left < j then qs(left,j);
+        if i < right then qs(i,right);
+        
+    end;

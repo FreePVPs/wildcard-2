@@ -1,0 +1,1 @@
+#define RE(i,b) for(int i=0; i<(int)(b); i++)

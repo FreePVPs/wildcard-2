@@ -1,0 +1,1 @@
+#define foreach(e,x) for(__typeof(x.begin()) e=x.begin();e!=x.end();++e)

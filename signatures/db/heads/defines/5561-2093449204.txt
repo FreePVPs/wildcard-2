@@ -1,0 +1,1 @@
+#define SL ({LL x;scanf("%I64d", &x);x;});

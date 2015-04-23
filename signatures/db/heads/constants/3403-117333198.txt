@@ -1,0 +1,1 @@
+const ld dinf = 1e200;

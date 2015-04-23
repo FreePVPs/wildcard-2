@@ -1,0 +1,1 @@
+#define REP_1_C_N(i, n) for (int n____=(i=1,int(n));i<=n____;++i)

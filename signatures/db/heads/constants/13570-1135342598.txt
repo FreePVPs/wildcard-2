@@ -1,0 +1,1 @@
+			const Matrix< T > operator*( const Matrix< T > &A );

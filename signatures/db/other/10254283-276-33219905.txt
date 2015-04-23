@@ -1,0 +1,1 @@
+#define white 0

@@ -1,0 +1,1 @@
+#define cinVect(vect) { int tmp; cin >> tmp; vect.push_back(tmp); }

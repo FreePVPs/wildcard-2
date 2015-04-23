@@ -1,0 +1,1 @@
+#define ADJ(i, u) for (int i = hd[u]; i != -1; i = edge[i].nxt)

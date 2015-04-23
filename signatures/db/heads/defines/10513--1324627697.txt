@@ -1,0 +1,1 @@
+#define FOREACH(i,n) for(VAR(i,(n).begin());i!=(n).end();i++)

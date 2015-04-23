@@ -1,0 +1,1 @@
+#define FOR(__i,N) for(int __i = 0 ; __i < N ; __i++)

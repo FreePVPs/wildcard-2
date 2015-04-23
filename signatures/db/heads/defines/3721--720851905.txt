@@ -1,0 +1,1 @@
+#define foreach(it,X) for(auto it=(X).begin();it!=(X).end();it++)

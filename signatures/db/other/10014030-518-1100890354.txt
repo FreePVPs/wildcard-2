@@ -1,0 +1,1 @@
+inline bool is_prime_fast(int x) { return !((P_[x>>6]>>((x>>1)&0x1f))&1); }

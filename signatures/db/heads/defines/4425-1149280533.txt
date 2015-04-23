@@ -1,0 +1,1 @@
+#define frjn(a,b)   for(j=a;j>=b;j--)

@@ -1,0 +1,1 @@
+#define get(t) int t;cin >> t;

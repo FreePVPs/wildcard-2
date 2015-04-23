@@ -1,0 +1,1 @@
+const double INF_LF = 1000000000000000000;

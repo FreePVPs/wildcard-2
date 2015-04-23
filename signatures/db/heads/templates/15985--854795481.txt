@@ -1,0 +1,1 @@
+template <> struct RefType<bool> { typedef std::_Bit_reference Ref; };

@@ -1,0 +1,1 @@
+            const int second_variant = from_top_left[i][j - 1] + to_bot_right[i][j + 1] + from_bot_left[i + 1][j] + to_top_right[i - 1][j];

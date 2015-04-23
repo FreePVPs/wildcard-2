@@ -1,0 +1,1 @@
+template<class T> T sgcd(T x ,T y){ if(y==0) return x; else return sgcd(y,x%y);}

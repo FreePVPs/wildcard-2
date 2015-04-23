@@ -1,0 +1,1 @@
+#define tr(container , it) for(LET(it,container.begin) ; it!=container.end() ; it++)

@@ -1,0 +1,1 @@
+#define testcases() int var;  input(var); while(var--)

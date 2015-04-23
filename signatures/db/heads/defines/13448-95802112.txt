@@ -1,0 +1,1 @@
+#define forn(ii, mm, nn) for(int ii = mm; ii<nn; ii++)

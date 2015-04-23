@@ -1,0 +1,1 @@
+#define FR(I2,a,b) for(int I2=a;I2>=b;I2--)

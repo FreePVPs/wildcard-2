@@ -1,0 +1,1 @@
+template<typename T> T GCD(T a,T b){if(a<0)return gcd(-a,b);if(b<0)return gcd(a,-b);return (b==0)?a:gcd(b,a%b);}

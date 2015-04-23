@@ -1,0 +1,1 @@
+const int maxn = 1 * 100 + 10, maxm = (1 << 17), mod = (int) 1e9 + 7, hash = 7000001, inf = (1 << 29);

@@ -1,0 +1,1 @@
+#define adde(_, __) ({*(++eptr) = (edge){(__), h[(_)]}; h[(_)] = eptr;})

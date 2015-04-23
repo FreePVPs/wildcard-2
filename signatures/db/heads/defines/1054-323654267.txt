@@ -1,0 +1,1 @@
+#define II              ({ int a; scanf("%d",&a); a;})

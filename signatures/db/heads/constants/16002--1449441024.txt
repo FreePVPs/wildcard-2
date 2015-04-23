@@ -1,0 +1,1 @@
+const string FAIL = "Not unique";

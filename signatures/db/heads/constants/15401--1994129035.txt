@@ -1,0 +1,1 @@
+const int MAX_V=11;//SET THE MAX NUM OF VERTEX

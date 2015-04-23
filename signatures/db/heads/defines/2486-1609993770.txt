@@ -1,0 +1,1 @@
+#define DFFR(i,x,y) for(ll i=(x),NWYfecAcmGBMJuU=(y);i>=NWYfecAcmGBMJuU;i--)

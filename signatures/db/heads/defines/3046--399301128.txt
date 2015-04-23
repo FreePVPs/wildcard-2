@@ -1,0 +1,1 @@
+#define ff(i,a,b) for(int i=a; i<=b; i++)

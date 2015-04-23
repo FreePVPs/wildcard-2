@@ -1,0 +1,1 @@
+#define fsr(i,s,r) for(i=s;i<r;i++)  

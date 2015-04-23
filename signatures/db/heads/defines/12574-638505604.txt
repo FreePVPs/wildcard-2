@@ -1,0 +1,1 @@
+#define FORi(i,a,n) for(i=a;i<n;i++)

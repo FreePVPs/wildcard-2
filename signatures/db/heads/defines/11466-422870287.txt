@@ -1,0 +1,1 @@
+#define PAUSE cerr << "Press any key to continue ..."; char xxxx; scanf("%c", &xxxx);

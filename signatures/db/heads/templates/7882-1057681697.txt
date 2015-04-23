@@ -1,0 +1,1 @@
+template<class T> inline T ppow(T a, ll b, ll md) {T ret = 1; a %= md; while (b) {if (b & 1) ret = ret * a % md; a = a * a % md; b >>= 1;} return ret % md;}

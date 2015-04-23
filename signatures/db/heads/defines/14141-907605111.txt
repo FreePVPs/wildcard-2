@@ -1,0 +1,1 @@
+#define REP(x,a,b) for(x = a; x < b; ++x)

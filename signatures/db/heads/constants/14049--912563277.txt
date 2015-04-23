@@ -1,0 +1,1 @@
+const int base_digits = 9;

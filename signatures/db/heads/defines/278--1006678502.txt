@@ -1,0 +1,1 @@
+#define repp(i, a, b) for(int i=a; i<a+b; i++)

@@ -1,0 +1,1 @@
+#define repd(i, a, b, d) for(i = (a); i < (b); i += (d))

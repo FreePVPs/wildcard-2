@@ -1,0 +1,1 @@
+#define rloop(i,b,a)    for (int i=(b)-1,_a=(a); i>=_a; i--)

@@ -1,0 +1,1 @@
+#define forj(x,y) for(__typeof(x) j = (x),__y(y);j!=__y;j++)

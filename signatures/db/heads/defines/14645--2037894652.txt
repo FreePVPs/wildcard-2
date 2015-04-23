@@ -1,0 +1,1 @@
+#define rdl3(n1, n2, n3) rdl2(n1, n2); rdl(n3);

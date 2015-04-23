@@ -1,0 +1,9 @@
+    boolean EOF() throws IOException {
+        while (!st.hasMoreTokens()) {
+            String s = in.readLine();
+            if (s == null)
+                return true;
+            st = new StringTokenizer(s);
+        }
+        return false;
+    }

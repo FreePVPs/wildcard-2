@@ -1,0 +1,1 @@
+#define FOR(I,z,k) for(int I = z; I < (k); I ++)

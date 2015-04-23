@@ -1,0 +1,1 @@
+#define fii(a,b)    for(i=a;i<b;i++)

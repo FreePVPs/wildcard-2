@@ -1,0 +1,1 @@
+#define loopde(i,n,s) for(ll i=n;i>=s;i--)

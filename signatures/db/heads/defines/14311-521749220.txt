@@ -1,0 +1,1 @@
+#define FOR_S(x,a,y) for(int x=a;x<y;x++)

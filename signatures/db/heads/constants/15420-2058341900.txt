@@ -1,0 +1,1 @@
+const int MINI = numeric_limits<int>::min() / 2;

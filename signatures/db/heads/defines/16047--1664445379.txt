@@ -1,0 +1,1 @@
+#define forit(v, it) for(decltype(v.begin()) it = v.begin(); it != v.end(); ++it)

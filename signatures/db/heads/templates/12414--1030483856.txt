@@ -1,0 +1,1 @@
+template<class T> vector<T> stov(string s) { vector<T> vi; SS ss(s); T v; while (ss >> v) vi.PB(v); return vi; }

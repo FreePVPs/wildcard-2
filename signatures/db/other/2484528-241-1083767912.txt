@@ -1,0 +1,1 @@
+int pel(string s){string t;t=s;reverse(t.begin(),t.end());if(s==t)return 1;return 0;}

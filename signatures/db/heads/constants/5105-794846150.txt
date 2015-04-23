@@ -1,0 +1,1 @@
+const int min_fv = 1;

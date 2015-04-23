@@ -1,0 +1,1 @@
+template<class T> inline T powerMod(T p,int e,T m){if(e==0)return 1%m;else if(e%2==0){T t=powerMod(p,e/2,m);return multiplyMod(t,t,m);}else return multiplyMod(powerMod(p,e-1,m),p,m);}

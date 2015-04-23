@@ -1,0 +1,1 @@
+		const unsigned long long base = 100000007LL;

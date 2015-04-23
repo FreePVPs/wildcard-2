@@ -1,0 +1,1 @@
+#define For(i,u) for(int i=H[u];i;i=nxt[i])

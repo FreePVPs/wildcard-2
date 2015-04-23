@@ -1,0 +1,1 @@
+const long long LLINF = 99999999999999999LL;

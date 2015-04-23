@@ -1,0 +1,1 @@
+const LL Linfi = (LL) 2e18;

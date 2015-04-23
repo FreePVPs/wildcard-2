@@ -1,0 +1,1 @@
+#define DRT() int t; din(t); while(t--)

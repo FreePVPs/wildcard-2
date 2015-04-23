@@ -1,0 +1,1 @@
+#define assert(c) { if ((c)) ; else { printf("Problem @ line = %d\n" , __LINE__ ); exit(-1); } }

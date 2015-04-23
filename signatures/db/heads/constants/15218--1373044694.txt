@@ -1,0 +1,1 @@
+const LD EPS=1e-6;

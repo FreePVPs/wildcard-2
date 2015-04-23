@@ -1,0 +1,1 @@
+  template<class T> string Fraction<T>::toString(){ostringstream sout;sout<<a<<"/"<<b;return sout.str();} 

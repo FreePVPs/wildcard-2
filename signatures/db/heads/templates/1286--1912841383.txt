@@ -1,0 +1,1 @@
+template<class T> string toString(T n){ostringstream ost;ost<<n;ost.flush();return ost.str();}

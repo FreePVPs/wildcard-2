@@ -1,0 +1,1 @@
+#define FOR_R(iterable,i) for(int(i) = (iterable).size()-1; i>=0 ; i--)

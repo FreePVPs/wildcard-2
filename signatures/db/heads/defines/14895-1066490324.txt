@@ -1,0 +1,1 @@
+#define scnn(a,n,type) type* (a)=new type[(n)]; scn((a),(n));

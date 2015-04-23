@@ -1,0 +1,1 @@
+#define FORSIZEREVERSE(i,j,v) for(int i=v.size()-1; i>=j; i--)

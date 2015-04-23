@@ -1,0 +1,1 @@
+#define TRmsi(c, it) for(msi::iterator it = (c).begin(); it != (c).end(); ++it)

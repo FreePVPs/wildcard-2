@@ -1,0 +1,1 @@
+template< class T > vector <T> clear_rep(vector <T> v){ T temp ; vector <T> res ; res.clear() ; for(int i = 0 ; i  < v.size() ; i++){temp = v[i] ; if(found(res,temp) == false) res.push_back(temp); } return res ;}

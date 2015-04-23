@@ -1,0 +1,1 @@
+#define ndwnr(i,l,r) for(int i=(l), _##i=(r); i>=_##i; i-- )

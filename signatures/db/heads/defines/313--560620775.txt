@@ -1,0 +1,1 @@
+#define DEP(X,R,L) for(int X=R;X>=L;X--)

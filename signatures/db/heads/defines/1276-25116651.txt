@@ -1,0 +1,1 @@
+#define fdec(i,a,b) for(i=a;i>=b;i--)

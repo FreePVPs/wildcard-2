@@ -1,0 +1,1 @@
+const long long oo =  (long long) 1e15+7;

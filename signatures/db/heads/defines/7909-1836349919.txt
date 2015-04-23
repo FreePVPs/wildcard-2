@@ -1,0 +1,1 @@
+#define readstring char ar[n];  scanf("%s",ar);

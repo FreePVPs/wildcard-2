@@ -1,0 +1,1 @@
+#define dbgp(p) if(DEBUG) {cout<<#p<<": ("<<(p).first<<";"<<(p).second<<")"<<endl;}

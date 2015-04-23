@@ -1,0 +1,1 @@
+#define FK(st,fn,in) for(k=st;k<=fn;k+=in)

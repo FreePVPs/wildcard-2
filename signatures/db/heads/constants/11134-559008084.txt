@@ -1,0 +1,1 @@
+const ll MAXLONG = (ll) 1 << 63 - 1;

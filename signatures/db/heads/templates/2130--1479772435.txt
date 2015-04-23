@@ -1,0 +1,1 @@
+template < class T >inline T gcd(T _a,T _b){for(T _r;(_r=_a%_b);_b=_r)_a=_b;return _b;}

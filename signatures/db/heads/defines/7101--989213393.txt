@@ -1,0 +1,1 @@
+#define swapc(a, b, c) c = col[a]; col[a] = col[b]; col[b] = c;

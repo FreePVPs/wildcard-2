@@ -1,0 +1,1 @@
+#define repr(i,s,n) for(LL (i)=(s);(i)>(LL)(n);(i)--)

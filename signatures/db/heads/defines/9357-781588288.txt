@@ -1,0 +1,1 @@
+#define PRINT(a) for(typeof(a.begin()) t = a.begin();t!=a.end();t++ )cout<<*t<<" "

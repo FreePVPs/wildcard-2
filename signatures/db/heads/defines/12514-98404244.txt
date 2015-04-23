@@ -1,0 +1,1 @@
+#define FORB(i,b,n) for(int i=b;i<n;++i)

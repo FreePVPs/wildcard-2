@@ -1,0 +1,1 @@
+template< class T > inline T _pow(T x,T y) {T z=1; repl(i,y){z*=x;} return z; }

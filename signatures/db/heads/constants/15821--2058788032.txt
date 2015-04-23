@@ -1,0 +1,1 @@
+const int ALL = 1e5 + 9;

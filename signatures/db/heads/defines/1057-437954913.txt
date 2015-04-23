@@ -1,0 +1,1 @@
+#define IC              ({ char a; scanf("%c",&a);  a;})

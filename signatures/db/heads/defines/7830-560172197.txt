@@ -1,0 +1,1 @@
+#define RNG(v, f, t) for(int v=int(f); v<=int(t); ++v)

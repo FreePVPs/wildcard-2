@@ -1,0 +1,1 @@
+template<class Z>inline bool checkmax(Z &a,Z b){if(a==-1||a<b){a=b;return true;}return false;}

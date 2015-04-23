@@ -1,0 +1,1 @@
+template <typename T> T in() { T x = 0; T p = 1; char c; do { c = getchar(); } while (c <= 32); if (c == '-') { p = -1; c = getchar(); } while (c >= '0' && c <= '9') { x = (x << 3) + (x << 1) + c - 48; c = getchar(); } return x * p; }

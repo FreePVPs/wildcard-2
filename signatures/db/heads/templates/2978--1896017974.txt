@@ -1,0 +1,1 @@
+template <class T_> void f_swap(T_ &a, T_ &b) {T_ t = a; a = b; b = t;}

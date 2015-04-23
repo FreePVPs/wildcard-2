@@ -1,0 +1,1 @@
+#define line(x) { fr(i, 0, x) putchar('-'); puts(""); }

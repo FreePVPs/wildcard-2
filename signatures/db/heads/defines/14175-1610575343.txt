@@ -1,0 +1,1 @@
+#define REPD(i,s,e) for(int (i)=(s),(_end_)=(e);(i)>=(_end_);--(i))

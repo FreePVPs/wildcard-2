@@ -1,0 +1,1 @@
+const LL infll = 0x7f7f7f7f7f7f7f7fll;

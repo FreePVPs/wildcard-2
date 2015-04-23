@@ -1,0 +1,1 @@
+#define INS(n) int n;S(n);

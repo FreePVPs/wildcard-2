@@ -1,0 +1,5 @@
+
+void RC (char& c){
+	c = getchar ();
+	while (c == ' '||c == '\n')     c = getchar ();
+}

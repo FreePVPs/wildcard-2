@@ -1,0 +1,1 @@
+#define REPPD(I,M,N) for(int I=N;I>=M;I--)

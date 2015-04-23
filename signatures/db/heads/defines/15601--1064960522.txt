@@ -1,0 +1,1 @@
+#define rep(i, n)   for(i64 i = 0; i < ((i64)(n)); ++i)

@@ -1,0 +1,1 @@
+#define MID int mid=(l+r)>>1; int ls=o<<1; int rs=o<<1|1;

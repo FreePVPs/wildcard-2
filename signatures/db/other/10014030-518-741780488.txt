@@ -1,0 +1,1 @@
+#define setv(x,i) memset(x,i,sizeof(x))

@@ -1,0 +1,1 @@
+#define Repft(i,a,b) for(i=a-1;i>=b;i--)

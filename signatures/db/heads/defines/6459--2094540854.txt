@@ -1,0 +1,1 @@
+#define cin_vi {int q; cin>>q; v.pb(q);}

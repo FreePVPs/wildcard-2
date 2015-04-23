@@ -1,0 +1,1 @@
+template<typename T>inline int toInt(T a){int res;istringstream os(a);os>>res;return res;}

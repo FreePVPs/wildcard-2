@@ -1,0 +1,1 @@
+			construct(pos+1, i);

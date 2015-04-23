@@ -1,0 +1,1 @@
+const int VMAX = 100000 + 5;

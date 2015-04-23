@@ -1,0 +1,1 @@
+#define loop_GE_S(a,b,c,s) for(a = b; a >= c; a-=s)

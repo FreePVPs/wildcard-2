@@ -1,0 +1,20 @@
+
+    String readString() throws IOException {
+        while (!tok.hasMoreTokens()) {
+            tok = new StringTokenizer(in.readLine());
+        }
+        return tok.nextToken();
+    }
+
+    int readInt() throws IOException {
+        return Integer.parseInt(readString());
+    }
+
+    long readLong() throws IOException {
+        return Long.parseLong(readString());
+    }
+
+    double readDouble() throws IOException {
+        return Double.parseDouble(readString());
+    }
+

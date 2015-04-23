@@ -1,0 +1,1 @@
+#define tk1(n)  int n; cin>>n; 

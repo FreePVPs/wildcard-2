@@ -1,0 +1,1 @@
+const int MIN = -1;

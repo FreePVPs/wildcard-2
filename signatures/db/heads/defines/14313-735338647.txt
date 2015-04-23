@@ -1,0 +1,1 @@
+#define FOREACH(y,x) for(auto y=x.begin(); y!=x.end(); y++)

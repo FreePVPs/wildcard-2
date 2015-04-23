@@ -1,0 +1,1 @@
+#define debug(a...)     if(deb_mode){cout<<"Line= "<<__LINE__<<" -> ";Dbug,a,#a;Dbug.printall();cout<<endl;}

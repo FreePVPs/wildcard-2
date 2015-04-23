@@ -1,0 +1,1 @@
+#define repreach(i,x) for(typeof(x.rbegin()) i=x.rbegin(); i!=x.rend(); ++i)

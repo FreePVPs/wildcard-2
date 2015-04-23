@@ -1,0 +1,1 @@
+const ll MASK = 1099511627776LL;

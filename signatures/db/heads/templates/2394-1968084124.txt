@@ -1,0 +1,1 @@
+template<typename typ> void vout(vector<typ>& v){for(int vint=0;vint<sz(v);vint++){cout<<(v)[vint];if(vint==sz(v)-1) cout<<'\n';else cout<<' ';}}

@@ -1,0 +1,2 @@
+
+#define driii(x,y,z) int x,y,z;RIII(x,y,z)

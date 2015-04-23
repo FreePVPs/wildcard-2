@@ -1,0 +1,1 @@
+#define fjj(x,y) for(int j=x;j<y;j++)

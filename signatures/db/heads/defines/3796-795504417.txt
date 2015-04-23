@@ -1,0 +1,1 @@
+#define FORU(x,y) for(int x=1;x<=y;x++)

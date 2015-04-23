@@ -1,0 +1,1 @@
+#define REP2(X,L,R) for(int X=L;X<=R;X++)

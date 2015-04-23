@@ -1,0 +1,1 @@
+    const unsigned MASK2  = 0x33333333;  

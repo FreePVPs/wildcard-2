@@ -1,0 +1,1 @@
+#define BR() char c1 = cin.get(); char c2 = cin.peek(); if (c2 == '\n') break

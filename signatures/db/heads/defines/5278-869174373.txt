@@ -1,0 +1,1 @@
+#define trav(i,c) for(auto i = (c).begin(); i != (c).end(); i++) 

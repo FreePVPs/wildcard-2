@@ -1,0 +1,1 @@
+	#define FWM out=( char * )malloc( LIM*sizeof( char ) );opos=out;

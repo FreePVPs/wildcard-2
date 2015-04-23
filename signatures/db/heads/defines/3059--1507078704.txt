@@ -1,0 +1,1 @@
+#define forj(d,kla) for(int j=d;j<kla;j++)

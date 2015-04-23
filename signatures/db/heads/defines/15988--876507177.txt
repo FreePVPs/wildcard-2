@@ -1,0 +1,1 @@
+#define FOR(a,b,c,d) for(int a=b;c;a+=d)

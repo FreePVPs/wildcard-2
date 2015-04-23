@@ -1,0 +1,1 @@
+#define loopi(i,val,n) for(i=val;i<=n;i++)

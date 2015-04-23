@@ -1,0 +1,1 @@
+const long long int INF2=(-1ull)/2;

@@ -1,0 +1,1 @@
+const ll LL_INF = numeric_limits<long long>::max();

@@ -1,0 +1,1 @@
+template <class T, class U> void input(int n, T& a, U& b) { for (int i = 0; i < n; ++i) cin >> a[i] >> b[i]; }

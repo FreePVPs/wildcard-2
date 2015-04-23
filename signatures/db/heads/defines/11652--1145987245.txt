@@ -1,0 +1,1 @@
+#define Foreac(i, c) for(__typeof((c).rbegin()) i = (c).rbegin(); i != (c).rend(); ++i)

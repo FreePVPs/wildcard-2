@@ -1,0 +1,1 @@
+#define print(A) {foreach(it,A) cout<<*it<<" ";cout<<endl;}

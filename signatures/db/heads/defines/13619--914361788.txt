@@ -1,0 +1,1 @@
+#define repi(i,a)                   for(__typeof((a).begin()) i=(a).begin(), _##i=(a).end(); i!=_##i; ++i)

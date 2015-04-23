@@ -1,0 +1,1 @@
+template< class T > void pv(T v) { repv(i,v) cout<<v[i]<<" "; cout<<endl; }

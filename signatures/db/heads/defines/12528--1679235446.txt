@@ -1,0 +1,1 @@
+#define repn(i, s, t) for(int i = ((s)-1); i >= (t); i--)

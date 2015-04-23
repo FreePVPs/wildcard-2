@@ -1,0 +1,1 @@
+#define OUTPUTLN(x) if (output) { write(output, x); fprintf(output, "\n"); }

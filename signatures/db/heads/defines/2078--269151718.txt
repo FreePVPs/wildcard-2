@@ -1,0 +1,1 @@
+#define Travel(x) for (Edge *i = h[u]; i; i = i->n) 

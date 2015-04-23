@@ -1,0 +1,1 @@
+#define  fr(i,x,y) for(i=x;i<=y;i++)

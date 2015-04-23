@@ -1,0 +1,1 @@
+#define forit(i, m) for (i=(m).begin(); i!=(m).end(); ++i)

@@ -1,0 +1,1 @@
+template <class T> T take(queue<T> &O) {T tmp=O.front();O.pop();return tmp;}

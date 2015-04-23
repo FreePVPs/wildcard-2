@@ -1,0 +1,1 @@
+#define frl(a,b)    for(l=a;l<=b;l++)

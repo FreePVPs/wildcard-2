@@ -1,0 +1,1 @@
+#define F(i,s,r) for(int i=s;i<r;i++)

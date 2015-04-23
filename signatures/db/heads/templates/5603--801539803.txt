@@ -1,0 +1,1 @@
+template <typename T> void DMP(vector<T>&x){WLK(it,x)cout<<*it<<' ';cout<<endl;};

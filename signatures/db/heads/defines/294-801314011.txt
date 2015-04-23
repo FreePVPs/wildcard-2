@@ -1,0 +1,1 @@
+#define FE(it,x) for(it=x.begin();it!=x.end();++it)

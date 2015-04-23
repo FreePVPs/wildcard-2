@@ -1,0 +1,1 @@
+#define SSL ({LL x;scanf("%lld", &x);x;})

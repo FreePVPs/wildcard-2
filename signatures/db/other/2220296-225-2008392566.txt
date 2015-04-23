@@ -1,0 +1,2 @@
+static const double EPS = 1e-10;
+typedef long long ll;

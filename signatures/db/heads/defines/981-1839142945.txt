@@ -1,0 +1,1 @@
+#define DWN_1_N(i, b, a) for (i=b;i>=a;--i)

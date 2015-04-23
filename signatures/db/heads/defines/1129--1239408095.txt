@@ -1,0 +1,1 @@
+#define CASEREP for(cas=1;cas<=test;cas++)

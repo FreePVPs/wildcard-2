@@ -1,0 +1,1 @@
+#define MAPADD(m,a,b) if (m.count(a)) m[a] = m[a] + b; else m[a] = b;

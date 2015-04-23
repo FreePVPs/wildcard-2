@@ -1,0 +1,1 @@
+#define fail {printf("Impossible\n"); return 0;}

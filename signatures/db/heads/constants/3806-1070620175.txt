@@ -1,0 +1,1 @@
+const long long LINF=LLONG_MAX;

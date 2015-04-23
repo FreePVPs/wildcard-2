@@ -1,0 +1,1 @@
+const inv:array[1..4] of longint = (2, 1, 4, 3);

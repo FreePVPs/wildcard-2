@@ -1,0 +1,5 @@
+inline char RC (){
+    char c = getchar ();
+    while (c == ' '||c == '\n')     c = getchar ();
+    return c;
+}

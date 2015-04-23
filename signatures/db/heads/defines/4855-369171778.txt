@@ -1,0 +1,1 @@
+#define FREOPEN(a,b) freopen(a,"r",stdin); freopen(b,"w",stdout);

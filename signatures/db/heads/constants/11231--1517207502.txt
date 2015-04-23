@@ -1,0 +1,1 @@
+const int INFI((INT_MAX-1) >> 1);

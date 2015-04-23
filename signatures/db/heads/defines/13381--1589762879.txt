@@ -1,0 +1,1 @@
+#define FOR_EACH(e, c) for(typeof(c.begin()) c##it = c.begin();(e = *c##it ,c##it != c.end()); c##it++)

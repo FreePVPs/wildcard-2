@@ -1,0 +1,1 @@
+#define CASE int t;scanf("%d",&t);while(t--)

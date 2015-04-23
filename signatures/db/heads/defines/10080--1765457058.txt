@@ -1,0 +1,1 @@
+	#define dbg(args...) { cerr<<#args<<": "; dbgr,args; cerr<<endl;}

@@ -1,0 +1,2 @@
+
+void init_primes() { for (long long x=3; x*x<=MAX_VAL_; x+=2) if (is_prime_fast(x)) { const long long z = x<<1; for (long long y=x*x; y<=MAX_VAL_; y+=z) mark_nonprime(y); } }

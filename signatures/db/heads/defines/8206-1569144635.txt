@@ -1,0 +1,1 @@
+#define debug_matrix(mat,row,col) for(int iii=0;iii<row;iii++) {for(int jjj=0;jjj<col;jjj++) cerr<<mat[iii][jjj]<<" ";cerr<<endl;}

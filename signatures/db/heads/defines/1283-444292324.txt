@@ -1,0 +1,1 @@
+#define rangeAdd(a, b) {s[a] += (b + M)%M; s[a] %= M;}

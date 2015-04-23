@@ -1,0 +1,1 @@
+#define FORCOND(i,a,b,cond) for(int i=(int)a;i<(int)b && (bool)cond;i++)

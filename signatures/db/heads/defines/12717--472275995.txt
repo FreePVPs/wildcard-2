@@ -1,0 +1,1 @@
+#define rforeach(x, y) for(__typeof(y.rbegin()) x = y.rbegin(), _asdf = y.rend(); x != _asdf; ++x)

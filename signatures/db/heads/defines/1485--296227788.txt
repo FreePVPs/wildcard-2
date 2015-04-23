@@ -1,0 +1,1 @@
+#define Fore(it, x) for(typeof (x.begin()) it = x.begin(); it != x.end (); it++)

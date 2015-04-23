@@ -1,0 +1,1 @@
+#define tl(T)	int T; for(cin >> T; T; T--)

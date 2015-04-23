@@ -1,0 +1,1 @@
+#define reg(i,a) for(int i=u[a];i;i=e[i].pre)

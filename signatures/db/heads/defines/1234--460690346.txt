@@ -1,0 +1,1 @@
+#define EXP(i,l) for (int i=(l); i; i=qn[i])

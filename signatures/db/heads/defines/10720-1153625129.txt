@@ -1,0 +1,1 @@
+#define rep1(starti,endi) for(int starti=1;starti<=endi;starti++)

@@ -1,0 +1,1 @@
+#define fe(it,container) for(typeof(container.begin()) it = container.begin(); it != container.end(); it++) 

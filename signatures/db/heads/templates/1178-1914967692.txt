@@ -1,0 +1,1 @@
+template <class T, class U> inline T swap (T &a, U &b) { T tmp = a; a = b; b = tmp; }

@@ -1,0 +1,1 @@
+template<class T> inline void myswap(T &a,T &b){T c=a;a=b;b=c;}

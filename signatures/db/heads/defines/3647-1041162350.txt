@@ -1,0 +1,1 @@
+#define FORS(i, a) for(int i=(0); i<SIZE(a); i++)

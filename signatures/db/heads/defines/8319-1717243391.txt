@@ -1,0 +1,1 @@
+#define fork(x,y) for(__typeof(x) k = (x),__y(y);k!=__y;k++)

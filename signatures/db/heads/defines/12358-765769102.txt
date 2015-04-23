@@ -1,0 +1,1 @@
+#define FORSIZE(it, var)	for(s64 it=0; it<var.size(); it++)

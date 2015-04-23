@@ -1,0 +1,1 @@
+#define TRmii(c, it) for (mii::iterator it = (c).begin(); it != (c).end(); it++)

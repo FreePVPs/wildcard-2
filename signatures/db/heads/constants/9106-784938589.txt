@@ -1,0 +1,1 @@
+const int NOTHING=(1e9+7);

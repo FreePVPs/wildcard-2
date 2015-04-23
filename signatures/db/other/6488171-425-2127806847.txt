@@ -1,0 +1,6 @@
+public class Main {
+    public static void main(String[] argv) {
+        MainRun mainSolve = new MainRun();
+        mainSolve.run(0, 0);
+    }
+}

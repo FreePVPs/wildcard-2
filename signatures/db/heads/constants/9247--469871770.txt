@@ -1,0 +1,1 @@
+	const int S = min(h,max((int)ceil(sqrt(h)),1));

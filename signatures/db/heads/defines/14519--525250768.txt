@@ -1,0 +1,1 @@
+#define inputs(arr,len) for(lli i = 0;i<len;i++) {cin>>(arr[i]);}

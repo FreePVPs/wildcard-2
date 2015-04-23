@@ -1,0 +1,1 @@
+#define dec(i,n,a) for(int i=n;i>=a;i--)

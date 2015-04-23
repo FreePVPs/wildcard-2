@@ -1,0 +1,1 @@
+TEMPLATE T power(T n, ll p) { if(!p) return 1; else { T res = sqr(power(n, p>>1)); if(p&1) res*=n; return res; } }

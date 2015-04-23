@@ -1,0 +1,1 @@
+#define TR(c, i) for (ITER(c) i = (c).begin(); i != (c).end(); ++i)

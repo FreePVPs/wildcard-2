@@ -1,0 +1,1 @@
+#define loop2(i,v1,n,j,v2,m) for(int i=v1;i<n;i++) for(int j=v2;j<m;j++)

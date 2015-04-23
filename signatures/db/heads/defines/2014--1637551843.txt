@@ -1,0 +1,1 @@
+#define repr(i,b,a) for(__typeof(b) i = b;i>a;i--)

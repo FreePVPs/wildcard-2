@@ -1,0 +1,1 @@
+template<class T> inline std::string toString(T x) {std::ostringstream sout;sout<<x;return sout.str();}

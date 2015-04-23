@@ -1,0 +1,1 @@
+#define getint ({ int x; scanf("%d",&x); x; })

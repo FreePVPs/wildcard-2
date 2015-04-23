@@ -1,0 +1,1 @@
+const ll MAXL = 0x7fffffffffffffffll; //2^63-1

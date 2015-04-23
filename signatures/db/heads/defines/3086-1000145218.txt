@@ -1,0 +1,1 @@
+#define For1(i,a,t) for(int i=a;i>=t;i--)

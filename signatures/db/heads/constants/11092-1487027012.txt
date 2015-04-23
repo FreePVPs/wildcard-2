@@ -1,0 +1,1 @@
+    const int MAX_INT = numeric_limits<int>::max();

@@ -1,0 +1,1 @@
+#define FOR(a,ini,fin) for(int a=(ini);a<(fin);a++)

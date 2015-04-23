@@ -1,0 +1,1 @@
+#define bekle() getchar(); getchar(); getchar(); getchar(); getchar(); getchar()

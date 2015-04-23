@@ -1,0 +1,1 @@
+#define f3(x) for(x=0;;x++)

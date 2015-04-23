@@ -1,0 +1,1 @@
+const int MAXN=100*100+10;

@@ -1,0 +1,1 @@
+#define repI(i,m) for(__typeof(m.begin()) i = m.begin();i!=m.end();++i)

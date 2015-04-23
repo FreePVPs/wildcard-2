@@ -1,0 +1,1 @@
+#define fore(i,a) for(int i=g[a];i;i=next[i])

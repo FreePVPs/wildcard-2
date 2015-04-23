@@ -1,0 +1,1 @@
+#define fornj(N)         for(ll j = 0; j<(int)N; j++)

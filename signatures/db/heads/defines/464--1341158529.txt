@@ -1,0 +1,1 @@
+#define FOR(x,y) for(__typeof(y.begin())x=y.begin();x!=y.end();x++)

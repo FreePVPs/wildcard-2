@@ -1,0 +1,1 @@
+#define FOR0(i,b) for(int i=0; i<(b); ++i)

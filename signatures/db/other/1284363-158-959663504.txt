@@ -1,0 +1,3 @@
+
+#define two(X) (1<<(X))//пїЅпїЅpow(2,X) //NOTES:two(
+#

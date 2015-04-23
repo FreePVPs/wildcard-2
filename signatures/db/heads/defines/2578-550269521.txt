@@ -1,0 +1,1 @@
+#define TT()                 int tc;cin>>tc;while(tc--)

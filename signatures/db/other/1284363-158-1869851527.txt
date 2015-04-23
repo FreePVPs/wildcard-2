@@ -1,0 +1,2 @@
+
+template<class T> inline void cMin(T &a,T b){if(b<a) a=b;}//NOTES:cMin(

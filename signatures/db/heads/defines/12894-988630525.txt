@@ -1,0 +1,1 @@
+#define printArray(a,n) for(ll macroi=0;macroi<n;macroi++)cout<<a[macroi]<<" "; cout<<endl;

@@ -1,0 +1,1 @@
+#define FOREACH(a, v) for (INIT(a, (v).begin()); a!=(v).end(); ++a)

@@ -1,0 +1,1 @@
+#define REP(AA,BB) for(int AA=0; AA<(BB); ++AA)

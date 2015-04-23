@@ -1,0 +1,4 @@
+
+template<class T> inline void setBit(T i,char* a){a[i/8]|=1<<(i%8);}//setBit(
+template<class T> inline void unsetBit(T i,char* a){a[i/8]&=0xff^(1<<(i%8));}//unsetBit(
+template<class T> inline T lowBit(T n){return (n^(n-1))&n;}//пїЅпїЅРЎпїЅпїЅР§О»//NOTES:lowBit(

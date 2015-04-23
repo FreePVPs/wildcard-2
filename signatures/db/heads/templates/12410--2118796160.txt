@@ -1,0 +1,1 @@
+template<class T> inline int toint(const T& x){ SS ss; ss << x; int r; ss >> r; return r; }

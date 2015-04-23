@@ -1,0 +1,1 @@
+template<typename T> void printEndl( T x,string name="") { print(x,name); cerr<<endl;}

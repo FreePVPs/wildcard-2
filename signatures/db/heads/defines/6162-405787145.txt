@@ -1,0 +1,1 @@
+#define iii(a,x) for(long long i=a;i<=x;i++)

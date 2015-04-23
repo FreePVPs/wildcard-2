@@ -1,0 +1,1 @@
+#define riter(i,c) for(auto i=(c).rbegin(); i!=(c).rend(); ++i)

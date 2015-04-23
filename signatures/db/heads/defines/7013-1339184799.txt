@@ -1,0 +1,1 @@
+#define SWAP(a,b)       a=a xor b;b= a xor b;a=a xor b;

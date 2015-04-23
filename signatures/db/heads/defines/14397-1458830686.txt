@@ -1,0 +1,1 @@
+#define ROF(i, n, a) for(__typeof(n) i = (n); i>=(a); --i)

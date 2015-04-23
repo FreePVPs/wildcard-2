@@ -1,0 +1,1 @@
+#define F(i,j,n,p) for(i=j; i<=(n); i+=p)

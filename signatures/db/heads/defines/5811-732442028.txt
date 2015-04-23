@@ -1,0 +1,1 @@
+#define rep(i,s,f)  for(LL i = s;i <= f;i++)

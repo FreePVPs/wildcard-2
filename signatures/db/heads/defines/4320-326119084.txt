@@ -1,0 +1,1 @@
+#define FU(i, a, b) for(__typeof__(a) i = (a); i < (b); ++i)

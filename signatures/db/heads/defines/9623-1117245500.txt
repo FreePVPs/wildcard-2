@@ -1,0 +1,1 @@
+#define repit(it,x,n) for(__typeof(x) it = (x) ; it!=(n) ;++it)

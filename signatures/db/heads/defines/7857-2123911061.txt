@@ -1,0 +1,1 @@
+#define FOR(x, l, r) for (int x = l; x <= r; ++x)

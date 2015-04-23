@@ -1,0 +1,1 @@
+#define FILLALL(arr,n,m,value)    for (int (iiii) = 0; (iiii) < (n); (iiii)++) for (int (jjjj) = 0; (jjjj) < (m); (jjjj)++) arr[iiii][jjjj] = value;

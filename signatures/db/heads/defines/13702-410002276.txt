@@ -1,0 +1,1 @@
+#define si ({int x;scanf("%d",&x);x;})

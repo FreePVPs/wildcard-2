@@ -1,0 +1,1 @@
+#define f(p, n, m) for(long int i=p; i<=n; i+=m)  //For Loop increment

@@ -1,0 +1,1 @@
+const long long llINF = 10000000000000000ll; // 10^16

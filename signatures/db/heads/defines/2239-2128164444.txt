@@ -1,0 +1,1 @@
+#define Bfor(i,n) for((i)=0;(i)<(long long)(n);(i)++)

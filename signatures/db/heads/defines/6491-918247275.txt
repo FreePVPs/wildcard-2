@@ -1,0 +1,1 @@
+#define FOR(i,p,k) for (i=p; i<k;i++)

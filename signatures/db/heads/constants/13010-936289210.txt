@@ -1,0 +1,1 @@
+const long long NON=0xabababababababab;

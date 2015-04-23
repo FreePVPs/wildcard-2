@@ -1,0 +1,1 @@
+#define dbgg(W,n)            nl;rep(ti,1,n){cout<<ti<<" --> ";rep(tj,0,sz(W[ti])-1) cout<<"("<<W[ti][tj].ff<<" , "<<W[ti][tj].ss<<")"<<"  ";cout<<"\n";}

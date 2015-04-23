@@ -1,0 +1,2 @@
+
+i++;if (i>n/i) i=n;}if (n>1) R.push_back(make_pair(n,1));return R;}

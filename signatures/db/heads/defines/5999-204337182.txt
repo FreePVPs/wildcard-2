@@ -1,0 +1,1 @@
+#define readcase  int cas,kase=0;CI(cas);while((cas--)&&(++kase))

@@ -1,0 +1,1 @@
+#define F(j,k,i) for (LL (j) = (k); (j) >= (i); (j)--)

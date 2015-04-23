@@ -1,0 +1,1 @@
+template<class T> inline bool gmin(T &a, T b) { if (a > b) return a = b, true; return false; }

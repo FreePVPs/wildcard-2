@@ -1,0 +1,1 @@
+#define all(a,b,c)  for(int I=0;I<b;I++)    a[I] = c

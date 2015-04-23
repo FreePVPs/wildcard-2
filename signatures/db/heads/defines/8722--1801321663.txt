@@ -1,0 +1,1 @@
+#define FORSTL(it, a) for(it=a.begin(); it!=a.end(); it++)

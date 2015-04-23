@@ -1,0 +1,1 @@
+#define fore(op,po) for (int op=0;op<po;++op)

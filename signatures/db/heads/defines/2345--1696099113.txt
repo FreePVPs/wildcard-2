@@ -1,0 +1,1 @@
+#define rep(i,a,b) for (__typeof(b) i = (a)-((a)>(b)); i != (b)-((a)>(b)); i += 1 - 2 * ((a) > (b)))

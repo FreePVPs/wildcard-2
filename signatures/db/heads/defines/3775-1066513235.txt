@@ -1,0 +1,1 @@
+#define FOR(I,N) for(int(i)=0;i<int(N);++i)

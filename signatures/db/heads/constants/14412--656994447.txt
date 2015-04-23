@@ -1,0 +1,1 @@
+const int kNMax = 100010;

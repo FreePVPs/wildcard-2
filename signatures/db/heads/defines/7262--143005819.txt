@@ -1,0 +1,1 @@
+#define fr(i,s,e) for(int i=s;i <=(int)(e);++i)

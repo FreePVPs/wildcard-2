@@ -1,0 +1,1 @@
+    const int num = c - '0';

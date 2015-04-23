@@ -1,0 +1,1 @@
+	template<class T> struct _frct{T a,b;_frct(T a=0,T b=1);string toString();};  

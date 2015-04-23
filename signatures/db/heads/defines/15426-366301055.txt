@@ -1,0 +1,1 @@
+#define forn(a,b) for((a)=0; (a)<(int)(b); ++(a))

@@ -1,0 +1,1 @@
+#define FOR_EACH(it,v) for(__typeof((v).begin()) it=(v).begin(); it!=(v).end(); it++)

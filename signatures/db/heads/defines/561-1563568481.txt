@@ -1,0 +1,1 @@
+#define fin() for (int i = 0; i < n; ++ i)

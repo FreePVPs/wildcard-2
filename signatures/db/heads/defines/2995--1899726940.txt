@@ -1,0 +1,1 @@
+#define repv(i,n,s) for(int i=(n);i>=s;--i)

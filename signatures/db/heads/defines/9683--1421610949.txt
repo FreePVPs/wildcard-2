@@ -1,0 +1,1 @@
+#define FORREVERSE(i,j,n) for(int i=n-1; i>=j; i--)

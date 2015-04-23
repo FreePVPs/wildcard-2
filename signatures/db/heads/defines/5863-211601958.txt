@@ -1,0 +1,1 @@
+#define Forpiter(x) for(int &p=iter[x];p;p=next[p])  

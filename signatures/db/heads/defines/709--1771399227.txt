@@ -1,0 +1,1 @@
+#define FFE(i,L,R) for (int i = L; i >= R; i--)

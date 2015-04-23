@@ -1,0 +1,1 @@
+#define forjd(N) for(int j = 0; j < N; ++j)

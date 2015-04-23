@@ -1,0 +1,1 @@
+#define fornk1(N)         for(ll k = 1; k<=(int)N; k++)

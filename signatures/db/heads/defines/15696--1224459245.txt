@@ -1,0 +1,1 @@
+#define Rep(i,t,v) for(int i=son[t],v=ed[i];i;i=next[i],v=ed[i])

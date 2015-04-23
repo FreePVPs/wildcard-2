@@ -1,0 +1,1 @@
+template<class T>void dbg(T* a, int n, int m, bool p=false){for(int i=p;i<n+p;++i,dbg("",true))for(int j=p;j<m+p;++j)dbg(a[i][j]);dbg("",true);}

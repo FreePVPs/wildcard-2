@@ -1,0 +1,1 @@
+#define ford(i,a,b) for( int i = (a), _n = (b); i >= _n; i-- )

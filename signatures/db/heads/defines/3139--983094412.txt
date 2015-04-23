@@ -1,0 +1,1 @@
+#define FILES //freopen("cooling.in","r",stdin);freopen("cooling.out","w",stdout);

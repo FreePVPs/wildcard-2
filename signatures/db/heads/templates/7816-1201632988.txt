@@ -1,0 +1,1 @@
+template<typename T> bool remax(T& x, T y) { if (x >= y) return false; x = y; return true; }

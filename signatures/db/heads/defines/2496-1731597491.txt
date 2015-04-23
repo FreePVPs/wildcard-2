@@ -1,0 +1,1 @@
+#define repl(i, l) for(i = l.begin(); i != l.end(); ++i)

@@ -1,0 +1,1 @@
+      const int got = count_if(g[a].begin(), g[a].end(), [&](int c) { return g[b].find(c) != g[b].end(); });

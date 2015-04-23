@@ -1,0 +1,1 @@
+#define ACMP2 freopen("INPUT.TXT","r",stdin);freopen("OUTPUT.TXT","w",stdout);

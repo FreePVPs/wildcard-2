@@ -1,0 +1,1 @@
+#define GC(WW){do{GET(ZZZ);}while(!isalpha(ZZZ));WW=ZZZ;}

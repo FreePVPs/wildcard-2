@@ -1,0 +1,1 @@
+#define forin(it, col) for(typeof (col).begin() it = (col).begin(); it != (col).end(); it++)

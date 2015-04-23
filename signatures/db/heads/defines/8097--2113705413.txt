@@ -1,0 +1,1 @@
+#define FORALL(i,j) for(typeof((j).begin()) i = (j).begin(); i != (j).end(); i++)

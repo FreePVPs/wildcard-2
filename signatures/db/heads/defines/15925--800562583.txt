@@ -1,0 +1,1 @@
+#define fre(y,q,s)          for(int y=q;y>=s;y--)

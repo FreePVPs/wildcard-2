@@ -1,0 +1,1 @@
+#define rf(a,b) for(int i=a;i>=b;i--)

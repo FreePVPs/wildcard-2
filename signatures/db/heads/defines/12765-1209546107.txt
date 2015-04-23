@@ -1,0 +1,1 @@
+#define TR(i,x) for(vi::iterator i=x.begin();i!=x.end();i++)

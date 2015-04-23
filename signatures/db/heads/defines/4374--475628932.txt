@@ -1,0 +1,1 @@
+#define make4(type, x, y, z, t) type x, y, z, t; cin>>x>>y>>z>>t;

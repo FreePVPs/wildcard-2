@@ -1,0 +1,1 @@
+#define rep(i,a,b) for( i = a; i < b; i++) //rep(i,1,n+1)  //rep(i,0,n)

@@ -1,0 +1,1 @@
+#define ILL ({ int64 a; scanf("%I64d",&a);  a;})  //Long Integer Input

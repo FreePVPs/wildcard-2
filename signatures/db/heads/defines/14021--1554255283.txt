@@ -1,0 +1,1 @@
+#define loop(i,a,n) for(LL i=a; i<=n; i++)

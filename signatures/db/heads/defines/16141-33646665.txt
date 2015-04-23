@@ -1,0 +1,1 @@
+#define display(c) cout<<endl;tr(c,it)cout<<*it<<' ';cout<<"\n\n";

@@ -1,0 +1,1 @@
+    const TData& R = build_tree((x << 1) + 1, c + 1, r);

@@ -1,0 +1,1 @@
+#define FORD(i,s,n) for((i)=(s);(i)>=(int)(n);(i)--)

@@ -1,0 +1,6 @@
+
+
+    public Byte nextByte() {
+        return ( byte ) skip();
+    }
+

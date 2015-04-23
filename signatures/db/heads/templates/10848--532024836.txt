@@ -1,0 +1,1 @@
+template<typename T> vector<T> tokenize(string s, string delim){int i=0,j=0; vector<T> ret;for(;i<s.size();++i)

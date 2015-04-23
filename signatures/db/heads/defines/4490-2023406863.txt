@@ -1,0 +1,1 @@
+#define readVector(n,in,v) r(n){cin>>in;v.push_back(in);}

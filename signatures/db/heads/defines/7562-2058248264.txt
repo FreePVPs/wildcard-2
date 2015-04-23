@@ -1,0 +1,1 @@
+#define foreach(i,x) for (__typeof((x).ST) i=(x).ST;i!=(x).ED;++i) 

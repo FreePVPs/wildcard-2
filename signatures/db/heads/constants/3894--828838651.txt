@@ -1,0 +1,1 @@
+      const int a_friends = g[a].size();

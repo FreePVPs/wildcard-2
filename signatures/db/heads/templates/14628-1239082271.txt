@@ -1,0 +1,1 @@
+template<class T> string _str(const vector<T> x) {ostringstream str; str << "["; for(int i = 0; i < x.size(); ++i) { if (i) str << ", "; str << _str(x[i]); } str << "] size " << x.size(); return str.str(); }

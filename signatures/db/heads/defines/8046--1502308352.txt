@@ -1,0 +1,1 @@
+#define getint() ({int e=0;for(gets(q=s);*q;)e=(e<<3)+(e<<1)+*q++-48;e;})

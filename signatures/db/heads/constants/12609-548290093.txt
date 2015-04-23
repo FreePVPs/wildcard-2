@@ -1,0 +1,1 @@
+const LL lnf = ~0ull >> 1;

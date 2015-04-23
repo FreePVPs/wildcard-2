@@ -1,0 +1,1 @@
+#define TRA(i, x) for(int i=hd[x];i;i=suc[i])

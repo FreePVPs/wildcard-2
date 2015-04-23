@@ -1,0 +1,1 @@
+        const int f = C[tt][now] - F[tt][now];

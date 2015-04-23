@@ -1,0 +1,1 @@
+#define tcsolve() int tcs; cin >> tcs; forup(tc, 1, tcs) solve();

@@ -1,0 +1,1 @@
+#define FOR(x, y, z) for(long x=y; x<z; x++)

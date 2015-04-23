@@ -1,0 +1,1 @@
+#define bug2(a, b) out(a); sp(); out(b); nl()

@@ -1,0 +1,1 @@
+#define DEBA(x,n) cerr << (#x) << " "; deba((x),(n));

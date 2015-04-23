@@ -1,0 +1,1 @@
+template<class S,class ...T>bool input(S&a,T&...t){input(a);return input(t...);}

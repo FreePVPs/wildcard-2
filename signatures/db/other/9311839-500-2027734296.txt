@@ -1,0 +1,2 @@
+
+#define dri(x) int x;RI(x)

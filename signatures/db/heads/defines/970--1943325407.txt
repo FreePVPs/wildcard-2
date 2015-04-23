@@ -1,0 +1,1 @@
+#define REP_C(i, n) for (int n____=n,i=0;i<n____;++i)

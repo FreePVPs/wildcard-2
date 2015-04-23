@@ -1,0 +1,1 @@
+#define for_dec_range(i, x, y) for (auto i = x; i >= y; --i)

@@ -1,0 +1,1 @@
+#define SS ({int x;scanf("%d", &x);x;})

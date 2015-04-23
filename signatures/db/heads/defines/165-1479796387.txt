@@ -1,0 +1,1 @@
+#define fik(a,b)    for(k=a;k<b;k++)

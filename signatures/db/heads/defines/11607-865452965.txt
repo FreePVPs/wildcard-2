@@ -1,0 +1,1 @@
+#define FOR(i, L, U) for(int i=(int)L; i<=(int)U; i++)

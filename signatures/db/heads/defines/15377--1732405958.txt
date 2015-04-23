@@ -1,0 +1,1 @@
+#define FOR(i,lb,ub) for(i=lb;i<=ub;i++)

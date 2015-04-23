@@ -1,0 +1,1 @@
+template <typename T> void printarray( T a[], int b, int e ) { for( int i = b; i < e - 1 + b; i++ ) cout << a[i] << " "; if( e - 1 + b >= 0 ) cout << a[e - 1 + b] << endl; }

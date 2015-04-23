@@ -1,0 +1,1 @@
+#define wez2(n,m) int (n), (m); cin >> (n) >> (m);

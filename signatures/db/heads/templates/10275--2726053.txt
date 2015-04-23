@@ -1,0 +1,1 @@
+template<class T,class Tb> inline T PowMod(Tb a,T b,T c)/**a^b mod c и¦Ѓж±‚c*cдёЌжєўе‡є**/{if(c==1)return 0;if(c<=0)return -1;a=Mod(a,(Tb)c);Tb ret(1L%c);while(b){if(b&0x1)ret=ret*a%c;a=a*a%c;b>>=1;}return (T)ret;}

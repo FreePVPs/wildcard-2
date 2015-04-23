@@ -1,0 +1,1 @@
+#define frk(b)    for(int k = 0; j < b; j++)

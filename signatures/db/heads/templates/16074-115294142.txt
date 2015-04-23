@@ -1,0 +1,1 @@
+template <class myType> myType fastpow(register myType a,register ull b){register myType result=1;while(b){if(b&1){result*=a;}b>>=1;a*=a;}return result;}

@@ -1,0 +1,1 @@
+const FTYPE FINF = INF; // infinite flow

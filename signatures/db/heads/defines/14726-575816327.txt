@@ -1,0 +1,1 @@
+#define FORE(i, x) for (int i = fi[x]; i != -1; i = e[i].n)

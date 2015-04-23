@@ -1,0 +1,1 @@
+#define UNQ(s) {sort(ALL(s));(s).erase(unique(ALL(s)),(s).end());}

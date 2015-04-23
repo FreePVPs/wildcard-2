@@ -1,0 +1,1 @@
+#define repf(i, f, l) for(int i = f; i < (int)l; ++i)

@@ -1,0 +1,1 @@
+template<class T> inline T& UNQ(T &A){SRT(A);return UNQQ(A);}

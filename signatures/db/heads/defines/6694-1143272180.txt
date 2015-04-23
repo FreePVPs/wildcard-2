@@ -1,0 +1,1 @@
+#define _f(i,b,e) for(int i=b;i<e;i++)

@@ -1,0 +1,1 @@
+#define forif(si, n, i) for (int i = si; i < n; i++)

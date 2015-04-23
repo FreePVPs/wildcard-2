@@ -1,0 +1,1 @@
+#define seive(n) 					VI prime(n+1,1); prime[0]=prime[1]=0; fori(i,2,sqrt(n)+1) if(prime[i]) for(int j=i*i;j<=n;j+=i) prime[j]=0;

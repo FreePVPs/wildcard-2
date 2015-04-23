@@ -1,0 +1,1 @@
+#define fr(i, k, n) for ( i = k; i <= (int)(n); i++)

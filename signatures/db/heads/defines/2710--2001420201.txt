@@ -1,0 +1,1 @@
+#define ForI(it , s , T) for (T :: iterator it = s.begin(); it != s.end() ; ++ it )

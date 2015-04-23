@@ -1,0 +1,1 @@
+#define lpd1(i,a,b)  for(i=(a);i>=(b);i--)

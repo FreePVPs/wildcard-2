@@ -1,0 +1,1 @@
+#define tr(T, i) for (typeof(T.begin()) i = T.begin(); i != T.end(); ++i )

@@ -1,0 +1,1 @@
+template<typename T> inline string toStr(T x) { stringstream st; st << x; string s; st >> s; return s; }

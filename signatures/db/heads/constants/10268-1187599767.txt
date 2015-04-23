@@ -1,0 +1,1 @@
+const LL inff = 1LL << 60;

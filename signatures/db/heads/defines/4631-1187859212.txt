@@ -1,0 +1,1 @@
+  #define RFOR(i,n,j,k) for(LL i=n; i>=j; i-=k)

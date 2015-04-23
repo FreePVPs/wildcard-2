@@ -1,0 +1,1 @@
+const int MAXNODE = 2097152; // == (1 << 21) - 1  depth:21

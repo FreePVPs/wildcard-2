@@ -1,0 +1,1 @@
+#define FOR(i,m,n)  for(__typeof(n) i=m;i!=(n+1-2*(n<m));i=i+1-2*(n<m))

@@ -1,0 +1,1 @@
+template<class T> string toStr(T n){string s;stringstream is;is<<n;is>>s;RE s;} //toStr

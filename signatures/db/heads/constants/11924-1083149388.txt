@@ -1,0 +1,1 @@
+const int MX = 100,offset = 101,BIG = 300000,oo = 1000000000;

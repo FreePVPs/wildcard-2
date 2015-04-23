@@ -1,0 +1,1 @@
+#define RREPEAT(i, k, n)    for(int(i)=(k)+(n)-1;(i)>=(k);--(i))

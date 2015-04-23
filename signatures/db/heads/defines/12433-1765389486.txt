@@ -1,0 +1,1 @@
+#define FOR(a,b,c) for(register int a=b;a<=c;++a)

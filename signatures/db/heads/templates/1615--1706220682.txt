@@ -1,0 +1,1 @@
+template<class A, class B> A convert(B x) {stringstream s; s << x; A r; s >> r; return r;} 

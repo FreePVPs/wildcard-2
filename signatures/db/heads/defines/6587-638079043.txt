@@ -1,0 +1,1 @@
+#define RFOR(x,y,z) for(long long int x=(long long int)y;x>=z;x--)

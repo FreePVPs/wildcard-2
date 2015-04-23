@@ -1,0 +1,1 @@
+#define _41le(index,limit) for(int index=1;index <= limit;++index)

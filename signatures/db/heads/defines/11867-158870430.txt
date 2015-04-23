@@ -1,0 +1,1 @@
+#define loopxbe(c,x) for(c=x;c>=0;c--)

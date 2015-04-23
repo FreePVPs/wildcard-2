@@ -1,0 +1,1 @@
+#define writeln(x) for (auto i : x) {cout << i << " ";} cout << "\n";

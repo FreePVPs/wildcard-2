@@ -1,0 +1,1 @@
+#define DBG2(x, y) {if(DEBUG){DBG0(x); DBG(y);}}

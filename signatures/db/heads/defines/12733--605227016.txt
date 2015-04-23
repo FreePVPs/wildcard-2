@@ -1,0 +1,1 @@
+#define FORE(it, c) for (decltype((c).begin()) it = (c).begin(); it != (c).end(); ++it)

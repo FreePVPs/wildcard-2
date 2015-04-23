@@ -1,0 +1,1 @@
+#define DEB(a) cout << #a << ":" << endl; forn (i, (a).size()) cout << a[i] << " "; cout << endl;

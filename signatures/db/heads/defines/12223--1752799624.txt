@@ -1,0 +1,1 @@
+#define SLF ({double _x; scanf("%lf",&_x); _x;})

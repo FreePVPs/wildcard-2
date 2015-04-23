@@ -1,0 +1,1 @@
+const LL R=1ll<<60;

@@ -1,0 +1,1 @@
+template<typename... T> void asss(string t, T... x) { if (!asse(x...)) { cerr<<t<<" ASSERTION FAILED!"<<endl; throw; }}

@@ -1,0 +1,1 @@
+#define ARRIN(i,n) for(int il=0;il<n;il++)cin>>i[il]

@@ -1,0 +1,1 @@
+const ld e = 1e-9;

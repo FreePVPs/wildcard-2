@@ -1,0 +1,1 @@
+#define frkn(a,b)   for(k=a;k>=b;k--)

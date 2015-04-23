@@ -1,0 +1,1 @@
+#define inf 1000

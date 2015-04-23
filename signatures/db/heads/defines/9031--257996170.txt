@@ -1,0 +1,1 @@
+#define REACH(rit,b) for(typeof(b.rbegin()) rit=(b).rbegin();rit!=b.rend();++rit)

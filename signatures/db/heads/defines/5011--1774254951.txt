@@ -1,0 +1,1 @@
+#define FE(i,s,r) for(int i=s;i<=r;i++)

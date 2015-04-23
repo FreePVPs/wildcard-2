@@ -1,0 +1,1 @@
+#define For(i, a, b) for (int (i) = (a), ub1234=b; (i) <= ub1234; (i) ++)

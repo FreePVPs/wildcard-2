@@ -1,0 +1,1 @@
+#define fo(i,L,R) for (i=(L);i<=(R);i++)

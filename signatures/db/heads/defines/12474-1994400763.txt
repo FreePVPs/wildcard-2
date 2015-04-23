@@ -1,0 +1,1 @@
+#define REP(i, to)		for(LL i = 0; i< (LL)(to); ++i)

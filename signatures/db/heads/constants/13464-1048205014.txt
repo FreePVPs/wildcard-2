@@ -1,0 +1,1 @@
+const int MAXR = 200005, MOD = 1000000007;

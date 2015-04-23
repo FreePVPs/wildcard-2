@@ -1,0 +1,1 @@
+#define f4(x,r) for(x=r;x>0;x--)

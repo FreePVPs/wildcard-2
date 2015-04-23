@@ -1,0 +1,1 @@
+#define EXIT(n) {cout<<n<<endl;return 0;}

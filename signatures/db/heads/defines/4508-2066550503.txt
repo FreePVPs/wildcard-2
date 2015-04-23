@@ -1,0 +1,1 @@
+#define makev(v,n) VI (v); FOR(i,0,(n)) { make(a); (v).pb(a);} 

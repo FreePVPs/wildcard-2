@@ -1,0 +1,1 @@
+#define __(args...) {dbg,args; cerr<<endl;}

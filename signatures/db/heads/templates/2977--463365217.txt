@@ -1,0 +1,1 @@
+template <class T_> T_ gcd(T_ a, T_ b) {while(T_ t = a % b) a = b, b = t; return b;}

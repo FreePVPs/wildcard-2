@@ -1,0 +1,1 @@
+template<class T> inline T phi(T n) { vector<pair<T, int> > R = factorize(n); T r = n; REP(i, R.SZ) r = r / R[i].first * (R[i].first - 1); return r; }

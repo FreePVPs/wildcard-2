@@ -1,0 +1,1 @@
+#define rtr( iter, a )              for(typeof((a).rbegin()) iter = (a).rbegin();iter != (a).rend(); iter++ )

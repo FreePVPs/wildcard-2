@@ -1,0 +1,1 @@
+#define nextLine() {for(int c=getchar(); c!='\n' && c!=EOF; c=getchar());}

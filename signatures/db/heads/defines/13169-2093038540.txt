@@ -1,0 +1,1 @@
+#define iter(c,x) for(x::iterator it=c.begin(); it!=c.end(); it++)

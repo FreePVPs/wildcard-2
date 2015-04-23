@@ -1,0 +1,1 @@
+template<class T> void out(T t[], int n){REP(i, n)cout<<t[i]<<" "; cout<<endl;}

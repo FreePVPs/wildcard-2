@@ -1,0 +1,1 @@
+template<class T> class Prime{public:vector<T> z ;Prime(){z.resize(1e5+7);REP(i,SZ(z)) z[i]=1;

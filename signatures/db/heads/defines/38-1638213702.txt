@@ -1,0 +1,1 @@
+#define ConSum(i,arrs,arrt)( arrs[0]=0; for(i=1;i<=n;i++) arrs[i]=arrs[i-1]+arrt[i]);

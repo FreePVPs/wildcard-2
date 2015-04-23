@@ -1,0 +1,1 @@
+#define gcd LL GCD(LL a,LL b){ if(b==0)return a;else return GCD(b,a%b); }

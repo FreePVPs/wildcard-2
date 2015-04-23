@@ -1,0 +1,1 @@
+    construct(res[i], next, hi, last);

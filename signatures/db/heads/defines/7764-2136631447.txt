@@ -1,0 +1,1 @@
+#define reps(m,n,c) for(int c=m;c<n;c++)

@@ -1,0 +1,1 @@
+#define tr(container, it) for(vector<dt> ::iterator it= container.begin(); it!=container.end(); it++)

@@ -1,0 +1,1 @@
+template<typename T> void print2DArray(const vector<vector<T>>& p, string delim = " "){ for (int i = 0; i < p.size(); i++){ for (int j = 0; j < p[0].size(); j++){ cout << p[i][j]; if (j != p[0].size() - 1) cout << delim; }cout << endl; } }

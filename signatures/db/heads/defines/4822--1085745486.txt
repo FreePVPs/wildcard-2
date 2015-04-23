@@ -1,0 +1,1 @@
+#define FOR(x,y) for(int x=0;x<y;x++)             //En general el 'cerr' va bГ© per debuguejar (p.e. cerr<<"Hey!"<<endl;

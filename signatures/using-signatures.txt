@@ -1,0 +1,5 @@
+db/other/*.txt
+db/heads/constants/*.txt
+db/heads/defines/*.txt
+db/heads/templates/*.txt
+:end:

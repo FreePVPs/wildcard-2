@@ -1,0 +1,1 @@
+#define WBI(i,b,x) for(TYP((int)0+x) _=x,i=0,b=_&1ll;i<sizeof(x)<<3;b=0!=(_&1ll<<++i))

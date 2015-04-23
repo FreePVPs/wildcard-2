@@ -1,0 +1,1 @@
+#define FORD(i, e, b)	for(i = (e); i >= (b); i--)

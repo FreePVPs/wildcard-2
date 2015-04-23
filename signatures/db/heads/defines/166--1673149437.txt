@@ -1,0 +1,1 @@
+#define fil(a,b)    for(l=a;l<b;l++)

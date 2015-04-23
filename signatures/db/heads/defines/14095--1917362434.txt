@@ -1,0 +1,1 @@
+#define FORL(a,b,c) for (LL a = b; a <= c; a++)

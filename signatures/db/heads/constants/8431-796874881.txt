@@ -1,0 +1,1 @@
+const mm = trunc(1e9);

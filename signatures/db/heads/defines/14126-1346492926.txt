@@ -1,0 +1,1 @@
+#define exchange(w) if(w == 'b')w = 'a' ; else w = 'b' ;

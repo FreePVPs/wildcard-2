@@ -1,0 +1,1 @@
+#define rep(i,t) for (ll i=0;i<t;i++)

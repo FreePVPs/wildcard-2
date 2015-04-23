@@ -1,0 +1,1 @@
+template< class T > inline T _resetbit(T x,T i) { T t=1;return (x&(~(t<<i))); }

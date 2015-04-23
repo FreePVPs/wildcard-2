@@ -1,0 +1,1 @@
+const int MaxM=8*MaxN;

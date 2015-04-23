@@ -1,0 +1,1 @@
+#define POP(stack) (stack).top();(stack).pop();

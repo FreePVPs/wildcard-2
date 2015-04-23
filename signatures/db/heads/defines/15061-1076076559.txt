@@ -1,0 +1,1 @@
+#define __nCASE int _=1,__;for(scanf("%d",&__);_<=__;_++)

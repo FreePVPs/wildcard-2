@@ -1,0 +1,1 @@
+template<class T> void print(T &s){foreach(s,it)cout<<*it<<" ";cout<<endl;}

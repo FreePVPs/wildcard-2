@@ -1,0 +1,1 @@
+const int logN=18;

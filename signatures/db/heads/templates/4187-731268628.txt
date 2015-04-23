@@ -1,0 +1,1 @@
+template<typename A, typename B> inline void make(pair<A, B> & p) { make(p.first); make(p.second); }

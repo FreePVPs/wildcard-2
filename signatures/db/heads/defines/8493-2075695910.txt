@@ -1,0 +1,1 @@
+#define swap(a,b,lx) {lx t;t=a;a=b;b=t;}

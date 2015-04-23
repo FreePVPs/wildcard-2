@@ -1,0 +1,1 @@
+#define loop1i(n,a) for(i=1;i<=n;i++) S(s[i])

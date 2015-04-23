@@ -1,0 +1,1 @@
+#define cpresent(c,x) (find(ALL(c), x) != (c).end() ) //vector itself doesn't have function find; O(n);

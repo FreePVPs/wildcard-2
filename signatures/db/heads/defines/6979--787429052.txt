@@ -1,0 +1,1 @@
+#define FOR(i, min, max) for (int i = (min); i < (max); ++i) 

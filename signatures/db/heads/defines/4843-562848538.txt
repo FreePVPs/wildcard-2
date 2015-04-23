@@ -1,0 +1,1 @@
+#define Fr(i,s,n) for(int i=(n);i>=(s);i--)

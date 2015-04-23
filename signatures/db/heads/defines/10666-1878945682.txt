@@ -1,0 +1,1 @@
+#define REV(i,a,b) for(LL i=(LL)(a);i>=(LL)(b);i--)

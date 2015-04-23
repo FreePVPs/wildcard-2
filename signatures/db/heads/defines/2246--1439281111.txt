@@ -1,0 +1,1 @@
+#define from(i, l, r, s)	for (ll i = (l); i <= (r); i += (s))

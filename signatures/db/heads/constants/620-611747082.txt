@@ -1,0 +1,1 @@
+const int Inf = 20150000,Maxn = 100010,N = 18;

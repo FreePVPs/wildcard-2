@@ -1,0 +1,1 @@
+const int maxn = 100010, mod = (int)1e9 + 7;

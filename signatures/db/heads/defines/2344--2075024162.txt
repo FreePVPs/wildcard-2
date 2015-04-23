@@ -1,0 +1,1 @@
+#define _(arg...) { _n(arg); dbg.nl(); }

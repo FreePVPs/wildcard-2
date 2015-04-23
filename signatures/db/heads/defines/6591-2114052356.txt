@@ -1,0 +1,1 @@
+#define pv(v) ri { p(v[i]); } pl;

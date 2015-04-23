@@ -1,0 +1,1 @@
+#define input(arr,len) for(lli i = 0;i<len;i++) {scan(arr[i]);}

@@ -1,0 +1,1 @@
+#define wtf(x) { outs("LINE"); out(__LINE__ - _file_beginning); outs(":"); outs(#x); outs("="); outn(x); }

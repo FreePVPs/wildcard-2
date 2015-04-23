@@ -1,0 +1,1 @@
+#define loopbe(c,x) for(int c=x;c>=0;c--)

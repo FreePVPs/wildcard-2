@@ -1,0 +1,1 @@
+const sy:array[1..4] of longint = (0, 0, 1, -1);

@@ -1,0 +1,1 @@
+template<class T,class L>inline void frch(T& x,L _callback){for(auto ptr=x.begin();ptr!=x.end();++ptr)_callback(*ptr);}

@@ -1,0 +1,1 @@
+#define FOR(i,in,fin) for( i = (in); i <= (fin); ++i)

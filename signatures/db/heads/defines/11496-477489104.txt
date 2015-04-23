@@ -1,0 +1,1 @@
+#define print_vect(s, e) for(void* k=s;k!=e;k++) cout<<

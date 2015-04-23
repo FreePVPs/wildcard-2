@@ -1,0 +1,1 @@
+#define FORR(a,b) for(int a=b-1;a>=0;a--)

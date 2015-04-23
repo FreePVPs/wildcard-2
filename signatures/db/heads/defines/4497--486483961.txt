@@ -1,0 +1,1 @@
+#define reps(i,x,n) for((i)=(x);(i)<(int)(n);(i)++)

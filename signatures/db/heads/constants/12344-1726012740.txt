@@ -1,0 +1,1 @@
+const long long MAXN = 100000 + 5;

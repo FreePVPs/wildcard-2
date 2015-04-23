@@ -1,0 +1,1 @@
+#define setrav(x) for(set<char>::iterator it = x.begin(); it!=x.end(); it++)

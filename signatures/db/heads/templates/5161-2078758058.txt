@@ -1,0 +1,1 @@
+template < typename T > inline string toString( const T &a ) { ostringstream oss; oss << a; return oss.str(); };

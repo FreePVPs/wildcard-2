@@ -1,0 +1,1 @@
+#define P1D(arr,n) {FOR(i,n)printf("%d ",arr[i]);NL;}

@@ -1,0 +1,1 @@
+#define FORV(a,t,b) for(vector<t>::iterator a=b.begin();a!=b.end();++a)  

@@ -1,0 +1,1 @@
+      const Cable &cable = cables[computers[vertexCur][i]];

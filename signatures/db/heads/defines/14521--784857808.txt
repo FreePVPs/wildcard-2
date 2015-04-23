@@ -1,0 +1,1 @@
+#define fors(bg,en) for(int i=bg;i<en;i++)

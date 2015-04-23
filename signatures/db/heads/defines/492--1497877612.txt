@@ -1,0 +1,1 @@
+#define testy()                     int _tests; scanf("%d", &_tests); FOR(_test, 1, _tests)

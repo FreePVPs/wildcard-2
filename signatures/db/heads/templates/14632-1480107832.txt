@@ -1,0 +1,1 @@
+template<class T> inline T maxv(vector<T> v) { return *(max_element(v.begin(), v.end())); };

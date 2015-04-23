@@ -1,0 +1,1 @@
+#define dba(a, x, y) {if(debug){cout << #a << " :";For(i, (x), (y))cout<<" "<<(a)[(i)];cout<<endl;}}

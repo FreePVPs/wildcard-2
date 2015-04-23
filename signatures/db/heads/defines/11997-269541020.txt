@@ -1,0 +1,1 @@
+#define mrepp(i,n,x)  for(int i = n-1; i >= x; i--)

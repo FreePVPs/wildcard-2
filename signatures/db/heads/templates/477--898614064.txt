@@ -1,0 +1,1 @@
+template < class T > string itoa(T a) { if(!a) return "0"; string ret; for(T i=a; i>0; i=i/10) ret.PB((i%10)+48); reverse(ALL(ret));return ret;}

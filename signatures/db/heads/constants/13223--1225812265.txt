@@ -1,0 +1,1 @@
+	const int ModNum = 1000000007;

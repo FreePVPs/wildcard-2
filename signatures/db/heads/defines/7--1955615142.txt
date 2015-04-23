@@ -1,0 +1,1 @@
+#define	FM( ii,aa,bb ) for( lli ii=aa;ii>=bb;ii-- )

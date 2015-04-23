@@ -1,0 +1,1 @@
+#define FD(var,end,beg) for(int var=(end);var>=(beg);--var)

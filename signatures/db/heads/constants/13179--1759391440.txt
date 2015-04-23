@@ -1,0 +1,1 @@
+const ll ll_INF = ((ull)(-1))>>1;

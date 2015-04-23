@@ -1,0 +1,1 @@
+#define ffor(_a,_f,_t) for(int _a=(_f),__t=(_t);_a<__t;_a++)

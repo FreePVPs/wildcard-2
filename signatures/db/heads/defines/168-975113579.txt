@@ -1,0 +1,1 @@
+#define rii(a)      for(i=0;i<a;i++)

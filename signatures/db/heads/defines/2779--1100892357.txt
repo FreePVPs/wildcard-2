@@ -1,0 +1,1 @@
+#define TRV(i,n)    for(tp(n) i=(n).op;i!=(n).ed;i++)

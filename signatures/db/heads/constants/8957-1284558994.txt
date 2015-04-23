@@ -1,0 +1,1 @@
+const void *Ostream::lastLine = 0;

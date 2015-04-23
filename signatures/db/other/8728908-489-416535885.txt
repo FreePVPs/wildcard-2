@@ -1,0 +1,2 @@
+
+void RIII (int& x, int& y, int& z){RI (x), RI (y), RI (z);}

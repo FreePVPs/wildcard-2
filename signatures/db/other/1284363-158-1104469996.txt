@@ -1,0 +1,2 @@
+
+template<class T> inline void unsetBit(T i,char* a){a[i/8]&=0xff^(1<<(i%8));}//unsetBit(

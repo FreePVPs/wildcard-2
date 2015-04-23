@@ -1,0 +1,2 @@
+
+#define STN(x,y) stringstream ss(x); ss >> y //add by theyaserfox, note : '{' & '}' must be add before and after

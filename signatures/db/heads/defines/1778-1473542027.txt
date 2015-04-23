@@ -1,0 +1,1 @@
+#define arrMin(arr,n,mmmin) mmmin=arr[0]; REP(i,n){ if(arr[i]<mmmin) {mmmin=arr[i];}}

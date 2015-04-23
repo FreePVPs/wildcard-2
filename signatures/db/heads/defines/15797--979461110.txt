@@ -1,0 +1,1 @@
+#define f(i,beg,end) for(int i=beg; i<=end; i++)

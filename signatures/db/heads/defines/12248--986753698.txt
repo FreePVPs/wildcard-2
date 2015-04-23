@@ -1,0 +1,1 @@
+#define REP(var,ar)  for(int var=0,lim=(ar).size();var<lim;var++)

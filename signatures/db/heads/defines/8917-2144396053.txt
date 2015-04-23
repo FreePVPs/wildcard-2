@@ -1,0 +1,1 @@
+#define REP(i, a, b) for(int i(a),_bb(b); i < _bb; ++i)

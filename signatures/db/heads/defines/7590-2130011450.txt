@@ -1,0 +1,1 @@
+#define fsubset(subset,set) for (int subset=set&(set-1);subset;subset=(subset-1)&set)

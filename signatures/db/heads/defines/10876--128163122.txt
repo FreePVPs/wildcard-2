@@ -1,0 +1,1 @@
+#define debug2(a,b) {trace(a);trace(b);cerr << endl;}

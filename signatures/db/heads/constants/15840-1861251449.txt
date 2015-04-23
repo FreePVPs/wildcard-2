@@ -1,0 +1,1 @@
+const int MAXNO = 2*1e7, ROOT=0;

@@ -1,0 +1,1 @@
+#define for(i,x,y,z) for(i=x;i<=y;i+=z)

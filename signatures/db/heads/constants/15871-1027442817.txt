@@ -1,0 +1,1 @@
+const int MAXN = 100500, MAXD = 105, MOD = 1e9 + 7;

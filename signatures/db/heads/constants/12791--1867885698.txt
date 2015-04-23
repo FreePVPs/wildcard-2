@@ -1,0 +1,1 @@
+const long long MOD=(long long)1E9+7LL;///1000000007

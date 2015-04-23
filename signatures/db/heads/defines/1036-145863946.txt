@@ -1,0 +1,1 @@
+#define fe(i, v) for(ite(v) i = (v).bb; i != (v).ee; ++i)

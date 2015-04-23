@@ -1,0 +1,1 @@
+const ld infty = 1e+10;

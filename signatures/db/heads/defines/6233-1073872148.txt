@@ -1,0 +1,1 @@
+#define ITX(it,vec,x) for(vector<int>::iterator it=vec.begin();it!=vec.begin()+x;it++)

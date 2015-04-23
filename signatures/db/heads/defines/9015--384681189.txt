@@ -1,0 +1,1 @@
+#define outArray(x,n) cout<<"{";For(i,n)cout<<x[i]<<", ";cout<<"}"<<endl;

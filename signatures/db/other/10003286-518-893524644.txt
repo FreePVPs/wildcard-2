@@ -1,0 +1,4 @@
+		InputStream inputStream = System.in;
+		OutputStream outputStream = System.out;
+		FastScanner in = new FastScanner(inputStream);
+		FastPrinter out = new FastPrinter(outputStream);

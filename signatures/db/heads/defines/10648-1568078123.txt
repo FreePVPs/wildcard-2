@@ -1,0 +1,1 @@
+#define FORB(i,be,en) for(int i = be; i <= en; i++)

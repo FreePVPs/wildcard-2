@@ -1,0 +1,1 @@
+#define dbnm(A,N,M) for(int __I=0; __I<N; __I++) { for(int __J=0; __J<M; __J++) cerr << A[__I][__J] << " \n"[__J==(M-1)]; }

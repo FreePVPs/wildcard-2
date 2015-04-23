@@ -1,0 +1,1 @@
+#define clrvec(x,siz) for(int xx=0;xx<=siz;xx++)  x[xx].clear();

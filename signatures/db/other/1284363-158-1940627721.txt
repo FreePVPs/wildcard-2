@@ -1,0 +1,2 @@
+
+typedef pair<int,int> ipair;//NOTES:ipair

@@ -1,0 +1,1 @@
+const double PI = 3.141592653589793, RAD = 180.0/PI, DEG = PI/180.0;

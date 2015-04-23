@@ -1,0 +1,1 @@
+#define FORS(arr,s,n) for(int i=s;i<n+s;i++) cin>>arr[i];

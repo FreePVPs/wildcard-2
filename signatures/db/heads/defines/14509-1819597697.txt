@@ -1,0 +1,1 @@
+#define GLL ({ LL x; scanf("%I64d",&x); x; })

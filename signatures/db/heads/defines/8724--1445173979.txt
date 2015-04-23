@@ -1,0 +1,1 @@
+#define print_array(x,n) for(int i=0; i<n; i++) { cout << x[i] << endl; }

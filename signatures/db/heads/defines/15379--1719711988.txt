@@ -1,0 +1,1 @@
+#define FORS(it,v) for(it=v.begin();it!=v.end();it++)

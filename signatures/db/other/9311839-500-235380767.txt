@@ -1,0 +1,2 @@
+
+const ll OO = 1e8;

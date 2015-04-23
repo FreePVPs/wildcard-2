@@ -1,0 +1,1 @@
+#define fe(y,z)             for(int y=1;y<=z;y++)

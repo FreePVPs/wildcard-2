@@ -1,0 +1,1 @@
+#define FS(i,a) for(ll i=0;a[i];i++)

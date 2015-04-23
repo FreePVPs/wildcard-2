@@ -1,0 +1,1 @@
+const LL inf=~0ULL>>1;

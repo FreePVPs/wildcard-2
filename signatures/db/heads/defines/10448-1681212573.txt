@@ -1,0 +1,1 @@
+#define FORE(i,m,n) for(int i=(m), _end =(n);i<= _end;++i)

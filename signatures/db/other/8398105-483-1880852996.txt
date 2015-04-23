@@ -1,0 +1,9 @@
+
+        
+        Point nextIntPoint()
+        {
+            int x = nextInt();
+            int y = nextInt();
+            return new Point(x, y);
+        }
+        

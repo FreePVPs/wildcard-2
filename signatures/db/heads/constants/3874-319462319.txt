@@ -1,0 +1,1 @@
+const ll MAXLL = ((~0) ^ ((ll)1 << 63));

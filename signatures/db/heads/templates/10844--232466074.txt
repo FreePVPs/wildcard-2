@@ -1,0 +1,1 @@
+template<typename T> void print( T a, string name="" ) {if(name != "") cerr<<name<<":";cerr << a;}

@@ -1,0 +1,1 @@
+#define REP(_i, _j) for(int _i = 0; _i < (int)_j; _i++)

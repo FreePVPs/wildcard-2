@@ -1,0 +1,1 @@
+#define myForDown(idx,a,b,c)  for(int idx = a; idx >= ((b) + 1 -  (c)); idx--)

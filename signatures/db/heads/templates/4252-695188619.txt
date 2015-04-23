@@ -1,0 +1,1 @@
+template <class T> T take(priority_queue<T> &O) {T tmp=O.top();O.pop();return tmp;}

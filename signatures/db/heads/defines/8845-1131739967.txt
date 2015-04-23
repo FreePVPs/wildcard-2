@@ -1,0 +1,1 @@
+#define ITER(i, t, c) for (t::iterator i=c.begin(); i!=c.end(); i++)

@@ -1,0 +1,1 @@
+const int SIZE_OF_ALPHABET = 2;

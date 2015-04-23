@@ -1,0 +1,1 @@
+const int MAXN = 10000, INF = ~0U >> 2;

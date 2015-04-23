@@ -1,0 +1,1 @@
+#define CDFOR(s,e,i) for(int i=((e)-1);(i)>=(s);(i)--)

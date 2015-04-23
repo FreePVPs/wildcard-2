@@ -1,0 +1,1 @@
+const int maxn=1e6+10+10,maxm=1e4+10,inf=1e9;

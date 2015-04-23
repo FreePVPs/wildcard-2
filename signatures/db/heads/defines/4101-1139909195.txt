@@ -1,0 +1,1 @@
+#define iter(i, a)              for(typeof((a).begin()) i=(a).begin(); i!=(a).end(); i++)

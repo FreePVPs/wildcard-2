@@ -1,0 +1,1 @@
+#define PARSEINTNL(N) { t = READ(); while(t < 48){ t = READ(); } N = t-48; t = READ(); while(t > 47){ N = ( N*10 + t - 48); t = READ(); }}

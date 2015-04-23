@@ -1,0 +1,1 @@
+#define For_P(i,x,y) for(int i=(x);i<(y);i++)

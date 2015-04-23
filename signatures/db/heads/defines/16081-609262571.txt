@@ -1,0 +1,1 @@
+#define FORALL(it,A) for(it=A.begin(); it!=A.end();it++)

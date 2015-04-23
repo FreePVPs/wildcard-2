@@ -1,0 +1,1 @@
+#define FORD(i,d,n) for(int i=d;i<(int)n;i++)

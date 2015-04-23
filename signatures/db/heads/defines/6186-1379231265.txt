@@ -1,0 +1,1 @@
+#define FORd(i,a,b,d) for(int i=(int)a; i<= (int)b; i+=(int)d)

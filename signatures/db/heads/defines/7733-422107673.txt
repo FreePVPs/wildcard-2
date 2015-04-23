@@ -1,0 +1,1 @@
+#define debugv(v, n)      {cerr<<"> "; REP(ni, n) dbg,v[ni]; cerr<<endl;}

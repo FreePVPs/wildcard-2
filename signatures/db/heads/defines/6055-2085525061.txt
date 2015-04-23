@@ -1,0 +1,1 @@
+#define REP(X) for(int i=0; i<SZ(X); i++)

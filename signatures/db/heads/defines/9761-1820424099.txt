@@ -1,0 +1,1 @@
+#define FOR(i,s,to)	for(i=s,__n=to;i<__n;i++)

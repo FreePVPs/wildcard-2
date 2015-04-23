@@ -1,0 +1,1 @@
+const int MAXSEG = 100007;

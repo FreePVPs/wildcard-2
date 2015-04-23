@@ -1,0 +1,1 @@
+    const struct calc *elem2=(const struct calc*)b;

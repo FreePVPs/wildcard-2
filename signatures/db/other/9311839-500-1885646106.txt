@@ -1,0 +1,2 @@
+
+#define drii(x,y) int x,y;RII(x,y)

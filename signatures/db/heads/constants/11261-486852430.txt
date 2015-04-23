@@ -1,0 +1,1 @@
+const m:array[0..4]of byte=(1,1,2,7,4);

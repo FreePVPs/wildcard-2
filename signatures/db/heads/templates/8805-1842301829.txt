@@ -1,0 +1,1 @@
+template <class T> void SWAP(T &x, T &y) {T z=x; x=y; y=z;}

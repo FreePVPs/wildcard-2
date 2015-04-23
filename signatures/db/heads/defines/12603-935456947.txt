@@ -1,0 +1,1 @@
+#define CT int ___T, case_n = 1; scanf("%d ", &___T); while (___T-- > 0)

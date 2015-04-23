@@ -1,0 +1,1 @@
+#define parr(r,n) printf("%d", r[0]); fr(_i,1,n) printf(" %d", r[_i]);  ln; 

@@ -1,0 +1,1 @@
+template<class T> inline T __cin(){ T ret; cin>>ret; return ret; }

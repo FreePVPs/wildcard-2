@@ -1,0 +1,1 @@
+#define prc(a) tr(a, it) cout<<*(it)<<" "; cout<<endl

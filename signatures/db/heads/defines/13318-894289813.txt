@@ -1,0 +1,1 @@
+#define DBGA(x,n) {for(int i=0;i<n;i++) cerr<<x[i]<<" "; cerr<<"\n";}

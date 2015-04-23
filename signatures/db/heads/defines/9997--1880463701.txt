@@ -1,0 +1,1 @@
+#define vout(x)                     FOREACH(_i, x) cout<< *_i << " "; cout << endl;

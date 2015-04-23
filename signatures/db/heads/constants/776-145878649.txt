@@ -1,0 +1,1 @@
+const long long MM = 1000000007;

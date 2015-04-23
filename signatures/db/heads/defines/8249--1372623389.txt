@@ -1,0 +1,1 @@
+#define For(i, st, en)  for(int i=(st); i<=(int)(en); i++)

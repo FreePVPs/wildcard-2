@@ -1,0 +1,1 @@
+#define test int T;si(T);FOR(Test,1,T)

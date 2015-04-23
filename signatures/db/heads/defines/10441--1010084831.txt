@@ -1,0 +1,1 @@
+#define split(str) {vs.clear();istringstream ss(str);while(ss>>(str))vs.push_back(str);}

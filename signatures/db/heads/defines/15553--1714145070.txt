@@ -1,0 +1,1 @@
+#define go()  int t; cin>>t; while(t--)

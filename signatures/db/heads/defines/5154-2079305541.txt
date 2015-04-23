@@ -1,0 +1,1 @@
+#define FORDIT(i, c) for (__typeof__((c).rbegin()) i = (c).rbegin(); i != (c).rend(); i++)

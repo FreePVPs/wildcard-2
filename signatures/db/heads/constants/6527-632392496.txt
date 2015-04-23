@@ -1,0 +1,1 @@
+const int64 linf = (int64(1) << 61);

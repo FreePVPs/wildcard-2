@@ -1,0 +1,2 @@
+
+template<class T> inline T gcd(T a,T b)//NOTES:gcd(

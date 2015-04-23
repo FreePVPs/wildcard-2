@@ -1,0 +1,1 @@
+#define forn(i,s,n) i = (s); for( int _n = (int)(n), _di = (i > _n)?-1:1; i != _n; i += _di)

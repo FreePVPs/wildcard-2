@@ -1,0 +1,1 @@
+            const int HAVE_NOT_PAIRS = -1;

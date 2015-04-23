@@ -1,0 +1,1 @@
+template<> inline double EPS<double>(){return 1e-8;};

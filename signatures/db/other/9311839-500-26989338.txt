@@ -1,0 +1,2 @@
+
+#define MSN(x,d) memset(x, d, sizeof(x))

@@ -1,0 +1,1 @@
+#define	 REP(i,j,k) for(register int i=(j),_end_=(k);i<=_end_;++i)

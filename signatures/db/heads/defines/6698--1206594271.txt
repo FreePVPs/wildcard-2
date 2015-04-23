@@ -1,0 +1,1 @@
+#define _sw(x, y, t) {t __t_; __t_=x;x=y;y=__t_;}

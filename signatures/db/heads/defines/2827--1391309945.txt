@@ -1,0 +1,1 @@
+#define fer(i,x,n)  for(int i=(int)x , _n=(int)n;i<_n;i++)

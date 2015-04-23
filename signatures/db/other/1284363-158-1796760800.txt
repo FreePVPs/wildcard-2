@@ -1,0 +1,2 @@
+
+else{T d=euclide(b,a%b,x,y);T t=x;x=y;y=t-(a/b)*y;return d;}}

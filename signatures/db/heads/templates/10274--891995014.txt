@@ -1,0 +1,1 @@
+template<class T>inline T MulMod(T a,T b,T c)/**дєЊе€†и®Ўз®—a*b mod c еЏЇд»Ґе¤„зђ†c+cдёЌжєўе‡єзљ„жѓ…е†µ**/{if(c==1)return 0;if(c<=0)return -1;T ret=0,tmp;tmp=a=Mod(a,c);b=Mod(b,c);while(b){if(b&0x1)if((ret+=tmp)>=c)ret-=c;if((tmp<<=1)>=c)tmp-=c;b>>=1;}return ret;}

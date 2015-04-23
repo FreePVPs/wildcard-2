@@ -1,0 +1,1 @@
+template<class T> inline T Pow(T b,T p){T ret=1;rep(i,p){ret*=b;}return ret;}

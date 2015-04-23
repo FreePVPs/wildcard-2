@@ -1,0 +1,1 @@
+#define FOR(v, t) for(int v=0; v<int(t); ++v)

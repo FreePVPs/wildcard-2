@@ -1,0 +1,1 @@
+#define PRINTBLANK(pri) { if (pri) pri=false; else cout<<endl; };

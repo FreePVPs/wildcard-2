@@ -1,0 +1,1 @@
+#define readcharray char ar[n];     for(int i=0;i<n;i++)    scanf("%c",&ar[i]);

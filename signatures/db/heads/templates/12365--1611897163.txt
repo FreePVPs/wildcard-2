@@ -1,0 +1,1 @@
+template<class T>T fpow(T x,int n){if(n==0)re 1;T a=fpow(x,n>>1);a*=a;if(n&1)a*=x;re a;}

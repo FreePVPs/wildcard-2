@@ -1,0 +1,1 @@
+#define print(args...) { vector<string> _v = split(#args, ','); err(_v.begin(), args);  cout<<endl; }

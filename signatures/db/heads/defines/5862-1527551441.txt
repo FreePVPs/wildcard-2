@@ -1,0 +1,1 @@
+#define Forp(x) for(int p=pre[x];p;p=next[p])

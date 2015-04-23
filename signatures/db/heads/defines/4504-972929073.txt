@@ -1,0 +1,1 @@
+#define make( x) int (x); scanf("%d",&(x));

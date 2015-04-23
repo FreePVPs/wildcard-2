@@ -1,0 +1,1 @@
+#define Rush for(int ____T=(scanf("%d",&____T),____T), ____cas=0;++____cas, ____T--;)

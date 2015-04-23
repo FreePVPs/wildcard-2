@@ -1,0 +1,1 @@
+const string str_fout = filename + ".out";

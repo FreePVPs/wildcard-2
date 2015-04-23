@@ -1,0 +1,1 @@
+#define FOREACH(it, ct) for (__typeof((ct).begin()) it = (ct).begin(); it != (ct).end(); it++)

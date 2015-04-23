@@ -1,0 +1,1 @@
+template<>struct Double<i8>{typedef i16 R;};

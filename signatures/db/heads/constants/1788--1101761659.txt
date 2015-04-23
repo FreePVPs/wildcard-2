@@ -1,0 +1,1 @@
+const long inf = 0x7fffffff;

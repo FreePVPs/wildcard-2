@@ -1,0 +1,1 @@
+#define FOR2(i,start,end,inc) for(int i=start;i<=end;i+=inc)

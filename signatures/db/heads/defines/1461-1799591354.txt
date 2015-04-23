@@ -1,0 +1,1 @@
+#define rep(i,n) for(int i= int(1); i<= (int)n; i++)

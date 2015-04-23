@@ -1,0 +1,1 @@
+#define outVect(vect) { fori(0, vect.size()) { if (i > 0) cout << " "; cout << vect[i]; } cout << "\n"; }

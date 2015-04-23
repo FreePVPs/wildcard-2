@@ -1,0 +1,1 @@
+#define print(v) REP(i, sz(v)) out << v[i] << " "; out << "\n";

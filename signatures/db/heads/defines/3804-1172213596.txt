@@ -1,0 +1,1 @@
+#define show2(a,n,m) cout <<#a<<":\n"; for (int iii=0;iii<n;iii++) { for(int jjj=0;jjj<m;jjj++) cout <<a[iii][jjj]<<" "; cout <<"\n";}

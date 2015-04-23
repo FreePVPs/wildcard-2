@@ -1,0 +1,1 @@
+template<class T> T smin(T x,T y){ if(x>y) return y; else return x;}

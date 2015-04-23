@@ -1,0 +1,1 @@
+#define GetE(p,u) for(int p=fst[u];p;p=ne[p])

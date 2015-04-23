@@ -1,0 +1,1 @@
+template<class T> inline void checkmin(T& a, const T& b) { if ( a > b ) a = b; };

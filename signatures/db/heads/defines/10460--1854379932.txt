@@ -1,0 +1,1 @@
+#define numTest(t) int t; s(t); while(t--)

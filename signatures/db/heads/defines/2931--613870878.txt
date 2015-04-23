@@ -1,0 +1,1 @@
+#define itr(v,it) for( LET(it,v.begin()) ; it != v.end() ; it++)

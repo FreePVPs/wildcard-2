@@ -1,0 +1,1 @@
+const long long LL = 10000000000000000;

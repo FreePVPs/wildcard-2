@@ -1,0 +1,1 @@
+            const int candidate = std::max(first_variant, second_variant);

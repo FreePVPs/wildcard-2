@@ -1,0 +1,1 @@
+#define rep(i,a,b) for(int i =(int)(a), _i = (int)(b); i <= _i ; ++i)

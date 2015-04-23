@@ -1,0 +1,1 @@
+#define ITL(it,vec) for(vector<int>::iterator it=vec.begin();it<=vec.end();it++)

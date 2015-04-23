@@ -1,0 +1,1 @@
+#define rep(_m,s,e) for(int _m=s;_m<e;_m++)

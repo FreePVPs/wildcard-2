@@ -1,0 +1,1 @@
+#define dosya(s) freopen(s".gir","r",stdin); freopen(s".cik","w",stdout); 

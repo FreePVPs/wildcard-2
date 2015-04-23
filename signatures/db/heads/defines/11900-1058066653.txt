@@ -1,0 +1,1 @@
+#define FORREV(i,a,b) for(VAR(i,b); i >= (a); --i)

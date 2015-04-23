@@ -1,0 +1,1 @@
+#define GL            ({LL t;scanf("%lld",&t);t;})

@@ -1,0 +1,1 @@
+const int inf = (int)2e9;

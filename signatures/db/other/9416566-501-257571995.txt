@@ -1,0 +1,6 @@
+inline int read(){
+    int x = 0; char ch = getchar(); bool positive = 1;
+    for (; ch < '0' || ch > '9'; ch = getchar())    if (ch == '-')  positive = 0;
+    for (; ch >= '0' && ch <= '9'; ch = getchar())    x = x * 10 + ch - '0';
+    return positive ? x : -x;
+}

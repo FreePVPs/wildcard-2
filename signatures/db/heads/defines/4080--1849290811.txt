@@ -1,0 +1,1 @@
+#define dep(i,B,A) for(int i=(B);i>=(A);i--)

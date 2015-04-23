@@ -1,0 +1,1 @@
+template<typename T, typename... Ts> void print(T x, Ts... xs) { cout << x << " "; print(xs...); };

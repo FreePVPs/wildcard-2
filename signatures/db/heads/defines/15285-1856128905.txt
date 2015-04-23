@@ -1,0 +1,1 @@
+#define lin(a) LL a;cin >> a;

@@ -1,0 +1,1 @@
+#define REP(ohhh, dont, staaahp) for (int ohhh = int(dont); ohhh < int(staaahp); ohhh++)

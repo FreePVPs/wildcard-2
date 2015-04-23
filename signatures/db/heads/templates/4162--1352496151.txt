@@ -1,0 +1,1 @@
+template<>struct Double<double>{typedef double R;};

@@ -1,0 +1,1 @@
+#define files(in,out) file_in(in);file_out(out);

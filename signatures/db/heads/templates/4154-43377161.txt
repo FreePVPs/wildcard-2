@@ -1,0 +1,1 @@
+template<typename I>struct Double{typedef Void R;};

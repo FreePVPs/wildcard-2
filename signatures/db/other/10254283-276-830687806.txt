@@ -1,0 +1,1 @@
+#define cin(n) long long (n); scanf("%lld", &(n))

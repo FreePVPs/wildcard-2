@@ -1,0 +1,1 @@
+#define REP(_x) for(int __x=0;__x<_x;++__x)

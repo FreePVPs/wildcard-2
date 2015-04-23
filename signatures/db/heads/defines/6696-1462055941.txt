@@ -1,0 +1,1 @@
+#define _fsit(type, sit, ss) for(set<type>::iterator sit=ss.begin(); sit!=ss.end(); sit++)

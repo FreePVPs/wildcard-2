@@ -1,0 +1,1 @@
+const double inf = ~0u>>2;

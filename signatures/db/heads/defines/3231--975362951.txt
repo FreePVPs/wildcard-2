@@ -1,0 +1,1 @@
+#define forn1(c,b) for(li c=1; c<=b; c++)

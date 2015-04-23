@@ -1,0 +1,1 @@
+#define FOR(ii,aa,bb) for(ii=aa;ii<=bb;ii++)

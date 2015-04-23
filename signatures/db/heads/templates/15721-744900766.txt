@@ -1,0 +1,1 @@
+template<> inline double INF<double>(){return 1e16;};

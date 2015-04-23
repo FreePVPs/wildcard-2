@@ -1,0 +1,1 @@
+#define rep(Start,start,end) for(int Start=start;Start<end;Start++)

@@ -1,0 +1,1 @@
+const double inf = numeric_limits<double>::infinity();

@@ -1,0 +1,1 @@
+template <class T> string to_s(const T& a) { ostringstream os; os << a; return os.str(); }

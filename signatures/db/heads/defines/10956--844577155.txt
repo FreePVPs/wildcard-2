@@ -1,0 +1,1 @@
+#define out(X) {cout<<(X);return 0;}

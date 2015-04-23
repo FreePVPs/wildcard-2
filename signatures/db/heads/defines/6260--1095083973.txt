@@ -1,0 +1,1 @@
+#define FA(i,a,n) for((i)= a;(i)<(n);(i)++)

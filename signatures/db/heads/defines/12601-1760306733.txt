@@ -1,0 +1,1 @@
+#define lm(_var, _end) for(int _var = _end; _var>=0; _var--)

@@ -1,0 +1,1 @@
+template<class A,class B>inline void W(const A&a,const B&b){W(a);W(b);}

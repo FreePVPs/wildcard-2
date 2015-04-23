@@ -1,0 +1,1 @@
+#define FOR(k,a,b) for(typeof(a) k=(a); k < (b); k++)

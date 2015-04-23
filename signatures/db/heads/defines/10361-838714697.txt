@@ -1,0 +1,1 @@
+#define forn(i,f,n) for(ll i=f;i<n;i++)

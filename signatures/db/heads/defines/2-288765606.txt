@@ -1,0 +1,1 @@
+#define f2(x,r) for(x=1;x<=r;x++)

@@ -1,0 +1,5 @@
+inline int Add(int x, int y, int mod){
+    int res = x + y;
+    while(res >= mod)  res -= mod; while(res < 0) res += mod;
+    return res;
+}

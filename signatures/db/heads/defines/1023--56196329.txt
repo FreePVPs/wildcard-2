@@ -1,0 +1,1 @@
+#define FEC(p,u) for (edge*p=head[u];p;p=p->nxt)

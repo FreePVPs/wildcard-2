@@ -1,0 +1,1 @@
+#define debug(a...)          {cerr<<" #--> ";dbg,a; cerr<<endl;}

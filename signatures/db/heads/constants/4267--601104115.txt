@@ -1,0 +1,1 @@
+const int SEGW = 1<<17;

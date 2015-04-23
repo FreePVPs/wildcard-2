@@ -1,0 +1,1 @@
+template<typename T> void prcont(T be, T en, const string &st, const string &fi, const string &mi) { debpr(st); bool ft=0; while (be!=en) { if (ft) debpr(mi); ft=1; debpr(*be); ++be; } debpr(fi); }

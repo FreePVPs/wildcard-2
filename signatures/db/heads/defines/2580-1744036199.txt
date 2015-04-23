@@ -1,0 +1,1 @@
+#define dbgV(V)              cout<<endl;fr(i,0,V.size()-1){cout<<i<<" --> "<<V[i].ff<<" "<<V[i].ss<<endl;}

@@ -1,0 +1,1 @@
+#define ITER(z1,z2)     for(typeof(z2.begin()) z1=z2.begin(); z1!=z2.end(); z1++) // *z1

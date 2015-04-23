@@ -1,0 +1,1 @@
+#define loopxstr(c,str) for(c=0;str[c];c++)

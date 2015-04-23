@@ -1,0 +1,1 @@
+#define fo(i,start,stop) for(int i=start;i<stop;++i)

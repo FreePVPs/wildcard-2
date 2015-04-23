@@ -1,0 +1,1 @@
+#define _40l(index,limit) for(int index=0;index < limit;++index)

@@ -1,0 +1,1 @@
+#define CATOV(a) ({vector<char> v(a,a+sizeof(a)/sizeof(char));v;})

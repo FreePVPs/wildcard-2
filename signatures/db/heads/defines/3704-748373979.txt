@@ -1,0 +1,1 @@
+#define FORD(i,FN,ST) for(int i=FN;i>=ST;i--)

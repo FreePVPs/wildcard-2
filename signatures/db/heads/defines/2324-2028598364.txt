@@ -1,0 +1,1 @@
+#define pcs           printf("Case %I64d: ",cas);cas++;

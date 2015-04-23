@@ -1,0 +1,1 @@
+template<typename T>T inline read(){T tmp;cin>>tmp;return tmp;};

@@ -1,0 +1,1 @@
+#define outas(x,n); rep(i,n)cout<<x[i]<<" ";

@@ -1,0 +1,1 @@
+#define FOR(i, agri, coder) for (int i = (int)agri; i <= (int)coder; i++)

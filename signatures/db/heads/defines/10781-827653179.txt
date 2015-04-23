@@ -1,0 +1,1 @@
+#define reach(a,it) for (typeof(a.rbegin()) it = a.rbegin(); it != a.rend(); it++)

@@ -1,0 +1,1 @@
+#define REP_L(i, hd, suc) for (int i=hd;i;i=suc[i])

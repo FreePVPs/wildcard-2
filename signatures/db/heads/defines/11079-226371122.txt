@@ -1,0 +1,1 @@
+#define forci(i,sw) for((i)=(sw).begin();(i)!=(sw).end();(i)++)

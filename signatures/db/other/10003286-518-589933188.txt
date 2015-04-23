@@ -1,0 +1,9 @@
+
+class FastPrinter extends PrintWriter {
+
+    public FastPrinter(OutputStream out) {
+        super(out);
+    }
+
+
+}

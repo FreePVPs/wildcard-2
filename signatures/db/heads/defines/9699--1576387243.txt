@@ -1,0 +1,1 @@
+#define fr(i,j,k) for(i=j;i<=k;i++)

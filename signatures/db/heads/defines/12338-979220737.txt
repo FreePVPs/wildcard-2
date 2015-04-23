@@ -1,0 +1,1 @@
+#define addEdge(g,a,b) g[a].adj.push_back(b); g[b].adj.push_back(a);

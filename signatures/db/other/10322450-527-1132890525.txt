@@ -1,0 +1,7 @@
+typedef pair<long long,long long> pii;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef vector<long long> vi;
+typedef vector<string> vs;
+typedef vector<vector<long long> > vvi;
+typedef vector<pair<long long,long long> > vp;

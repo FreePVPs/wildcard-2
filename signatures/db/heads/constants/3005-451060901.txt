@@ -1,0 +1,1 @@
+const ll lmod = ll (1e9) + 7;

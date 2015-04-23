@@ -1,0 +1,1 @@
+template<class T> T power(T n, T p){if(p==0) return 1; return ((p==1)?n:(n*power(n,p-1)));}

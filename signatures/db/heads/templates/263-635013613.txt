@@ -1,0 +1,1 @@
+template<class T> inline T mod_pow(T x, T n, T mod){T res = 1; while( n ){if( n & 1)res = res * 1LL * x % mod; x = x * 1LL * x % mod; n >>= 1; } return res;}

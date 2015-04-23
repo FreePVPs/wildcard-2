@@ -1,0 +1,4 @@
+
+#define two(X) (1<<(X))//пїЅпїЅpow(2,X) //NOTES:two(
+#define twoL(X) (((i64)(1))<<(X))//NOTES:twoL(
+#define contain(S,X) ((S)&two(X))//NOTES:contain(

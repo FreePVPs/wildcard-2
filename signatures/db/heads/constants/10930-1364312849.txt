@@ -1,0 +1,1 @@
+const int NMAX = 20, NodeMAX = 1100;

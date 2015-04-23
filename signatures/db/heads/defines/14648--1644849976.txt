@@ -1,0 +1,1 @@
+#define summ(s, n) { s+=(n); if (s > mod) s-=mod; }

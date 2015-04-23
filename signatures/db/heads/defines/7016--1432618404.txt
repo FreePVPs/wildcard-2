@@ -1,0 +1,1 @@
+#define RD3(a, b, c) do { RD2(a, b); RD1(c); } while (0)

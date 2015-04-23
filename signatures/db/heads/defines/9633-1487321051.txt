@@ -1,0 +1,1 @@
+#define DBGV(x) {cout << #x <<": "; For (int i=0; i<(int)Size(x); ++i) 

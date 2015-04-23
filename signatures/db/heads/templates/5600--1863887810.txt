@@ -1,0 +1,1 @@
+template <typename T> int F12(T x,map<T,int>&r){int o=0;while(x>1){int f=0;for(T i=2;i*i<=x;++i)if(0==x%i){++o;++r[i];x/=i;f=1;break;}if(!f){++o;++r[x];break;}}return o;}

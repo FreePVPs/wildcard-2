@@ -1,0 +1,1 @@
+#define forn(__m,n) for(int __m=0;__m<int(n);__m++)

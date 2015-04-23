@@ -1,0 +1,1 @@
+#define swap(xxx,yyy) { xxx=xxx+yyy; yyy=xxx-yyy; xxx=xxx-yyy; }

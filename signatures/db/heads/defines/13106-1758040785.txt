@@ -1,0 +1,1 @@
+#define DOWNTO(i, to) for(int i = to; i >= 0; i--)

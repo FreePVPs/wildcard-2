@@ -1,0 +1,1 @@
+#define FR2(i, to) for(; i < to; ++i)

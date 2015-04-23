@@ -1,0 +1,1 @@
+#define REPD(I,A,B) for(int I=A,END=B;I>=END;I--)

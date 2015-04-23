@@ -1,0 +1,1 @@
+    #define OUT(a, n)       {   for (int _i_ = 0; _i_ < (n); ++_i_) {   if (_i_)  clog << ends; clog << a[_i_]; }   clog << endl;   }

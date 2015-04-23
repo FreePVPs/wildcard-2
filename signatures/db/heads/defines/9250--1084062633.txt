@@ -1,0 +1,1 @@
+#define FORL(i,size)                            for (i=0;i<size;i++)

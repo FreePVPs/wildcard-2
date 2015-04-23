@@ -1,0 +1,7 @@
+const double pi = 2*acos(0.0);
+const string alphabetU = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const string alphabetL = "abcdefghijklmnopqrstuvwxyz";
+const double EPS = 1e-9;
+const int INF = 1 << 28;
+const long long INFL = 1LL << 62;
+const double INFD = 1e+20;

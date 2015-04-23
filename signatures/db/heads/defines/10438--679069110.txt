@@ -1,0 +1,1 @@
+#define for_each(e,s) for (__typeof__((s).begin()) e=(s).begin();e!=(s).end();++e)

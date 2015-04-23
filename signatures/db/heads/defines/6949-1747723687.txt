@@ -1,0 +1,1 @@
+#define FORE(i,x) for (__typeof__((x).begin()) i=(x).begin();i!=(x).end();++i)

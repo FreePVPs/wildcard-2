@@ -1,0 +1,1 @@
+#define pause {cerr<<"[Line "<<__LINE__<<"] Pause,press any key\n";system("read -n1");}

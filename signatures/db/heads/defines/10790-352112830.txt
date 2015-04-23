@@ -1,0 +1,1 @@
+#define foreach(tank_type,iterator_name,set_name) for(tank_type::iterator iterator_name = (set_name).begin();iterator_name != (set_name).end();iterator_name++)

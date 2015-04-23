@@ -1,0 +1,4 @@
+inline int sign(double x){return (x>eps)-(x<-eps);}
+template<class T> T gcd(T a,T b){return b?gcd(b,a%b):a;}
+template<class T> T lcm(T a,T b){return a/gcd(a,b)*b;}
+template<class T> inline T lcm(T a,T b,T d){return a/d*b;}

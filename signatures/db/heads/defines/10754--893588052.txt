@@ -1,0 +1,1 @@
+#define GAI(arr,n) ({for(int _i = 0; _i < n; _i++)scanf("%d", arr+_i);})

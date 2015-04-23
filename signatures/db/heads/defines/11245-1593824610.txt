@@ -1,0 +1,1 @@
+#define TROCA(a, b) { int aux = a; a = b; b = aux; }

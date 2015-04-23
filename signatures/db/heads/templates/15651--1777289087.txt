@@ -1,0 +1,1 @@
+template<class S,class ...T>void outputs(S a,T...t){output(a,32);outputs(t...);}

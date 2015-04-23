@@ -1,0 +1,1 @@
+	const cap_t inf = 1e9;

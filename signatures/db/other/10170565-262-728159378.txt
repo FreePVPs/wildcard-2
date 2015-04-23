@@ -1,0 +1,1 @@
+typedef pair<PAIR, int> PAIR2;

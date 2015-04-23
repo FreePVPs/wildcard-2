@@ -1,0 +1,1 @@
+#define FORR(a) for( int i=(a-1) ; i>=(0); --i)

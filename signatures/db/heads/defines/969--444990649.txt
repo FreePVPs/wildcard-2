@@ -1,0 +1,1 @@
+#define DWN_1(i, b, a) for (int i=b;i>=a;--i)

@@ -1,0 +1,1 @@
+#define     iter(a,b)           for (b=a.begin();b!=a.end();b++)

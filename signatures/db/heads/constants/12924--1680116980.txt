@@ -1,0 +1,1 @@
+const long maxn=1005000,maxm=maxn*10;

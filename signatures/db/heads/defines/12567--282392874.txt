@@ -1,0 +1,1 @@
+#define allstl(i,x,t) for (t::iterator i = (x).begin(); i!=(x).end(); ++i)

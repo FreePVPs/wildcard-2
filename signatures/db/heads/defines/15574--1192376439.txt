@@ -1,0 +1,1 @@
+#define tstc(t) ll t; cin>>t; while(t--)

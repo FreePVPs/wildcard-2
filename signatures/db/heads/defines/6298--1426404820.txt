@@ -1,0 +1,1 @@
+#define trv(v, blanc)				tr(hhhhhhhuuuuuu, v)	cout << *hhhhhhhuuuuuu << blanc; cout << endl;

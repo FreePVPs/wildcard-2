@@ -1,0 +1,1 @@
+#define FORT(it,stl) for(__typeof((stl).begin())it=(stl).begin();it!=(stl).end();it++)

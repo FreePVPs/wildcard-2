@@ -1,0 +1,1 @@
+#define plliarray(a,n) for(lli i=0;i<n;i++)printf("%lld ",a[i])

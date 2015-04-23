@@ -1,0 +1,1 @@
+#define tr(it,vec) for (typeof(vec.begin())::iterator it = vec.begin(); it != vec.end(); it++)

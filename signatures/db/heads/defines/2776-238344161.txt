@@ -1,0 +1,1 @@
+#define FOR(i,m,n)  for(int _s=(m),_t=(n)+1-2*((n)<(m)),_d=1-2*((n)<(m)),i=_s;i!=_t;i=i+_d)

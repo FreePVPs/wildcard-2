@@ -1,0 +1,1 @@
+const sx:array[1..4] of longint = (1, -1, 0, 0);

@@ -1,0 +1,1 @@
+#define awesome vector<int> A(N); forn(N) scanf("%d", &A[i]);

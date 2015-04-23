@@ -1,0 +1,1 @@
+#define loopxft(c,f,t) for(c=f;c<t;c++)

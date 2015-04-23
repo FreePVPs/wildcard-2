@@ -1,0 +1,1 @@
+#define foorb(i,t,n) for(int i=n-1;i>=t;i--)

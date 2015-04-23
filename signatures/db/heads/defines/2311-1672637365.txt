@@ -1,0 +1,1 @@
+#define RFOR(i,start,finnish,step) for (int (i)=(start);i>=(finnish);i-=(step))

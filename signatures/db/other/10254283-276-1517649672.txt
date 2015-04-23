@@ -1,0 +1,1 @@
+#define present(c,x) ((c).find(x) != (c).end())

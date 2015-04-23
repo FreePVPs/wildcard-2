@@ -1,0 +1,1 @@
+#define forv(it, v) for(auto it = begin(v); it != end(v); ++it)

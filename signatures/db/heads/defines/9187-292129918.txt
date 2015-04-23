@@ -1,0 +1,1 @@
+#define FOR(a,b,c) for(int a = b, _d = c; a <= _d; ++a)

@@ -1,0 +1,1 @@
+#define for_each_dec(i,n,x) for(i=n-1;i>=x;--i)

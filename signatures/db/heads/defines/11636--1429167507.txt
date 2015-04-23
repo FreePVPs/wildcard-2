@@ -1,0 +1,1 @@
+#define FORRD(I,M,N) for(int I=M;I>=N;I--)

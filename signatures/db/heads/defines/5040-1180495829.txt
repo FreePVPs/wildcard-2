@@ -1,0 +1,1 @@
+#define file freopen("forest.in","r",stdin);freopen("forest.out","w",stdout);

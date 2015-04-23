@@ -1,0 +1,1 @@
+#define repv(i, v) for(i = 0; i < (int)v.size(); i++)

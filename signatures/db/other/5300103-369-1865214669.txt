@@ -1,0 +1,3 @@
+	BufferedReader in;
+	PrintWriter out;
+	StringTokenizer tok = new StringTokenizer("");

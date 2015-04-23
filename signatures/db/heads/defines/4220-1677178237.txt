@@ -1,0 +1,1 @@
+#define ID ({ db a; scanf("%lf",&a);  a;})

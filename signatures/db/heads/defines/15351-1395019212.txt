@@ -1,0 +1,1 @@
+#define FOR(it,st,en) for(int it=(st);it<(int)(en);++it)

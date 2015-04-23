@@ -1,0 +1,1 @@
+#define GD ({LD s; scanf("%d",&s); s;})

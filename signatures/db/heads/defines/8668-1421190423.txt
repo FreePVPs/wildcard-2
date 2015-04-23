@@ -1,0 +1,1 @@
+#define iter(c,m) for(c=m.begin();c!=m.end();c++)

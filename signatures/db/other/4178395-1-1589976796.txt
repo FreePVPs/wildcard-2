@@ -1,0 +1,5 @@
+#define MS0(x) memset(x,0,sizeof(x))
+#define MS1(x) memset(x,-1,sizeof(x))
+#define SEP(x) ((x)?'\n':' ')
+#define F first
+#define S second

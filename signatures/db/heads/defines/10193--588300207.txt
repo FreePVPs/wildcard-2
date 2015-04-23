@@ -1,0 +1,1 @@
+#define F3(i,x,y) for(int i=x;i>=y;i--)

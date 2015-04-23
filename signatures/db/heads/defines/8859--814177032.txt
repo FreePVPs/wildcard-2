@@ -1,0 +1,1 @@
+#define fe(e,x) for(edge *e = (x)->first;e;e = e->next)

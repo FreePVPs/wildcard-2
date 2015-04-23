@@ -1,0 +1,1 @@
+#define REP_S( i, ss ) for ( char *i = ss; *i; i ++ )

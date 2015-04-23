@@ -1,0 +1,1 @@
+#define END;  int ENDPROGRAMM;cin>>ENDPROGRAMM;

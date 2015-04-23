@@ -1,0 +1,1 @@
+#define forj(a, b) for(int j = a; j <= b; j++)

@@ -1,0 +1,1 @@
+const int maxbit = 23;

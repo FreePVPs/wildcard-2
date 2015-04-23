@@ -1,0 +1,1 @@
+#define foreach(x, y) for(__typeof(y.begin()) x = y.begin(), _asdf = y.end(); x != _asdf; ++x)

@@ -1,0 +1,1 @@
+#define forall(a, all) for(__typeof(all.begin()) a = all.begin(); a != all.end(); ++a)

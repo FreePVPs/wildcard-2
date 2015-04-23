@@ -1,0 +1,1 @@
+#define ters(a) { outs(a); exit(0); }

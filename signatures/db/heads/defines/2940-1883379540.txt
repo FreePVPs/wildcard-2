@@ -1,0 +1,1 @@
+#define FOR(p,star,end) for(int p = star ; p<end ; p++)

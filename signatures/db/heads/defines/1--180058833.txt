@@ -1,0 +1,1 @@
+#define f1(x,r) for(x=0;x<r;x++)

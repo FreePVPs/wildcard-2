@@ -1,0 +1,1 @@
+const int MN = 1e6+100;

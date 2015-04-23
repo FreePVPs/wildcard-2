@@ -1,0 +1,1 @@
+#define fr(i,a,b) for(int i = (a), __ = (b); i < __; ++i)

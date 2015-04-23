@@ -1,0 +1,1 @@
+    #define fd(i,n,a) for(ll i=n;i>=a;i--)

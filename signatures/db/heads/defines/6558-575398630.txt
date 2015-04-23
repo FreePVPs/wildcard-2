@@ -1,0 +1,1 @@
+#define rforx(n, i) for (long long i = n; i >= 0; i--)

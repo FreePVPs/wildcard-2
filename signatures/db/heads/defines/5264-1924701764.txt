@@ -1,0 +1,1 @@
+#define TRAV(iterable,iter) for(auto iter = iterable.begin(); iter != iterable.end(); iter++)

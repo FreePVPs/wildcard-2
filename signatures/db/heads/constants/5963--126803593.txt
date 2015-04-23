@@ -1,0 +1,1 @@
+        const long double pi=10000*acos(-1.0L);

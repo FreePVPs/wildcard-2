@@ -1,0 +1,13 @@
+
+#define inf 1000000007
+#define ss(n) scanf("%lld",&n)
+#define oo(n) printf("%lld",n)
+#define pb(n) push_back(n)
+#define rep(i,j,n) for(i=j;i<n;i++)
+#define READ(x) freopen(x, "r", stdin)
+#define WRITE(x) freopen(x, "w", stdout)
+#define mp make_pair
+#define setv(x,i) memset(x,i,sizeof(x))
+#define fast_io ios::sync_with_stdio(0) ; cin.tie(0) ;
+#define vi(x,n,m) vector<int> x(n,m)
+#define vii(x,n,m,i) vector<vector<double> > x(n,vector<double> (m,i))

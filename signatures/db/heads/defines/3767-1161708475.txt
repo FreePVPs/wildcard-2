@@ -1,0 +1,1 @@
+#define debug(x,n) for(lol i=0; i < n; ++i) cout << x[i] << ' '; cout << endl;

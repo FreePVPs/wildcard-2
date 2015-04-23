@@ -1,0 +1,1 @@
+#define dbvp(v) for(auto __Velem : v) cerr << '(' << __Velem.ff << ',' << __Velem.ss << ") " ; cerr << endl;

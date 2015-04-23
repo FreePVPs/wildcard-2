@@ -1,0 +1,1 @@
+#define FD(i , s , e) for(i = s ; i >= e ; i--)

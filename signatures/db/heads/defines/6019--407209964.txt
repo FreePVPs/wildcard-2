@@ -1,0 +1,1 @@
+#define TOUT(args...) {TESTIG(printf("TEST:\t");    printf(args);)}

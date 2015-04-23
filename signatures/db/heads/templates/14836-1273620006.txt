@@ -1,0 +1,1 @@
+template<class T>inline T my_revara(T array,int N){for(int i=0;i<N/2;++i)swap(array[i],array[N-i-1]);}

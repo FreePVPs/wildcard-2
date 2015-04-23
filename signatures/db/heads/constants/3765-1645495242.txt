@@ -1,0 +1,1 @@
+const long long LINF = 6000000000000000000LL;

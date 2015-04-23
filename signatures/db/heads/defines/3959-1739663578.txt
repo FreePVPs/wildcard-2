@@ -1,0 +1,1 @@
+#define wait     	getchar();getchar();

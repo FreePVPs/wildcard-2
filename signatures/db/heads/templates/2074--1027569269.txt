@@ -1,0 +1,1 @@
+template< class T > T deb(T cmd1, T cmd2) {cout << "debugger:" << endl; cout << cmd1 << "\t" << cmd2 << endl;}

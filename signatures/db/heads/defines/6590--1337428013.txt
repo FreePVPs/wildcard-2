@@ -1,0 +1,1 @@
+#define rbc(i, b, n, c) for(int i = (b); i c ((int)(n)); i++)

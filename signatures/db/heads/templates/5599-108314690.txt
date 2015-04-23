@@ -1,0 +1,1 @@
+template <typename T> void ABC(T&A,T&B,T&C,const T&px1,const T&py1,const T&px2,const T&py2){A=py2-py1;B=px1-px2;C=-A*px1-B*py1;}

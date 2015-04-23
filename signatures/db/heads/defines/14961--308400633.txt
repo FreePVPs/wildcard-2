@@ -1,0 +1,1 @@
+#define FORREV(k,a,b) for(typeof(b) k=(b); (a) <= (--k);)

@@ -1,0 +1,1 @@
+#define FOR(_,A) for(int _=h[A];_;_=next[_])

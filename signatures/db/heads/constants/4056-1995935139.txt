@@ -1,0 +1,1 @@
+        const int32_t lz = (int32_t)lv.first - (int32_t)lv.second;

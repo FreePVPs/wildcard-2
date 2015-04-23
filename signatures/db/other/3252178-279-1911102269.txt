@@ -1,0 +1,8 @@
+
+typedef long long ll;
+typedef pair<int,int> pii;
+typedef vector<int> vi;
+typedef vector<vi>vvi;
+typedef vector<string> vs;
+typedef map<string,int> msi;
+typedef map<int,int>mii;

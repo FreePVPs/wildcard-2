@@ -1,0 +1,1 @@
+#define slenn(s,n) for(n=0; s[n]!=13 and s[n]!=0; ++n);s[n]=0

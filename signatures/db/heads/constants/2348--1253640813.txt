@@ -1,0 +1,1 @@
+    const size_t sz = a.size();

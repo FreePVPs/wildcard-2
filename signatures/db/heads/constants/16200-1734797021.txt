@@ -1,0 +1,1 @@
+            const int now = v[even[i]] + v[odd[j]];

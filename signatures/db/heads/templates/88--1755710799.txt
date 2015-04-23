@@ -1,0 +1,1 @@
+template<typename T>inline ULL BIGMOD(T a, T b, T m){if (b == 0)return 1;else if (b % 2 == 0)return SQ(BIGMOD(a, b / 2, m)) % m;else return (a % m*BIGMOD(a, b - 1, m)) % m;}

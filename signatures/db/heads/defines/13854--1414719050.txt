@@ -1,0 +1,1 @@
+#define fre(a,b) for(int a = adj[b]; ~a; a = ant[a])

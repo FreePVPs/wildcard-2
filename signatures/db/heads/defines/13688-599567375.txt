@@ -1,0 +1,1 @@
+#define repl(i,a) for(long long unsigned i=0; i<((long long unsigned) a);i++)

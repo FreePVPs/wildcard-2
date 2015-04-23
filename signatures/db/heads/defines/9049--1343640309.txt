@@ -1,0 +1,1 @@
+#define REV(I,N) for (I=(N)-1;I>=0;--I)

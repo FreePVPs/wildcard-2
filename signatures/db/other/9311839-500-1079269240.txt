@@ -1,0 +1,3 @@
+
+#define FILEIO(x) ;int main() {
+#define FILEIOS ;

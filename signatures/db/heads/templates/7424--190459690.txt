@@ -1,0 +1,1 @@
+template< class T > long long  toi(T x) {istringstream is(x) ; long long num  ; is >> num ; return num ;}

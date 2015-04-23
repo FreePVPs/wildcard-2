@@ -1,0 +1,1 @@
+const int INFINI = 2000000000;

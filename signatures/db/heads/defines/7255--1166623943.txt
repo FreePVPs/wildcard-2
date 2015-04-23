@@ -1,0 +1,1 @@
+#define REP(var, hi) for (int var = 0; var < (hi); ++var)

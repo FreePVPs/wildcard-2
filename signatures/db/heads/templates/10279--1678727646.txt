@@ -1,0 +1,1 @@
+template <class T>inline T Inv(T a,T n)/**иї”е›ћдёЂдёЄж•°aеЇ№дєЋnзљ„д№жі•йЂ†е…ѓ**/{if(n<=0)return -1;T d,x,y;d=EXT_GCD(a,n,x,y);if(d!=1)return -1;return Mod(x,n);}

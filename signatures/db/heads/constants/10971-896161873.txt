@@ -1,0 +1,1 @@
+const int                       intminusinfinity = -2147483648;

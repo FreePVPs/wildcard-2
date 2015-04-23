@@ -1,0 +1,1 @@
+#define Fji(j,i,n) for(int j = i;j<n;j++)

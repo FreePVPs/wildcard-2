@@ -1,0 +1,1 @@
+#define FORD(v,p,k) for(int v=p;v>=k;--v)

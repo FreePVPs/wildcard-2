@@ -1,0 +1,3 @@
+    FastScanner in;
+    PrintWriter out;
+    

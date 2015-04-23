@@ -1,0 +1,1 @@
+#define REP_G(it, u) for (int it=hd[u];it;it=suc[it])

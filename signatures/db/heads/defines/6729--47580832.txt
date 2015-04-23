@@ -1,0 +1,1 @@
+#define foreach(it,cont) for(typeof(cont.begin()) it = cont.begin(); it != cont.end(); it++)

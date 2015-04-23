@@ -1,0 +1,1 @@
+#define loop(i,f,l) for(ll i=f;i<l;i++)

@@ -1,0 +1,1 @@
+#define FOREACH(it, s) for(LET(it, s.begin()); it ! = s.end(); ++it)

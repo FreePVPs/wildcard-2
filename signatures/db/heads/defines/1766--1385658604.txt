@@ -1,0 +1,1 @@
+#define reps(i,s) for(int i=0;i<(int)s.length();i++)

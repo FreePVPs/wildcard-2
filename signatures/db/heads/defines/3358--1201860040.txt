@@ -1,0 +1,1 @@
+#define IFDEB(b, a) if (b) { cout << #a << " = " << a << endl; cout.flush(); }

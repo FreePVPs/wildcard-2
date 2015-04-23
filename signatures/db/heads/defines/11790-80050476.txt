@@ -1,0 +1,1 @@
+#define DBUG1(a) {printf("%s : ", #a); cout << a ; putchar('\n');}

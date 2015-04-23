@@ -1,0 +1,1 @@
+#define plluarray(a,n) for(lli i=0;i<n;i++)printf("%llu ",a[i])

@@ -1,0 +1,1 @@
+#define TOP(S,u) {u = S.top(); S.pop();}

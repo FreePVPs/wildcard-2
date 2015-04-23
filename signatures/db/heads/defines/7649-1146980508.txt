@@ -1,0 +1,1 @@
+#define pm(n, len) for(i =0; i < len; i++) printf("%d ", n[i])

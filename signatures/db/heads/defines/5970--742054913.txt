@@ -1,0 +1,1 @@
+#define rLFOR(i,x,n) for(long long i=x;i>n;i--)

@@ -1,0 +1,1 @@
+template<class T>inline void R(T &xx){xx=0;char ch=getchar();bool F=0;while((ch<'0'||ch>'9')&&ch!='-')ch=getchar();if(ch=='-')F=1,ch=getchar();while(ch>='0'&&ch<='9')xx=xx+xx+(xx<<3)+ch-48,ch=getchar();if(F)xx=-xx;}

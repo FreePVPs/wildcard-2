@@ -1,0 +1,1 @@
+#define repG(start,end,diff,var) for(var=start;var<end;var+=diff)

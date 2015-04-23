@@ -1,0 +1,1 @@
+#define repx(i,a,b,dx) for(int i=a;i<b;i+=dx)

@@ -1,0 +1,1 @@
+#define bz(i) {memset(i,0,sizeof(i));assert(sizeof(i)!=sizeof(int*));}

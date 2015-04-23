@@ -1,0 +1,1 @@
+#define tr(c, itr) for(itr = (c).begin(); itr != (c).end(); itr++)

@@ -1,0 +1,1 @@
+#define in_tc int tc;for(scanf("%d",&tc);tc--;)

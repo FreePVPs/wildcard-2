@@ -1,0 +1,1 @@
+#define fi(i,a,b) for(int i=0; i<b; i++)

@@ -1,0 +1,1 @@
+const LL linf = inf * 1ll * inf;

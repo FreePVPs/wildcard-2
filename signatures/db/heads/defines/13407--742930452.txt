@@ -1,0 +1,1 @@
+#define LESS(var,x,y) if (strcmp((x),(y)) <= 0) {var = (x);} else {var = (y);}

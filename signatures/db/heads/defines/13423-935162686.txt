@@ -1,0 +1,1 @@
+#define inpt int t; cin>>t; while(t--)

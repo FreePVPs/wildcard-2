@@ -1,0 +1,1 @@
+#define repi(i,j,N) for(int (i)=(j);(i)<(N);(i)++)

@@ -1,0 +1,1 @@
+#define rep(i,in,end) for (i=in;i<=end;i++)

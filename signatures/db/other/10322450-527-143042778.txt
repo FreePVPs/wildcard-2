@@ -1,0 +1,5 @@
+const double eps = 1e-9;
+const int maxn = (int)1e5 + 10;
+const int mod = (int)1e9+7;
+int dx[]={0,0,1,-1,1,-1,1,-1};
+int dy[]={1,-1,0,0,1,-1,-1,1};

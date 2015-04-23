@@ -1,0 +1,1 @@
+#define frw(i,p,e) for(i=p;i<e;i++)

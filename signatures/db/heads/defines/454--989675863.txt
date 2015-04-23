@@ -1,0 +1,1 @@
+#define ass(s) {if (!(s)) {__never(__LINE__);cout.flush();cerr.flush();abort();}}

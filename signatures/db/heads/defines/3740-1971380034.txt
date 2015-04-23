@@ -1,0 +1,1 @@
+#define nrlong(x) long long x; rlong(x);

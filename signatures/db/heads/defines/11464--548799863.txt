@@ -1,0 +1,1 @@
+#define fod(II, XX, YY)      for (int II(XX), _YY(YY); (II) >= (_YY); --(II))

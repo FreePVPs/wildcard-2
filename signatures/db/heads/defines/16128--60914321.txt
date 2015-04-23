@@ -1,0 +1,1 @@
+#define forn(i,n) for(in i=0;i<(n);++i)

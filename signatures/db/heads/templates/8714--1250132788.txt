@@ -1,0 +1,1 @@
+template< class T > inline T _in(){register char c=0;register T a=0;while(c<33)c=getchar();while(c>33){a=(a*10)+(c-'0');c=getchar();}return a;}

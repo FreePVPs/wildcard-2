@@ -1,0 +1,1 @@
+#define repok(i, s, t, o) for(int (i)=(s);(i)<=(t) && (o);++(i))

@@ -1,0 +1,1 @@
+const long long LLMAX = 0x7fffffffffffffffLL;

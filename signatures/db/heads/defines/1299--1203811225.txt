@@ -1,0 +1,1 @@
+#define REP_G(k,u)          for(int k = head[u]; k ;k = e[k].nxt)

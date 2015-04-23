@@ -1,0 +1,1 @@
+#define dbgarr(a,start,end) cerr<<__FUNCTION__<<":"<<__LINE__<<"\n";for(ll i=start;i<end;i++) cerr<<#a<<"["<<i<<"] -> "<<a[i]<<" "<<endl;

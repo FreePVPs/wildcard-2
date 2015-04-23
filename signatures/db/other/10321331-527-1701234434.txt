@@ -1,0 +1,8 @@
+template<class T> inline T getsum(int* b, int i){
+    T res = 0;
+    while(i > 0){
+        res += *(b + i);
+        i -= lowbit(i);
+    }
+    return res;
+}

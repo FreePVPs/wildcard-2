@@ -1,0 +1,1 @@
+      const string& candidate = (char)(d + '0') + sub;

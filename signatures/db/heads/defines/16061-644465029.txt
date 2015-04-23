@@ -1,0 +1,1 @@
+#define printt(v) rep(i,v.size()){rep(j,v[0].size())cout<<v[i][j]<<" ";cout<<endl;}

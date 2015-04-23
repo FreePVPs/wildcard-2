@@ -1,0 +1,5 @@
+
+const double eps = 1e-10;
+const double pi  = acos(-1.0);
+const ll INF =1LL << 62;
+const int inf =1 << 29;

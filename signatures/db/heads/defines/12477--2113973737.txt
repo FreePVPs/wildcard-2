@@ -1,0 +1,1 @@
+#define REPO(i, to)		LL i = 0; for(; i< (LL)(to); ++i)

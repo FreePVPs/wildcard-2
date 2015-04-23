@@ -1,0 +1,1 @@
+const long long Max1=25,Max2=10000+50,Max3=30;

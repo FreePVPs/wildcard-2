@@ -1,0 +1,1 @@
+#define feach(itr,x)    for(__typeof(x.begin()) itr=x.begin() ; itr!=x.end() ; ++itr)

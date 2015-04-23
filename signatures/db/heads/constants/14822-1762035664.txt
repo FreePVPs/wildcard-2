@@ -1,0 +1,1 @@
+const LD PI = atan((LD)0);

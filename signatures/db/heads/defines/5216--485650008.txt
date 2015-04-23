@@ -1,0 +1,1 @@
+#define rfr(i,a,n) for(unsigned long long i=n-1; i>=a; i--)

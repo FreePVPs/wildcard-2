@@ -1,0 +1,1 @@
+#define WLKr(i,c)  for(TYP((c).rbegin())i=(c).rbegin();i!=(c).rend();++i)

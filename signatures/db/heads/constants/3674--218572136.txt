@@ -1,0 +1,1 @@
+      const int id = (now == M) ? R : ++R;

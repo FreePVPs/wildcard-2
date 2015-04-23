@@ -1,0 +1,1 @@
+#define REP(i , A) for(int i = 0 ; i < A.size() ; i++)

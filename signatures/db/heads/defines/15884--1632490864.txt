@@ -1,0 +1,1 @@
+#define FOR(AA,BB,CC) for(int AA=(BB); AA<(CC); ++AA)

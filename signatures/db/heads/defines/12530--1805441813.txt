@@ -1,0 +1,1 @@
+#define dprc(c) do{cerr<<#c<<":";for(auto& _i:(c)){cerr<<" "<<_i;}cerr<<endl;}while(0)

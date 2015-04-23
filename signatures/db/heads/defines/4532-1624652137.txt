@@ -1,0 +1,1 @@
+#define rep(x,y,z) for(int x=(y),e##x=(z);x<e##x;x++)

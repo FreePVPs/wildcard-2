@@ -1,0 +1,1 @@
+const LF PI(acos(-1.0));

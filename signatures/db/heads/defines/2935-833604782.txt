@@ -1,0 +1,1 @@
+#define ITP(x) for(typeof (x.begin()) it = x.begin(); it != x.end (); it++) {  cout << (*it).FIR << " "<<(*it).SC<<"\n"; } cout << endl;

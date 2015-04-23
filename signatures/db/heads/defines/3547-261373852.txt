@@ -1,0 +1,1 @@
+#define forabd(i, b, a) for(int i = (int)b; i >= (int)a; i--)

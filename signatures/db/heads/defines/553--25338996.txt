@@ -1,0 +1,1 @@
+#define pst(n); printf ("%s\n",n);

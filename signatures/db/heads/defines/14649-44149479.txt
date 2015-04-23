@@ -1,0 +1,1 @@
+#define oiarr(a, n) { fru(zzzz, n) cout << a[zzzz] << " "; cout << endl; }

@@ -1,0 +1,1 @@
+#define DBGA(x) {cout << #x <<": "; For (int i=0; i<(int)sizeof(x)/(int)sizeof(x[0]); ++i) cout<<x[i]<<' '; cout<<endl;}

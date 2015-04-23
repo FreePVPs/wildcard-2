@@ -1,0 +1,1 @@
+#define fortodo(i, f, t) for (i = f; i <= t; i++)

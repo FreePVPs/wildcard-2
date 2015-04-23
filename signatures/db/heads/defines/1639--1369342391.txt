@@ -1,0 +1,1 @@
+#define DBV(X) {if(cond){cerr<<"Line:"<<__LINE__<<", "<<#X<<": ";FOREACH(__i,X)cerr<<*__i<<" ";cerr<<endl;}}

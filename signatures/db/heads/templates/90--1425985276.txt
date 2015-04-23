@@ -1,0 +1,1 @@
+template<typename T>inline ULL  DIST(T A,T B){ULL res=(A.x-B.x)*(A.x-B.x)+(A.y-B.y)*(A.y-B.y);return res;}

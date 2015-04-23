@@ -1,0 +1,1 @@
+#define ssnm(n, m) int n,m; si(n); si(m);

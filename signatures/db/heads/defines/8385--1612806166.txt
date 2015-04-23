@@ -1,0 +1,1 @@
+#define FORV(v,i) for(int i=0;i<v.size();++i)

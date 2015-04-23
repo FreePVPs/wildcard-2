@@ -1,0 +1,1 @@
+template<class A>inline std::ostream&operator<<(std::ostream&o,const std::vector<A>&_v){o<<'\n';F(i,_v.sz)o<<"vector["<<i<<"] = "<<_v[i]<<'\n';return o;}

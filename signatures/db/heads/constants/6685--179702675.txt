@@ -1,0 +1,1 @@
+const char Vowels[13] = {"AaOoYyEeUuIi"};

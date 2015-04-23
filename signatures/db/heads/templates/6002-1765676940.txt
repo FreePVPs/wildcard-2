@@ -1,0 +1,1 @@
+template <typename T> inline ostream &operator << ( ostream & os, const vector<T>& v ) { bool first = true; os << "{"; for( unsigned int i = 0; i < v.size(); i++ ) { if( !first ) os << ","; os << v[i]; first = false; } return os << "}"; }

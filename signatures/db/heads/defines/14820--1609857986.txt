@@ -1,0 +1,1 @@
+#define sforall(i,s,b)              for(int i=s;i<b;i++)

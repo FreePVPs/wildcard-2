@@ -1,0 +1,1 @@
+#define delete(a,n) a.erase(remove(all(a),n),a.end())

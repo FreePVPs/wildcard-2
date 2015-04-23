@@ -1,0 +1,1 @@
+#define forEach(x, xx)  if ((x).begin() != (x).end()) for (typeof((x).begin()) xx = (x).begin(); xx != (x).end(); xx++)

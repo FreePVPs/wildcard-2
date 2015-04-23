@@ -1,0 +1,1 @@
+        const size_t middle = (segmentRange.begin + segmentRange.end) / 2;

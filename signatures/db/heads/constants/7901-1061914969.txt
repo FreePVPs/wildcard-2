@@ -1,0 +1,1 @@
+const dbl dinf = 1e50;

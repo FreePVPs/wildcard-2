@@ -1,0 +1,1 @@
+const long long EDGE_INF = (long long) (N) * N * N;

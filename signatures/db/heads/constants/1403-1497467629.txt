@@ -1,0 +1,1 @@
+const int NMAX = 5*1e5 + 2;

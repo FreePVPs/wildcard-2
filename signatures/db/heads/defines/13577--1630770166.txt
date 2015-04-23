@@ -1,0 +1,1 @@
+#define fast_input_output   ios_base::sync_with_stdio(0);cin.tie(0);

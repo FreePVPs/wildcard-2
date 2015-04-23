@@ -1,0 +1,1 @@
+const int NV=1000005;

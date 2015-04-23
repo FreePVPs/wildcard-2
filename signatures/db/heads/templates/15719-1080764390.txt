@@ -1,0 +1,1 @@
+template<> inline int INF<int>(){return 1<<28;};

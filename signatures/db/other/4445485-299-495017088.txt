@@ -1,0 +1,2 @@
+#define fi first
+#define se second

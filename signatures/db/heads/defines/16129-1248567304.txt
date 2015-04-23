@@ -1,0 +1,1 @@
+#define fors(i,s) for(auto i=(s).begin();i!=(s).end();++i)

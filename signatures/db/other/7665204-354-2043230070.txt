@@ -1,0 +1,14 @@
+
+
+    // public byte[] next( int n ) {
+    public byte[] nextLine( int n ) {
+        byte[] by = new byte[n];
+        int b = skip(), len= 0;
+        while ( len < n && !isWhitespace( b ) ) {// next
+        // while ( len < n && ( !isWhitespace( b ) || b == ' ' ) ) {// nextLine
+            by[len ++] = ( byte ) b;
+            b = readByte();
+        }
+        if ( n == len ) return by;
+        return Arrays.copyOf( by, len );
+    }

@@ -1,0 +1,1 @@
+#define P2D(arr,n,m) {FOR(i,n){FOR(j,m)printf("%d ",arr[i][j]);NL;}}

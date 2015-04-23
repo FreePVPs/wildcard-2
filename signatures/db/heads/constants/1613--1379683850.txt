@@ -1,0 +1,1 @@
+const i64 LINF = ~(1LL << 63);

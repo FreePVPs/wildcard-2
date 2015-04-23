@@ -1,0 +1,1 @@
+#define REP1(a,x)	for(ll a=1;a<=x;a++)

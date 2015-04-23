@@ -1,0 +1,1 @@
+#define for1(i,n)      for(int i(1),_n(n);i<=_n;++i)

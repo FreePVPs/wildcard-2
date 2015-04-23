@@ -1,0 +1,1 @@
+#define fori(x,y) for(__typeof(x) i = (x),__y(y);i!=__y;i++)

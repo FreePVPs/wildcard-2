@@ -1,0 +1,1 @@
+#define reps(b,e,g,str) for(b=str,e=&str[g-1];b<=e;b++) 

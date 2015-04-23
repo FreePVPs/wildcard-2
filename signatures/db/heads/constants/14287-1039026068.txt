@@ -1,0 +1,1 @@
+const long long INFLL = (ll)INF * (ll)INF;

@@ -1,0 +1,1 @@
+#define rep(i, l, u) for(int i = (l); i < (u); i++)

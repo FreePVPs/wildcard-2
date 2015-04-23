@@ -1,0 +1,1 @@
+#define forr(k,kk) for (k=1;k<=kk;k++)

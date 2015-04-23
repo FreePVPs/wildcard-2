@@ -1,0 +1,1 @@
+#define FIT(i,t) for(i=0;i<t;i++)

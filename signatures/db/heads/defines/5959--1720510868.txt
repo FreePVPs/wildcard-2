@@ -1,0 +1,1 @@
+#define REPEAT(N) for (int __i__ = 0; __i__ < (N); ++__i__)

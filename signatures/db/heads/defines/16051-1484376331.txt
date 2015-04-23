@@ -1,0 +1,1 @@
+#define loop_L(a,b,c) for(a = b; a < c; a++)

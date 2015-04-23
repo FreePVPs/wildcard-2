@@ -1,0 +1,1 @@
+#define EACH(type,cont,it)      for(ITER(type) it=(cont).bg,s___=(cont).ed;it!=s___;++it)

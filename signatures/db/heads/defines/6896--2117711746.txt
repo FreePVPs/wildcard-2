@@ -1,0 +1,1 @@
+#define tcase int T;scanf("%d",&T);while(T--)

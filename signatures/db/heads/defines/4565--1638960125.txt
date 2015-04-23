@@ -1,0 +1,1 @@
+#define for_inc(i, x) for (auto i = 0; i < x; ++i)

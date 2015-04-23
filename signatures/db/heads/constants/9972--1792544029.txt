@@ -1,0 +1,1 @@
+const int size=110000,mod=(1<<30)-1,inf=0x3f3f3f3f,ninf=0xc0c0c0c0;

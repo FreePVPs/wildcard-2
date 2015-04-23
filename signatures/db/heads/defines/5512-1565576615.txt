@@ -1,0 +1,1 @@
+#define each(it,o) for(auto it=(o).begin(); it!=(o).end(); ++it)

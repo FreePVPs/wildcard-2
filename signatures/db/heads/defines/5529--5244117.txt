@@ -1,0 +1,1 @@
+#define BACK_X(i,n,x) for(i=n;i>=x;i--)

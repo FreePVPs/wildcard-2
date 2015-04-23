@@ -1,0 +1,1 @@
+#define sfarray(a,n) for(lli i=0;i<n;i++)sf(a[i])

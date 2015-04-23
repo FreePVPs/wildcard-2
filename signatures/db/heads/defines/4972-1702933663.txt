@@ -1,0 +1,1 @@
+#define trvi(c, it) for (vi::iterator it = (c).begin(); it != (c).end(); it++)

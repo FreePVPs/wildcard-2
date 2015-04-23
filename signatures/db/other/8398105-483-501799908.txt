@@ -1,0 +1,13 @@
+
+        
+        Point[] nextIntPointArray(int size)
+        {
+            Point[] array = new Point[size];
+            
+            for (int index = 0; index < size; ++index)
+            {
+                array[index] = nextIntPoint();
+            }
+            
+            return array;
+        }

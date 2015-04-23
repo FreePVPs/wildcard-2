@@ -1,0 +1,2 @@
+
+#define NTS(x,y) stringstream ss; ss << x; y = ss.str() //add by theyaserfox, note : '{' & '}' must be add before and after

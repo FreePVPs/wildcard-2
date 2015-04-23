@@ -1,0 +1,1 @@
+template <typename T> T PWM(const T&x,const T&e,const T&m){T y=x,r=1;WBI(i,b,e){if(b)r=r*y%m;y=y*y%m;};return r;}

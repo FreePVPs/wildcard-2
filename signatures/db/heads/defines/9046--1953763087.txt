@@ -1,0 +1,1 @@
+#define For(i, st, en) for(__typeof(en) i=(st); i<=(en); i++)

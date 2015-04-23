@@ -1,0 +1,1 @@
+#define fg(e,u) for(int e=L[u];e!=-1;e=pre[e])

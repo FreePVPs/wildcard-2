@@ -1,0 +1,1 @@
+#define forj(b) for(li j=0; j<b; j++)

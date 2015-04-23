@@ -1,0 +1,1 @@
+#define FOR_EDGE(i,x)	for (int i = H[x]; i; i = X[i])

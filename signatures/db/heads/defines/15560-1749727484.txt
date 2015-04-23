@@ -1,0 +1,1 @@
+#define tests int dsdsf;cin>>dsdsf;while(dsdsf--)

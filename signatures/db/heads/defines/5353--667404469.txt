@@ -1,0 +1,1 @@
+#define INE(i,u) for(int i=head[u];~i;i=e[i].next)

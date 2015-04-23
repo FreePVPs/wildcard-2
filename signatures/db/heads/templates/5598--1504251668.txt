@@ -1,0 +1,1 @@
+template <typename T> T GCD(const T&a,const T&b){T x=a,y=b;while(y){x%=y;swap(x,y);}return x;}

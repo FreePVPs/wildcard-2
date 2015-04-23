@@ -1,0 +1,2 @@
+
+#define containL(S,X) ((S)&twoL(X))//NOTES:containL(

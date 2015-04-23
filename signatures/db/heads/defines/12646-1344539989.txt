@@ -1,0 +1,1 @@
+#define gd ({double t;scanf("%lf",&t); t;})

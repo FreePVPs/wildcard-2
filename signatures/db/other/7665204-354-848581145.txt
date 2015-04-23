@@ -1,0 +1,4 @@
+    private InputStream is;
+    int cur_byte_idx = 0;
+    int bytes_in_buf = 0;
+    byte buf[] = new byte[1024 << 4];

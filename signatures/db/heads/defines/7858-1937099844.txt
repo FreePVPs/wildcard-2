@@ -1,0 +1,1 @@
+#define foredge(i, x) for (int i = start[x]; i; i = e[i].l)

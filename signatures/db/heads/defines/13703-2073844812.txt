@@ -1,0 +1,1 @@
+#define sc ({char x;scanf("%c",&x);x;})

@@ -1,0 +1,1 @@
+template<class _T> inline void swapp(_T &x,_T &y){_T t;t=x,x=y,y=t;}

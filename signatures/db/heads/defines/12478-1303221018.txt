@@ -1,0 +1,1 @@
+#define FORO(i, a, b)	VAR(i, a); for(; i <=b; ++i)

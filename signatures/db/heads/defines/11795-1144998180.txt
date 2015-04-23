@@ -1,0 +1,1 @@
+#define itos(n,a,s) ostringstream (n); (n)<<(a); (s)=(n).str()

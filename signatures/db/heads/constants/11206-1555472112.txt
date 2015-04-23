@@ -1,0 +1,1 @@
+			construct(p1[i]->x,p1[i]->y,p2[j]->x,p2[j]->y);

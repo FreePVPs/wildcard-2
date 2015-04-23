@@ -1,0 +1,1 @@
+#define REV(i, p, k) for(int i = p; i >= k; i--)

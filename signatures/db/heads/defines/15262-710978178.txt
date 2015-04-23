@@ -1,0 +1,1 @@
+#define lpn(k,n,a) for(int k=n;k<=a;k++)

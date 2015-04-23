@@ -1,0 +1,1 @@
+#define siarray(a,n) for(lli i=0;i<n;i++)si(a[i])

@@ -1,0 +1,1 @@
+#define formap(vType, vType2, vecName, varName) for (map<vType,vType2>::iterator varName = vecName.begin(); varName != vecName.end(); varName++)

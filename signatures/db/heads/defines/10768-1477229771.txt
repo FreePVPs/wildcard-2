@@ -1,0 +1,1 @@
+#define rvp(var,s,n) for(var=(n-1);var>(s-1);(var)--)

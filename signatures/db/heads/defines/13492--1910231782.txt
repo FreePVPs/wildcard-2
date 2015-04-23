@@ -1,0 +1,1 @@
+#define fiabd(a,b) for(int i = b; i > a; i--)

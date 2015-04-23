@@ -1,0 +1,1 @@
+#define formmap(vType, vType2, vecName, varName) for (multimap<vType,vType2>::iterator varName = vecName.begin(); varName != vecName.end(); varName++)

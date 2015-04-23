@@ -1,0 +1,1 @@
+#define FORC(i,a,b,c) for(int i=(int)a;i<(int)b;i+=c)

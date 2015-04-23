@@ -1,0 +1,1 @@
+#define Rush for(int ____T=RD(); ____T--;)

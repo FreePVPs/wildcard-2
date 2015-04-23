@@ -1,0 +1,1 @@
+#define ROFc(x, s, e, c) for(int x = (s); x >= (e) && (c); --x)

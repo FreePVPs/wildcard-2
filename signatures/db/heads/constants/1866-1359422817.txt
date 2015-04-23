@@ -1,0 +1,1 @@
+	const int maxsizeuv = u->depth + v->depth - 2*luv->depth + 1;

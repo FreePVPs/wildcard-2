@@ -1,0 +1,1 @@
+template<class T>T toDec( char *binary ){T dec=0; for(T i=0; binary[i]; ++i ){dec *= 2; dec += binary[i] - 48;} return dec;}

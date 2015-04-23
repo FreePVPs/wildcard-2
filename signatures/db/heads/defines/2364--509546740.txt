@@ -1,0 +1,1 @@
+#define     rRep(i,a)	      for (int i=a; i>=0; i--)

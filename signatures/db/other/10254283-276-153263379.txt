@@ -1,0 +1,1 @@
+#define cin2(n,m) long long  (n),(m); scanf("%lld%lld",&(n),&(m))

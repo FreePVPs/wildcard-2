@@ -1,0 +1,1 @@
+#define LESS_MORE(l,m,x,y) if (strcmp((x),(y)) <= 0) {l = (x);m = (y);} else {l = (y);m = (x);}

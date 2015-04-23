@@ -1,0 +1,1 @@
+#define fore(var,start,end) for(int var=start;var<end;var++)

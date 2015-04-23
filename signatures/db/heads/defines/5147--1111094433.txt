@@ -1,0 +1,1 @@
+#define debug(args...) cerr<<__FUNCTION__<<":"<<__LINE__<<" ";do{cerr<<#args<<": ";dbg,args;cerr<<endl;} while(0)

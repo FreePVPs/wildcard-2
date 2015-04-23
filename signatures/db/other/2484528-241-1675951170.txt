@@ -1,0 +1,2 @@
+
+int toInt(string s){int r=0;istringstream sin(s);sin>>r;return r;}

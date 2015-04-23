@@ -1,0 +1,1 @@
+const int MAX_SIZE = 2005, NUM_DIR = 4;

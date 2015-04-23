@@ -1,0 +1,1 @@
+#define TR(it,x) for(decltype(x)::iterator it=(x).begin();it!=(x).end();++(it))

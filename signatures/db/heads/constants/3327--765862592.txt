@@ -1,0 +1,1 @@
+const ld PI = acosl(ld(-1));

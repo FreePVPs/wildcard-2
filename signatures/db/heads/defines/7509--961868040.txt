@@ -1,0 +1,1 @@
+#define acp ({int x;scanf("%d",&x);x;})

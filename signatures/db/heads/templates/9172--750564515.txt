@@ -1,0 +1,1 @@
+template<class T> inline void chkmin(T&x,const T&y){ if (x>y) x=y; };

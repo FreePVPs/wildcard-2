@@ -1,0 +1,1 @@
+#define REP_S(it,str)       for(char *it = str; *it ;++ it)

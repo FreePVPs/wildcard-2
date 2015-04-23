@@ -1,0 +1,1 @@
+const struct __ { ios_base::Init i; int s; __() : s(ios_base::xalloc()) {

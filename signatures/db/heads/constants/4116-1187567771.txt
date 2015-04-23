@@ -1,0 +1,1 @@
+	const Two* tA = (Two*)a;

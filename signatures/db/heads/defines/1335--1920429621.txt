@@ -1,0 +1,1 @@
+#define forall(i, c) for(decl(i, c.begin()); i!=c.end(); ++i)

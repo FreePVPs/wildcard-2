@@ -1,0 +1,1 @@
+#define FOR(_i,a,b) for (int _i(a),_l(b); _i<=_l; ++_i)

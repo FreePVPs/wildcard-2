@@ -1,0 +1,1 @@
+template<typename T>inline T gcd(T a,T b){if(!b)return a;else return gcd(b,a%b);}

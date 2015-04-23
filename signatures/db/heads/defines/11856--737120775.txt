@@ -1,0 +1,1 @@
+#define loopfte(c,f,t) for(int c=f;c<=t;c++)

@@ -1,0 +1,1 @@
+#define dforall(i, c) for(decl(i, c.rbegin()); i!=c.rend(); ++i)

@@ -1,0 +1,13 @@
+public class Main {
+    public static void main( String[] args ) throws IOException {
+        InputStream is = System.in;
+        OutputStream os = System.out;
+        InputReader inr = new InputReader( is );
+        PrintWriter out = new PrintWriter( os );
+
+        Task KillerCage = new Task();
+        KillerCage.solve( inr, out );
+
+        out.close();
+    }
+}

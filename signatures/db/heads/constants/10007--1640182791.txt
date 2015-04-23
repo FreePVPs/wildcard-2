@@ -1,0 +1,1 @@
+Const Pow=20;

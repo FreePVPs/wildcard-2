@@ -1,0 +1,1 @@
+#define print2Ar(var,mat) {rep(j,0,sz(mat))  cout << "("<< var[j] << ":"<< mat[j]<<") "; cout << endl;}

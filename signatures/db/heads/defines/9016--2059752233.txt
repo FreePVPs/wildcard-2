@@ -1,0 +1,1 @@
+#define outAny(x) cout<<"{";Foreach(it,x)cout << *it << ", " ;cout<<"}"<<endl;

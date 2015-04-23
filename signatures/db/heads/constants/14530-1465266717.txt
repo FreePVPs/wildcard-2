@@ -1,0 +1,1 @@
+const long long MAXVAL = 1000000000000000000LL;

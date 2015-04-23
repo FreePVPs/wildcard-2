@@ -1,0 +1,1 @@
+#define for_it(x,it) for( typedef( (x).begin() ) it = (x).begin(); it != (x).end(); it++ )

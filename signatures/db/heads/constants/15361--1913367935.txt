@@ -1,0 +1,1 @@
+const int MOVEMENT_RIGHT = 1;

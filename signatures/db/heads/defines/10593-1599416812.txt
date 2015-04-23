@@ -1,0 +1,1 @@
+#define repc(n) for(int repp_b = (n), repp = 0; repp < repp_b; ++repp)

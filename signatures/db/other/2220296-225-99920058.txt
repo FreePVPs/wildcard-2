@@ -1,0 +1,10 @@
+#define rep(i,n) for(int i=0;i<n;i++)
+#define rev(i,n) for(int i=n-1;i>=0;i--)
+#define all(a) a.begin(),a.end()
+#define mp(a,b) make_pair(a,b)
+#define pb(a) push_back(a)
+#define SS stringstream
+#define DBG1(a) rep(_X,sz(a)){printf("%d ",a[_X]);}puts("");
+#define DBG2(a) rep(_X,sz(a)){rep(_Y,sz(a[_X]))printf("%d ",a[_X][_Y]);puts("");}
+#define bitcount(b) __builtin_popcount(b)
+#define EACH(i,c) for(typeof((c).begin()) i=(c).begin(); i!=(c).end(); ++i)

@@ -1,0 +1,2 @@
+
+#define wez(n) int (n); scanf("%d",&(n));

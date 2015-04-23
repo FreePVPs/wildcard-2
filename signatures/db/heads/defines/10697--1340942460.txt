@@ -1,0 +1,1 @@
+#define erep(j, a) for (Edge *j = a; j; j = j->next)

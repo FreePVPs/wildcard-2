@@ -1,0 +1,1 @@
+const int shft = 1 << 17;

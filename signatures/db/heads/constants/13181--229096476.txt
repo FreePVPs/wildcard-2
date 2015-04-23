@@ -1,0 +1,1 @@
+const ull B = 1e8+7;

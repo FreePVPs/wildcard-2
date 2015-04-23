@@ -1,0 +1,1 @@
+#define pntAd(adj) rep(i,adj){ cout<<i+1<<" : " ; rep(j,adj[i])cout<<adj[i][j]+1<<" "; ln ; }

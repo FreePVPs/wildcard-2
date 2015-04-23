@@ -1,0 +1,1 @@
+const BUFFER_TYPE hff = 0xffffffffffffffff; //binary: all ones

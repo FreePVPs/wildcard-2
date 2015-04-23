@@ -1,0 +1,1 @@
+const ll ooll=(ll)1e18;

@@ -1,0 +1,1 @@
+const double dinf=100000100000.0;

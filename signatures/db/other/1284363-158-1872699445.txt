@@ -1,0 +1,2 @@
+
+template<class T> inline bool isPrime(T n)//NOTES:isPrime(

@@ -1,0 +1,1 @@
+#define Forv(i, x) for (__typeof(x.begin()) i = x.begin(); i != x.end(); ++i)

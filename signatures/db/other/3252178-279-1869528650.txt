@@ -1,0 +1,20 @@
+
+#define Sort(x) sort(x.begin(),x.end())
+#define Reverse(x) reverse(x.begin(),x.end())
+#define MP(a,b) make_pair(a,b)
+#define Clear(x,with) memset(x,with,sizeof(x))
+#define SZ(x) (int)x.size()
+#define pb push_back
+#define popcount(i) __builtin_popcount(i)
+#define gcd(a,b)    __gcd(a,b)
+#define lcm(a,b) ((a)*((b)/gcd(a,b)))
+#define two(X) (1<<(X))
+#define twoL(X) (((ll)(1))<<(X))
+#define setBit(mask,i) (mask|two(i))
+#define contain(S,X) (((S)&two(X))!=0)
+#define fs first
+#define sc second
+#define CS c_str()
+#define EQ(a,b) (fabs(a-b)<ERR)
+#define Unique(store) store.resize(unique(store.begin(),store.end())-store.begin());
+#define Find(x,y) ((int)x.find(y))

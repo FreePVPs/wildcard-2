@@ -1,0 +1,1 @@
+#define For(J,R,K) for(int J=R;J<K;++J)

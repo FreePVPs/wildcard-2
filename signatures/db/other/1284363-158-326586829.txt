@@ -1,0 +1,4 @@
+
+const double eps=1e-11;//NOTES:eps
+template<class T> inline void cMin(T &a,T b){if(b<a) a=b;}//NOTES:cMin(
+template<class T> inline void cMax(T &a,T b){if(b>a) a=b;}//NOTES:cMax(

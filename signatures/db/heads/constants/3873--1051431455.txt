@@ -1,0 +1,1 @@
+const int MAXINT = ((~0) ^ (1 << 31));

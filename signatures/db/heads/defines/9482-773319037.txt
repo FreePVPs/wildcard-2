@@ -1,0 +1,1 @@
+#define ForE(i,a) for (int i = h[a];i != -1;i = E[i].next)

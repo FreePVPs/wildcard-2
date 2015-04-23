@@ -1,0 +1,1 @@
+#define fornn(i, q, n) for(ll i = (ll)q; i < (ll)n; i++)

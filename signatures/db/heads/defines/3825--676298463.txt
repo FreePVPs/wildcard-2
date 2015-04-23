@@ -1,0 +1,1 @@
+#define forit (it, coll) for(auto it = coll.begin(); it != coll.end(); ++it)

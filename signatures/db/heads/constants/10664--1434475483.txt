@@ -1,0 +1,1 @@
+const char ch[3] = {'X', 'A', 'C'};

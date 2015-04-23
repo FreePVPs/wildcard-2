@@ -1,0 +1,1 @@
+const long long A=100000000000000LL,N=10000;

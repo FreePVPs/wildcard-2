@@ -1,0 +1,1 @@
+#define loop(i,a,j) for(int i=a;i<j;++i)

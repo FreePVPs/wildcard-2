@@ -1,0 +1,1 @@
+const int NINF = -(int)1e9;

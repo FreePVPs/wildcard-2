@@ -1,0 +1,26 @@
+#define FOR(i,c)     for(__typeof((c).begin()) i=(c).begin();i!=(c).end();i++)
+#define sz(x)        ((x).size())
+#define len(x)       ((int)(x.length()))//NOTES:LENGTH
+#define all(x)       (x).begin(),(x).end()
+#define lpi(i,n)     for(i=0;i<(n);i++)
+#define lpie(i,n)    for(i=1;i<=(n);i++)
+#define lpi1(i,a,b)  for(i=(a);i<=(b);i++)
+#define lpil(i,x)    for(i=0;x[i];i++)
+#define lpd(i,n)     for(i=(n)-1;i>=0;i--)
+#define lpd1(i,a,b)  for(i=(a);i>=(b);i--)
+#define inf          (1<<29)
+#define PI           3.14159265358979323846264338327950
+#define chk(a,k)     ((bool)(a&(1<<(k))))
+#define off(a,k)     (a&(~(1<<(k))))
+#define on(a,k)      (a|(1<<(k)))
+#define mem(x,a)      memset(x,a,sizeof(x))
+#define gcd(a,b)      __gcd(a,b)
+#define lcm(a,b)      ((a)*((b)/gcd(a,b)))
+#define two(x)        (1<<(x))//NOTES:two(
+#define twol(x)       (((int64)(1))<<(x))//NOTES:twoL(
+#define contain(S,X)  (((S)&two(X))!=0)//NOTES:contain(
+#define containL(S,X) (((S)&twoL(X))!=0)//NOTES:containL(
+#define popcount(n)   __builtin_popcount(n)
+#define popcountl(n)  __builtin_popcountll(n)
+#define ctz(x)        __builtin_ctz(x) //number of trailing zeroes in a digit
+#define ctzl(x)       __builtin_ctzll(x)

@@ -1,0 +1,1 @@
+#define REPRB(i,a)          for(int i=a; ; i--)

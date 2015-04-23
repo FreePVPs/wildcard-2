@@ -1,0 +1,1 @@
+#define dbgvp(Z)             nl;rep(ti,0,sz(Z)-1){cout<<ti<<" --> "<<Z[ti].ff<<" "<<Z[ti].ss<<"\n";}

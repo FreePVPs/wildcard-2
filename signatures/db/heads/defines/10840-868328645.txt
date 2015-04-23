@@ -1,0 +1,1 @@
+#define FOR(i, a, b) for(int i = a, __up = b; i < __up; ++i)

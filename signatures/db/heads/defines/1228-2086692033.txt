@@ -1,0 +1,1 @@
+#define LOOP(i,b, n)    for(int i=(b);i<(int)(n);++i)

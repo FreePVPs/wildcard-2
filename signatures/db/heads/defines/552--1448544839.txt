@@ -1,0 +1,1 @@
+#define sst(n); scanf("%s",n);

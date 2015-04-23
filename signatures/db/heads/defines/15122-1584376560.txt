@@ -1,0 +1,1 @@
+#define TESTCASE ll t;Sl(t);while(t--)

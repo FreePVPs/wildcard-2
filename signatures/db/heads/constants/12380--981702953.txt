@@ -1,0 +1,1 @@
+const int MAX_SON = MAX_N * 10;

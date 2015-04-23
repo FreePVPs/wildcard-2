@@ -1,0 +1,1 @@
+template<>struct FloatFrom<i8>{typedef float R;};

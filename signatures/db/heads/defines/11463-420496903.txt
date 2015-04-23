@@ -1,0 +1,1 @@
+#define re(II, NN)           for (int II(0), _NN(NN); (II) < (NN); ++(II))

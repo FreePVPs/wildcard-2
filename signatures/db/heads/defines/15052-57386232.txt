@@ -1,0 +1,1 @@
+#define forr(i,n,e) for(ll i=(n);i>=(e);--i)

@@ -1,0 +1,1 @@
+#define LL ({Long a; scanf("%lld", &a); a;})

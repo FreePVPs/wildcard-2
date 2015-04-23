@@ -1,0 +1,1 @@
+template<class T1> bool tk(T1 &e1){if(cin>>e1)return true;return false;}

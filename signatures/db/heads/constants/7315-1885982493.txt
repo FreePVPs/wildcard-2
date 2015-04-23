@@ -1,0 +1,1 @@
+const num OO = MAXI; //cambiar a MAXL si se usa num para ll

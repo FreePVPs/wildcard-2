@@ -1,0 +1,1 @@
+#define LPLL(i,ii,jj) for(ll i=(ii);i<(jj);i++)

@@ -1,0 +1,1 @@
+const int NS = 200010;

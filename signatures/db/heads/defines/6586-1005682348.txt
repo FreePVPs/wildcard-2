@@ -1,0 +1,1 @@
+#define FOR(x,y,z) for(long long int x=y;x<(long long int)z;x++)

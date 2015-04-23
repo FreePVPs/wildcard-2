@@ -1,0 +1,1 @@
+#define FOR_C(i, a, b) for (int b____=int(b),i=a;i<b____;++i)

@@ -1,0 +1,1 @@
+#define fori(i,a,b) for(let(i,a) ; i<b; i++)

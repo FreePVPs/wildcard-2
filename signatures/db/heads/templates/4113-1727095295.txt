@@ -1,0 +1,1 @@
+template<class T>void ToOther(T&t,string a){stringstream s(a);s>>t;}

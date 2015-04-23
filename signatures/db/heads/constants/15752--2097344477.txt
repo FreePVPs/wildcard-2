@@ -1,0 +1,1 @@
+const string infile = file + ".in";

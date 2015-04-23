@@ -1,0 +1,1 @@
+#define REP(i, from, to) for (int i = (from); i < (to); ++i)

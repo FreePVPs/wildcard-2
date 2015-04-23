@@ -1,0 +1,1 @@
+#define REP(i, to) for(__typeof(to) i = 0; i < to; i++)

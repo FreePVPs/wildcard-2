@@ -1,0 +1,1 @@
+#define FA(i, a, x)  for (__typeof((x).begin()) i=(a); i!=(x).end(); ++i)

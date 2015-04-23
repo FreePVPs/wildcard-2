@@ -1,0 +1,1 @@
+template<class T> inline string tostr(const T& x) { SS ss; ss << x; return ss.str(); }

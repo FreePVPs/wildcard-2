@@ -1,0 +1,1 @@
+#define form(k,m) for (int j=k; j<m; j++)

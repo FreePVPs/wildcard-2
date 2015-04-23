@@ -1,0 +1,1 @@
+const ii empty = ii(-1, -1);

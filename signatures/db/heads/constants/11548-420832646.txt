@@ -1,0 +1,1 @@
+const int inf=LONG_MAX;

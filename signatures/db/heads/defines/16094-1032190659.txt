@@ -1,0 +1,1 @@
+#define ITR(a,b) for(;a!=b;a++)

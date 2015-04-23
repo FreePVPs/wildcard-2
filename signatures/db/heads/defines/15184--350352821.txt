@@ -1,0 +1,1 @@
+#define TRvii(it,c) for(vii::iterator it= c.begin();it!=c.end();it++)

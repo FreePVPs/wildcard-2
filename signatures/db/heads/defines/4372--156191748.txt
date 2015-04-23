@@ -1,0 +1,1 @@
+#define make2(type, x, y) type x, y; cin>>x>>y;

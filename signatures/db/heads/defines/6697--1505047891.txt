@@ -1,0 +1,1 @@
+#define _fmit(t1, t2, mit, mm) for(map<t1, t2>::iterator mit=mm.begin(); mit!=mm.end(); mit++)

@@ -1,0 +1,1 @@
+#define rep1(i, n) for (int (i) = 1, j1234 = n; (i) <= j1234; (i) ++)

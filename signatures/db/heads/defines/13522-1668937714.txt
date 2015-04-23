@@ -1,0 +1,1 @@
+#define gfor(i,s,e,p) for(int i=s;i>=e;i-=p)

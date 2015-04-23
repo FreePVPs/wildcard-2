@@ -1,0 +1,1 @@
+#define tr11(c, it) for(auto it=c.begin(); it != c.end(); it++)

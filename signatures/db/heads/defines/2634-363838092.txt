@@ -1,0 +1,1 @@
+#define fkk(x,y) for(int k=x;k<y;k++)

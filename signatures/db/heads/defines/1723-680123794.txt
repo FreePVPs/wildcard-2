@@ -1,0 +1,1 @@
+#define ALL(x,S) for(__typeof((S).end()) x=S.begin();x!=S.end();x++)

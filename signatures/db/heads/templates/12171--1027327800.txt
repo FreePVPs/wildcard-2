@@ -1,0 +1,1 @@
+    template<class T> inline void read(T&x,T&y,T&z,T&q){read(x);read(y);read(z);read(q);}

@@ -1,0 +1,1 @@
+#define forit(s) for(__typeof(s.begin()) it = s.begin(); it != s.end(); it ++)

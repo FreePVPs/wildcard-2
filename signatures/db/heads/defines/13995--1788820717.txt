@@ -1,0 +1,1 @@
+#define rfr(i,f,t) for(int i = f; i > t; i--)

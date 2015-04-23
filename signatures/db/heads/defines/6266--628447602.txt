@@ -1,0 +1,1 @@
+#define fe(i,x) for (int i = g[x], y = E[i].y; i; i = E[i].l, y = E[i].y)

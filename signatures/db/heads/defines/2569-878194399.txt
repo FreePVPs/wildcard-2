@@ -1,0 +1,1 @@
+#define DD ({double a; scanf("%lf", &a); a;})

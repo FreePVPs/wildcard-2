@@ -1,0 +1,1 @@
+#define ford(i,n) for(unsigned i=1; i<=n; i++)

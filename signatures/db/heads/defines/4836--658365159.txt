@@ -1,0 +1,1 @@
+#define rii(i,j) int i,j;cin>>i>>j;

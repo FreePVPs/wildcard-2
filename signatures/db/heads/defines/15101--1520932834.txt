@@ -1,0 +1,1 @@
+#define rer(i,b,a)           for(LL i=(b);i>=(a);--i)

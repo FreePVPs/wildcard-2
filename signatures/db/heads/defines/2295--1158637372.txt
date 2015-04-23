@@ -1,0 +1,1 @@
+#define fornn(i, q, n) for (int i = q; i < n; ++ i)

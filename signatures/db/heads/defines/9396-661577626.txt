@@ -1,0 +1,1 @@
+#define for(p,a,b) for (p=a;p<=b;p++)

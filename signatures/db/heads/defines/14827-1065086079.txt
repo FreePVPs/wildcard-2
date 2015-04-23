@@ -1,0 +1,1 @@
+#define REP(i,x,n) for((i)=(int)x;(i)<(int)(n);++(i))

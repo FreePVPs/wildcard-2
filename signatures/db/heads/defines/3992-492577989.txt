@@ -1,0 +1,1 @@
+#define tr(a,b) for(iter(b) a = (b).begin(); a != (b).end(); ++a)

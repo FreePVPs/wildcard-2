@@ -1,0 +1,1 @@
+#define forj(indFrom, indTo) for(int j = indFrom; j < indTo; j++)
