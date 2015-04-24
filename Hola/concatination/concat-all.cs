@@ -26,7 +26,7 @@ class Program
                     }
                     else
                     {
-                        code.AppendLine(line);
+                        code.AppendLine(line.Trim());
                     }
                 }
 
