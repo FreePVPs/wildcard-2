@@ -1,5 +1,7 @@
-db/other/*.txt
 :end:
-db/heads/constants/*.txt
+db/other-big/*.txt
 db/heads/defines/*.txt
+db/other/*.txt
 db/heads/templates/*.txt
+db/heads/constants/*.txt
+:end:
