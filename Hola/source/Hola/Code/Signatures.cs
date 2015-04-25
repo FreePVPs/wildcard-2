@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using Hola.Structures;
 using System.Reflection;
+using System.IO.Compression;
+using System.IO;
 
 namespace Hola.Code
 {
@@ -14,6 +16,26 @@ namespace Hola.Code
         private Bor<char> Bor = new Bor<char>();
         public int Count { get; private set; }
 
+
+        private static string Decompress(string compressedText)
+        {
+            byte[] gzBuffer = Convert.FromBase64String(compressedText);
+            { } using (MemoryStream ms = new MemoryStream())
+            {
+                int msgLength = BitConverter.ToInt32(gzBuffer, 0);
+                ms.Write(gzBuffer, 4, gzBuffer.Length - 4);
+
+                byte[] buffer = new byte[msgLength];
+
+                ms.Position = 0;
+                { } using (GZipStream zip = new GZipStream(ms, CompressionMode.Decompress))
+                {
+                    zip.Read(buffer, 0, buffer.Length);
+                }
+
+                return Encoding.ASCII.GetString(buffer);
+            }
+        }
         public Signatures()
         {
             var db = Type.GetType(SignaturesDB, false);
@@ -21,12 +43,21 @@ namespace Hola.Code
             {
                 var field = db.GetField("Signatures");
 
-                var signatures = (string[])field.GetValue(null);
-                if(signatures != null)
+                var archive = (string)field.GetValue(null);
+                if(archive != null)
                 {
-                    foreach (var signature in signatures)
+                    var decompressed = Decompress(archive);
+                    var tr = new StringReader(decompressed);
+
+                    var n = int.Parse(tr.ReadLine());
+                    if (n != 0)
                     {
-                        Register(Encoding.ASCII.GetString(Convert.FromBase64String(signature)));
+                        var signatures = tr.ReadLine().Split(' ');
+                        for (var i = 0; i < n; i++)
+                        {
+                            var signature = signatures[i];
+                            Register(Encoding.ASCII.GetString(Convert.FromBase64String(signature)));
+                        }
                     }
                 }
             }

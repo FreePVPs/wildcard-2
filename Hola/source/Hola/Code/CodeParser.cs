@@ -164,6 +164,8 @@ namespace Hola.Code
                         continue;
                     }
                     if (line.PrefixIs("//", j)) break;
+                    //if (".cs .cpp .c .j .py".Contains(language) && 
+                    //    line.PrefixIs("#", j)) break;
 
                     if (!commented) sb.Append(line[j]);
                 }
