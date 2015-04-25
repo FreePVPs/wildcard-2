@@ -1,1 +1,0 @@
-template<typename T, size_t N, size_t M > void print2DArray(T(&array)[N][M], string delim = " ") { for (int x = 0; x < N; x++) { for (int y = 0; y < M; y++){ cout << array[x][y]; if (y != M - 1) cout << delim; }cout << endl; } }

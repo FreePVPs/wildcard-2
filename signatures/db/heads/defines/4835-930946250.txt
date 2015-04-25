@@ -1,1 +1,0 @@
-#define ri(i) int i;cin>>i;

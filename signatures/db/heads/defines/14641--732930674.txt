@@ -1,1 +1,0 @@
-#define rd3(n1, t1, n2, t2, n3, t3) rd2(n1, t1, n2, t2); rd(n3, t3);

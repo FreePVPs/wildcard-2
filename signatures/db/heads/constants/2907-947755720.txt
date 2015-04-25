@@ -1,1 +1,0 @@
-    const char Color::GRAY = 1;

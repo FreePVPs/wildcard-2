@@ -1,1 +1,0 @@
-#define per(i,l,r) for(i=(r)-1;i>=l;i--)

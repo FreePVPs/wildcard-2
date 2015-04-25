@@ -1,1 +1,0 @@
-      const int next = a[ee] == pos ? b[ee] : a[ee];

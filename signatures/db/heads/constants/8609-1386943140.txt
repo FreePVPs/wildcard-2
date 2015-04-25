@@ -1,1 +1,0 @@
-                const LL dk = da[k];

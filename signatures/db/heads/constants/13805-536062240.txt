@@ -1,1 +1,0 @@
-const int S_N = 5005;

@@ -1,2 +1,0 @@
-
-typedef long long i64;//NOTES:i64

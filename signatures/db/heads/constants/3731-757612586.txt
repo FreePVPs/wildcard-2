@@ -1,1 +1,0 @@
-  const int div = max(sz(S) / 50,1);

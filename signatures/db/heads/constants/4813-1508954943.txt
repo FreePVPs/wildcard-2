@@ -1,1 +1,0 @@
-const int maxn=1e6+10,maxbit=21,inf=1e8;

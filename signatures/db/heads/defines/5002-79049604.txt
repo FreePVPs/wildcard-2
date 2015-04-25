@@ -1,1 +1,0 @@
-#define printlist(a, size)  for(int it = 0; it < size; it++) cout << a[it] << " \n"[it == size-1];

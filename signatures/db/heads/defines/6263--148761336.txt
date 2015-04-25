@@ -1,1 +1,0 @@
-#define performvvt(vv) {for(int j=0;j<vv.size();++j)performvt(vv[j]);nl;}

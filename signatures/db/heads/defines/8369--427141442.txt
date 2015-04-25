@@ -1,1 +1,0 @@
-#define viewPP(a,n,m)	{puts("---");FF(i,n){FF(j,m) cout<<a[i][j] <<' ';puts("");}}

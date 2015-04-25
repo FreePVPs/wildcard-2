@@ -1,1 +1,0 @@
-#define Rep(i,m,n) for(int i=m;If(m<n,i<n,i>n);If(m<n,i++,i--))

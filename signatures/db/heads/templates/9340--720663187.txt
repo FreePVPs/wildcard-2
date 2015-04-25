@@ -1,1 +1,0 @@
-template<class T> T s2a(string s) { istringstream i(s); T x; i >> x; return x; }

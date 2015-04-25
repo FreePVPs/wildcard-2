@@ -1,1 +1,0 @@
-    const char *constants[] = {"vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"};

@@ -1,1 +1,0 @@
-  #define floopk(i,n,k) for(ll i=0;i<n;i+=k)

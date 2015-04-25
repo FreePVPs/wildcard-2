@@ -1,1 +1,0 @@
-const int EXP=1e-6;

@@ -1,1 +1,0 @@
-#define IL ({ int64 a; read(a);  a;})

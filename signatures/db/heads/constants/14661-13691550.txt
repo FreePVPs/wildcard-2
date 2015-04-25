@@ -1,1 +1,0 @@
-constexpr int MAX = 1024;

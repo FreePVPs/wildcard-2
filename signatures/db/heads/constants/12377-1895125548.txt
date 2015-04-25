@@ -1,1 +1,0 @@
-const int maxn=1100000,maxm=1100000,inf=0x3f3f3f3f,maxlen=26;

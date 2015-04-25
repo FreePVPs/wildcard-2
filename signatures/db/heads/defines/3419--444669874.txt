@@ -1,1 +1,0 @@
-#define f0n(i, n) for (auto i = 0ll; i < (ll) n; ++i)

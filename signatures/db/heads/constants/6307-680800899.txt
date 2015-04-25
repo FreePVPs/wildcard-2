@@ -1,1 +1,0 @@
-    const char nee[3]="47";

@@ -1,1 +1,0 @@
-template<typename T> T ncr(T n,T r){T c=1,d;for(T j=1;j<r+1;j++){d=gcd(c, j);c /= d;c *= (n - j + 1) / (j / d);}return c;}

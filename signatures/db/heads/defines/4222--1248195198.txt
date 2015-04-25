@@ -1,1 +1,0 @@
-#define IS ({ string a; cin >> a;  a;})

@@ -1,1 +1,0 @@
-#define forcd(i,sw) for((i)=(sw).rbegin();(i)!=(sw).rend();(i)++)

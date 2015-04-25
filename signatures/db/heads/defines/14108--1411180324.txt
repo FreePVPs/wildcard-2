@@ -1,1 +1,0 @@
-#define GS ({string s;cin>>s;s;})

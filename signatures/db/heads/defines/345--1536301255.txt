@@ -1,1 +1,0 @@
-#define SCAN(v,n)	vector<int> v;REP(i,n){ int j;SI(j);v.PB(j);}

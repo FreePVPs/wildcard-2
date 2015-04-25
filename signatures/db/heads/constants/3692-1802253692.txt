@@ -1,1 +1,0 @@
-          const long long v = 1ll * t.second.second * x / g;

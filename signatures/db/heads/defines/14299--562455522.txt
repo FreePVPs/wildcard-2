@@ -1,1 +1,0 @@
-#define forset(vType, vecName, varName) for (set<vType>::iterator varName = vecName.begin(); varName != vecName.end(); varName++)

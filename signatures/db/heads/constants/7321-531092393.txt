@@ -1,1 +1,0 @@
-const int AZ_SIZE = 'Z'-'A'+1;

@@ -1,1 +1,0 @@
-const int NN = 112345;

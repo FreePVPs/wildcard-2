@@ -1,1 +1,0 @@
-#define PRINT1D(array, max_index) cout<<endl<<#array<<":   "; for(int i=0; i < (max_index); i++) cout<<array[i]<<"  ";

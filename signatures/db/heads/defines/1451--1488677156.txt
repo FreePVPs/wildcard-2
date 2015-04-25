@@ -1,1 +1,0 @@
-#define ulpf2n(n,m) {ulpf2(n,m); nl;}

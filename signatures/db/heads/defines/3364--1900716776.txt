@@ -1,1 +1,0 @@
-#define ifor(i, l, r) for(int i = int(r); i >= int(l); --i)

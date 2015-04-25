@@ -1,1 +1,0 @@
-#define setrav(x) for(set<int>::iterator it = x.begin(); it!=x.end(); it++)

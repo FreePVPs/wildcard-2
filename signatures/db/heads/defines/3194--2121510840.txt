@@ -1,1 +1,0 @@
-#define fork(i, k, n) for(int i = int(k); i <= int(n); ++i)

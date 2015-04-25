@@ -1,1 +1,0 @@
-#define tern(a) { outn(a); exit(0); }

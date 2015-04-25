@@ -1,1 +1,0 @@
-#define forv(i, a) for (unsigned int i = 0, ___t = a.size(); i < ___t; ++i)

@@ -1,1 +1,0 @@
-const int N_MAX = 1000020, C_MAX = 100020;

@@ -1,1 +1,0 @@
-#define tests(tc) int tc;scanf("%d",&tc);while(tc--)

@@ -1,1 +1,0 @@
-    template<class T> inline void read(T&x,T&y){read(x);read(y);}

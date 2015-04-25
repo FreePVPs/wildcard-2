@@ -1,1 +1,0 @@
-#define 	print(a,n)	REP(int i = 0; i < (n) ; i++)	pl(a[i]);

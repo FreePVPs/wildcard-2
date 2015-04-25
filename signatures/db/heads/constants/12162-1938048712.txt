@@ -1,1 +1,0 @@
-const int MM = 300100;

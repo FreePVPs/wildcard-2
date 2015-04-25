@@ -1,1 +1,0 @@
-#define DRT() int test_case;cin>>test_case;while(test_case--)

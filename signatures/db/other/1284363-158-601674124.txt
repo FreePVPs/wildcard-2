@@ -1,2 +1,0 @@
-
-template<class T> inline vector<pair<T,int> > factorize(T n)//NOTES:factorize(

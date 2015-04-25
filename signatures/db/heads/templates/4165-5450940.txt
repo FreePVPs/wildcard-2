@@ -1,1 +1,0 @@
-template<>struct Double<ui64>{typedef ui128 R;};

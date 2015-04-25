@@ -1,1 +1,0 @@
-const int maxn = 901, maxd = 31;

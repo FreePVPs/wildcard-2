@@ -1,1 +1,0 @@
-	const int MaxiN = 100005;

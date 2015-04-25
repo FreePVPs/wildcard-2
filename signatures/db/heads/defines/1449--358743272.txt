@@ -1,1 +1,0 @@
-#define upfn(n) {upf(n); nl;}

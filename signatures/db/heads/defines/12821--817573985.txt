@@ -1,1 +1,0 @@
-#define PRINTLL(v,i,n)	fr(i,n){printf("%I64d ",v[i]);}printf("\n");

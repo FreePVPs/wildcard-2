@@ -1,1 +1,0 @@
-#define FOR_1_C(i,st,ed)    for(int __ = int(ed),i = st;i <= __;i ++)

@@ -1,1 +1,0 @@
-#define FORD(_i,_a,_b) for(int _i = (int)_a; _i >= (int)_b; --_i)

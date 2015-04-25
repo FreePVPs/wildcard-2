@@ -1,1 +1,0 @@
-const ll big=(1LL<<62);

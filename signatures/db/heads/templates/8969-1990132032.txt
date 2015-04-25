@@ -1,1 +1,0 @@
-template<typename T> struct StrictSize<ArrWrapper2<T> > { static int size(const ArrWrapper2<T> &a) { return a.n; } };

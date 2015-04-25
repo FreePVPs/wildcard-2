@@ -1,1 +1,0 @@
-const int maxS = (1 << 18) + 10;

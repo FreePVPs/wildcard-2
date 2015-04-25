@@ -1,1 +1,0 @@
-#define FORN(i, n) for(LL i = 0; i < n; i++)

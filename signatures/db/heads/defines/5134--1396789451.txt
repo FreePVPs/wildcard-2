@@ -1,1 +1,0 @@
-#define fork(lim) for(int (k) = (0); (k) < (lim);(k)++ )

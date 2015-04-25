@@ -1,1 +1,0 @@
-#define xrep(a,b,c) for(a=b ; a<c ; a++)

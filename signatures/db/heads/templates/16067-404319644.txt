@@ -1,1 +1,0 @@
-template <class myType> ostream &operator << (ostream &out, const vector<myType> &object){tr(object,it){out << (*it) << ' ';}cout<<endl;return out;}

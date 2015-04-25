@@ -1,1 +1,0 @@
-#define forn(j, n) for(int i = j ; i < n; ++i)

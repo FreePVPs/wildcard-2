@@ -1,1 +1,0 @@
-const unsigned long long MODULE = 1000000007ULL;

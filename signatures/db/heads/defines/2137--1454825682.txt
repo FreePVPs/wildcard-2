@@ -1,1 +1,0 @@
-#define sw(x,y) {long long z=x;x=y;y=z;}

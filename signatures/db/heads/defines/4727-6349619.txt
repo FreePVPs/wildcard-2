@@ -1,1 +1,0 @@
-#define bug3(a, b, c) out(a); sp(); out(b); sp(); out(c); nl()

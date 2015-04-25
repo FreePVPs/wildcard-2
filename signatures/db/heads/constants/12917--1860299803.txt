@@ -1,1 +1,0 @@
-const int MAXN = 100011, MAXV = 200011, MAXS = 500011;

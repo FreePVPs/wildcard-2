@@ -1,1 +1,0 @@
-#define loopd(i,n,s) for(ll i=n-1;i>=s;i--)

@@ -1,1 +1,0 @@
-template<class T>inline T Mod(T a,T b){a%=b;return a<0?a+b:a;}///и®Ўз®—a%b,ж”ЇжЊЃa<=0

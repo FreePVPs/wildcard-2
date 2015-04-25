@@ -1,1 +1,0 @@
-const long long MAX=2005,INF=1<<30;

@@ -1,2 +1,0 @@
-
-template<class T> inline T eular(T n)//NOTES:eular(

@@ -1,1 +1,0 @@
-#define RANGE(i,a,b) for(int i=(int)a,_b=(int)(b);(i)<_b;++i)

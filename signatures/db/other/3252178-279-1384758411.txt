@@ -1,5 +1,0 @@
-141592653589793
-
-#define REP(i,n) for (i=0;i<n;i++)
-#define FOR(i,p,k) for (i=p; i<k;i++)
-#define FOREACH(it,x) for(__typeof

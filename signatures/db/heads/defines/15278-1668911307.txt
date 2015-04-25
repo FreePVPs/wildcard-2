@@ -1,1 +1,0 @@
-#define DBG(x)     {if(DEBUG){DBG0(x); cout << endl;}}

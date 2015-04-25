@@ -1,1 +1,0 @@
-#define in_T int tc; S(tc); FOR(i,tc)

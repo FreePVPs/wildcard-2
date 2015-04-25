@@ -1,1 +1,0 @@
-#define FOR(I,A,B) for (int I=int(A);I<int(B);++I)

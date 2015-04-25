@@ -1,1 +1,0 @@
-#define smap(p,ma) for(p=ma.begin();p!=ma.end();p++)

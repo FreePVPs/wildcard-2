@@ -1,1 +1,0 @@
-#define FITD(i,v) for(__typeof((v).rbegin()) i = (v).rbegin(); i != (v).rend(); ++i)

@@ -1,1 +1,0 @@
-#define RSORT(v) { SORT(v) ; REVERSE(v) ; }

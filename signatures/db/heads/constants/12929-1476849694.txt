@@ -1,1 +1,0 @@
-const int imax_n = 5005;

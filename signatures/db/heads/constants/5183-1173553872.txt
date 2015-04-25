@@ -1,1 +1,0 @@
-const ll inf=0x7f7f7f7f7f7f7f7f;

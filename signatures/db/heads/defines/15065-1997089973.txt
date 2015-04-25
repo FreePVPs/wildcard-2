@@ -1,1 +1,0 @@
-#define foR(i1, st, ed) for(int i1 = st , j1 = ed ; i1 < j1 ; ++i1 )

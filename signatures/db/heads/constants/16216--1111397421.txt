@@ -1,1 +1,0 @@
-const int MAX_DIGIT_NUM = 20;

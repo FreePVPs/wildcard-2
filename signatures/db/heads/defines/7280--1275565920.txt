@@ -1,1 +1,0 @@
-#define clrto(x,siz,y)  for(int xx=0;xx<=siz;xx++)  x[xx]=y;

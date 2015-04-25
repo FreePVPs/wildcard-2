@@ -1,1 +1,0 @@
-const int W=100;

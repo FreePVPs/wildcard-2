@@ -1,1 +1,0 @@
-#define FOR( A, B, C ) for ( int A = B, _end_ = C; A <= _end_; A++ )

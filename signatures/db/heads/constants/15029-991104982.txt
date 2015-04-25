@@ -1,1 +1,0 @@
-const string PROBLEM_NAME = ROOT + "test";

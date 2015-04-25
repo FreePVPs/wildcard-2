@@ -1,1 +1,0 @@
-#define FORd(i,f,t)for(TYP(f+0)_=t,i=f;i>=_;--i)

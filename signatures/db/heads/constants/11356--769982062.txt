@@ -1,1 +1,0 @@
-const long long INF64 = 1LL*INF*1LL*INF;

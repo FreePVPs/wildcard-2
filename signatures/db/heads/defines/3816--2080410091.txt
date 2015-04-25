@@ -1,1 +1,0 @@
-#define RREPS(i,x) for(int i=((int)(x));i>0;i--)

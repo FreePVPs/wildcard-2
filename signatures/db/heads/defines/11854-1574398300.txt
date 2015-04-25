@@ -1,1 +1,0 @@
-#define loopstr(c,str) for(int c=0;str[c];c++)

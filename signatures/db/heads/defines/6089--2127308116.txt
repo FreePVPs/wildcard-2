@@ -1,1 +1,0 @@
-#define f0(i,a) for(i=0;i<a;i++)

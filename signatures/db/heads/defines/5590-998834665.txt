@@ -1,1 +1,0 @@
-#define WBIr(i,b,x) for(TYP((int)0+x) _=x,i=(sizeof(x)<<3)-1,b=0!=(_&(1ll<<(sizeof(x)<<3)-1));i>=0;b=0!=(_&1ll<<--i))

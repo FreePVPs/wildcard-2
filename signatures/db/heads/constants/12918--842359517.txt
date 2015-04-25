@@ -1,1 +1,0 @@
-const long long MAX = 100100;

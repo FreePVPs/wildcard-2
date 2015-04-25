@@ -1,1 +1,0 @@
-#define lp(_var, _end) for(int _var=0; _var <= _end; _var++)

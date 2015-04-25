@@ -1,1 +1,0 @@
-#define rdm(x) for(int i=ihead[x]; i; i=e[i].next)

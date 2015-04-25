@@ -1,1 +1,0 @@
-#define forv(__m,v) for(int __m=0;__m<(int)v.size();__m++)

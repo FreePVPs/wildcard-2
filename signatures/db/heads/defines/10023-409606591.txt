@@ -1,1 +1,0 @@
-#define fore(a,b) for(__typeof((b).begin()) a = (b).begin();a!=(b).end();++a)

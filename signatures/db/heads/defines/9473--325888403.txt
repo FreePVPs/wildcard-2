@@ -1,1 +1,0 @@
-#define f_jjn for (int jj=0;jj<jn;++jj)

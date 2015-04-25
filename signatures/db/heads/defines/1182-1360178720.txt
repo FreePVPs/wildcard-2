@@ -1,1 +1,0 @@
-#define ff(x,y,i) for(int i = x;i <= y; i++)

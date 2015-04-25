@@ -1,1 +1,0 @@
-const int n2max = 131072; // greatest x so x<=nmax && x power of 2

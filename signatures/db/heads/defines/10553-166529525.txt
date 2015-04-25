@@ -1,1 +1,0 @@
-#define ra(e, u) for(int e=head[(u)];e!=-1;e=E[e].next)

@@ -1,1 +1,0 @@
-#define rep(i,m) for(decltype(m) i=0;i<m;i++)

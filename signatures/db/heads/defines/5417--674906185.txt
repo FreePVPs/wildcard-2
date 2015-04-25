@@ -1,1 +1,0 @@
-#define repV(i, v) for (i = v.begin(); i != v.end(); i++)

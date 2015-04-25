@@ -1,1 +1,0 @@
-#define loope(c,x) for(int c=1;c<=x;c++)

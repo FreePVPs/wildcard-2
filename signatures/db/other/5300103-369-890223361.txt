@@ -1,4 +1,0 @@
-
-	public static void main(String[] args) {
-		new Thread(null, new Solution(), "", 256 * (1L << 20)).start();
-	}

@@ -1,1 +1,0 @@
-    const double MAX_DIST = 1e+30;

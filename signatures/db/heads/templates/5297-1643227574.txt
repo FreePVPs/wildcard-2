@@ -1,1 +1,0 @@
-template <class T> T smod(T a, T b ,T m){T res=1,x=b;while(b>0){if(x&1) res=((res%m)*(x%m))%m;x=(x*x)%m;b=(b>>1);}return res;}

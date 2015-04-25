@@ -1,1 +1,0 @@
-const MIRROR = ['A','H','I','M','O','T','U','V','W','X','Y'];

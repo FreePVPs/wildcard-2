@@ -1,1 +1,0 @@
-const int inf = 100000000,maxn = (int)1e7+1;

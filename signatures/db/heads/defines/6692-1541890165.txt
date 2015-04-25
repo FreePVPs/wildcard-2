@@ -1,1 +1,0 @@
-#define NextLine() { char c = getchar(); while (c != 10 && c != EOF) { c = getchar(); } }

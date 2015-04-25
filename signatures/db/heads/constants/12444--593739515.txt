@@ -1,1 +1,0 @@
-const DB PI = acos(-1.0);

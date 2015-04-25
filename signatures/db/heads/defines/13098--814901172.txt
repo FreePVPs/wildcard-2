@@ -1,1 +1,0 @@
-#define flit(it,c) for(it=c.begin();it<c.end();it++)

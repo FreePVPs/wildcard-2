@@ -1,1 +1,0 @@
-const int maxn=510 , maxm=10010;

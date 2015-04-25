@@ -1,1 +1,0 @@
-const int maxNodeCNT = minNodeCNT * 2;

@@ -1,1 +1,0 @@
-#define Rush for(int casn = RD(), cas = 1; cas <= casn; ++cas)

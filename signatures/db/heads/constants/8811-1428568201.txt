@@ -1,1 +1,0 @@
-const long mol = 1000000007; 

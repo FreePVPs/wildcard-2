@@ -1,1 +1,0 @@
-#define read(type, args...) type args; rdr,args;

@@ -1,1 +1,0 @@
-#define RUSH				int T___;	RD(T___);	DO(T___)

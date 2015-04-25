@@ -1,1 +1,0 @@
-const int inv2 = (mod+1)/2;

@@ -1,1 +1,0 @@
-#define rep2(i,x,y) for(i=x;i<=(y);++i)

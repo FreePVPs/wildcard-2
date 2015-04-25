@@ -1,1 +1,0 @@
-const int MAXCLOCK = 100;

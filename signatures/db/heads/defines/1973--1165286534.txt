@@ -1,1 +1,0 @@
-#define TR(m, it) for (set<int>::iterator it = m.begin(); it != m.end(); ++it)

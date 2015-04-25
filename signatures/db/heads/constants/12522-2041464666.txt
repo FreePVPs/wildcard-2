@@ -1,1 +1,0 @@
-const int MAXN=3e+5+10;

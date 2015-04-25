@@ -1,1 +1,0 @@
-const ld ME = 1e-5;

@@ -1,1 +1,0 @@
-const I64 CSTEP = ( 1 << 17 );

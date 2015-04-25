@@ -1,1 +1,0 @@
-const int cons = 600001;

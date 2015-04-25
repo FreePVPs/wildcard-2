@@ -1,1 +1,0 @@
-template<class T> inline vector<pair<T, int> > factorize(T n) { vector<pair<T, int> > R; for (T i = 2; n > 1; ) { if (n % i == 0) {

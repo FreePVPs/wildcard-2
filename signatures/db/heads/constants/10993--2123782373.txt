@@ -1,1 +1,0 @@
-const int maxn = 100000+10 , maxk = 500+10 , inf = 1 << 28;

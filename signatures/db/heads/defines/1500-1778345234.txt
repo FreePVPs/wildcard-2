@@ -1,1 +1,0 @@
-#define repeat3(x) for (int fl3 = 0;fl3<x ;fl3 ++)

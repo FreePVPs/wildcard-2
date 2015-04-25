@@ -1,1 +1,0 @@
-const double DBINF = 1e300;

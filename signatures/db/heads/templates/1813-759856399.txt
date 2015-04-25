@@ -1,1 +1,0 @@
-template<class T_T> void swap(T_T *a,T_T *b){T_T c;c=a;a=b;b=c;}

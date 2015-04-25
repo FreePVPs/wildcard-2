@@ -1,1 +1,0 @@
-#define Forto(i,r,l) for(int i=(r),_=(l);i>=_;i--)

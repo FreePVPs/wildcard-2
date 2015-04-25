@@ -1,4 +1,0 @@
-void pl(Object... objects) {
-		p(objects);
-		writer.println();
-	}

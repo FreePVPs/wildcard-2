@@ -1,1 +1,0 @@
-const string str[4] = { "", "Vanya", "Vova", "Both" };

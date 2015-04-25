@@ -1,1 +1,0 @@
-#define FORIT(it,p) for(__typeof(p.end()) it=p.begin();it!=p.end();it++)

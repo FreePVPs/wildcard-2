@@ -1,1 +1,0 @@
-const char dp[5]={'D','I','M','A'};

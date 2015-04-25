@@ -1,1 +1,0 @@
-template<class T> int toInt(T n){stringstream ost;ost<<n;int ret;ost>>ret;return ret;}

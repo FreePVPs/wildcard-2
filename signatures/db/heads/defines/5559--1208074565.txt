@@ -1,1 +1,0 @@
-#define each(it, A) for (__typeof(A.begin()) it=A.begin(); it != A.end(); ++it)

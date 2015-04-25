@@ -1,1 +1,0 @@
-#define REMAX(a,b) (a)=max((a),(b));

@@ -1,1 +1,0 @@
-#define rangeD(i, r, l) for(int i = (r); i >= (int)(l); --i)

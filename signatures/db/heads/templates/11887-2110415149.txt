@@ -1,1 +1,0 @@
-template<class T>inline void SWAP( T &a, T &b ) { a ^= b; b = a ^ b; a ^= b; }

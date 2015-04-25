@@ -1,1 +1,0 @@
-#define ECH(it,A)           for(__typeof(A.begin()) it = A.begin();it != A.end();++ it)

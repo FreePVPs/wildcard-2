@@ -1,1 +1,0 @@
-const int MXN=210,MXM=100010,mol=1000000007;

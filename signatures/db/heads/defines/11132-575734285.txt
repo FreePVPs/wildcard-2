@@ -1,1 +1,0 @@
-#define down(i, s, t) for (ll i = (s); i > (t); i -= 1)

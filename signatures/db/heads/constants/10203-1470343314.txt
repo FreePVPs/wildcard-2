@@ -1,1 +1,0 @@
-const int kMin = std::numeric_limits<int>::min();

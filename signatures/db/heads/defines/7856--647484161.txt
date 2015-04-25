@@ -1,1 +1,0 @@
-#define zrp(x, n) for (int x = n; x; --x)

@@ -1,1 +1,0 @@
-const long long modc=1000000009;

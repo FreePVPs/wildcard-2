@@ -1,1 +1,0 @@
-#define FOR(i, n) for(typeof(n) i=0;i<(n);++i)

@@ -1,1 +1,0 @@
-#define     o(i, start, n)          for(int i = start; i < n; i++)

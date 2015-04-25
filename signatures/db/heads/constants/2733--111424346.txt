@@ -1,1 +1,0 @@
-const int MaxN = 200000 + 5, MaxNode = 200000 * 32 + 15, INF = 1000000000;

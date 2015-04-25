@@ -1,1 +1,0 @@
-#define FORst(it,x)  for(map<string ,int>::iterator it=x.begin();it!=x.end();it++)

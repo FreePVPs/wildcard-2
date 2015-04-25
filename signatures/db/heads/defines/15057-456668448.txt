@@ -1,1 +1,0 @@
-#define test ll T;cin>>T;fore(t,1,T)

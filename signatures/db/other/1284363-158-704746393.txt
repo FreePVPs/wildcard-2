@@ -1,2 +1,0 @@
-
-template<class T> inline int countBit(T n){return (n==0)?0:(1+countBit(n&(n-1)));}//NOTES:countBit(

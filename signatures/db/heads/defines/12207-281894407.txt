@@ -1,1 +1,0 @@
-#define fr( i , c , n ) for( int i = (c) ; i < (n) ;i++ )

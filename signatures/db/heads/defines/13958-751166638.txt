@@ -1,1 +1,0 @@
-#define UFOR(i, a, b) for (unsigned int i = a; i < b; i++)

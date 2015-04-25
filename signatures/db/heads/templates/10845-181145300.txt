@@ -1,1 +1,0 @@
-template<typename T, typename W> void print(pair<T,W> P,string name="") {if(name != "") cerr<<name<<":"; cerr<<"("; print(P.first); cerr<<","; print(P.second); cerr<<")";}

@@ -1,1 +1,0 @@
-const int MN = 200000;

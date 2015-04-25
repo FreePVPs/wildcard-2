@@ -1,1 +1,0 @@
-#define file freopen("kingdom.in","r",stdin);freopen("kingdom.out","w",stdout);

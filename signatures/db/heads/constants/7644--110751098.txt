@@ -1,1 +1,0 @@
-            const int &r = rank[ques[i].l + n + 1];

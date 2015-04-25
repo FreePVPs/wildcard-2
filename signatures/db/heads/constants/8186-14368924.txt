@@ -1,1 +1,0 @@
-const lint INF=100020LL;

@@ -1,1 +1,0 @@
-    const int invalidValue = numeric_limits<int>::max() / (nCards + 1);

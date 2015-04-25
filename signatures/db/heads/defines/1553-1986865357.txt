@@ -1,1 +1,0 @@
-#define FORTR(it, container) for(auto it = container.begin(); it != container.end(); it++)

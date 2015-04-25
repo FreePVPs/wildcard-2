@@ -1,1 +1,0 @@
-#define PRINT(v,i,n)	fr(i,n){printf("%d ",v[i]);}printf("\n");

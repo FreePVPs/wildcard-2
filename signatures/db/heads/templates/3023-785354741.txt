@@ -1,1 +1,0 @@
-template <class T> inline T ABS(T x) { if (x < 0) return -x; return x; }

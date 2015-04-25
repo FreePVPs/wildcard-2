@@ -1,1 +1,0 @@
-#define in_T int t;for(scanf("%d",&t);t--;)

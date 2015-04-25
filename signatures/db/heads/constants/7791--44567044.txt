@@ -1,1 +1,0 @@
-const int inf = 1000000000; // default 1e9

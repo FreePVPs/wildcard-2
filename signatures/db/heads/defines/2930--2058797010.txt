@@ -1,1 +1,0 @@
-#define repb(i,a,b) for(i=b;i>=a;i--)

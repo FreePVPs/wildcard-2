@@ -1,1 +1,0 @@
-template<typename T>inline LL toLong(T a){LL res;istringstream os(a);os>>res;return res;}

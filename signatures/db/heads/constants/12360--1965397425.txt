@@ -1,1 +1,0 @@
-const int nn=1e5+5;

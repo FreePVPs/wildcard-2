@@ -1,1 +1,0 @@
-#define at int tt; scanf("%d",&tt);  getchar(); for(int t=1;t<=tt;t++)

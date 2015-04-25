@@ -1,1 +1,0 @@
-const double eps = (double) 1e-8;

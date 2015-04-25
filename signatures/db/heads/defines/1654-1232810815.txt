@@ -1,1 +1,0 @@
-#define loopd(i,val,val2) for(i=val;i>=val2;i--)

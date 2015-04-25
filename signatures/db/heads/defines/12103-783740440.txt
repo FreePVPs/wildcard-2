@@ -1,1 +1,0 @@
-#define RPT(I,L,R) for(lnt I=(L);I<(R);++I)

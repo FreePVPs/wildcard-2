@@ -1,1 +1,0 @@
-    const int nrem=(rem+i*pow_ten_mod_k[pos])%K;

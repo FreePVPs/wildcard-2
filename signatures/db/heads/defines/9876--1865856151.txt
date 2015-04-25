@@ -1,1 +1,0 @@
-#define FFn(i,n,m)               for(i=n;i>=m;i--)

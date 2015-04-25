@@ -1,1 +1,0 @@
-#define FORP(i, a, b, step)     for (int i(a); i < (b); i += (step)) 

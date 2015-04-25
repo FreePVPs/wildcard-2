@@ -1,1 +1,0 @@
-#define FOR(i,begin,end,move) for (int i = begin; i != end; i += move)

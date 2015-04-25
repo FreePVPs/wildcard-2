@@ -1,1 +1,0 @@
-template<class T> void vp(T &a,int p){rep(i,p)cout << a[i]<<" ";cout << endl;}  

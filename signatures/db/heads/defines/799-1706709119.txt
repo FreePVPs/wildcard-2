@@ -1,1 +1,0 @@
-#define getV(a,n) F(i,0,(n)){wez(x);(a).pb(x);}

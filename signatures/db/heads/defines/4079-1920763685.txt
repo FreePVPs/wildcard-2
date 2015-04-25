@@ -1,1 +1,0 @@
-#define rep(i,A,B) for(int i=(A);i<=(B);i++)

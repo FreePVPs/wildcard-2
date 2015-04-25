@@ -1,1 +1,0 @@
-const int BN = 5005;

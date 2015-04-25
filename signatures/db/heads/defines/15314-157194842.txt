@@ -1,1 +1,0 @@
-#define rep(k , h) for ( long long int k = 0 ; k < h ;k++)

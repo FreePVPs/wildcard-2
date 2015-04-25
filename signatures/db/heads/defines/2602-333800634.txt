@@ -1,1 +1,0 @@
-#define LBOUND(P,R,Q) ({__typeof(P) XX=P,RR=(R), PP = P; while(PP<RR) {XX = (PP+(RR-PP)/2); if(Q) RR = XX; else PP = XX+1;} PP;})

@@ -1,1 +1,0 @@
-#define FOR(i,x,n) for(__typeof(x) i = (x); i != (n); i++)

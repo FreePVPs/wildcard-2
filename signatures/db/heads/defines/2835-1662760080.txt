@@ -1,1 +1,0 @@
-#define DEPI(i,m,n,k) for ( int i = m; i >= n; i -= k )

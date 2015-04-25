@@ -1,1 +1,0 @@
-#define FORG(arr,s,n) for(int i=s;i<n+s;i++) cout << arr[i] << endl;

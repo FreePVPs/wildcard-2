@@ -1,1 +1,0 @@
-#define fori(t) for(vit it=t.begin();it<t.end();++it)

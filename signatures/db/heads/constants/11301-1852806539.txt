@@ -1,1 +1,0 @@
-const int MAXV=1000000000;

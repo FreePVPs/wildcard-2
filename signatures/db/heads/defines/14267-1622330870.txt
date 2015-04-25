@@ -1,1 +1,0 @@
-#define rep(i,k) for(int i=g.start[k];i!=INF;i=g.next[i])

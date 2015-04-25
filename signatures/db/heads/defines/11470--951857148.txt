@@ -1,1 +1,0 @@
-#define FORIT(i,a) for((i)=(a).begin();(i)!=(a).end();(i)++)

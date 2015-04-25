@@ -1,1 +1,0 @@
-const ll InfLL = ll(Inf) * ll(Inf);

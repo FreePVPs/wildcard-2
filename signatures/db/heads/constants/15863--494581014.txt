@@ -1,1 +1,0 @@
-const int HASH = 1000007;

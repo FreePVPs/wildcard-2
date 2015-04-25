@@ -1,1 +1,0 @@
-#define each(e,s) for(typeof((s).begin()) e=(s).begin(); e!=(s).end(); ++e)

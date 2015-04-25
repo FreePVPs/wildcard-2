@@ -1,1 +1,0 @@
-#define FO(i,s,e,p) for(int i=(s);i<(e);i+=p)

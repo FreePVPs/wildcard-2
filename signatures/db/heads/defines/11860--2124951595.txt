@@ -1,1 +1,0 @@
-#define loopbfte(c,f,t) for(int c=t;c>=f;c--)

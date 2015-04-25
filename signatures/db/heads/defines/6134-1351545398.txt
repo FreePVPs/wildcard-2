@@ -1,1 +1,0 @@
-#define TR(v,i) for(auto (i) = (v).begin();(i)!=(v).end();(i)++)

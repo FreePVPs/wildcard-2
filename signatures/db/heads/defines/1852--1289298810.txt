@@ -1,1 +1,0 @@
-#define FOR(prom, a, b) for(int prom = (a); prom < (b); prom++)

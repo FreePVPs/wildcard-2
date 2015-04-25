@@ -1,1 +1,0 @@
-const int nbBoules = 2000;

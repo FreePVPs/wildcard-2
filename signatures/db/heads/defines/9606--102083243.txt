@@ -1,1 +1,0 @@
-#define debugv(v) cerr << #v << " = "; FOREACH(it, v) cerr << *it << ",\n";

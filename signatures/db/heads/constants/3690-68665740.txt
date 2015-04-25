@@ -1,1 +1,0 @@
-          const auto t = extended_euclid(a[i], a[j]);

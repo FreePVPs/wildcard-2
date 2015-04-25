@@ -1,2 +1,0 @@
-	private double nd() { return Double.parseDouble(ns()); }
-	private char nc() { return (char)skip(); }

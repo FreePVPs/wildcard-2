@@ -1,1 +1,0 @@
-#define REP_(v, s, e) for(UI v = s; v < e; ++v)

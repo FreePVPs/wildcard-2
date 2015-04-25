@@ -1,1 +1,0 @@
-const maxg = 2550;

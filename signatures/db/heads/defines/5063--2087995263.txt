@@ -1,1 +1,0 @@
-#define PRINT_CONTAINER(o,v)    {o<<"{"; for(auto it=v.begin(); it!=v.end();++it) o<<*it<<" "; return o<<"\b}";}

@@ -1,1 +1,0 @@
-#define FJT(j,t) for(j=0;j<t;j++)

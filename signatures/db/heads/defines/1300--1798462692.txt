@@ -1,1 +1,0 @@
-#define DO(n)               for(int __n ## __LINE__ = n; __n ## __LINE__ -- ;)

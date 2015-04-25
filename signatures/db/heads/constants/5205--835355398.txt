@@ -1,1 +1,0 @@
-const int max3=1e3;

@@ -1,1 +1,0 @@
-const long d4=10000;

@@ -1,1 +1,0 @@
-#define dfo(d,i,a,b) for (d i = (a); i < (b); i++)

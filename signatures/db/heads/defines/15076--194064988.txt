@@ -1,1 +1,0 @@
-#define inp(n) int (n); scanf("%d",&(n));

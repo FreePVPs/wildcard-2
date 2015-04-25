@@ -1,1 +1,0 @@
-const int MXV=2e6;

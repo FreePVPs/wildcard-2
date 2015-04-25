@@ -1,1 +1,0 @@
-#define PR(x,a,b) {For(i,a,b) cout << x[i] << ' '; cout << endl;}

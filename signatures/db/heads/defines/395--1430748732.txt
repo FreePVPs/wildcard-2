@@ -1,1 +1,0 @@
-#define DA(a,n) cout<<#a<<"=["; printarray(a,n); cout<<"]\n"

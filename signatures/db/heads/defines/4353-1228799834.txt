@@ -1,1 +1,0 @@
-#define FOR(i,FROM,n) for(int i=FROM;i<n;i++)

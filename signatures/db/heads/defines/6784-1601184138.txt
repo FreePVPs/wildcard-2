@@ -1,1 +1,0 @@
-#define RANGE(i,start,end,step) for(int i = start; i<end;i+= step)

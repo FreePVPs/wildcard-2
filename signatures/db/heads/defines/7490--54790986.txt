@@ -1,1 +1,0 @@
-#define FORD(x, b, e) for(int x=b; x>=(e); --x)

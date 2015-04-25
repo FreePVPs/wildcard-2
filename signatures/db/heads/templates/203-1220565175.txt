@@ -1,1 +1,0 @@
-template<class T> bool isPrime(T x){if(x<=1)RE false;T i;for(i=2;i*i<=x;i++)if(x%i==0)RE false;RE true;} //isPrime

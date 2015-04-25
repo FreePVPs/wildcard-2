@@ -1,1 +1,0 @@
-#define _for(i, from, to) for(long i = (from); i < (to); i++)

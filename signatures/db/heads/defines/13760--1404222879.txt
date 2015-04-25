@@ -1,1 +1,0 @@
-#define FOR(begin,end) for(int i=begin;i<end;i++)

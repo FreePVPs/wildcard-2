@@ -1,1 +1,0 @@
-const int treesize = shift<<1;

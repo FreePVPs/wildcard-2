@@ -1,1 +1,0 @@
-#define fe(e,C) for(__typeof((C).begin()) e = (C).begin(); e != (C).end(); e++)

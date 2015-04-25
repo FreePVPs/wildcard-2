@@ -1,1 +1,0 @@
-#define prc(c) for(auto i = (c).begin(); i !=(c).end(); i++ ) cout << *i << " "; cout<<endl

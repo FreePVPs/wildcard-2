@@ -1,1 +1,0 @@
-const int MAXI = 0x7fffffff;

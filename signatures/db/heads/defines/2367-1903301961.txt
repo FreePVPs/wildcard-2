@@ -1,1 +1,0 @@
-#define	    rFIT(it,v)		  for (typeof((v).begin())it=(v).end()-1; it!=(v).begin()-1; --it)

@@ -1,1 +1,0 @@
-const unsigned long long ULINF=ULLONG_MAX;

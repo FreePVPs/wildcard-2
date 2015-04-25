@@ -1,1 +1,0 @@
-#define mySwap(a,b) int t; t = a ; a=b ; b=t;

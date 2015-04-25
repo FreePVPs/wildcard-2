@@ -1,1 +1,0 @@
-const int MAXL = 1001000;

@@ -1,1 +1,0 @@
-#define _END_SOL int main() { _open_files("test"); solve(); return 0; }

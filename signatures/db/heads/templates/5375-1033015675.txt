@@ -1,1 +1,0 @@
-template<class T>string toString(T n){ stringstream ss; string num; ss<<n; ss>>num; return num; }

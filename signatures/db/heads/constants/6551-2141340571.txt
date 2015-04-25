@@ -1,1 +1,0 @@
-	const Shoe * aa=(const Shoe *)a;

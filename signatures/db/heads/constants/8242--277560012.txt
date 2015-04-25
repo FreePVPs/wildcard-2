@@ -1,1 +1,0 @@
-const double pi=(double)3.14159265358979323846;

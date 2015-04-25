@@ -1,1 +1,0 @@
-#define feach(c,_)           for(__typeof((c).begin()) _=(c).begin();_!=(c).end();++_)

@@ -1,1 +1,0 @@
-#define FORI(x,m,n,i) for(int x=(m);x<=(n);x+=(i))

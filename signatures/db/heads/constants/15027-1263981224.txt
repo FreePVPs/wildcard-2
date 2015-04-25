@@ -1,1 +1,0 @@
-const LL modref=1000000007ll;

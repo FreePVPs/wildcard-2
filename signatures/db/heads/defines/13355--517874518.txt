@@ -1,1 +1,0 @@
-#define reg(i,a,b) for(lli i=(a);i<=(b);i++)

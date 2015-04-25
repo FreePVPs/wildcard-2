@@ -1,1 +1,0 @@
-#define F1(i,n) for(long long i = 1;i<=n;i++)

@@ -1,3 +1,0 @@
-    static BufferedReader reader;
-    static StringTokenizer tokenizer;
-    static PrintWriter writer;

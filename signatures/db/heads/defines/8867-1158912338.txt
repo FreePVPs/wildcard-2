@@ -1,1 +1,0 @@
-#define FORSS(arr,s1,n1,s2,n2) for(int i=s1;i<s1+n1;i++) for(int j=s2;j<s2+n2;j++) cin>>arr[i][j];

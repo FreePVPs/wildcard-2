@@ -1,1 +1,0 @@
-  const DT init_dinfo = 0;

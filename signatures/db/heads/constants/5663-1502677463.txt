@@ -1,1 +1,0 @@
-const HANDLE io::StdOutput = GetStdHandle(STD_OUTPUT_HANDLE);

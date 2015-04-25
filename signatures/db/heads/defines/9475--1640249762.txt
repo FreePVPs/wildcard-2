@@ -1,1 +1,0 @@
-#define f_j(x) for (int j=0;j<x;++j)

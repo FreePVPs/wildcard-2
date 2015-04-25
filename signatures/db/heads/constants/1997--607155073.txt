@@ -1,1 +1,0 @@
-const int Nmax = 1000110;

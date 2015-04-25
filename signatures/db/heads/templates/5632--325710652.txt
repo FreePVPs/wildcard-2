@@ -1,1 +1,0 @@
-template<class T>T GCD(T x, T y) { while(x) x^=y^=x^=y%=x; return y; } /** GCD(a,b) **/

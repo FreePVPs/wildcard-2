@@ -1,1 +1,0 @@
-#define REPP(k,a,b) for(int k= (a); k < (b); ++k)

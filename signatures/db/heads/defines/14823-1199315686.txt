@@ -1,1 +1,0 @@
-#define INIT int q;string a,b;

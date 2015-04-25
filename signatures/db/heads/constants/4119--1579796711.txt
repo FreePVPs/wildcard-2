@@ -1,1 +1,0 @@
-const li INF = numeric_limits<li>::max(), K = 2e5 + 1, Q = 2e5 + 1;

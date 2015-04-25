@@ -1,1 +1,0 @@
-#define testcase(caseno,cases) int caseno,cases;scanf("%d",&cases);for(caseno=1;caseno<=cases;caseno++)

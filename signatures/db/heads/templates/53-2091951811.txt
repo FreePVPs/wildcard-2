@@ -1,1 +1,0 @@
-template<class T> inline T modpoww(T b,T p,T mmod){if(p==0&&b==0)return 0;ll a=1;while(p){if(p&1){a=(a*b)%mmod;}p>>=1;b=(b*b)%mmod;}return a%mmod;}

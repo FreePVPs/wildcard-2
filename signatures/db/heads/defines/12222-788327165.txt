@@ -1,1 +1,0 @@
-#define SLL ({LL _x; scanf("%lld",&_x); _x;})

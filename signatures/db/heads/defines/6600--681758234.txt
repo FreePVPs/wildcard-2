@@ -1,1 +1,0 @@
-#define foreach(T,v,i) for(T::iterator i=v.begin();i!=v.end();++i)

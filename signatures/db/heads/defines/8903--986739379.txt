@@ -1,1 +1,0 @@
-#define dd_c(c) { foreach(_it, c) cerr << *_it << " "; cerr << endl; }

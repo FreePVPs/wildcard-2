@@ -1,1 +1,0 @@
-#define fori(i,b,e) for (int i = (b); i < (e); i++)

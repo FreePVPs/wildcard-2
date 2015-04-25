@@ -1,1 +1,0 @@
-template <class T> void pp(T v) { FOREACH(it, v) cout << *it << ' '; cout << endl ; }

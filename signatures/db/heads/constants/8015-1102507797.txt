@@ -1,1 +1,0 @@
-const ll e18=(ll)e9*(ll)e9;

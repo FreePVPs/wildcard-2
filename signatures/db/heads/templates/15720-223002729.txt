@@ -1,1 +1,0 @@
-template<> inline ll INF<ll>(){return 1LL<<58;};

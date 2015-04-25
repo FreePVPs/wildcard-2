@@ -1,1 +1,0 @@
-#define prv(v) for(auto i = 0; i < sizeof(v)/sizeof(*v); ++i) cout << *(v+i) << " "; cout<<endl

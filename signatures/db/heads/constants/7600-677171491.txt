@@ -1,1 +1,0 @@
-const int N_SQRT = 2*600;

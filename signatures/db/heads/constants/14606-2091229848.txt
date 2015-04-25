@@ -1,1 +1,0 @@
-const int infty = numeric_limits<int>::max();

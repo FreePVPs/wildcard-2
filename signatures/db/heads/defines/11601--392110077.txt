@@ -1,1 +1,0 @@
-#define REP(s, e, n)  for(n = (s); n < (e); ++n)

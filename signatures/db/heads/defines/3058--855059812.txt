@@ -1,1 +1,0 @@
-#define fori(d,mas) for(int i=d;i<mas;i++)

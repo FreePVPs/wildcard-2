@@ -1,1 +1,0 @@
-#define FOR(i,v)for(int i=0;i<v;i++)

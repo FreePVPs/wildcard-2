@@ -1,1 +1,0 @@
-#define FOR(i,_a,_e) for(i=_a;i<=_e;i++)

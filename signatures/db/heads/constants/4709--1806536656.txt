@@ -1,1 +1,0 @@
-const long long LLINF = std::numeric_limits<ll>::max();

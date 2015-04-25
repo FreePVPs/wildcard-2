@@ -1,1 +1,0 @@
-#define FITD(it,v) for (typeof ((v).rbegin())it=(v).rbegin(); it!=(v).end(); ++it)

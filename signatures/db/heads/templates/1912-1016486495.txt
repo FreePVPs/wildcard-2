@@ -1,1 +1,0 @@
-TEMPLATE inline string tostring(T n) { stringstream ss; ss << n; return ss.str(); }

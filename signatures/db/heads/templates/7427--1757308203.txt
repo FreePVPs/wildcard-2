@@ -1,1 +1,0 @@
-template< class T > vector <T> find_divisor(T num){ vector <T> res ; res.clear() ; for(int i = 1 ; i <= num/2 ; i++) if(num % i == 0) res.push_back(i) ; return res ; }

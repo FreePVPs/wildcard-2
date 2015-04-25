@@ -1,1 +1,0 @@
-#define OICLOSE fclose(stdin); fclose(stdout);

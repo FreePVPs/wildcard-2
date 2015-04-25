@@ -1,1 +1,0 @@
-#define FORSQ(i, s, e) for(i = (s); i*i < (e); i++)

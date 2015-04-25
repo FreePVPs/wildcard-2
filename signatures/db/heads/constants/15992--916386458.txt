@@ -1,1 +1,0 @@
-const double infd = 23e30 + 7;

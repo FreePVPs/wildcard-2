@@ -1,1 +1,0 @@
-const long int modul = 1000000007;

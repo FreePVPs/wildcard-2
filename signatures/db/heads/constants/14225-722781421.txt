@@ -1,1 +1,0 @@
-    const static int MAX_NAME_LEN = 100;

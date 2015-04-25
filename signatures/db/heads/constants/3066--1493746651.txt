@@ -1,1 +1,0 @@
-const int L_N=2e5+10;

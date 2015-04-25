@@ -1,1 +1,0 @@
-const tint MAXN=102400;

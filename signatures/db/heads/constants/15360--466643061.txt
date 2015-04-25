@@ -1,1 +1,0 @@
-const int MOVEMENT_LEFT = 0;

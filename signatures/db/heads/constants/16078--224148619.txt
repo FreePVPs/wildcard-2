@@ -1,1 +1,0 @@
-const string NOT= "Not unique";

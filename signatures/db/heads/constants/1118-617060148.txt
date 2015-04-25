@@ -1,1 +1,0 @@
-const int MK = 100100;

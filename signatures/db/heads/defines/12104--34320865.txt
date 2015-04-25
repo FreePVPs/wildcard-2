@@ -1,1 +1,0 @@
-#define TPR(I,R,L) for(lnt I=(R);I>=(L);--I)

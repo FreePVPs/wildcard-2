@@ -1,1 +1,0 @@
-#define FORSTEP(i,a,b,step) for(VAR(i,a); i < (b); i += (step))

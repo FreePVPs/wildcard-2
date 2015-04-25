@@ -1,1 +1,0 @@
-#define fo(a,b) for( o = a; o < b; ++o )

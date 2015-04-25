@@ -1,1 +1,0 @@
-const int Len=1010;

@@ -1,1 +1,0 @@
-#define rrep(i,b,a) for(int i=(b);i>=(int)(a);--i)

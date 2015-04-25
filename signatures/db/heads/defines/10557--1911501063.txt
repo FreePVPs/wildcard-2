@@ -1,1 +1,0 @@
-#define LOOP(b) for (ll i=0; i<b;i++)

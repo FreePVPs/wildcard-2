@@ -1,1 +1,0 @@
-#define FR(i,en) for(ll i=0,pJNwFPtlXiwFoIv=(en);i<pJNwFPtlXiwFoIv;i++)

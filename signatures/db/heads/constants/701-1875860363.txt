@@ -1,1 +1,0 @@
-		const int distanceF = nodes[f].nLevel - nodes[commonParent].nLevel;

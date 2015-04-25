@@ -1,1 +1,0 @@
-const int lcm=360360;

@@ -1,1 +1,0 @@
-const int NEGINF = 0xC0C0C0C0;

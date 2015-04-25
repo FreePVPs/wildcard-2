@@ -1,1 +1,0 @@
-const int maxn=305,maxp=10,maxval=4000000;

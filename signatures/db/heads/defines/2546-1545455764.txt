@@ -1,1 +1,0 @@
-#define fle(b) for(int l=0; l <= ((int)(b)); l++)                        // l -> [0, b]

@@ -1,1 +1,0 @@
-#define inp          ({long tt2;sc("%ld",&tt2);tt2;})

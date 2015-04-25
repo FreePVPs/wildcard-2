@@ -1,1 +1,0 @@
-		const int k = (inverse ? ((n - i) & mask) : i);

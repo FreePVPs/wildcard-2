@@ -1,1 +1,0 @@
-#define swap(a, b) {int c = a; a = b; b = c;}

@@ -1,1 +1,0 @@
-#define DO(n) for ( int ____n = n; ____n-->0; )

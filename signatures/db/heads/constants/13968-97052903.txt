@@ -1,1 +1,0 @@
-    const struct abc* p1 = (abc*)v1;

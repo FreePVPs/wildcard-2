@@ -1,1 +1,0 @@
-#define rfori(i,a) for(auto i=a.rbegin(); i!=a.rend(); ++i)

@@ -1,1 +1,0 @@
-#define FOR(v,p,k) for(LL v=p;v<=k;++v)

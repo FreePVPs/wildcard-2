@@ -1,1 +1,0 @@
-#define FORL(i,s,t) for(L i=(s); i<(t); i++)

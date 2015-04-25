@@ -1,1 +1,0 @@
-#define fori(type,x,a,b) for( type (x) = (a) ; (x) < (b) ; (x)++) 

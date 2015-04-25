@@ -1,1 +1,0 @@
-template<class T>inline T _GCD(T a,T b){if(b==0) return a;return _GCD(b,a%b);}

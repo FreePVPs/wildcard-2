@@ -1,1 +1,0 @@
-const int MaxMatrixSize=40;//NOTES:MaxMatrixSize 

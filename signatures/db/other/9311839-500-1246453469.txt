@@ -1,2 +1,0 @@
-
-#define pis(x) printf("%d ",x)

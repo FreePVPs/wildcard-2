@@ -1,1 +1,0 @@
-const int maxd = 30000;

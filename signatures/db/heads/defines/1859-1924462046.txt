@@ -1,1 +1,0 @@
-#define print(Z,a,b) for (int __z = a; __z < b; __z ++) cout << Z[__z] << " ";

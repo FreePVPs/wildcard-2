@@ -1,1 +1,0 @@
-const double EPS = 10e-9;

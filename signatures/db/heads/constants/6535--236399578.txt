@@ -1,1 +1,0 @@
-			const int &u = getFather(road[k].u), &v = getFather(road[k].v), &id = road[k].id;

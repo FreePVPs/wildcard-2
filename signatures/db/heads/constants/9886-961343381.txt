@@ -1,1 +1,0 @@
-const int len = 524287;

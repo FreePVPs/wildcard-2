@@ -1,1 +1,0 @@
-#define FORR(i,start,end) for (i = (start); i <= (end); i++)

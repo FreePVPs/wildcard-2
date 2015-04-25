@@ -1,1 +1,0 @@
-const unsigned MAXN = 101000;

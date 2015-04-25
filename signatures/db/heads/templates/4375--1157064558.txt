@@ -1,1 +1,0 @@
-template<class A, class B, class C> struct Triple { A first; B second; C third; };

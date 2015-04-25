@@ -1,1 +1,0 @@
-#define forinv(i,h,l)               for(int i=(h);i>=(long long)(l);i--)

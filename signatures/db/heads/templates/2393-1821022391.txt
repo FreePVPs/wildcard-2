@@ -1,1 +1,0 @@
-template<typename t1, typename t2> ostream& operator <<(ostream& os, const pair<t1, t2>& a) {os << a.first << ' ' << a.second;return os;}

@@ -1,1 +1,0 @@
-#define REACH(i, c)     for (VAR(i,(c).rbegin()); i != (c).rend(); ++i)

@@ -1,1 +1,0 @@
-#define cfo(i,start,CONDITION,stop) for(int i=start;i<stop,CONDITION;++i)

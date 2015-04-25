@@ -1,1 +1,0 @@
-#define rem(i,init,n) for(i=init;i>n;i--)

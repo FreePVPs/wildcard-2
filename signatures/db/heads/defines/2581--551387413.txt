@@ -1,1 +1,0 @@
-#define dbgG(G,n)            cout<<endl;fr(i,1,n){cout<<i<<" --> ";fr(j,0,(G[i].size())-1) cout<<"("<<G[i][j].ff<<" , "<<G[i][j].ss<<")"<<"  ";cout<<endl;}

@@ -1,1 +1,0 @@
-template< typename T > T next() {  T tmp; cin >> tmp; return tmp; }

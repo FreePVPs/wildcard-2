@@ -1,1 +1,0 @@
-const long long MIL = 1e6;

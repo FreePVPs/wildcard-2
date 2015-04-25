@@ -1,1 +1,0 @@
-#define FORT(t,a)	  for(t::itr it=a.begin(); it!=a.end(); ++it)

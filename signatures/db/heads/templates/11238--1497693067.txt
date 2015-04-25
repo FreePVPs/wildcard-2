@@ -1,1 +1,0 @@
-template<typename T> inline bool checkmin(T &a, T b){if(b < a) { a = b; return true;} return false;}

@@ -1,1 +1,0 @@
-const int                       intinfinity = 2147483647;

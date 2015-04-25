@@ -1,1 +1,0 @@
-const char* bint::DG_FORMAT = "%04d";

@@ -1,1 +1,0 @@
-const lol MAXN = 100005;

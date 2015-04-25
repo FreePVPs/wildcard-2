@@ -1,1 +1,0 @@
-#define f(i,a,b) for(typeof(b) i=a;i<=b;i++)

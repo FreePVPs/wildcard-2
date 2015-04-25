@@ -1,3 +1,0 @@
-
-#define rep(i,n)  range(i,0,n)
-#define clr(a,b) memset((a), (b) ,sizeof(a))

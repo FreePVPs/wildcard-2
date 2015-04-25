@@ -1,1 +1,0 @@
-const int P[] = {(int)1e9 + 7, (int)1e9 + 9};

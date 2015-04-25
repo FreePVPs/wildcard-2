@@ -1,1 +1,0 @@
-string tostring(long long n){ ostringstream ss; ss << n; return ss.str(); }

@@ -1,1 +1,0 @@
-#define dffe(d,i,a,b) for (d i = (b); i >= (a); i--)

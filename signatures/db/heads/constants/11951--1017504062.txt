@@ -1,1 +1,0 @@
-	construct(m+1,r,rch);

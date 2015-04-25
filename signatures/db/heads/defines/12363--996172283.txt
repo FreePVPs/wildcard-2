@@ -1,1 +1,0 @@
-#define ford(i, k, d) for(int i(k); i >= (d); --i) // [d, k] d <- k

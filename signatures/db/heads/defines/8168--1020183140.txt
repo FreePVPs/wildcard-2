@@ -1,1 +1,0 @@
-#define Int(a)      int a;ri(a);

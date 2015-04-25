@@ -1,1 +1,0 @@
-const long long Inf = 1LL << 60;

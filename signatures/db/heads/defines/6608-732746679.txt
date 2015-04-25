@@ -1,1 +1,0 @@
-#define swap(a,b,t) t=a;a=b;b=t;

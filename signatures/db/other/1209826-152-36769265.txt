@@ -1,3 +1,0 @@
-    void deb(String fmt, Object... args) {
-        System.out.printf(Locale.US, fmt + "%n", args);
-    }

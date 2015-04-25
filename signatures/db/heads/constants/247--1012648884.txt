@@ -1,1 +1,0 @@
-const int MAX=800000+10;

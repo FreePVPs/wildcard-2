@@ -1,1 +1,0 @@
-#define RREP(i,n)   for(__typeof(n) i=(n)-1;i>=0;i--)

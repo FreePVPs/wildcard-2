@@ -1,1 +1,0 @@
-#define FOREACH(i,v) for(typeof((v).begin()) i=(v).begin();i!=(v).end();i++)

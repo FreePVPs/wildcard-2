@@ -1,1 +1,0 @@
-#define fv(a,b) for(__typeof(a.begin()) b = (a).begin(); b != (a).end(); ++b)

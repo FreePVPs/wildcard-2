@@ -1,1 +1,0 @@
-const int siz = 134 * 134 * 4;

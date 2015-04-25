@@ -1,1 +1,0 @@
-        const int TT = G[T][i];

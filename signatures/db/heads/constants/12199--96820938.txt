@@ -1,1 +1,0 @@
-			const ref& operator+=(T const &rv)const{if(rv)add(rv);return *this;}

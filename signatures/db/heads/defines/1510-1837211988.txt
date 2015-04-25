@@ -1,1 +1,0 @@
-#define tr(container, it)for(__typeof(container.begin()) it = container.begin(); it != container.end(); it++)

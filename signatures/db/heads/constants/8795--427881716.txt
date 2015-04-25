@@ -1,1 +1,0 @@
-const int kMod=95542721;

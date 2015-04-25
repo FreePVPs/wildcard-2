@@ -1,1 +1,0 @@
-const ll S = (ll)75827;

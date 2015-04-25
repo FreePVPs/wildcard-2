@@ -1,1 +1,0 @@
-const char* way4[] = {"R", "D", "L", "U"};

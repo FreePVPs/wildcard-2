@@ -1,1 +1,0 @@
-const int NO_VALUE = -1;

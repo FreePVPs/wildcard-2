@@ -1,1 +1,0 @@
-#define addEdgeC(a,b,c) from[z] = a; to[z] = b; ant[z] = adj[a]; adj[a] = z; cost[z] = c; edges[z] = z; z++;

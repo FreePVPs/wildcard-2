@@ -1,1 +1,0 @@
-#define FOR(startv,start,end) for(int startv=start;startv<end;startv++)

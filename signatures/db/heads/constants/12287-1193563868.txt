@@ -1,1 +1,0 @@
-const int MAX_R = 500+1;

@@ -1,1 +1,0 @@
-#define forn(it, from, to) for(int it = from; it < to; ++it)

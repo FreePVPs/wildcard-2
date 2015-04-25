@@ -1,1 +1,0 @@
-#define FOR(I,A,B) for(long long I = (A); I < (B); ++I)

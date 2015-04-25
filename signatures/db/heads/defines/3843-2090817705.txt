@@ -1,1 +1,0 @@
-#define _FORN(index, start, end) for (int index = (int) (start); index < (int) (end); ++ index)

@@ -1,1 +1,0 @@
-const int MAXA = 1e7 + 10;

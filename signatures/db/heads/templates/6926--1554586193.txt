@@ -1,1 +1,0 @@
-template<class T>inline std::string toString(const T &n){std::ostringstream out;out << n;out.flush();return out.str();}

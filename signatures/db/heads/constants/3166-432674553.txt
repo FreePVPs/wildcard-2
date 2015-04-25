@@ -1,1 +1,0 @@
-const int pow2 = (1 << 21);

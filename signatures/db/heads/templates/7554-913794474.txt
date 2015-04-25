@@ -1,1 +1,0 @@
-template<class T> inline T& _RD(T &x){ RD(x); return x;}

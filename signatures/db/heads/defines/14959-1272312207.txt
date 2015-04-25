@@ -1,1 +1,0 @@
-#define CLC(act,val) ([&] () {act; return (val); } ())

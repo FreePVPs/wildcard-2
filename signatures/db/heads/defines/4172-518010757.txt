@@ -1,1 +1,0 @@
-#define fors(x,k,n) for(uint x=kbegin(k);x<kend(k,n);x=knext(x))

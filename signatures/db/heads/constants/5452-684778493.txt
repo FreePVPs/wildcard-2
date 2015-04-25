@@ -1,1 +1,0 @@
-const int nMax=2005;

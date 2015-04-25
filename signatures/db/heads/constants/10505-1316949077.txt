@@ -1,1 +1,0 @@
-const double D_INF=1e100;

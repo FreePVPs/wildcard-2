@@ -1,1 +1,0 @@
-#define sint(n); scanf("%d",&n);

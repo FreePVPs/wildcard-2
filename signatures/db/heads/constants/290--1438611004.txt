@@ -1,1 +1,0 @@
-const LL INF=(long long)MAX_N*1000*1000*1000*100ll;

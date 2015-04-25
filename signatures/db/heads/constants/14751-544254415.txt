@@ -1,1 +1,0 @@
-      const int r = strncmp(&S[sa[m]], &t[0], MIN(n-sa[m], t.size()));

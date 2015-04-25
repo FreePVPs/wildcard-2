@@ -1,1 +1,0 @@
-const int inff = 0x3fffffff;

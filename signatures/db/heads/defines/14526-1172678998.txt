@@ -1,1 +1,0 @@
-#define forszo(j,v) for(int j=0;j<v.size();j++)

@@ -1,1 +1,0 @@
-#define REP_(i,r,l) for((i)=(r);(i)>=(l);(i)--)

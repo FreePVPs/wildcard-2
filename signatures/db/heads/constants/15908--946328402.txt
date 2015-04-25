@@ -1,1 +1,0 @@
-const int MAXN =  (int)6*(1e5)+10;

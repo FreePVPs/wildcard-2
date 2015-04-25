@@ -1,1 +1,0 @@
-#define output(arr,len) for(lli i = 0;i<len;i++) cout<<arr[i]<<" ";cout<<"\n";

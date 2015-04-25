@@ -1,1 +1,0 @@
-#define gett(t,n) t n;cin>>n;

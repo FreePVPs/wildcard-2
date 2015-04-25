@@ -1,1 +1,0 @@
-#define forall(i,vec) for(typeof(vec.begin()) i = vec.begin(); i != vec.end(); i++)

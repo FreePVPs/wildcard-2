@@ -1,1 +1,0 @@
-#define repi(i,f,l) for(int i=f ; i<(l) ; ++i)

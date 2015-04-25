@@ -1,1 +1,0 @@
-#define FORC(it,C) for(it=C.begin();it!=C.end();it++)

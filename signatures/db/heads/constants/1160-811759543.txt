@@ -1,1 +1,0 @@
-const int N = 100008, mod = 1e9 + 9;

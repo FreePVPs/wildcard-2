@@ -1,1 +1,0 @@
-#define rrep1(i,x) for(ll i=x;i>0;i--)

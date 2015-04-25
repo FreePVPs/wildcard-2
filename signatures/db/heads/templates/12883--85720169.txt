@@ -1,1 +1,0 @@
-template < class T > inline T reverse_num( T a ){ T x=0,tmp = a; while(tmp) { x=10*x+ tmp % 10; tmp/=10;} return x;}

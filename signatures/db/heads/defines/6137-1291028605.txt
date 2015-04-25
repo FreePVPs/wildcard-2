@@ -1,1 +1,0 @@
-#define rloop(i,j,n) for(i=n;i>=j;i--)

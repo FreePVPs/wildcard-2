@@ -1,1 +1,0 @@
-#define FOR(it, var)		for(auto it=var.begin(); it!=var.end(); it++)

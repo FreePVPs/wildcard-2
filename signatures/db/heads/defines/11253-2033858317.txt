@@ -1,1 +1,0 @@
-#define REPV(type, v, e) for(type v = 0; v < e; ++v)

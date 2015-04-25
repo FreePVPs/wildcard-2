@@ -1,1 +1,0 @@
-#define FOR(var, from, to) for (int var = (int)(from); var < (int)(to); ++var)

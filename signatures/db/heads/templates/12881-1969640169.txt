@@ -1,1 +1,0 @@
-template < class T > inline T extended_euclid_returning_gcd(T a,T b){ T t; if(b==0){d = a;x=1;y=0;} else {extended_euclid_returning_gcd(b, a%b); t=x; x=y;y = t-(a*y/b);}}

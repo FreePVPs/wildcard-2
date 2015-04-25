@@ -1,1 +1,0 @@
-const int maxN=1010,maxK=110;

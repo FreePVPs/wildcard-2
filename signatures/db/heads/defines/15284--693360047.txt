@@ -1,1 +1,0 @@
-#define iin3(a,b,c) int a;cin >> a; int b;cin >> b; int c;cin >> c;

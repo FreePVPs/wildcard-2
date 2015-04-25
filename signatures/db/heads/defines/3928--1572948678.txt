@@ -1,1 +1,0 @@
-#define next(t, i) argument_type<void(t)>::type i; cin >> i;

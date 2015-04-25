@@ -1,1 +1,0 @@
-template<class T> inline T poww(T b,T p){LL a=1;while(p){if(p&1){a=(a*b);}p>>=1;b=(b*b);}return a;}

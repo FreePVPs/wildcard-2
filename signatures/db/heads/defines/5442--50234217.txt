@@ -1,1 +1,0 @@
-#define addEdge(a,b) to[z] = b; ant[z] = adj[a]; adj[a] = z++

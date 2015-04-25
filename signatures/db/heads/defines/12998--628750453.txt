@@ -1,1 +1,0 @@
-#define siii(n,m,r)		     inp(n);inp(m);inp(r)

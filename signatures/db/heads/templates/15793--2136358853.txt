@@ -1,1 +1,0 @@
-template<typename T> string join(vector<T> vector, string delim=" "){string rv = "";ostringstream convert;for(T a : vector){convert << a;rv.append(convert.str());convert.clear();convert.str(std::string());rv.append(delim);}return rv.substr(0, rv.size()-delim.size());;}

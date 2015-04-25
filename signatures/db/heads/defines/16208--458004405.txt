@@ -1,1 +1,0 @@
-#define FOR(I, A, N) for (int I = (A); I < int(N); ++I)

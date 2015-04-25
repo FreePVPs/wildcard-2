@@ -1,1 +1,0 @@
-const int MAXSET = 1<<24;

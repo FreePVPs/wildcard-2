@@ -1,1 +1,0 @@
-#define ERP(P,U) for(int P=ube[U];P!=-1;P=E[P].nxt)

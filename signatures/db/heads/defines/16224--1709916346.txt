@@ -1,1 +1,0 @@
-#define FORL(i,k,l)   for(unsigned long long i(k); i<l; i++)

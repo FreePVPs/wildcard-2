@@ -1,1 +1,0 @@
-#define rofba(i,a,b) for (__typeof(b) i = (b); i >= (a); --i)

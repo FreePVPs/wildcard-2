@@ -1,1 +1,0 @@
-#define Rev(i,N)   for(int i=(N); --i>= 0; )               /* N-1 ==>  0  */

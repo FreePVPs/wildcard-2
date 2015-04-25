@@ -1,1 +1,0 @@
-const long d5=100000;

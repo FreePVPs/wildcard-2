@@ -1,1 +1,0 @@
-#define rev(i,n,r) for(int i=(n);i>=(r);i--)

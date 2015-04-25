@@ -1,1 +1,0 @@
-const int MAXX = (int)1e7 + 500;

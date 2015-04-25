@@ -1,1 +1,0 @@
-#define IREP(in,i,n) for(ll i=in;i<n;i++)

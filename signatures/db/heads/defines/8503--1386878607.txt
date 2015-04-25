@@ -1,1 +1,0 @@
-#define fdo(a, b) for(o=a; o>=b; o--)

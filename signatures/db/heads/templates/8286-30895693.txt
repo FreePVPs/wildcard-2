@@ -1,1 +1,0 @@
-template<class T> string tostring(T n){ ostr co; co<<n ; co.flush(); return co.str();}

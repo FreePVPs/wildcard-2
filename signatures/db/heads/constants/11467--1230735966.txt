@@ -1,1 +1,0 @@
-  const static int BUF_SIZE = (2000000);

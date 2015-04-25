@@ -1,1 +1,0 @@
-#define parr(a,n) for (int i=0;i<(int)(n);i++) cout << a[i] << " "; cout << endl;

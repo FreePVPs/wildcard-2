@@ -1,1 +1,0 @@
-#define irep(i,a) for (__typeof(a.begin()) i = a.begin(); i != a.end(); i++)

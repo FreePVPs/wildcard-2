@@ -1,1 +1,0 @@
-#define FOR_1_N(i, a, b) for (i=int(a);i<=int(b);++i)

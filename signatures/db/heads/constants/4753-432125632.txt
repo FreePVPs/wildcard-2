@@ -1,1 +1,0 @@
-const int TAM = 1e6 + 100;

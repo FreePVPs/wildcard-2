@@ -1,1 +1,0 @@
-#define EXIT(x)         {cout << x;return 0;}

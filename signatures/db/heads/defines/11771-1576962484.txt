@@ -1,1 +1,0 @@
-#define forx(b)    for(int x = 0; x < b; x++)

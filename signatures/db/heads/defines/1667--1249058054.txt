@@ -1,1 +1,0 @@
-#define ni() ({int t;scanf("%d",&t);t;})

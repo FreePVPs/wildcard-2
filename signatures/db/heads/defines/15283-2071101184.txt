@@ -1,1 +1,0 @@
-#define iin2(a,b) int a;cin >> a; int b;cin >> b;

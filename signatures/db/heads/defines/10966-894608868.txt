@@ -1,1 +1,0 @@
-#define FOR(x,N) for(x=0;x<=N;x++)

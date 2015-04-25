@@ -1,1 +1,0 @@
-#define REP2(_,a,b) for(int _ = (a); _ < (b); _++)

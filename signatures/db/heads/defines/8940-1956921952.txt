@@ -1,1 +1,0 @@
-#define DEBA(x,n) { int i; cout << "{\n"; FOR(i,0,n-1)cout << i << " " << x[i] << endl; cout << "}\n"; }

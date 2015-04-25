@@ -1,2 +1,0 @@
-template <class T> bool get_max(T& a, const T &b) {return b > a? a = b, 1: 0;}
-template <class T> bool get_min(T& a, const T &b) {return b < a? a = b, 1: 0;}

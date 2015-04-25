@@ -1,1 +1,0 @@
-#define No printf("NO"); return 0;

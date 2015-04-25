@@ -1,1 +1,0 @@
-const int lim=maxn*2;

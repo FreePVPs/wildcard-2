@@ -1,1 +1,0 @@
-#define FOREACH(i,k) for (int i = 0;i < SIZE(k) ;i++)

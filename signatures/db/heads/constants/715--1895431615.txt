@@ -1,1 +1,0 @@
-const int MAXBUF=15000000;

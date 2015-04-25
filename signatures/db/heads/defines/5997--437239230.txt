@@ -1,1 +1,0 @@
-#define forstl(i,v) for(i=0;i<v.size();i++)

@@ -1,1 +1,0 @@
-    const int m = x_ - q * x;

@@ -1,1 +1,0 @@
-#define FOR(i, n, m) for(i = n; i < m; ++i)

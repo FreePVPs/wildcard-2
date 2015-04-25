@@ -1,1 +1,0 @@
-template <class _T> inline istream& operator << (istream& is, const _T& a) { is.putback(a); return is; }

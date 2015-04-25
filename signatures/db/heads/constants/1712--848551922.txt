@@ -1,1 +1,0 @@
-const int LM = 1e5 + 7;

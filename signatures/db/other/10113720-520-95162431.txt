@@ -1,6 +1,0 @@
-void getline(char* entry){char c;string s;while((c=getchar())!='\n')s+=c;strcpy(entry,s.c_str());}
-int toi(string x){
-    int z;
-    istringstream iss(x);
-    iss>>z; return z;
-}

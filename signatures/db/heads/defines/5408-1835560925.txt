@@ -1,1 +1,0 @@
-#define 	FORALL(itr, c) 	for(itr = (c).begin(); itr != (c).end(); itr++)

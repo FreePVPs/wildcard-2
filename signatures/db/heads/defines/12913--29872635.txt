@@ -1,1 +1,0 @@
-#define FI(st,fn,in) for(i=st;i<=fn;i+=in)

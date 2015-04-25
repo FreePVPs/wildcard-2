@@ -1,1 +1,0 @@
-const int Infinity = 2000000000;

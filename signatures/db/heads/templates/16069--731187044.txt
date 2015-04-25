@@ -1,1 +1,0 @@
-template <class myType> istream &operator >> (istream &in, vector<myType> &object){myType c;cin>>c;object.pb(c);return in;}

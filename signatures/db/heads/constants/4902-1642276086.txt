@@ -1,1 +1,0 @@
-const li INF64 = 1e18;

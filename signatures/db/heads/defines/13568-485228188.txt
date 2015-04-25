@@ -1,1 +1,0 @@
-	#define BSCH(f,l,h) while(l<h){ int mid=(l+h)/2; if(f(mid)) h=mid; else l=mid+1;}

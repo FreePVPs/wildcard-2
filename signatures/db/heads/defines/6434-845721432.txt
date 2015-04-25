@@ -1,1 +1,0 @@
-#define fd(i,a,b) for(int (i) = (a), __end = (b); (i) >= __end; (i)--)

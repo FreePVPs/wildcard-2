@@ -1,1 +1,0 @@
-const int MAXn = 100*1000 + 5;

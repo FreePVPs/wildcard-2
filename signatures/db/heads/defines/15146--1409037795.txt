@@ -1,1 +1,0 @@
-#define Rep(i,s,check) for (int i=s;check;++i)

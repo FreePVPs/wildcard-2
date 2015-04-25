@@ -1,1 +1,0 @@
-const int bfsz = 1 << 16; char bf[bfsz + 5]; int rsz = 0;int ptr = 0;

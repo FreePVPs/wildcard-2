@@ -1,1 +1,0 @@
-#define dep(i,t,s) for (i=(t); i>=(s); i--)

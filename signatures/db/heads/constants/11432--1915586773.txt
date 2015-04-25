@@ -1,1 +1,0 @@
-	const dou _pi=acos(-1.0);

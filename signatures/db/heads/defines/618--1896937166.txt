@@ -1,1 +1,0 @@
-#define RFOR(c,rit) 		for(typeof((c).rbegin()) rit = (c).rbegin(); rit != (c).rend(); rit++)

@@ -1,1 +1,0 @@
-#define ast(b) if(DBG && !(b)) { printf("%d!!|\n", __LINE__); while(1) getchar(); }  //и°ѓиЇ•

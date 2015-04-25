@@ -1,1 +1,0 @@
-#define rep(_i,_n) for (int _i = 0; _i < _n; ++_i)

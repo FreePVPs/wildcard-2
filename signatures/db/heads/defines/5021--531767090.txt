@@ -1,1 +1,0 @@
-#define FBA(i,b,a) for(LL i=(LL)b;i>=(LL)a;i--)

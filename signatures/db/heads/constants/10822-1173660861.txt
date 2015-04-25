@@ -1,1 +1,0 @@
-const int Maxnum = 10000000 + 10;

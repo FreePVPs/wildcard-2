@@ -1,1 +1,0 @@
-#define forx(j,s,e) for(int j = s; j < e; j++)

@@ -1,1 +1,0 @@
-const int MaxP = 20005, maxn = 205, maxe = 205*205, INF = 1e9;

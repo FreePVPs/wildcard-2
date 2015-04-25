@@ -1,1 +1,0 @@
-template <int n> using AI=array<int, n>; typedef AI<2> AII; typedef AI<3> AI3; typedef AI<4> AI4;

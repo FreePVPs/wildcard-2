@@ -1,1 +1,0 @@
-const LL infLL = 1LL<<60;

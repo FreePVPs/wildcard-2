@@ -1,1 +1,0 @@
-template <class myType> myType operator % (pair<myType,myType>& a, int b){switch(b){case 0:return a.first;case 1:return a.second;}}

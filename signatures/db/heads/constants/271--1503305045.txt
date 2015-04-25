@@ -1,1 +1,0 @@
-const int IMIN = 0x80000000;

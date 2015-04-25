@@ -1,1 +1,0 @@
-template<class T> vector<T> split(string s, string x=" ") { vector<T> r; rep(i,s.size()) { string c; while(i<(int)s.size()&&x.find(s[i])==string::npos) c+=s[i++]; if(c.size()) r.push_back(cast<T>(c));} return r; }

@@ -1,1 +1,0 @@
-#define GF ({float t;scanf("%f",&t);t;})

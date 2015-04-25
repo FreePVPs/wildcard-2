@@ -1,1 +1,0 @@
-#define fr2(i,n,a) for(i=n;i>=a;i--)

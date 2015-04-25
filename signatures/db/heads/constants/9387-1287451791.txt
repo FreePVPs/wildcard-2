@@ -1,1 +1,0 @@
-  const string s(TruncLine(fgets(str, sizeof(str), stdin)));

@@ -1,1 +1,0 @@
-#define mpi(it,table,T,E) for(map<T,E>::iterator it = table.begin();it!=table.end();++it)

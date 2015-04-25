@@ -1,1 +1,0 @@
-#define FOR(x,a,b)	for(LL x=a;x<b;x++)

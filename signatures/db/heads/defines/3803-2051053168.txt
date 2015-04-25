@@ -1,1 +1,0 @@
-#define show(a,n) cout <<#a<<": "; for (int iii=0;iii<n;iii++) cout <<a[iii]<<" "; cout<<"\n";

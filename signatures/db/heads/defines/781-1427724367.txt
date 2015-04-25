@@ -1,1 +1,0 @@
-#define repback(i,x,y) for (i = x - 1;i >= y;i--)

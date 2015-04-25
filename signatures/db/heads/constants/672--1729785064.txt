@@ -1,1 +1,0 @@
-const int MAXLOG = 20;

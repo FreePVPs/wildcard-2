@@ -1,1 +1,0 @@
-#define fory(b)    for(int y = 0; y < b; y++)

@@ -1,1 +1,0 @@
-const ll fa=1e+5+112;

@@ -1,1 +1,0 @@
-#define FOREACH(iter, coll)         for(list <int>::iterator iter = coll.begin(); iter != coll.end(); ++iter)

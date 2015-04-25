@@ -1,1 +1,0 @@
-#define R(i,a,n) for(typeof(a) i=(a);i>=(n);--i)

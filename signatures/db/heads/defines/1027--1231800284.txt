@@ -1,1 +1,0 @@
-#define gep(i,g,j) for(int i = g.head[j]; i != -1; i = g.e[i].next)

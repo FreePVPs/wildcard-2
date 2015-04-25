@@ -1,1 +1,0 @@
-#define Clear(a, b) { for (int i=0; i<=b; i++) a[i].clear(); }

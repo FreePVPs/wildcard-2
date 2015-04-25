@@ -1,1 +1,0 @@
-template <class T > inline T big_mod(T base, T power){ T res=1; while (power) { if(power&1){ res*=base; power--;} base =base *base; power/=2;} return res;}

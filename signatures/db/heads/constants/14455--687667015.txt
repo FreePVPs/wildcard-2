@@ -1,1 +1,0 @@
-const int FINF = 1<<30; const int CINF = 1<<30;

@@ -1,1 +1,0 @@
-const int SQRTN = 175;

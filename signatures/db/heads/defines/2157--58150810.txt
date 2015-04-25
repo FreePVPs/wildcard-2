@@ -1,1 +1,0 @@
-#define CLR2(arr,num,size) for(int i=0;i<size;i++)arr[i]=num;

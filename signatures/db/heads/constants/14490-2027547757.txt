@@ -1,1 +1,0 @@
-const int MAT_SIZE = 128;

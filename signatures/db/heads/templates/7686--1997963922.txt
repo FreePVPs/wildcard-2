@@ -1,1 +1,0 @@
-template<class T> inline T cover_bit(T x){T p = 1; while (p < x) p <<= 1;return p;}

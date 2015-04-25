@@ -1,1 +1,0 @@
-#define FE(i,X) for(typeof((X).begin()) i=(X).begin(); i!=(X).end(); ++i)

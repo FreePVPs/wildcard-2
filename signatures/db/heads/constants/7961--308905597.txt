@@ -1,1 +1,0 @@
-const ld INF = ( 1<<10) ;

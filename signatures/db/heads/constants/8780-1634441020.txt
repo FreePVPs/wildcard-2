@@ -1,1 +1,0 @@
-const int64 INF = LONG_LONG_MAX / 4;

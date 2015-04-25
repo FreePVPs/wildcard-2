@@ -1,1 +1,0 @@
-template <class A, class B> void CONV(A &x, B &y) { stringstream s; s << x; s >> y; }

@@ -1,1 +1,0 @@
-const char eof = -123;

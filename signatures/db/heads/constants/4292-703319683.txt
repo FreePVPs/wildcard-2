@@ -1,1 +1,0 @@
-const int NN = 5000 + 10;

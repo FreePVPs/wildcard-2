@@ -1,1 +1,0 @@
-#define repx(i,n,s) for (long long i = 0; i < (long long)n; i += s)

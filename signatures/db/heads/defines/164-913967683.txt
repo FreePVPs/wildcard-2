@@ -1,1 +1,0 @@
-#define fij(a,b)    for(j=a;j<b;j++)

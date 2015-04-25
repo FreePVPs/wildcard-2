@@ -1,1 +1,0 @@
-#define FOR(var, I, C) for(int var = I; var < C; var++)

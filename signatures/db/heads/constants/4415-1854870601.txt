@@ -1,1 +1,0 @@
-constexpr long double const_pi() { return std::atan(static_cast<long double>(1))*4; }

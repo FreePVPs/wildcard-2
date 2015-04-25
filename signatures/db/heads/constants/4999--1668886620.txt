@@ -1,1 +1,0 @@
-const UInt64 Mod = ( UInt64 )( 1e9 + 7 );

@@ -1,1 +1,0 @@
-#define dbgA(A,n)            cout<<endl;fr(i,0,n-1) cout<<i<<" -- > "<<A[i]<<endl;

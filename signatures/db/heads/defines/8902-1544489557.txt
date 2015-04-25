@@ -1,1 +1,0 @@
-#define dd_vv(vv) { rep(_i, vv.size()) { rep(_j, vv[_i].size()) cerr << vv[_i][_j] << " "; cerr << endl; } cerr << endl; }

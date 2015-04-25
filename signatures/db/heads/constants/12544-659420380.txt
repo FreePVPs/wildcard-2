@@ -1,1 +1,0 @@
-const int MAXii = 100005;

@@ -1,1 +1,0 @@
-	const int goal = p[n-1];

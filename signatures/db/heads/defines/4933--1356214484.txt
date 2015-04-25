@@ -1,1 +1,0 @@
-#define OUT(v) {FO(i,0,v.size()) cout << v[i] << " "; cout << endl;}

@@ -1,1 +1,0 @@
-const long INPUT_LEN = (1000000000);

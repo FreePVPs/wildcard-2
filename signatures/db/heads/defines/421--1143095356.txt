@@ -1,1 +1,0 @@
-#define ff(i,x) for (i=start[x];i!=-1;i=a[i].next)

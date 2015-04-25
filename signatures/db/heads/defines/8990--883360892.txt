@@ -1,1 +1,0 @@
-#define fore(s, q) for(typeof(q.begin())s=q.begin();s!=q.end();++s)

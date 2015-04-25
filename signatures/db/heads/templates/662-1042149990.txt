@@ -1,1 +1,0 @@
-template <class T, class S> void reader(T *x, S *y){reader(x);reader(y);}

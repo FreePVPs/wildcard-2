@@ -1,1 +1,0 @@
-#define READ(n,data) {scanf("%d",&n); REPN(i,n) scanf("%d",&data[i]);}

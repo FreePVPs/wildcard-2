@@ -1,1 +1,0 @@
-#define getString(s) std::string s;std::getline(cin, s);

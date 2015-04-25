@@ -1,1 +1,0 @@
-#define DFOR(V,B,E,A) for (int V=(A<0?B-1:B); (A>0?V<E:V>=E); V+=A)

@@ -1,1 +1,0 @@
-const int bignum=1843907;

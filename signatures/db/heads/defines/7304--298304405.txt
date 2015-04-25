@@ -1,1 +1,0 @@
-    #define OUT2(a, n, m)   for (int _j_ = 0; _j_ < (n); ++_j_) OUT(a[_j_], m)

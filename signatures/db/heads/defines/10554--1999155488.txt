@@ -1,1 +1,0 @@
-#define rv(u, j) for(int j=0;j<adj[u].size();++j)

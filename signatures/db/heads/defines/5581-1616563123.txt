@@ -1,1 +1,0 @@
-#define ges(a,n)                    for(int i=0;i<n;i++)    ge(a[i])

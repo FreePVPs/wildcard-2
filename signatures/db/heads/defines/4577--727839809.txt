@@ -1,1 +1,0 @@
-#define forit(it, r) for (auto it = r.begin(); it != r.end(); it++)

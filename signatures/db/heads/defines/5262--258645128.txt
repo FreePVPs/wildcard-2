@@ -1,1 +1,0 @@
-#define FOR(iterable,i) for(int(i) = 0; i< (iterable).size(); i++)

@@ -1,1 +1,0 @@
-#define tore(a,c) for(map<string, int>::iterator a = (c).begin(); a != (c).end(); a++)

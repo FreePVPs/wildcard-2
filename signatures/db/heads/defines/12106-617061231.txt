@@ -1,1 +1,0 @@
-#define IRP(I,T) for(typeof(T.bgn())I=T.bgn();I!=T.end();++I)

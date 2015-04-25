@@ -1,1 +1,0 @@
-#define DEBM(x) { cout << "{\n"; TR( x,it ) cout << it->F << " : " << it->S << "\n"; cout << "}\n"; }

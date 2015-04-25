@@ -1,1 +1,0 @@
-const int maxBufSize = (10000000);

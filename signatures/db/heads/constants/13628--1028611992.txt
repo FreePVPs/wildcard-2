@@ -1,1 +1,0 @@
-const int ALF = 256;

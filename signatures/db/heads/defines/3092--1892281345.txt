@@ -1,1 +1,0 @@
-#define ssn(n) int n; si(n);

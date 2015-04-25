@@ -1,1 +1,0 @@
-	const int n = f.size(), m = g.size();

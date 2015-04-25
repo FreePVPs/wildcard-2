@@ -1,1 +1,0 @@
-template<> char next<char>(){ char _[2]; scanf("%s", _); return _[0]; }

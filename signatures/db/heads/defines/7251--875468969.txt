@@ -1,1 +1,0 @@
-#define forvec(vtype, vname, vvar) for (vector<vtype>::iterator vvar = vname.begin(); vvar != vname.end(); vvar++)

@@ -1,1 +1,0 @@
-template<class T> string i2s(T &x) { ostringstream o; o << x; return o.str(); }

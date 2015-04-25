@@ -1,1 +1,0 @@
-const int e = (24 * I26) % P;

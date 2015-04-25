@@ -1,1 +1,0 @@
-#define forl(i,x,n) for(long i=x;i<n;i++)

@@ -1,1 +1,0 @@
-template<class T>inline T GCD( T a, T b ) { while( b ) { b ^= a ^= b ^= a %= b; } return a; }

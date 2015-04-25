@@ -1,1 +1,0 @@
-#define EACH(it,b) for(typeof(b.begin()) it=(b).begin();it!=(b).end();++it)

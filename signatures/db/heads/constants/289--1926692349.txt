@@ -1,1 +1,0 @@
-const int MAX_P=256*1024;

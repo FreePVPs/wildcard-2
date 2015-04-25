@@ -1,1 +1,0 @@
-#define ForE(i, a) for (Edge* i = h[a]; i; i = i->next)

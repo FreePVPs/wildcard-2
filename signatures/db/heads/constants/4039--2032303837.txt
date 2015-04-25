@@ -1,1 +1,0 @@
-const int DALPH = 52; // Double Latin alphabet size

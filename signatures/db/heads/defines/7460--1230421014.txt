@@ -1,1 +1,0 @@
-#define REP(i,v) for (unsigned i = 0; i < v.size(); i++)

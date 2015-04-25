@@ -1,1 +1,0 @@
-#define tr(e,x) for(typeof(x.begin()) e=x.begin();e!=x.end();e++)

@@ -1,1 +1,0 @@
-#define _SFORDN(index, end, start, shift) for (int index = (int) (end); index > (int) (start); index -= shift)

@@ -1,1 +1,0 @@
-const int pr = 500001;

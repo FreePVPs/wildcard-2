@@ -1,1 +1,0 @@
-#define SARR(_A,_N) for(ll _Z=0; _Z<_N; _Z++) \

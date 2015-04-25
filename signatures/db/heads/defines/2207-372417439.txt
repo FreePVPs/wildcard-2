@@ -1,1 +1,0 @@
-#define repl(_var, _l, _r) for (int _var = _l; _var < _r; var++)

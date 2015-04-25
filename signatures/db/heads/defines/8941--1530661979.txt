@@ -1,1 +1,0 @@
-#define DEBT(x) { cout << "{\n"; TR( x,it ) cout << *it << "\n" ; cout << "}\n"; }

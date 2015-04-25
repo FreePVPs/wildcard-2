@@ -1,1 +1,0 @@
-const int MCMF_MAXN = 100000;

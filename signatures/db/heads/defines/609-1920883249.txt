@@ -1,1 +1,0 @@
-#define FOR(ii,aa,bb) for(int ii=aa;ii<=bb;ii++)

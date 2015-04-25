@@ -1,1 +1,0 @@
-#define fpc(i,j,v) for(int i=a[v],j;j=to[i],i;i=nx[i])

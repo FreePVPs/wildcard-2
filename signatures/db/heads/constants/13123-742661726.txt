@@ -1,1 +1,0 @@
-const BUFFER_TYPE m2  = 0x3333333333333333; //binary: 00110011..

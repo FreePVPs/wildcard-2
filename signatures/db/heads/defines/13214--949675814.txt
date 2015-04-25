@@ -1,1 +1,0 @@
-#define foreach(it,c,type) for(type::iterator it=c.begin(),End=c.end();it!=End;++it)

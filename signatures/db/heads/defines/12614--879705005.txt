@@ -1,1 +1,0 @@
-#define RFORIT(X, Y) for(typeof((Y).rbegin()) X = (Y).rbegin(); X != (Y).rend(); X++)

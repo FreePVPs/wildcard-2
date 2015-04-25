@@ -1,1 +1,0 @@
-#define pVec(var, n) for(uint i=0;i<n;i++) \

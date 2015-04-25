@@ -1,1 +1,0 @@
-const long long maxll   = numeric_limits<long long>::max();

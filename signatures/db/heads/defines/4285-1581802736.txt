@@ -1,1 +1,0 @@
-#define FORN( i , s , n ) for( int64 i = (s) ; i < (n) ; i++ )

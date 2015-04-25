@@ -1,1 +1,0 @@
-const int fs=2e6+9;

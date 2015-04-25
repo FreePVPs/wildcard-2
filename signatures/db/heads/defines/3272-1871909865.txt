@@ -1,1 +1,0 @@
-#define RFOR(i, y, x) for(int i = (x); i >= (y); --i)

@@ -1,1 +1,0 @@
-#define Pr(x...)   ({ if (DEBUG) { cout << "Debug["; DB, x, "]\n"; } })

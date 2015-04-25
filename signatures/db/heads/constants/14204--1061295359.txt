@@ -1,1 +1,0 @@
-            const int BufSize = 32000;

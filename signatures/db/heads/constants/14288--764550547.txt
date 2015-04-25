@@ -1,1 +1,0 @@
-const ld EPS = 10e-9;

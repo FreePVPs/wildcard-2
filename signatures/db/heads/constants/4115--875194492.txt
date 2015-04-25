@@ -1,1 +1,0 @@
-const int X = 1e8 + 100;

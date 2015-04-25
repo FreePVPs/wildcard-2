@@ -1,1 +1,0 @@
-#define forso(j,bg,en) for(int j=bg;j<en;j++)

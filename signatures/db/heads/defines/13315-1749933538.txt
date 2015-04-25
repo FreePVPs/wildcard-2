@@ -1,1 +1,0 @@
-#define REP(k,a,b) for(int  k=(a); k <= (b); ++k)            // inclusive for

@@ -1,1 +1,0 @@
-#define inpow(a,x,y) int i; a=x;fri(2,y)  a*=x

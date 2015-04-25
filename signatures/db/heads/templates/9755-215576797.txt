@@ -1,1 +1,0 @@
-template<class T> inline void getmin(T& a,T& b){a=min(a,b);};

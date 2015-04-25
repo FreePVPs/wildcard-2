@@ -1,1 +1,0 @@
-#define __1D(a,n) rep(i,n) { if(i) printf(" ") ; cout << a[i] ; }

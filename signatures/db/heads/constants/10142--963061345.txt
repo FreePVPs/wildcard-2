@@ -1,1 +1,0 @@
-const int maxn = 50005,INF = 0x7fffffff;

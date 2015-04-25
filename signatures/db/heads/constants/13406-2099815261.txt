@@ -1,1 +1,0 @@
-const long long int NINF = INT_MIN;

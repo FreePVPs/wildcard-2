@@ -1,1 +1,0 @@
-#define SCR(n) for (SCI(n); (n)--;)

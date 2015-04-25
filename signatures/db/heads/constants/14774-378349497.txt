@@ -1,1 +1,0 @@
-  const int codeZero = (int)'0';

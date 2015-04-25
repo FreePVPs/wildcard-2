@@ -1,1 +1,0 @@
-const int BASE = (1<<17);

@@ -1,1 +1,0 @@
-		const int count = accumulate(t_match.begin(), t_match.end(), 0);

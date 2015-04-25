@@ -1,1 +1,0 @@
-const double p=9999999.0;

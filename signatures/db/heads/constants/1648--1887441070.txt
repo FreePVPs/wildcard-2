@@ -1,1 +1,0 @@
-const int EMPTY = -2;

@@ -1,1 +1,0 @@
-const int Query=1,Change=2;

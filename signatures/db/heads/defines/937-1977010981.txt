@@ -1,1 +1,0 @@
-#define FRD(i,S,E) for(int i=S,n=E;i>=n;i--)

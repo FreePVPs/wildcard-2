@@ -1,1 +1,0 @@
-inline void mark_nonprime(int x) { P_[x>>6] |= (1<<((x>>1)&0x1f)); }

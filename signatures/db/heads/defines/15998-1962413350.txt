@@ -1,1 +1,0 @@
-#define TEST int cnum; sf("%d", &cnum); REP(cs, 1, cnum)

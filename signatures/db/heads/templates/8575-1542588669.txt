@@ -1,1 +1,0 @@
-template <class T> inline int stoint (T a) {istringstream c(a); int ret; c >> ret; return ret; }

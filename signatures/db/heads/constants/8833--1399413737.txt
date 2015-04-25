@@ -1,1 +1,0 @@
-const __int64 inf = 1LL << 45;

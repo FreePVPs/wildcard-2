@@ -1,1 +1,0 @@
-#define ford(l,las)for(int d=l;d>las;d--)

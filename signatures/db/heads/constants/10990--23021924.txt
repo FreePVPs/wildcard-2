@@ -1,1 +1,0 @@
-const int maxk=500+10;

@@ -1,1 +1,0 @@
-	const Node& p = tree[i>>1];

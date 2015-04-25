@@ -1,1 +1,0 @@
-#define ICA(n)          ({ char a[n]; scanf("%s",&a);  a;})

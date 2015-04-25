@@ -1,1 +1,0 @@
-const ll INF_LL = 1LL * INF_L * INF_L;

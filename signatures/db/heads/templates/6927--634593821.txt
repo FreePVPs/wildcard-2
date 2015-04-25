@@ -1,1 +1,0 @@
-template<class T>inline T toValue(const std::string &s){T x;std::istringstream in(s);in >> x;return x;}

@@ -1,1 +1,0 @@
-#define loop2(i,v1,n,j,v2,m) for(i=v1;i<n;i++) for(j=v2;j<m;j++)

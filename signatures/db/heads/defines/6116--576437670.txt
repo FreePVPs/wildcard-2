@@ -1,1 +1,0 @@
-#define rep(i,st,en) for(int i=st ; i< en; i++)

@@ -1,1 +1,0 @@
-#define _SFORN(index, start, end, shift) for (int index = (int) (start); index < (int) (end); index += shift)

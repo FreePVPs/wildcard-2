@@ -1,1 +1,0 @@
-#define loopr(i,n,k) for(i=n;i>=k;i--)

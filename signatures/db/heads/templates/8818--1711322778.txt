@@ -1,1 +1,0 @@
-template <class T> void _swap(T &x,T &y){T t=x;x=y;y=t;}

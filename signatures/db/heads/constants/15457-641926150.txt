@@ -1,1 +1,0 @@
-const int iINF = 1L << 30;

@@ -1,1 +1,0 @@
-#define FORE_(i,a,b) for(int i=(a),b_=(b);i>=b_;i--)

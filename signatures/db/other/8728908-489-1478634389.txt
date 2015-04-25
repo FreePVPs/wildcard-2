@@ -1,2 +1,0 @@
-
-void RII (int& x, int& y){RI (x), RI (y);}

@@ -1,1 +1,0 @@
-template< class T , class M > bool found(T x , M element) { for(int i = 0 ; i < x.size() ; i++) if(x[i] == element) return true ; return false ;}

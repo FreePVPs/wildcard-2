@@ -1,1 +1,0 @@
-#define p_array(arr, size)  for(li i = 0; i < size; i++ ) cout<<arr[i]<<" "; cout<<endl;

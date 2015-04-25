@@ -1,1 +1,0 @@
-const double TAU = 2.0 * PI;

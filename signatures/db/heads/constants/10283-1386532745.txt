@@ -1,1 +1,0 @@
-const int __base = 1e8;

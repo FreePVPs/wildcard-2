@@ -1,1 +1,0 @@
-const int maxn = (int) 2e6 + 100;

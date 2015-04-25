@@ -1,1 +1,0 @@
-#define REPD(v, repeat) for(int v=(repeat)-1; v>=0; --v)

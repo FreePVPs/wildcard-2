@@ -1,1 +1,0 @@
-const int cmax = (int) (1e+7);

@@ -1,1 +1,0 @@
-#define TESTS(testName) int __tests; cin >> __tests; REP(testName, __tests)

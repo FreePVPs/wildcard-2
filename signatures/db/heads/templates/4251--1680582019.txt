@@ -1,1 +1,0 @@
-template <class T> T take(stack<T> &O) {T tmp=O.top();O.pop();return tmp;}

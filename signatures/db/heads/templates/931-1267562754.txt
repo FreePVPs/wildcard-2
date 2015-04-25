@@ -1,1 +1,0 @@
-template<class T> T gcd(T x,T y){while(T t=x%y)x=y,y=t;return y;}

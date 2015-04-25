@@ -1,1 +1,0 @@
-const ld EPS2 = 1e-24;

@@ -1,1 +1,0 @@
-const long scale10000000 = 16777216;

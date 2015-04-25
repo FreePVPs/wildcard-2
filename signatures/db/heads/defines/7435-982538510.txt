@@ -1,1 +1,0 @@
-#define FORD(i,a,n) for(int i=(a),_n=(n); i>=_n; i--)

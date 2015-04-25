@@ -1,1 +1,0 @@
-#define loop3(i,n,k) for(i=n;i<=k;i++)

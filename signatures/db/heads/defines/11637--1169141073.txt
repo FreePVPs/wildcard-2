@@ -1,1 +1,0 @@
-#define CASES(C) int __LEN; scanf("%d",&__LEN); for(int C=1;C<=__LEN;C++)

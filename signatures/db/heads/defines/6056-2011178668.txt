@@ -1,1 +1,0 @@
-#define LP(X , Y) for(int i=(X); i<(Y); i++)

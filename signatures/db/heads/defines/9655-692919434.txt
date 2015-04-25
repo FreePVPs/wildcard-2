@@ -1,1 +1,0 @@
-#define CaseT int _T,cas=0; cin>>_T; while(++cas<=_T)

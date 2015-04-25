@@ -1,1 +1,0 @@
-#define FOR(s,e,inc)    for(int i=s;i<=e;i+=inc)

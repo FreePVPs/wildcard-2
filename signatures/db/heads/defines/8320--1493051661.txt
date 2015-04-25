@@ -1,1 +1,0 @@
-#define ford(i,x,y) for(typeof(x) i = (x)-1,__y(y);i!=__y;i--)

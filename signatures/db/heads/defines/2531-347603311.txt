@@ -1,1 +1,0 @@
-#define FOR(i,x,cases) for(i=x;i<cases;i++)

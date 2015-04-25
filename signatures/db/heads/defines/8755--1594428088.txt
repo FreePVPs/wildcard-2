@@ -1,1 +1,0 @@
-#define printAdeb(mat,sz) {rep(j,0,sz) cout << "elem[" << j <<"]:"<< mat[j] << " "; cout << endl;}

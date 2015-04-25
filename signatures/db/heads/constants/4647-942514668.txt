@@ -1,1 +1,0 @@
-    const int bb = getInt() - 1;

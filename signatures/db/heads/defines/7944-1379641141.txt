@@ -1,1 +1,0 @@
-#define fore(p,s,n,u) for((p)=(s);(p)<=(n);(p)+=(u))        

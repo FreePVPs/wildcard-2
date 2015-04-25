@@ -1,1 +1,0 @@
-template< class T,class X > inline T _bigmod(T n,X m){ull ret=1, a = n%MOD ; while(m){ if(m&1)ret=(ret*a)%MOD; m>>=1; a=(a*a)%MOD; }ret%=MOD;return (T)ret;}

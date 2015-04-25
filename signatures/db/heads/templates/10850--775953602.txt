@@ -1,1 +1,0 @@
-template<typename T> bool checkMin(T & ret, T & cur){ if(ret > cur) { ret = cur; return true; } return false;}

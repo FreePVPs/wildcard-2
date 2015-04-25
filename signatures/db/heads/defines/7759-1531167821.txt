@@ -1,1 +1,0 @@
-#define GI(WW){_MINUS = 1;do{GET(ZZZ);}while(!isdigit(ZZZ)&&ZZZ!='-');if(ZZZ=='-'){_MINUS = -1;GET(ZZZ);}WW=ZZZ-'0';\

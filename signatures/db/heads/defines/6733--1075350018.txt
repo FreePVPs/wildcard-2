@@ -1,1 +1,0 @@
-#define cast(a,b) ss.clear(); ss<<a; ss>>b; ss.clear();

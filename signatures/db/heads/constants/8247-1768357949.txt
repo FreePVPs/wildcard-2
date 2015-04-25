@@ -1,1 +1,0 @@
-const int Mn = 2 * 100000 + 10, Me = 2*Mn;;

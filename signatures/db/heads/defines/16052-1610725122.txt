@@ -1,1 +1,0 @@
-#define loop_GE(a,b,c) for(a = b; a >= c; a--)

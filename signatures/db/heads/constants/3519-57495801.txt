@@ -1,1 +1,0 @@
-        const int mid = (lid + rid) / 2;

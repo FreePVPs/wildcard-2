@@ -1,1 +1,0 @@
-#define rush for(cas=1,scanf("%d",&_);cas<=_;cas++)

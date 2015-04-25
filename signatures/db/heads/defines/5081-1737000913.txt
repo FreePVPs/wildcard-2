@@ -1,1 +1,0 @@
-#define fora(var,end) for(int var=0;var<end;var++)

@@ -1,1 +1,0 @@
-#define repe(x, r) for (int x = 0; x < r; x++)

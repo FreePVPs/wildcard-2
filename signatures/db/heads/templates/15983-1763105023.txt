@@ -1,1 +1,0 @@
-template <typename T> string tobin(T n) { string ret; do ret = char('0'+(n&1)) + ret; while (n /= 2); return ret; }

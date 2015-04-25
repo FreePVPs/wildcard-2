@@ -1,1 +1,0 @@
-#define SCAN(c, n) (c).resize(n); FOR(i, 0, n) cin >> c[i];

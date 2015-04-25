@@ -1,1 +1,0 @@
-#define For(i, from, to) for(int i = from; i < to; i++);

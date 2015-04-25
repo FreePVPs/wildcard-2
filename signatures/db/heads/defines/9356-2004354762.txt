@@ -1,1 +1,0 @@
-#define RITER(a,t) for(typeof(a.rbegin()) t = a.rbegin();t!=a.rend();t++ )

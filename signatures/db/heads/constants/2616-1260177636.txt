@@ -1,1 +1,0 @@
-const LL MOD = 123456789LL;

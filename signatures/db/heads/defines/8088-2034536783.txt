@@ -1,1 +1,0 @@
-#define FOR_C_N(i, a, b) for (int b____=(i=0,int(b);i<b____;++i)

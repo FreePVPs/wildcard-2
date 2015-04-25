@@ -1,1 +1,0 @@
-const long long LING = 100000000000000000LL;

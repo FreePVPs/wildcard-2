@@ -1,1 +1,0 @@
-#define Rep(i,c) for((i=c.begin());i!=c.end();i++)

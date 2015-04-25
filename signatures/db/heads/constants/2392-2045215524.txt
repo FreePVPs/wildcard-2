@@ -1,1 +1,0 @@
-const int OFF = 1 << 19;

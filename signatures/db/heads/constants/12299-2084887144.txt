@@ -1,1 +1,0 @@
-const long long maxint=-1u>>1;

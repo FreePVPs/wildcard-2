@@ -1,1 +1,0 @@
-#define FOR(it,a) for(iter(a)it=a.begin();it!=a.end();++it)

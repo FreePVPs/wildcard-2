@@ -1,1 +1,0 @@
-const long MAXN=100000L +3;

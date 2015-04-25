@@ -1,1 +1,0 @@
-#define RD5(a, b, c, d, e) do { RD4(a, b, c, d); RD1(e); } while (0)

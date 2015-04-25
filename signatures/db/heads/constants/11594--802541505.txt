@@ -1,1 +1,0 @@
-const double dinf = 1e15;

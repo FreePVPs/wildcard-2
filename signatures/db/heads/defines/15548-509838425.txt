@@ -1,1 +1,0 @@
-#define scan(v,n)	vector<int> v;rep(i,n){ int j;si(j);v.pb(j);}

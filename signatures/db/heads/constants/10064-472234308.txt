@@ -1,1 +1,0 @@
-const LL LNF=1LL<<60;

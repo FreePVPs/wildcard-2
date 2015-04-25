@@ -1,1 +1,0 @@
-#define BL for(int K = 1; K <= T; K++)

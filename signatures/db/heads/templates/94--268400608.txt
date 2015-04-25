@@ -1,1 +1,0 @@
-template<typename T>inline void PRINT_GRID(T GRID,int ro,int clm){DEBUG(GRID);FOR(i,0,ro){FOR(j,0,clm)cout<<GRID[i][j]<<" ";puts("");}}

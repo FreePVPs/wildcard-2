@@ -1,1 +1,0 @@
-const int MAXN = 500 + 10,MAXM = 100 + 10;

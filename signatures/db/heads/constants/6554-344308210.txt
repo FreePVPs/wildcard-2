@@ -1,1 +1,0 @@
-	const Custom * bb=(const Custom *)b;

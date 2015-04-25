@@ -1,1 +1,0 @@
-const string DIR[] = {"R", "L", "D", "U", "DR", "DL", "UR", "UL"};

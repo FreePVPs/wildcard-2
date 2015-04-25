@@ -1,1 +1,0 @@
-const int M = 100 + 4, Inf = 1e9 + 10;

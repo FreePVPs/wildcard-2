@@ -1,1 +1,0 @@
-#define caset         long long ___T,cas=1;scanf("%I64d ",&___T);while(___T--)

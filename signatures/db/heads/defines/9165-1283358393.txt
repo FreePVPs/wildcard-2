@@ -1,1 +1,0 @@
-#define FOR(c,d) for(; c < d; ++c)

@@ -1,1 +1,0 @@
-const int ax=2000;

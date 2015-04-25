@@ -1,1 +1,0 @@
-const long long int k = 1 << 30;

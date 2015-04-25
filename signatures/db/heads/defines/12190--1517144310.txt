@@ -1,1 +1,0 @@
-#define SSL ({lint x;scanf("%lld", &x);x;})

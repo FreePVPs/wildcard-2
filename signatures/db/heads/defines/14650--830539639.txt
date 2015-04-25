@@ -1,1 +1,0 @@
-#define summvec(name, vec, restype) restype name = 0; fru(zzzz, vec.size()) name += vec[zzzz];

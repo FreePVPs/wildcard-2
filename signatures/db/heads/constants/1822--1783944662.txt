@@ -1,1 +1,0 @@
-const int maxn = 100 + 10, maxl = (1 << 17) + 10;

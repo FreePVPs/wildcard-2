@@ -1,1 +1,0 @@
-#define slliarray(a,n) for(lli i=0;i<n;i++)slli(a[i])

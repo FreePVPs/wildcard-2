@@ -1,1 +1,0 @@
-#define FOR(v, pos, end) for(int v=(pos); v<=(end); ++v)

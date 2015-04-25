@@ -1,1 +1,0 @@
-const lint MOD = 1000000007;

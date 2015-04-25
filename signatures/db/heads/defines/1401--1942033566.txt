@@ -1,1 +1,0 @@
-#define RFOR(i,mx,mn) for(int i=(mx);(i)>=(mn);i--)

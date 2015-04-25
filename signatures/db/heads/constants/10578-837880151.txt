@@ -1,1 +1,0 @@
-const int MAXW = 1010;

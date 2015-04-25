@@ -1,1 +1,0 @@
-#define tr( iter, a )               for(typeof((a).begin()) iter = (a).begin();iter != (a).end(); iter++ )

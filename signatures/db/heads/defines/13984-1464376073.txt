@@ -1,1 +1,0 @@
-#define rofeach(i,x) for(epyt(x)i=x.rbegin();i!=x.rend();i++)

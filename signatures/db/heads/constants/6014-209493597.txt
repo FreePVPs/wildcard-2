@@ -1,1 +1,0 @@
-const i64 LINF = ( 1ll << 62 ) - 1;

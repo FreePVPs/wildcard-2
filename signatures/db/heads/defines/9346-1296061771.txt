@@ -1,1 +1,0 @@
-#define EACH(i,c) for(__typeof((c).begin()) 1i=(c).begin(); i!=(c).end(); ++i)  

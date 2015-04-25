@@ -1,1 +1,0 @@
-template<class T> ll toInt64(T n){stringstream ost;ost<<n;ll ret;ost>>ret;return ret;}

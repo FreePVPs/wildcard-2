@@ -1,1 +1,0 @@
-#define uniq(x) do{sort(all(x));x.resize(unique(all(x))-x.begin());}while(0)

@@ -1,1 +1,0 @@
-#define OUTV(x)for(int j=0;j<x.size();++j)cout<<(j==0?"":" ")<<x[j];cout<<endl;

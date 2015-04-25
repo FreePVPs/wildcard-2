@@ -1,4 +1,0 @@
-const double EPS = 1e-10;
-const double PI  = acos(-1.0);
-const int DX[] = {0, 1, 0, -1};
-const int DY[] = {-1, 0, 1, 0};

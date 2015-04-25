@@ -1,1 +1,0 @@
-template <class T> inline  T MIN(T a, T b){if (a < b) return a;return b;}

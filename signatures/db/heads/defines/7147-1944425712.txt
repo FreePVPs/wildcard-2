@@ -1,1 +1,0 @@
-#define REPV(i, n) for (int i = (n) - 1; (int)i >= 0; --i)

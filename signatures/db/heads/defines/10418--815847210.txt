@@ -1,1 +1,0 @@
-#define REP(i,n) for ( int i = 0, max_ = (n); i < max_; ++i )

@@ -1,1 +1,0 @@
-const long long MAX_N = (1 << 11);

@@ -1,1 +1,0 @@
-#define clr(x,v); memset(x,v,sizeof(x));

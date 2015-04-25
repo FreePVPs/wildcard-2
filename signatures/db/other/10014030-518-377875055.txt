@@ -1,1 +1,0 @@
-#define vi(x,n,m) vector<int> x(n,m)

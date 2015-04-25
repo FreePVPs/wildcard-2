@@ -1,1 +1,0 @@
-const LL linf=numeric_limits<LL>::max();

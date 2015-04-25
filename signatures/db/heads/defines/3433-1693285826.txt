@@ -1,1 +1,0 @@
-#define REP(n) for(size_t I = 0; I < n; I++)

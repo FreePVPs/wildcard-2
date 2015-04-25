@@ -1,4 +1,0 @@
-
-
-#define ERR 1e-9
-#define PI 3.141592653589793

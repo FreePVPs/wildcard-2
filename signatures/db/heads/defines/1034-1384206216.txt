@@ -1,1 +1,0 @@
-#define oo(a, b)    for (int a = 1; a < int(b); ++a)

@@ -1,1 +1,0 @@
-const int MAX_DIV = 1e7;

@@ -1,1 +1,0 @@
-template<class T> int cntlz(T i){ int ret=0 ; while(!chkb(i,0)&&i)i/=2,ret++;return ret;}

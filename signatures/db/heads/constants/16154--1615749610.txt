@@ -1,1 +1,0 @@
-const int maxe = 9000 + 5;

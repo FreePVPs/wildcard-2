@@ -1,1 +1,0 @@
-#define REP(j, n, m) for(int j = n; j >= m; j--)

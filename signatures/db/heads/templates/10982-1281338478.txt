@@ -1,1 +1,0 @@
-template<class T> string i2a(T x) {ostringstream oss; oss<<x; return oss.str();}

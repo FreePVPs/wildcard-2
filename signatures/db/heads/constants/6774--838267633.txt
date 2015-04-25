@@ -1,1 +1,0 @@
-const long double INFd=1.0e99;

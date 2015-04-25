@@ -1,1 +1,0 @@
-#define prntmn for(i=0;i<n;i++)fprintf(stdout,"%i ",m[i])

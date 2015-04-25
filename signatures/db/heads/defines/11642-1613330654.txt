@@ -1,1 +1,0 @@
-#define forvr(it, v) for(auto it = rbegin(v); it != rend(v); ++it)

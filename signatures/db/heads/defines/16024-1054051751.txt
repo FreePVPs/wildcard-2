@@ -1,1 +1,0 @@
-#define foreach(it, t) for(auto it = t.begin(); it!=t.end(); it++)  //it: pointer

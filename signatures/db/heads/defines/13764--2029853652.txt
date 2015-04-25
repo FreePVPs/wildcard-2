@@ -1,1 +1,0 @@
-#define PA(begin,end,arr) for(int i=begin;i<end;i++){if(i!=begin)cout<<" ";cout<<arr[i];}cout<<endl

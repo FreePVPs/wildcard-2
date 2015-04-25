@@ -1,1 +1,0 @@
-const int infnity = -1;

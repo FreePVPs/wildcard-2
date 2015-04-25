@@ -1,1 +1,0 @@
-    const char *nt = t.c_str();

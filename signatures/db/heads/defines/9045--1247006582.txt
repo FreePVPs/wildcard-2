@@ -1,1 +1,0 @@
-#define foreach(i, c) for(IT(c) i = (c).begin(); i != (c).end(); ++i)

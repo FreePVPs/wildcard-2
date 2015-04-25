@@ -1,1 +1,0 @@
-const lol MAXN=1e5+10,inf=1e18+10;

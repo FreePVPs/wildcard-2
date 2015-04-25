@@ -1,1 +1,0 @@
-#define loop(initial,f,s)       for(int i=initial; i<=f; i+=s)

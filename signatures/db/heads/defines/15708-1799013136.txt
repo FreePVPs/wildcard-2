@@ -1,1 +1,0 @@
-#define BUGA(x, n, a, b) for (int i = a; i <= b; i++) cout << x[i] << ' '; cout << endl;

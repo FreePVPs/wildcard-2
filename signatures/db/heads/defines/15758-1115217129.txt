@@ -1,1 +1,0 @@
-#define debugarr(A,a,b) cerr<<#A<<" : ";rep(i,a,b) cerr<<A[i]<<" ";cerr<<endl;

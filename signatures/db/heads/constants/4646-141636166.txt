@@ -1,1 +1,0 @@
-    const int aa = getInt() - 1;

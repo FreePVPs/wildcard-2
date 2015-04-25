@@ -1,1 +1,0 @@
-const ll ma=ma1*ma1*10;

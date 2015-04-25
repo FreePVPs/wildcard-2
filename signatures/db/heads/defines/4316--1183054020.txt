@@ -1,1 +1,0 @@
-#define loop(i,x,y) for(i=x;i<y;i++)

@@ -1,1 +1,0 @@
-template<class T>inline T my_strrev(T array){int N=strlen(array);for(int i=0;i<N/2;++i)swap(array[i],array[N-i-1]);}

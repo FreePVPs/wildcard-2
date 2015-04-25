@@ -1,1 +1,0 @@
-#define repbd(i, a, b, d) for(i = (a) - 1; i >= (b); i -= (d))

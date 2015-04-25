@@ -1,1 +1,0 @@
-            const int top_value = i > 0 ? shortcuts[i - 1][j] : 0;

@@ -1,1 +1,0 @@
-			const edge_t & e = graph[v][i];

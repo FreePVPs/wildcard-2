@@ -1,1 +1,0 @@
-const int bint::DIGIT_WIDTH = 4;

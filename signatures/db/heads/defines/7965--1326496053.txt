@@ -1,1 +1,0 @@
-#define repm(x,n) for(int x=(n);x>=0;x--)

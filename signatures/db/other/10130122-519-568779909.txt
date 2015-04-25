@@ -1,1 +1,0 @@
-template<class T> int getbit(T s, int i) { return (s >> i) & 1; }

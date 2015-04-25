@@ -1,1 +1,0 @@
-const int prime = 1993;

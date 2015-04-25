@@ -1,1 +1,0 @@
-#define pint(n); printf ("%d\n",n);

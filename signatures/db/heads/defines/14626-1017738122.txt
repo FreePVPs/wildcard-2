@@ -1,1 +1,0 @@
-#define forit(i,s,f) for(vector<int>::iterator it = s;it!=f; ++it) 

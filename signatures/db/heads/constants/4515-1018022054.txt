@@ -1,1 +1,0 @@
-const int MMAX=100000 + 5;

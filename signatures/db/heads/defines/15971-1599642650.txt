@@ -1,1 +1,0 @@
-#define foreach(Q, it) for(auto it = Q.begin(); it != Q.end(); ++it)

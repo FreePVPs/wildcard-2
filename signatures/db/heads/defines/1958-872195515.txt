@@ -1,1 +1,0 @@
-#define dbv(v) for(auto __Velem : v) cerr << __Velem << ' '; cerr << endl;

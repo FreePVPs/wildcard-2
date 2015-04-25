@@ -1,1 +1,0 @@
-#define REPR(i,b,n) for(int i=n-1;i>=b;--i)

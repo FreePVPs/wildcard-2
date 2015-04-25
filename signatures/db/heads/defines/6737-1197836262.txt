@@ -1,1 +1,0 @@
-#define FOR(_i, _j) for(int _i = 1; _i <= (int)_j; _i++)

@@ -1,1 +1,0 @@
-const int CHAR_INF = 0x7F;

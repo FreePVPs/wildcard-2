@@ -1,1 +1,0 @@
-#define input int tc;scanf("%d",&tc);while(tc--)

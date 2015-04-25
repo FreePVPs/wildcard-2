@@ -1,1 +1,0 @@
-template <class myType1, class myType2>istream &operator >> (istream &in, pair<myType1,myType2> &object){in >> object.first >> object.second;return in;}

@@ -1,1 +1,0 @@
-#define repdl(i,a) for(long long unsigned i=((long long unsigned) a) - 1; i >= 0;i--)

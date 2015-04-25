@@ -1,1 +1,0 @@
-#define FORU(x,y) for(int x=1;x<=y;x++)           //Pq aixГ­ saps el que has de borrar abans d'enviar i si te l'oblides a vegades no passa res

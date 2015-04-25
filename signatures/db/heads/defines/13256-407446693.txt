@@ -1,1 +1,0 @@
-#define repi(i, a) for(auto i = (a).begin(), _##i = (a).end(); i != _##i; ++i)

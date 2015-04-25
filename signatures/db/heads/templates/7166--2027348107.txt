@@ -1,1 +1,0 @@
-template<class Z>inline bool checkmin(Z &a,Z b){if(a==-1||a>b){a=b;return true;}return false;}

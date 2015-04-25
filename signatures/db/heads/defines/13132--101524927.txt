@@ -1,1 +1,0 @@
-#define terminate { puts ("NO"); return 0; }

@@ -1,1 +1,0 @@
-#define input_long() ({long long x;scanf("%I64d",&x);x;})

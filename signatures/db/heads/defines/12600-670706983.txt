@@ -1,1 +1,0 @@
-#define lpi(_var, _st, _end) for(int _var=_st; _var<= _end; _var++)

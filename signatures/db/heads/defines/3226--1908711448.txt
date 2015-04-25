@@ -1,1 +1,0 @@
-#define fori(b) for(li i=0; i<b; i++)

@@ -1,1 +1,0 @@
-#define fs(i,s,x) for(set<x> :: iterator i = s.begin(); i != s.end(); i++)

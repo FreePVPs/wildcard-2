@@ -1,1 +1,0 @@
-template<typename T, typename U> ostream& operator << (ostream &os, const map<T, U>& M){os << "{"; FOREACH(i,M) os << *i << (*i.X==M.rbegin()->X?"":","); return os << "}"; }

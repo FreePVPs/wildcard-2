@@ -1,1 +1,0 @@
-#define debug_array(a,n) for(int iii=0;iii<n;iii++) cerr<<a[iii]<<" "; cerr<<endl;

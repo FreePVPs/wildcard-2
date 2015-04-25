@@ -1,1 +1,0 @@
-const string str_fin = filename + ".in";

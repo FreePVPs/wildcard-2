@@ -1,1 +1,0 @@
-#define FORr(i,m,n)     for(i=m;i<n;i++)

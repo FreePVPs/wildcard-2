@@ -1,1 +1,0 @@
-const int ym = 2e6;

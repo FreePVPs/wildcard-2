@@ -1,1 +1,0 @@
-#define RFOR(i,a,b) for(__typeof(a) i=(a);i>=(b);--i)

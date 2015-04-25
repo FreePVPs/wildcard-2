@@ -1,2 +1,0 @@
-
-template<class T> inline T lowBit(T n){return (n^(n-1))&n;}//пїЅпїЅРЎпїЅпїЅР§О»//NOTES:lowBit(

@@ -1,1 +1,0 @@
-#define FOREACH(T, it, v) for(T::iterator it = v.begin(); it !=v.end(); ++it)

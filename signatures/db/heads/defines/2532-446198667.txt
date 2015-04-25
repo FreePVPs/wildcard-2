@@ -1,1 +1,0 @@
-#define FORt(i,cases) for(i=1;i<=cases;i++)

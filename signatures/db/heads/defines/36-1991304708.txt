@@ -1,1 +1,0 @@
-#define IN(i,a,n,arr) for(i=a;i<=n;i++) scanf("%d",&arr[i])

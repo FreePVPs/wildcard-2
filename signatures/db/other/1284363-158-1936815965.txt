@@ -1,3 +1,0 @@
-
-#define containL(S,X) ((S)&twoL(X))//NOTES:containL(
-template<class T> inline bool getBit(T i,char* a){return a[i/8]&(1<<(i%8));} //begin from 0 //getBit(

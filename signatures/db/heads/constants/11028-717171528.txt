@@ -1,1 +1,0 @@
-const int MAXMASK = 1 << MAXLEN;

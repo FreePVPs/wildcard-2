@@ -1,1 +1,0 @@
-#define forl(xx,yy,zz) for(int zz=xx;zz>=yy;zz--)

@@ -1,1 +1,0 @@
-#define Rep(i,j,k) for(int i=int(k);i< (int) j;i++)

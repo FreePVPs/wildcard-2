@@ -1,1 +1,0 @@
-#define repk(i,a,b) for(__typeof(n) i=a; i<(b); i++)

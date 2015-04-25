@@ -1,1 +1,0 @@
-template<typename I>struct FloatFrom{typedef Void R;};

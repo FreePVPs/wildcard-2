@@ -1,1 +1,0 @@
-#define EXIT(message) {cout<<(message); exit(0);}

@@ -1,1 +1,0 @@
-#define fF(_X,_Y,_Z) for(int (_X)=(_Y);(_X)<(_Z);++(_X))

@@ -1,1 +1,0 @@
-#define FOR_EACH(it,C) for(it = (C).begin(); it !=(C).end(); it++)

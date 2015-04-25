@@ -1,1 +1,0 @@
-#define FORR(I,J,K) for(I=J;I>K;--I)

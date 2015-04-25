@@ -1,1 +1,0 @@
-	const auto &__a__ = a; \

@@ -1,1 +1,0 @@
-            const LL di = da[i], dj = da[j];

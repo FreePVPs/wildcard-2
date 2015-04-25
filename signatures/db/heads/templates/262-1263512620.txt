@@ -1,1 +1,0 @@
-template<class T> inline T mypow(T n, T k){ T res = 1; for(T i = 0; i < k; ++i)res *= n; return res;}

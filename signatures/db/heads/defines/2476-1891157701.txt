@@ -1,1 +1,0 @@
-#define REP(it,end) for (int it = 1; it <= (end); it++)

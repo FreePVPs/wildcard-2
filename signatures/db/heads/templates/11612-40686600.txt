@@ -1,1 +1,0 @@
-template<typename T> T sto(string s){SS A(s);T t;A>>t;return t;}

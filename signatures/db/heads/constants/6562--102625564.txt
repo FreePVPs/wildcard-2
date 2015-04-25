@@ -1,1 +1,0 @@
-const lod infty = 1e+10;

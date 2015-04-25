@@ -1,1 +1,0 @@
-    const int size = pow(10, 9);

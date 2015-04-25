@@ -1,1 +1,0 @@
-const ll o_o = (ll)1 << 60;

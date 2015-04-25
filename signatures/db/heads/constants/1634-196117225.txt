@@ -1,1 +1,0 @@
-    const unsigned max_a = 100000;

@@ -1,1 +1,0 @@
-#define QL_M_R_FOR(m,rit) for(map<int,int>::reverse_iterator rit=m.rbegin();rit!=m.rend();++rit)

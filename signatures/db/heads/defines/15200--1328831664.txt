@@ -1,1 +1,0 @@
-#define dumpi(x)	idp{foreach(it, x){cout<<(*it)<<" ";}puts("");}

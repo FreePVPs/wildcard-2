@@ -1,1 +1,0 @@
-const lint lINF = 1LL << 60;

@@ -1,1 +1,0 @@
-#define __CASE int _;for(scanf("%d",&_);_;_--)

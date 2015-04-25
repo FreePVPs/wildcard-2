@@ -1,1 +1,0 @@
-#define fornb(i, b, n) for (int i = (int)(b); i < (int)(n); ++i)

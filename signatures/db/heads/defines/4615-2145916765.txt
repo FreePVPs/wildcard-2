@@ -1,1 +1,0 @@
-#define repg(i,j,N) for((i)=(j);(i)<(N);(i)++)

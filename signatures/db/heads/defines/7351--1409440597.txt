@@ -1,1 +1,0 @@
-#define FORD(i,x,y) for(int i=(int)x;i>=(int)y;i--)

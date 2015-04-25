@@ -1,1 +1,0 @@
-#define fr(x,y) for(int x=0; x<(y); ++x)

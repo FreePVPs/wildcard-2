@@ -1,1 +1,0 @@
-const int _rs = 20; char _r[_rs];

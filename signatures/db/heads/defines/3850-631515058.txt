@@ -1,1 +1,0 @@
-#define FORTESTS() int nTests; scanf("%d\n", &nTests); _FORN(testId, 0, nTests)

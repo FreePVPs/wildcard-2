@@ -1,1 +1,0 @@
-const int MAXVALUE = 1000000007;

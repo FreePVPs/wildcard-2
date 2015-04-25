@@ -1,1 +1,0 @@
-const clock_t tl = 1.9* CLOCKS_PER_SEC;

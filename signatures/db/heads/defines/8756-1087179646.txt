@@ -1,1 +1,0 @@
-#define printA(mat,sz) {rep(j,0,sz) cout << mat[j] << " "; cout << endl;}

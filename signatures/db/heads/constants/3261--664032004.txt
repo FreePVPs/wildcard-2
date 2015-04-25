@@ -1,1 +1,0 @@
-const ll dd = 1e5 + 7;

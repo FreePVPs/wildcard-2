@@ -1,1 +1,0 @@
-const BUFFER_TYPE m32 = 0x00000000ffffffff; //binary: 32 zeros, 32 ones

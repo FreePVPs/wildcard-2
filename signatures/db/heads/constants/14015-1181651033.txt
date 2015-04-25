@@ -1,1 +1,0 @@
-const int maxnum = 2005;

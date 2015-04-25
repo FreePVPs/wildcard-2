@@ -1,1 +1,0 @@
-const int ninf = numeric_limits<int>::min();

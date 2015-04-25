@@ -1,1 +1,0 @@
-#define drep(i,a) for(i=0; i<a; i++)

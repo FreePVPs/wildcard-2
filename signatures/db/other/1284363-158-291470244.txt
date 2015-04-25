@@ -1,2 +1,0 @@
-
-template<class T> inline void cMax(T &a,T b){if(b>a) a=b;}//NOTES:cMax(

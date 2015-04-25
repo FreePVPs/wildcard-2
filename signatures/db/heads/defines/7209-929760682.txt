@@ -1,1 +1,0 @@
-#define cs(k,x) for(int k=first[x];k;k=next[k])

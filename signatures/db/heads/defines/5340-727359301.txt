@@ -1,1 +1,0 @@
-#define     jkm()                    int t; scanf("%d",&t); while(t--)

@@ -1,1 +1,0 @@
-template <class T> void _checkmin(T &t,T x) {if(t==-1) t = x; if(x < t) t = x;}

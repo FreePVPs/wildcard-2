@@ -1,1 +1,0 @@
-#define w(t) int t; scanf("%d",&t); while(t--)

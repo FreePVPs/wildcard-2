@@ -1,1 +1,0 @@
-const int INT_INF = numeric_limits<int>::max();

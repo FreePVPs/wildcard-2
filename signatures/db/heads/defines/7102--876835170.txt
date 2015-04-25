@@ -1,1 +1,0 @@
-#define swapr(a, b, c) c = row[a]; row[a] = row[b]; row[b] = c;

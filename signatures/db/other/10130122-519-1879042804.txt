@@ -1,1 +1,0 @@
-template<class T> T offbit(T s, int i) { return s & (~(T(1) << i)); }

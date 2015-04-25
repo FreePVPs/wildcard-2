@@ -1,1 +1,0 @@
-const ULL magic     =   197;

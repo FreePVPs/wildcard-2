@@ -1,1 +1,0 @@
-#define FX(i,j,x) for(int i=j;i<x.size();i++)

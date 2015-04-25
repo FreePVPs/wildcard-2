@@ -1,1 +1,0 @@
-#define FOR(i,start,stop) for(i=start;i<=stop;i++)

@@ -1,1 +1,0 @@
-const int KMAX = 100000 + 5;

@@ -1,1 +1,0 @@
-#define FOR_RANGE( it, lo, hi ) for ( typeof(lo) it = (lo); it != (hi); it++ )

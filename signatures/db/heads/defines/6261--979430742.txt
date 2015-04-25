@@ -1,1 +1,0 @@
-#define RF(i,n,a) for((i)=(n)-1;(i)>=(a);(i)--)

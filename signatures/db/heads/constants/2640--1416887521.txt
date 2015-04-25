@@ -1,1 +1,0 @@
-const LL LINF = INF * 1ll * INF;

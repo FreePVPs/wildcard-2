@@ -1,1 +1,0 @@
-#define FL(J,a,b) for(long long J=a;J<=b;J++)

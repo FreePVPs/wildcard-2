@@ -1,1 +1,0 @@
-const db eps = 1e-18, pi = acos(-1.0);

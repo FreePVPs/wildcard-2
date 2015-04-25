@@ -1,1 +1,0 @@
-template<class T> vector<T> split(string s, char c = ' ') { SS ss(s); vector<T> res; T t; while (ss >> t) { res.PB(t); if(ss.peek() == c) ss.ignore(); } return res; }

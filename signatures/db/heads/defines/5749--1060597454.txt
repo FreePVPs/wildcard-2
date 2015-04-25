@@ -1,1 +1,0 @@
-#define outan(a,n); rep(i,n)cout<<a[i]<<endl;

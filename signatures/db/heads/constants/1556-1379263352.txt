@@ -1,1 +1,0 @@
-const long long MAXINT_64 = numeric_limits<ll>::max();

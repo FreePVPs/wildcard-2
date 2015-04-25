@@ -1,1 +1,0 @@
-#define debug(a...)          {cout<<" #--> ";dbg,a; cout<<endl;}

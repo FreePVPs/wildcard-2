@@ -1,1 +1,0 @@
-#define loopx(c,x) for(c=0;c<x;c++)

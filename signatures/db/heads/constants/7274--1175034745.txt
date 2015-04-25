@@ -1,1 +1,0 @@
-const long double EPS = (long double)1E-20;

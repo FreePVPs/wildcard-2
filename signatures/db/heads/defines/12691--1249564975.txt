@@ -1,1 +1,0 @@
-#define FOReach(it,V) for(__typeof((V).begin()) it=(V).begin();it!=(V).end();++it)

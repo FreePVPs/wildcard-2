@@ -1,1 +1,0 @@
-#define rd(name, type) type name; cin >> name;

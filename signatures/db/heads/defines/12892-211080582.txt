@@ -1,1 +1,0 @@
-#define cin(x,v) rep(i,0,x){int y; cin>>y; v.pb(y);}

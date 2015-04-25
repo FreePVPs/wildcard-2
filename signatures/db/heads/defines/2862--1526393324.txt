@@ -1,1 +1,0 @@
-#define SLOG(x) { cout << #x << " :: "; __stl_print__ (x); }

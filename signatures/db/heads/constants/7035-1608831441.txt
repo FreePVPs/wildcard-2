@@ -1,1 +1,0 @@
-const int BUFFSIZE = 10240;

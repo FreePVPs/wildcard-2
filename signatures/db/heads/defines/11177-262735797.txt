@@ -1,1 +1,0 @@
-#define getArray(a,len) for(int ia = 0; ia < len; ia++) scanf("%d",&a[ia])

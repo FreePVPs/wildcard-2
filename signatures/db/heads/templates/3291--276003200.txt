@@ -1,1 +1,0 @@
-template<typename... T> void debs(T... x) { debp(x...); debpr('\n'); }

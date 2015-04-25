@@ -1,1 +1,0 @@
-const int inf = ~0U>>1,maxn = 1000+10;

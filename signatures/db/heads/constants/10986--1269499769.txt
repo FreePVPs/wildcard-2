@@ -1,1 +1,0 @@
-Const   finp='';//a234.inp';

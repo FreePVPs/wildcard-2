@@ -1,1 +1,0 @@
-template<class I> inline void in(I A, I B) { while (A!=B) { cin >> *A; ++A; } }

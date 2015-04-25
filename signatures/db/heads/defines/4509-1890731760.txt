@@ -1,1 +1,0 @@
-#define readv(v,n) FOR(i,0,(n)) { make(a); (v).pb(a);}

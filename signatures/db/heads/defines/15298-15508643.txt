@@ -1,1 +1,0 @@
-#define add(i, x1, x2) for (int i = (x1); i <= (x2); i ++)

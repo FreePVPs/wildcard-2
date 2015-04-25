@@ -1,1 +1,0 @@
-#define bg(a, m, n)  FOR(i, m, n) cout << (a[i]) << " " ; cout << endl;

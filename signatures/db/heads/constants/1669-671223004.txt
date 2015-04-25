@@ -1,1 +1,0 @@
-const int LEN = 100000+10;

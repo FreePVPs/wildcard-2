@@ -1,1 +1,0 @@
-const int DBG = 0, INF = int(1e9);

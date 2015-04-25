@@ -1,1 +1,0 @@
-template<class T> T POW(T x, T y) {T ret = 1; while(y--) {ret *= x;} return ret; }

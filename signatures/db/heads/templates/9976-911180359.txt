@@ -1,1 +1,0 @@
-template<class T> inline void crr(T* l,T *r,int step){T tmp=*(r-1);for (T* i=r-1;i>l;i-=step)*i=*(i-step);*l=tmp;}

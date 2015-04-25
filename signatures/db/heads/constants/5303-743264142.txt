@@ -1,1 +1,0 @@
-const int xl = 1e6 + 1;

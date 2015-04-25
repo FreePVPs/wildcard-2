@@ -1,1 +1,0 @@
-const int maxnode = 1e5 + 111;

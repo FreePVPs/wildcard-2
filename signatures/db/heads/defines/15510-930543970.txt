@@ -1,1 +1,0 @@
-#define f1(_X,_Y) for(int (_X)=1;(_X)<=(_Y);++(_X))

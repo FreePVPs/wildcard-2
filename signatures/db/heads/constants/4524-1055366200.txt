@@ -1,1 +1,0 @@
-const unsigned long long shift=21,mask=(1LL<<shift)-1;

@@ -1,1 +1,0 @@
-        const TData& answer = get(1, 1, 2 * n, l, r);

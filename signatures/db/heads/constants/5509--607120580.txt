@@ -1,1 +1,0 @@
-const int INFint = (1<<28);

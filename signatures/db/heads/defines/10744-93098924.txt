@@ -1,1 +1,0 @@
-#define CIR(i, a, b) for (int i = (int)(b); i >= (int)(a); i--)

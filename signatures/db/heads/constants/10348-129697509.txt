@@ -1,1 +1,0 @@
-const char* way8[] = {"E", "SE", "S", "SW", "W", "NW", "N", "NE"};

@@ -1,1 +1,0 @@
-template <class myType> istream &operator >> (istream &in, myType object[]){scanf(" ");myType c;std::string line;std::getline(in, line);std::istringstream iss(line);int ind = 0;while ( iss >> c) {object[ind] = c;ind++;}return in;}

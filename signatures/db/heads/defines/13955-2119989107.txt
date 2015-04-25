@@ -1,1 +1,0 @@
-#define SV(vec) do{int s_v_;scanf("%d", &(s_v_));vec.PB(s_v_);}while(0)

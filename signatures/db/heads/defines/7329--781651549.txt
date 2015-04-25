@@ -1,1 +1,0 @@
-#define fto(i,b,c) for(int i = b; i<=c ; i++)

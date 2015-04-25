@@ -1,1 +1,0 @@
-#define assert(x) if(!(x)) {int __a=1,__b=1;int __c=1/(__a^__b);}

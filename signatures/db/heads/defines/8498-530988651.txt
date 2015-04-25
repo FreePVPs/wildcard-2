@@ -1,1 +1,0 @@
-#define fi(a, b) for(i=a; i<=b; i++)

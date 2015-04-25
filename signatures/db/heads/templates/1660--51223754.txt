@@ -1,1 +1,0 @@
-template <class T> T to_T(const string& s) {istringstream is(s); T r; is>>r; return r;}

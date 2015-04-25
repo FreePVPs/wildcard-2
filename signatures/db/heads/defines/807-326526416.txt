@@ -1,1 +1,0 @@
-#define FORedge(i, u, head, next) for (int (i) = (head[(u)]); (i); (i) = (next[(i)]))

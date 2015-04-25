@@ -1,1 +1,0 @@
-#define FOR(var,pocz,koniec) for (int var=(pocz); var<=(koniec); ++var)

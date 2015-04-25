@@ -1,1 +1,0 @@
-#define FOR(it,A) for(typeof A.begin() it = A.begin(); it!= A.end(); it++)

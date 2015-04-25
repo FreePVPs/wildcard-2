@@ -1,1 +1,0 @@
-#define print(i,n,a) f0(i,n){cout<<a[i]<<" ";}cout<<endl;

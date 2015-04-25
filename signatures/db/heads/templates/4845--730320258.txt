@@ -1,1 +1,0 @@
-template<typename T,typename U>inline void smax(T&a,U b){if(b>a)a=b;}template<typename T,typename U>inline void smin(T&a,U b){if(b<a)a=b;}

@@ -1,1 +1,0 @@
-const int E = V * V +10;

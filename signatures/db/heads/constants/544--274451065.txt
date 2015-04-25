@@ -1,1 +1,0 @@
-const long long LONG_INF = 0X7F7F7F7F7F7F7F7F;

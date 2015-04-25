@@ -1,1 +1,0 @@
-template<typename T>inline T POWER(T base,int po){T res=1;if(base==0)return 0;FOR(i,0,po)res*=base;return res;}

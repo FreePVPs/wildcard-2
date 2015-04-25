@@ -1,1 +1,0 @@
-const static int inf = 10000000;

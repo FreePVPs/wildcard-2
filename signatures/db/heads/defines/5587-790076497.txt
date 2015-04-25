@@ -1,1 +1,0 @@
-#define WLK(i,c)   for(TYP((c). begin())i=(c). begin();i!=(c). end();++i)

@@ -1,1 +1,0 @@
-#define FIT(a,b) for(vector<int >::iterator a=b.begin();a!=b.end();a++)

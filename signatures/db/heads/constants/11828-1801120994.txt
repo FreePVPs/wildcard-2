@@ -1,1 +1,0 @@
-    const matrix_type & from_top_left = shortcuts[0];

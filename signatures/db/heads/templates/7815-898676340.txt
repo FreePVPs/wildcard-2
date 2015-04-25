@@ -1,1 +1,0 @@
-template<typename T> bool remin(T& x, T y) { if (x <= y) return false; x = y; return true; }

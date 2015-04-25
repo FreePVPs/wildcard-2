@@ -1,1 +1,0 @@
-#define foorf(i,t,n) for(int i=t;i<n;i++)

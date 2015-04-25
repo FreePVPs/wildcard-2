@@ -1,1 +1,0 @@
-const long long fmx1=-691504013,fmx2=-308495997;

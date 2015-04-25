@@ -1,1 +1,0 @@
-    const int ALPHA_SZ = 26 ;

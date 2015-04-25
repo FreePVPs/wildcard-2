@@ -1,2 +1,0 @@
-
-inline bool is_prime(int x) { return x==2 ? true : x<2||((x&1)==0) ? false : is_prime_fast(x); }

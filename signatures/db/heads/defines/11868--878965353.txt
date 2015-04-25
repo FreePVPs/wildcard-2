@@ -1,1 +1,0 @@
-#define loopxbft(c,f,t) for(c=t-1;c>=f;c--)

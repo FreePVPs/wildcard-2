@@ -1,1 +1,0 @@
-const int MAXn= 1000 * 10;

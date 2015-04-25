@@ -1,1 +1,0 @@
-#define fd(x, b, e) for(int x = e; x >= (b); --x)

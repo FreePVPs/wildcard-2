@@ -1,1 +1,0 @@
-#define Assign(a, b, s, e) for(int i = s ; i <= e ; i++) b[i] = a[i];

@@ -1,1 +1,0 @@
-template<class T> inline void print(vector<T>& a,int n){int i;rep(i,0,n){cout<<a[i]<<" ";}cout<<"\n";}

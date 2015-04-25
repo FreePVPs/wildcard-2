@@ -1,1 +1,0 @@
-#define TR(c, it) for(ITR(c) it = c.BG; it != c.ED; ++it)

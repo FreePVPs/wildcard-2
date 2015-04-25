@@ -1,1 +1,0 @@
-#define printTime cout<<"Time:"<<clock()-pre<<endl;pre=clock();

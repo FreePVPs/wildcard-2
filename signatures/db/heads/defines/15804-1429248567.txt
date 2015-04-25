@@ -1,1 +1,0 @@
-#define FOR1(i,b) for(ll i=1;i<=(b);i++)

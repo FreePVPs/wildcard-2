@@ -1,1 +1,0 @@
-#define qfor(k) for(int i=d[k],j;j=a[i].node,i;i=a[i].next)

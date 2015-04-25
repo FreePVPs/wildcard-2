@@ -1,1 +1,0 @@
-#define forI_(i,V,_) for(__typeof(V.end())i=_;i!=V.end();++i)

@@ -1,1 +1,0 @@
-#define g(x,y,z) for(int x = (y),__ = (z);x <= (__);++x)

@@ -1,1 +1,0 @@
-#define PFOR(i, a, b, s) for(__typeof(b) i = (a); i <= (b); i+= (s))

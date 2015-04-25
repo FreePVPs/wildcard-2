@@ -1,1 +1,0 @@
-#define rev(i,p,e) for(i=p;i>=e;i--)

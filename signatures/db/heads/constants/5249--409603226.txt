@@ -1,1 +1,0 @@
-const ull MAX_N = 100002;

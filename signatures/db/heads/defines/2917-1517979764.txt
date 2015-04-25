@@ -1,1 +1,0 @@
-#define Fi(i, st, ft) for(i = st;i <= ft; ++i)

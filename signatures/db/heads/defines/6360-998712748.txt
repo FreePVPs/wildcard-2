@@ -1,1 +1,0 @@
-#define FFD(i,a)				for( i = (a)-1; i >= 0; --i )

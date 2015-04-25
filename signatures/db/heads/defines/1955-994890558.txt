@@ -1,1 +1,0 @@
-#define db(args...) { vector<string> _v = split(#args, ','); debug_fn(_v.begin(), args); }

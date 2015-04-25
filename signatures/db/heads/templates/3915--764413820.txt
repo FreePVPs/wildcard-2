@@ -1,1 +1,0 @@
-template<> double next<double>(){ double _; scanf("%lf", &_); return _; }

@@ -1,1 +1,0 @@
-const int maxn = 5 * 1e6 + 10, maxm = (1 << 17), mod = 1e9 + 7, hash = 1239;

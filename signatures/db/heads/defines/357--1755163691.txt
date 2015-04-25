@@ -1,1 +1,0 @@
-#define FOR(i, start, final) for (int i=start; i<=final; ++i)

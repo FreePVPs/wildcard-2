@@ -1,1 +1,0 @@
-const lli ooll=(~0ull)>>1;

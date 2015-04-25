@@ -1,1 +1,0 @@
-#define TT int t;SI(t);while(t--){

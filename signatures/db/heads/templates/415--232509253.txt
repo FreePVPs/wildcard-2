@@ -1,1 +1,0 @@
-template <class T> inline T powr( T x, T y) { T ret = 1; while(y--) ret *= x;  return ret;}

@@ -1,1 +1,0 @@
-const int Range = 1000000;

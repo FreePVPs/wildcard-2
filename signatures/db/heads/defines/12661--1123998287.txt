@@ -1,1 +1,0 @@
-#define getWord(w) char w[100]; scanf("%s",w);

@@ -1,1 +1,0 @@
-const int max_n = 11, inf = 1000000000;

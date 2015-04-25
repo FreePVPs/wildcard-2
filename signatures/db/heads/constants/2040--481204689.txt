@@ -1,1 +1,0 @@
-            constVal = Convert.ToDouble(strParams[2]);

@@ -1,1 +1,0 @@
-#define FFR(i,x,y) for(ll i=(x),alVDbhLBoMEGSwA=(y);i<=alVDbhLBoMEGSwA;i++)

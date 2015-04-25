@@ -1,1 +1,0 @@
-#define TAKE(a) int (a); scanf("%d",&(a));

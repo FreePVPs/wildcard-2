@@ -1,1 +1,0 @@
-#define fornl(i,a,b) for(int i=((long long unsigned) a);i<((long long unsigned) b);i++)

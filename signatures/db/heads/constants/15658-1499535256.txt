@@ -1,1 +1,0 @@
-const double PI = acos((double)0) * 2;

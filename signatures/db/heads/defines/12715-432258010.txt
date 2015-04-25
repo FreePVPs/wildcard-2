@@ -1,1 +1,0 @@
-#define h2(x, y, z) for(int x = (y), _asdf = (z); x >= asdf; --x)

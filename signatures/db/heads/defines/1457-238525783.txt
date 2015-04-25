@@ -1,1 +1,0 @@
-#define ittr(v,it) for(typeof(v.begin()) it=v.begin(); it!=v.end();it++)

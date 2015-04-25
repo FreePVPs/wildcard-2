@@ -1,1 +1,0 @@
-#define for_each(q, s) for(typeof(s.begin()) q=s.begin(); q!=s.end(); q++)

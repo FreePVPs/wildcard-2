@@ -1,1 +1,0 @@
-const long long _inf = (long long) 4e18;

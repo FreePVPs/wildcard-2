@@ -1,1 +1,0 @@
-const ll MAXL = numeric_limits<ll>::max() / 2;

@@ -1,1 +1,0 @@
-#define RIT(i,v) for (i=v.rbegin();i!=v.rend();i++)

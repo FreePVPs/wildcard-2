@@ -1,1 +1,0 @@
-#define FORI(it, n) for(typeof(n.begin()) it = n.begin(); it != n.end(); it++)

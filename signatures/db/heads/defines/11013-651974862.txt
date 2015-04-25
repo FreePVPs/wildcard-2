@@ -1,1 +1,0 @@
-#define $FOREACHC(a, b, cond)   for (__typeof(b) a=b;(cond); b++, a=b)

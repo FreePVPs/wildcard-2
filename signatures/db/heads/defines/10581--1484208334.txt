@@ -1,1 +1,0 @@
-#define FIT(it, v) for (typeof((v).begin())it = (v).begin(); it != (v).end(); ++it)

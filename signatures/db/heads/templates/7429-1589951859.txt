@@ -1,1 +1,0 @@
-template< class T > vector <T> parse(T temp){ vector <T> ans ; ans.clear() ; T s ; istringstream is(temp) ; while(is >> s){ /*cout << s << endl ;*/ ans.push_back(s) ; } return ans ; }

@@ -1,1 +1,0 @@
-#define input(i,n,a) int i,n;cin>>n;int a[n];f0(i,n){cin>>a[i];}

@@ -1,1 +1,0 @@
-const double eof = 1e-14;

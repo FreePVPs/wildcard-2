@@ -1,1 +1,0 @@
-#define REPe(i, M, N) for(int i = M; i <= N; i++)

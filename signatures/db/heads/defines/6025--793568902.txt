@@ -1,1 +1,0 @@
-#define TEST(args...) DEBUG(printf(args); ENDL;)

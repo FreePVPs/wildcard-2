@@ -1,1 +1,0 @@
-#define FTO(I, S, E) for(long I=S; I<E; ++I)

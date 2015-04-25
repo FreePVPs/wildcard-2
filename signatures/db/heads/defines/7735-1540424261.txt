@@ -1,1 +1,0 @@
-#define GL ({long long t;scanf("%lld",&t);t;})          //NOTE: Don't comma separate two inputs.

@@ -1,1 +1,0 @@
-#define FRS(i,S,E) for(int i=S;i<=E;i++)

@@ -1,1 +1,0 @@
-const int inf = 1 << 29; const ll llinf = (ll)inf * (ll)inf;

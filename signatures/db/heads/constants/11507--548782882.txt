@@ -1,1 +1,0 @@
-const long long LINF=(1ll<<62)-1;

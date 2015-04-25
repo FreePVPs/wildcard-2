@@ -1,1 +1,0 @@
-#define foreach(i,vec) for(unsigned i=0;i<vec.size();i++)

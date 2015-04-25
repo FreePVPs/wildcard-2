@@ -1,1 +1,0 @@
-const dbl EPS=1e-8;

@@ -1,1 +1,0 @@
-const int modul = 1000000007;

@@ -1,1 +1,0 @@
-const string OUTPUT_FILE = "output.txt";

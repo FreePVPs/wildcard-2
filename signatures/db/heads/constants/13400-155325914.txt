@@ -1,1 +1,0 @@
-const int SIGNIFICANT_LEN = 25;

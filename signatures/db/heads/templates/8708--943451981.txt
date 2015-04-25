@@ -1,1 +1,0 @@
-template< class T > inline T _isupper(T s) {if(s>='A' and s<='Z') return 1; return 0;}

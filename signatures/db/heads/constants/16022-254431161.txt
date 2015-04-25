@@ -1,1 +1,0 @@
-    const TData& rr = get((x << 1) + 1, c + 1, r, L, R);

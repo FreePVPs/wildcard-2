@@ -1,1 +1,0 @@
-#define F(I, X, Y, Z) for(int I=X; I<=Y; I+=Z)

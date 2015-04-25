@@ -1,1 +1,0 @@
-#define DFOR(i,a,b) for(TYPE(i,(a)); i >= (b); --i)

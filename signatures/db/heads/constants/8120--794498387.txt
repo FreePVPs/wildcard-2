@@ -1,1 +1,0 @@
-const int bint::MAX_DIGIT = 9999L;

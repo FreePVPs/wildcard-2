@@ -1,1 +1,0 @@
-#define put(x) { cerr << #x << " = "; cerr << (x) << endl; }

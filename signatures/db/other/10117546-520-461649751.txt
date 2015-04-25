@@ -1,8 +1,0 @@
-const LL INF = 9e15;
-const int inf = 0x7fffffff;
-const int N = 100000+10;
-const int M = 30;
-const LL MOD = 1000000007;
-const double PI = acos(-1.0);
-const double G = 9.8;
-const double eps = 1e-3;

@@ -1,1 +1,0 @@
-const long long VAL_MAX = 1000000000;

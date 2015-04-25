@@ -1,1 +1,0 @@
-#define TR(c,k) for(typeof(c.begin()) k=c.begin(); k!=c.end(); k++)

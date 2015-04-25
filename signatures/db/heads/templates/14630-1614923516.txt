@@ -1,1 +1,0 @@
-template<class K, class V> string _str(const map<K, V> x) {ostringstream str; str << "{"; bool first = true; for(auto it: x) { if (!first) str << ", "; first = false; str << it.X << " -> " << it.Y; } str << "} size " << x.size(); return str.str(); }

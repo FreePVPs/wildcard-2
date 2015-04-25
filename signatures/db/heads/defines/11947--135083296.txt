@@ -1,1 +1,0 @@
-#define foor(number) for(int cnt=0;cnt<number;cnt++)

@@ -1,1 +1,0 @@
-#define PP(n,m,a)       puts("---");FF(i,n){FF(j,m)cout << a[i][j] << ' ';puts("");}

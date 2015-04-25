@@ -1,1 +1,0 @@
-const int MAX2 = 100100;

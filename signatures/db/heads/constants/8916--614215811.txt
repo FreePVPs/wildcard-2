@@ -1,1 +1,0 @@
-const wy:array[1..4]of longint=(0,1,0,-1);

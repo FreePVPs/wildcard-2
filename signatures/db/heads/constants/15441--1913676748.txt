@@ -1,1 +1,0 @@
-const long long int OO = (1LL << 62); 

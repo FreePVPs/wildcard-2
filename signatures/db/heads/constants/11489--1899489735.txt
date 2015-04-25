@@ -1,1 +1,0 @@
-const long l = 100050;

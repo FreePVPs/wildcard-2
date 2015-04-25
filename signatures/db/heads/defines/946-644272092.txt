@@ -1,1 +1,0 @@
-#define rep(i,st,en) for(i=st;i<=en;i++)

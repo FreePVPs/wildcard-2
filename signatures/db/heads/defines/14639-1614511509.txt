@@ -1,1 +1,0 @@
-#define rds(name) string name; getline(cin, name);

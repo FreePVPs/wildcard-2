@@ -1,1 +1,0 @@
-#define REP(x,a) for(__typeof(a.begin()) x=a.begin();x!=a.end();x++)

@@ -1,1 +1,0 @@
-#define GLL ({long long t;scanf("%lld",&t);t;})

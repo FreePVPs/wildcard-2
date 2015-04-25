@@ -1,1 +1,0 @@
-const int NMAX=200000 + 5;

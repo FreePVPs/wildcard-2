@@ -1,1 +1,0 @@
-#define F(I,K) for(int i=I;i<K;i++)

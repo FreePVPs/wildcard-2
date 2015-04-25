@@ -1,1 +1,0 @@
-#define f(i, lo, hi) for (int i = (lo), Max = (hi); i <= Max; ++i)

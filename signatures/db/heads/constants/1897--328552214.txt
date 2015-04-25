@@ -1,1 +1,0 @@
-const int SWAG = 228;

@@ -1,1 +1,0 @@
-#define forg0(i,a,n) for(int i=a ; i>0 ; i--)

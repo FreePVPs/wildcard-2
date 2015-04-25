@@ -1,1 +1,0 @@
-#define srep(i,f) for (int i=1;i<=n;++i)

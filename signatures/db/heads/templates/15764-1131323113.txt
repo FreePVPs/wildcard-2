@@ -1,1 +1,0 @@
-template<class T> T mint(T x, T y){if (x < y) return x; else return y;}

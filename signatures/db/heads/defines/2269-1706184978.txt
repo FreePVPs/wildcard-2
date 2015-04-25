@@ -1,1 +1,0 @@
-#define FORALL(it,v) for(TYPE(it, (v).begin()); it != (v).end(); ++it)

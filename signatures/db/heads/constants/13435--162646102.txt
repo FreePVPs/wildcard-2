@@ -1,1 +1,0 @@
-const int MAGIC = (int) 1e5;

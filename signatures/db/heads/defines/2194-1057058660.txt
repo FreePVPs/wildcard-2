@@ -1,1 +1,0 @@
-#define rof(i, n, x) for (int i = (int)(n), _x = (int)(x); i-- > _x; )

@@ -1,1 +1,0 @@
-const LL LINF = 1ll << 60;

@@ -1,1 +1,0 @@
-const int maxv = 1e6+10;

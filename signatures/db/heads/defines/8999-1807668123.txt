@@ -1,1 +1,0 @@
-#define Forn(i,y,x) for(int i=y;i<=x;i++)

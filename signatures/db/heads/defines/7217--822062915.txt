@@ -1,1 +1,0 @@
-#define prni(arr,i,n) { for(i=0;i<n;i++){if(i)sP;printf("%d",arr[i]);}}

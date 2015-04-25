@@ -1,1 +1,0 @@
-#define GFOR(i,a,b) for(LET(i,a);i!=(b);++i)

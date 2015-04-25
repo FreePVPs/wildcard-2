@@ -1,1 +1,0 @@
-#define rf(i, hi, lo) for (int i = (hi), Min = (lo); i >= Min; --i)

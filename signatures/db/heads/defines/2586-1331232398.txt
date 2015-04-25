@@ -1,1 +1,0 @@
-#define RIT(a,b) for(vector<int>::reverse_iterator a=b.end();a!=b.begin();++a)

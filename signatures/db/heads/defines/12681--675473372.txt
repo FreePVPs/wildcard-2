@@ -1,1 +1,0 @@
-#define de(i,A) for(int i=A-1;i+1;i--)

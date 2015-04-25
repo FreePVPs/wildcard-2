@@ -1,1 +1,0 @@
-#define kp()  int t;cin>>t;while(t--)

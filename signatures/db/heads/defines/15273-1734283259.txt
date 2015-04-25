@@ -1,1 +1,0 @@
-#define rofl(i,a,f) for(int i = (int)a;i >= (int)f;--i)

@@ -1,1 +1,0 @@
-const int bigmaxn = 30000000;

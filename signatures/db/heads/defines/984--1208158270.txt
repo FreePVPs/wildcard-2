@@ -1,1 +1,0 @@
-#define DWN_C_N(i, b, a) for (int a____=(i=b-1,a);i>=a____;--i)

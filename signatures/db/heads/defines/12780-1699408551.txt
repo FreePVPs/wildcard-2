@@ -1,1 +1,0 @@
-#define FOR(i,x,y) for(LL i = (x) ; i < (y) ; ++i)

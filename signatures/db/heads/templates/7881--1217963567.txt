@@ -1,1 +1,0 @@
-template<class T> inline T ppow(T a, ll b) {T ret = 1; while (b) {if (b & 1) ret *= a; a *= a; b >>= 1;} return ret;}

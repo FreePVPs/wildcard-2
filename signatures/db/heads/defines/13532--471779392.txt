@@ -1,1 +1,0 @@
-    #define fj(a) (int j=0; j<a ; ++j)

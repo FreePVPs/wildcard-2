@@ -1,1 +1,0 @@
-const double NaN = -(0.0/0.0), posinf = 1.0/0.0, neginf = -1.0/0.0, EPS = 1E-9;

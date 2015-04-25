@@ -1,1 +1,0 @@
-const int N = (int)7e5 + 7;

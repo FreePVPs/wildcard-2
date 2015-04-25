@@ -1,1 +1,0 @@
-const int sigma_size = 26;

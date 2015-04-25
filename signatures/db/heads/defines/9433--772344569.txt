@@ -1,1 +1,0 @@
-#define ERRS(x)  {cout<<"#error  x  : " << x << endl << "#END#" << endl ; while(1) ;}

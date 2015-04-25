@@ -1,1 +1,0 @@
-template<class T>vector<T>&operator<<(vector<T>& v,T t){v.push_back(t);return v;} 

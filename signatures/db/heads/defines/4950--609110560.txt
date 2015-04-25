@@ -1,1 +1,0 @@
-#define FORH(i, a, b, h) for (int i = (a); i <= (b); i += (h))

@@ -1,1 +1,0 @@
-template<typename T1, typename T2> void debpr(const pair<T1, T2> &p) { debpr("("); debpr(p.first); debpr(", "); debpr(p.second); debpr(")"); }

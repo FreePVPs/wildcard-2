@@ -1,1 +1,0 @@
-#define bian for(int i=fst[u]; ~i; i=nxt[i])

@@ -1,1 +1,0 @@
-#define SQZ_1(i, j, a, b) for (int i=int(a),j=int(b);i<=j;++i,--j)

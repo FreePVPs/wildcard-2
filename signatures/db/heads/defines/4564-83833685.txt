@@ -1,1 +1,0 @@
-#define repeat(x) for (auto repeat_var = 0; repeat_var < x; ++repeat_var)

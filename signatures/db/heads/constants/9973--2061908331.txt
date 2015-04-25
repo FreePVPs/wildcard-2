@@ -1,1 +1,0 @@
-const ll llmod=4294967296ll,llinf=0x3f3f3f3f3f3f3f3fll,llninf=0xc0c0c0c00c0c0c0cll;

@@ -1,1 +1,0 @@
-const double RRR = 180.0 / PI;

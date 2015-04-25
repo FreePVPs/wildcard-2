@@ -1,1 +1,0 @@
-template <typename TY, typename TX> TX B2L(TY(*f)(const TX&),TX l,TX r,const TY&q){while(l!=r){TX mit=l+r>>1;  if(f(mit)<q)l=mit+1;else r=mit;}return l;}

@@ -1,1 +1,0 @@
-const char *answer(int n1, int n2);

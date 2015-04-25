@@ -1,1 +1,0 @@
-const int SMAX = NMAX*5;

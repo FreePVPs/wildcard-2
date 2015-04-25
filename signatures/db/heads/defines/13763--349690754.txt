@@ -1,1 +1,0 @@
-#define RM(begin1,end1,begin2,end2,arr) for(int i=begin1;i<end1;i++)for(int j=begin2;j<end2;j++)cin>>arr[i][j]

@@ -1,1 +1,0 @@
-template<class T> void frstring(string s , T &r){ r = 0 ; istr ci(s); ci>>r ; }

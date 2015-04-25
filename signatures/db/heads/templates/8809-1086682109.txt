@@ -1,1 +1,0 @@
-template<class T> inline int sil(T &a,T b){if(b<a){a=b;return 1;}return 0;} 

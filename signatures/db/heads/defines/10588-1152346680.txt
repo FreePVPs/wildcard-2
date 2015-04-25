@@ -1,1 +1,0 @@
-#define forlec(i, a, b) for(int i##_b = (b), i = (a); i <= i##_b; ++i)

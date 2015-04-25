@@ -1,1 +1,0 @@
-const int SIZ = 100100;

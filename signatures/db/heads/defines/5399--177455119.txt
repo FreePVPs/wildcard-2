@@ -1,1 +1,0 @@
-#define frr(i,a,b) for(int i = (a), __ = (b); i >= b; --i)

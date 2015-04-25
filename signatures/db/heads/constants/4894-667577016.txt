@@ -1,1 +1,0 @@
-const LL base = inf + 17;

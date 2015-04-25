@@ -1,1 +1,0 @@
-#define FOREACH(it,t) for(typeof(t.begin()) it=t.begin(); it!=t.end(); ++it)

@@ -1,1 +1,0 @@
-const int N = 330, nt = 1, L = 30;

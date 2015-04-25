@@ -1,1 +1,0 @@
-#define vii(x,n,m,i) vector<vector<double> > x(n,vector<double> (m,i))

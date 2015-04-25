@@ -1,1 +1,0 @@
-#define repe(i, u) for (int i = head[u]; i != -1; i = nxt[i])

@@ -1,2 +1,0 @@
-
-#define MP(X,Y) make_pair(X,Y)//NOTES:MP(

@@ -1,2 +1,0 @@
-
-template<class T> inline T euclide(T a,T b,T &x,T &y)//ax+by=1 a,bОЄ0К±пїЅпїЅпїЅвґ¦пїЅпїЅТ»пїЅпїЅ //NOTES:euclide(

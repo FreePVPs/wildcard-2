@@ -1,1 +1,0 @@
-#define print(arr,n,str) { cout<<str<<" : [ " ; fa(_i,n){ cout<<arr[_i]<<" "; } cout<<"]\n";}

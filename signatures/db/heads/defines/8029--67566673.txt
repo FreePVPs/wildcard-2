@@ -1,1 +1,0 @@
-#define traverse(container,iterator) for(typeof((container).begin() i=(container).begin(); i!=(container).end(); i++)

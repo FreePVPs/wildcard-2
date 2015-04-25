@@ -1,1 +1,0 @@
-template <typename T> T POW(T b,T p) { if (p == 1) return b; if (p%2 == 0) { T s = POW(b,p/2); return s*s; } return b*POW(b,p-1);}

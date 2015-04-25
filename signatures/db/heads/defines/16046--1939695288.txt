@@ -1,1 +1,0 @@
-#define REP(i, c, n) for(int i = (int)c; i < (int)n; i++)

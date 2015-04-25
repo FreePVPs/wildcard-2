@@ -1,1 +1,0 @@
-#define Rep0(i,L,R) for (int i=int(L);i<int(R);i++)

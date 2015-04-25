@@ -1,1 +1,0 @@
-const LL INFLL = (LL)INF * (LL)INF ;

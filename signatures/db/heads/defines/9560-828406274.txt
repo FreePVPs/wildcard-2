@@ -1,1 +1,0 @@
-#define ITR(it, v) for (typeof((v).rbegin()) it = (v).rbegin(); it != (v).rend(); it++)

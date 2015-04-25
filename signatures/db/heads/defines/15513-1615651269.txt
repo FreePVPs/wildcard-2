@@ -1,1 +1,0 @@
-#define rf0(_X,_Y) for(int _X=(_Y)-1;(_X)>=0;--(_X))

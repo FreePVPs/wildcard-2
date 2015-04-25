@@ -1,1 +1,0 @@
-template<class A, class B> A cvt(B x) {stringstream s;s<<x;A r;s>>r;return r;}

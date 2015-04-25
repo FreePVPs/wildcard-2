@@ -1,1 +1,0 @@
-#define PFOR(i,s,t,p) for(int i=(s);i<=(t);i+=p)

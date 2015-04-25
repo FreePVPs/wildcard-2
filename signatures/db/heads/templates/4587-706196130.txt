@@ -1,1 +1,0 @@
-template<class T> string toString(T x){ ostringstream sout; sout<<x; return sout.str();}

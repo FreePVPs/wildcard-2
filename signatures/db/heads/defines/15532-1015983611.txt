@@ -1,1 +1,0 @@
-#define mv(num,n)               REP(i,n){int a;s(a);num.pb(a);}

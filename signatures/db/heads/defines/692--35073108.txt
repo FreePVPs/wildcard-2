@@ -1,1 +1,0 @@
-#define FORd(x,j,n) for(ll x = j; x >= n;x--)

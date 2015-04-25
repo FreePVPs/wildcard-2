@@ -1,1 +1,0 @@
-const Long INF = (1LL<<60);

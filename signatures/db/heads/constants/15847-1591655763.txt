@@ -1,1 +1,0 @@
-const int BASE1 = 43;

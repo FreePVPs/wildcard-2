@@ -1,1 +1,0 @@
-#define forr(i,v) for (auto i = v.end(); i != v.begin() && (--i, 1); )

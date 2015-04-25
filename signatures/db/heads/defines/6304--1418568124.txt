@@ -1,1 +1,0 @@
-#define Rep(x,y) for(x=0;x<(y);x++)

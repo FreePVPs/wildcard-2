@@ -1,1 +1,0 @@
-const int MIN_INT = std::numeric_limits<int>::min();

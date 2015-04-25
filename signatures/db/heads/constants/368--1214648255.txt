@@ -1,1 +1,0 @@
-const ll l_inf = 2e18+5;

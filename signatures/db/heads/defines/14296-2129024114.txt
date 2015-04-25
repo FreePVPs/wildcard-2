@@ -1,1 +1,0 @@
-#define forvecc(vType, vecName, varName) for (vector<vType>::const_iterator varName = vecName.begin(); varName != vecName.end(); varName++)

@@ -1,1 +1,0 @@
-const long long	INFL = INF * 1000 * 100;

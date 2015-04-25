@@ -1,1 +1,0 @@
-const ld PI = acos((double)-1.0);

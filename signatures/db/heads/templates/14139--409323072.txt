@@ -1,1 +1,0 @@
-template <class T> inline bool in_between(T n,T start,T end) {if(start<=n && n<=end) return true; else return false; }

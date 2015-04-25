@@ -1,1 +1,0 @@
-    #define forit(i,A) for(__typeof((A).begin()) i=(A).begin();i!=(A).end();++i)

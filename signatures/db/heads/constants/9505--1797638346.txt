@@ -1,1 +1,0 @@
-const int BIG=0x3f3f3f3f;

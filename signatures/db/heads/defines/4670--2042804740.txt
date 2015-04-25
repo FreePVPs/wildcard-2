@@ -1,1 +1,0 @@
-#define FL(I1,a,b) for(int I1=a;I1<=b;I1++)

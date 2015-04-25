@@ -1,1 +1,0 @@
-const int of = 3000;

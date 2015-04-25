@@ -1,1 +1,0 @@
-#define RREP(i,b,a) for(i = b; i >= a; i--)

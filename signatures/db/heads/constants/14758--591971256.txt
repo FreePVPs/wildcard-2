@@ -1,1 +1,0 @@
-        const int b  = r-k+1;

@@ -1,1 +1,0 @@
-#define tcr1(i,tc) for(int i = 0;i<=tc;i++)

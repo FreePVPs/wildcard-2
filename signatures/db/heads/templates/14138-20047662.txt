@@ -1,1 +1,0 @@
-template <class T> inline T bigmod(T base,T power,T mod){if(power==0) return 1; if(power%2==0) {long long t=bigmod(base,power/2,mod);return (T)((t*t)%mod);} return (T)((long long)bigmod(base,power-1,mod)*(long long)base)%mod;}

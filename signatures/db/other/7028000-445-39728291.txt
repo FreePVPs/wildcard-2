@@ -1,1 +1,0 @@
-#define cin(n) int (n); scanf("%d", &(n))

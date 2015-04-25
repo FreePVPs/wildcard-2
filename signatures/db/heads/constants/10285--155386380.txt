@@ -1,1 +1,0 @@
-const int MAX_BUF_SIZE = 10009;

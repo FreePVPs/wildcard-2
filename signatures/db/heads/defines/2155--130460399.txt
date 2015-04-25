@@ -1,1 +1,0 @@
-#define TESTCASE int T;cin >>T;for(int Z=0;Z<T;Z++)

@@ -1,1 +1,0 @@
-#define RFOREACH(itr, b) for(auto itr = b.rbegin(); itr != b.rend; itr++)

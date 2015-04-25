@@ -1,1 +1,0 @@
-#define repp(x,n) for(__typeof(n) x=1;x<=(n);x++)

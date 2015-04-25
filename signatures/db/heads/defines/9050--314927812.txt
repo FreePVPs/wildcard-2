@@ -1,1 +1,0 @@
-#define FORK(I,K,N) for (I=(K);I<(N);++I)

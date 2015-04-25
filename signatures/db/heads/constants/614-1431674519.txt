@@ -1,1 +1,0 @@
-const int aASCII = 97, SIZE = 100001, ASIZE = 26;

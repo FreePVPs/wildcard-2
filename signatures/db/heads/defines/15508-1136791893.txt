@@ -1,1 +1,0 @@
-#define fv(i,v) for(itv i = v.begin(); i != v.end(); i++)

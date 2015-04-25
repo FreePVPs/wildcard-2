@@ -1,1 +1,0 @@
-        const ii& rc = PAR[r][c];

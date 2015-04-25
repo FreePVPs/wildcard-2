@@ -1,1 +1,0 @@
-const int TSZ = MAXLEN * 3;

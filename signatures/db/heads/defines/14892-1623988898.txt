@@ -1,1 +1,0 @@
-#define fornd(i,n) for(auto i=(n);i--;)

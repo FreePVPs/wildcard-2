@@ -1,1 +1,0 @@
-const int Mod = 300007;

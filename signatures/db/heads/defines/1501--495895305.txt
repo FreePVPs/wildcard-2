@@ -1,1 +1,0 @@
-#define rep(a, b) for (int r = int(a); r <= int(b); r++)

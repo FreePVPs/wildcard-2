@@ -1,1 +1,0 @@
-template<class T>inline T isupper(T s){if(s>='A'&&s<='Z')return(1);return(0);}

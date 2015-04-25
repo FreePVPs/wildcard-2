@@ -1,1 +1,0 @@
-#define FORi4(x,y) for(int i4 = x; i4<y; i4++)

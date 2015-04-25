@@ -1,1 +1,0 @@
-#define DW1(i,x)   for(int i=x;i>=1;--i)

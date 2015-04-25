@@ -1,1 +1,0 @@
-const int constant = 1000 + 1;

@@ -1,1 +1,0 @@
-#define frj(a,n)  for(j=a;j<n;j++)

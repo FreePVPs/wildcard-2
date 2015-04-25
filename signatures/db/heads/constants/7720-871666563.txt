@@ -1,1 +1,0 @@
-const   LD      Eps=1e-12;

@@ -1,1 +1,0 @@
-#define whileZ int T; getI(T); while(T--) // the same as above

@@ -1,1 +1,0 @@
-#define LPR(i,ii,jj) for(int i=(ii);i>=(jj);i--)

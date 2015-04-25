@@ -1,1 +1,0 @@
-const int LLL = 1000005;

@@ -1,1 +1,0 @@
-#define HCE(it, A) for(typeof(A.rbegin()) it=A.rbegin(); it != A.rend(); ++it)

@@ -1,1 +1,0 @@
-#define INS2(n,m) int n,m;S2(n,m);

@@ -1,1 +1,0 @@
-#define LoopAfterScan(n) int n; scanf("%d", &n); while(n--)

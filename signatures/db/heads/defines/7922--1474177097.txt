@@ -1,1 +1,0 @@
-#define impl_myout(type) MyOut& operator<< (type val) { cout << val << ' ';	return *this; }

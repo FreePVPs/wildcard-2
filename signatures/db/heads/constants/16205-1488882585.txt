@@ -1,1 +1,0 @@
-        const int son = G[nod][i];

@@ -1,1 +1,0 @@
-template<class T> inline T min(T& a,T& b,T& c){return min(a,min(b,c));};

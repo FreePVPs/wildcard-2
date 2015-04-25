@@ -1,1 +1,0 @@
-const long double Q = 4;

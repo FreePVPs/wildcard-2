@@ -1,1 +1,0 @@
-const LL l1 = 1LL;

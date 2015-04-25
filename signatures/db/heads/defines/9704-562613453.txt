@@ -1,1 +1,0 @@
-#define FORN(i, u) for(int i = head[u]; i != -1; i = next[i])

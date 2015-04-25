@@ -1,1 +1,0 @@
-template<class T> inline T power(T x,T p){if(!p) return 1;return x*power(x,p-1);}

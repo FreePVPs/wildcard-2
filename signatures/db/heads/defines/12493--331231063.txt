@@ -1,1 +1,0 @@
-#define PRINT(i, n, a) for (int i = 0; i < (int)(n); ++i) cout << a[i] << " "; cout << endl;

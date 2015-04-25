@@ -1,1 +1,0 @@
-template <typename TY, typename TX> TX T3A(TY(*f)(const TX&),TX l,TX r,const TY&d=6){TY t;while(r-l>=d){t=(r-l)/3;TY xl=l+t,xr=r-t;if(f(xl)>f(xr)) r=xr;else l=xl;}TY o=f(l);if(r-l>=1)FOR(i,l,r)if((t=f(i))>o){o=t;l=i;};return l;}

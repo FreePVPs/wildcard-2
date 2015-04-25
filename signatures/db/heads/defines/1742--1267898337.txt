@@ -1,1 +1,0 @@
-#define forr(n) for(int i=0;i<n;i++)

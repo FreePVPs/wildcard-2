@@ -1,1 +1,0 @@
-#define GI ({int _x; scanf("%d", &_x); _x;})

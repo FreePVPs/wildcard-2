@@ -1,1 +1,0 @@
-#define debugArr(a,x,y) {cerr<<#a<<" = ";forn(_,x,y) cerr << a[_] << ' '; cerr <<endl;}

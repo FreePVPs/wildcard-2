@@ -1,1 +1,0 @@
-    const int O = 1000;

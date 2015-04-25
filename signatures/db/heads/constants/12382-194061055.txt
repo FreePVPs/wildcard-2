@@ -1,1 +1,0 @@
-const int LOSE = 2;

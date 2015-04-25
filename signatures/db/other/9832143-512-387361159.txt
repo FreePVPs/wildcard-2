@@ -1,3 +1,0 @@
-
-#define exist(s,e) ((s).find(e)!=(s).end())
-#define range(i,a,b) for(int i=(a);i<(b);++i)

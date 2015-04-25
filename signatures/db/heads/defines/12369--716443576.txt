@@ -1,1 +1,0 @@
-#define req(x,y,z,t) for (int x=y;x>=z;x-=t)

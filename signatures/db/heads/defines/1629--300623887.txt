@@ -1,1 +1,0 @@
-#define f(it,a,b) for (int it = a; it < b; it++)

@@ -1,1 +1,0 @@
-#define rep(i,start,m) for(int i=(int)(start);i<(int)(m);i++)

@@ -1,1 +1,0 @@
-#define Fe(i, x) for(typeof (x.begin()) i = x.begin(); i != x.end (); i++)

@@ -1,1 +1,0 @@
-template<class T> string _str(const set<T> x) {ostringstream str; str << "{"; bool first = true; for(auto it: x) { if (!first) str << ", "; first = false; str << it; } str << "} size " << x.size(); return str.str(); }

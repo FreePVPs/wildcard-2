@@ -1,1 +1,0 @@
-template< class T , class M > inline T sqr(T x , M y){/* compute to 2^63*/ T temp = 1 ; if(y == 0) return 1 ; for(int i = 1 ; i <= y ; i++) temp *= x  ; return temp ;}

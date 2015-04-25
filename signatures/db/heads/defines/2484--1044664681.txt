@@ -1,1 +1,0 @@
-#define FOR(i,en) for(ll i=1,SbKCIcakJTeYVqs=(en);i<=SbKCIcakJTeYVqs;i++)

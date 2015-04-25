@@ -1,1 +1,0 @@
-#define infinite_loop for (;;)

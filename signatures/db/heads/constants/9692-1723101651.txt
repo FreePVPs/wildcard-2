@@ -1,1 +1,0 @@
-const ldb EPS = 1e-9;

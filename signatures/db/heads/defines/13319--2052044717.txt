@@ -1,1 +1,0 @@
-    #define  debug(args...) do{std::cout<<#args<<" : ";dbg,args;std::cout<<std::endl;}while(0)

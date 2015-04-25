@@ -1,1 +1,0 @@
-#define rdvec(name, type, size) vector<type> name(size); fru(zzzz, size) {cin >> name[zzzz];}

@@ -1,1 +1,0 @@
-const vlong inf = 2147383647;

@@ -1,1 +1,0 @@
-const i64 linf = (1LL << 59);

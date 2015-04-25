@@ -1,1 +1,0 @@
-#define aset(a,size,val) for(int i = 0;i<size;i++) a[i] = val;

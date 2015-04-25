@@ -1,1 +1,0 @@
-#define lpi1(a,b) for(int a=1;a<=b;a++)

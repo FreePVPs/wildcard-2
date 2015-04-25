@@ -1,1 +1,0 @@
-#define wait do{cout<<"*...waiting...*"<<endl;} while(getchar()!='\n');

@@ -1,6 +1,0 @@
-
-template<class T> inline void add_mod(T &a, int mod = -1) {
-    if(mod == -1) mod = 1e9 + 7;
-    while(a >= mod) a -= mod;
-    while(a < 0) a += mod;
-}

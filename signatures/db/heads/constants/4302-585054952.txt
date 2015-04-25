@@ -1,1 +1,0 @@
-const int MAXK = 3e5;

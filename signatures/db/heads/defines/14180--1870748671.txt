@@ -1,1 +1,0 @@
-#define fall(i,a,b) for(int T_T=a;T_T>=b;T_T--) 

@@ -1,1 +1,0 @@
-                 const int j = V[noeud][i];

@@ -1,1 +1,0 @@
-const int nmax = 1e4 + 10;

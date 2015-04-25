@@ -1,1 +1,0 @@
-#define fk(b) for(int k=0; k < ((int)(b)); k++)                        // k -> [0, b)

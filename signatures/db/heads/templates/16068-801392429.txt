@@ -1,1 +1,0 @@
-template <class myType1, class myType2> ostream &operator << (ostream &out,const pair<myType1,myType2>&object){out<<object.first<<' '<<object.second;return out;}

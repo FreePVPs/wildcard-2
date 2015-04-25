@@ -1,1 +1,0 @@
-#define forni(i,n,e) for(i=(n);i>=(e);--i)

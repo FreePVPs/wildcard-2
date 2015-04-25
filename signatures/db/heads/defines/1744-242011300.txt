@@ -1,1 +1,0 @@
-#define forv(i,v,n,s) for(int i=v;i<n;i+=s)

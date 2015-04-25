@@ -1,1 +1,0 @@
-#define fl(c,i,n) for(i=c;i<n;i++)

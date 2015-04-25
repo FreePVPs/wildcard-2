@@ -1,1 +1,0 @@
-#define F1(i,x,y) for(int i=x;i<y;i++)

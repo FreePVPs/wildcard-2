@@ -1,1 +1,0 @@
-#define PRINT2D(array, maxr, maxc) cout<<endl<<#array<<":   "; for(int i=0; i < (maxr); i++) { for(int j=0;j<(maxc);j++) cout<<array[i][j]<<"  "; if(i!=(maxr) - 1)cout<<endl<<#array<<":   ";}

@@ -1,7 +1,0 @@
-
-
-    public int skip() {
-        int b;
-        while ( ( b = readByte() ) != -1 && isWhitespace( b ) ) ;
-        return b;
-    }

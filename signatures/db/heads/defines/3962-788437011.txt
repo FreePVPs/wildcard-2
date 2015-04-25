@@ -1,1 +1,0 @@
-#define file3(x,y) freopen(#x ".in","r",stdin);freopen(#y ".out","w",stdout);

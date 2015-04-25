@@ -1,1 +1,0 @@
-#define EACH(it, con) for(__typeof((con).begin()) it = (con).begin(); it!=(con).end(); it++)

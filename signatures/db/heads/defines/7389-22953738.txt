@@ -1,1 +1,0 @@
-#define out(a,low,high) for(int i = low;i<high;i++)cout<<a[i]<<" "

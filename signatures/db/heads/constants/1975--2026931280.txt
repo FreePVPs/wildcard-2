@@ -1,1 +1,0 @@
-const LL inf64 = inf * inf;

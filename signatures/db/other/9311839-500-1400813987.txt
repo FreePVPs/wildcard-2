@@ -1,2 +1,0 @@
-
-#define CASEN0(n) int cas=1;while(scanf("%d",&n)!=EOF&&n)

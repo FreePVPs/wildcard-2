@@ -1,1 +1,0 @@
-#define FORD(i,a,b,c) for(LL i=a;i>=b;i-=c)

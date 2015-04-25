@@ -1,1 +1,0 @@
-const int OSN = (1 << 17) - 1;

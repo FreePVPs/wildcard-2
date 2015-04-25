@@ -1,1 +1,0 @@
-#define viewP(a, n)     {FF(i, n) {cout<<a[i]<<" ";} puts("");}

@@ -1,1 +1,0 @@
-#define forall(it,X)     for(typeof((X).begin()) it = (X).begin(); it != (X).end(); it++)

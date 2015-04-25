@@ -1,1 +1,0 @@
-#define printvv(v) for (int w=0;w<v.size();w++) { printv(v[w]; } cout<<endl;

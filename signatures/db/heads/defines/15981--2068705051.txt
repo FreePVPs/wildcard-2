@@ -1,1 +1,0 @@
-#define Fk(a,n) for(int k=a;k<n;k++)

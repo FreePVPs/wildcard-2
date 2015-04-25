@@ -1,1 +1,0 @@
-   const int *ib = (const int *)b;

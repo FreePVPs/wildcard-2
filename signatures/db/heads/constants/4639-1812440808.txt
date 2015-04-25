@@ -1,1 +1,0 @@
-const int inf=100000,nn=200010;

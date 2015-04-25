@@ -1,1 +1,0 @@
-const int maxA = 1000000;

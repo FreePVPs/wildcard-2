@@ -1,1 +1,0 @@
-const int nINTinf = 0 - 2147483648;

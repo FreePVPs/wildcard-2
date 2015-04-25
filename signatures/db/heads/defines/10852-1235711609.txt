@@ -1,1 +1,0 @@
-#define ForEach(s,i) for(__typeof((s).begin())i=s.begin();i!=s.end();i++)

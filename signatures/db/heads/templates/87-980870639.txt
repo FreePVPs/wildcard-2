@@ -1,1 +1,0 @@
-template<typename T>inline T LCM(T a, T b){LL res=a*b; res/=GCD(a,b);return res;}

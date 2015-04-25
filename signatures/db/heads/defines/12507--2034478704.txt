@@ -1,1 +1,0 @@
-#define RFORR(i,start,end) for (i = (end); i >= (start); i--)

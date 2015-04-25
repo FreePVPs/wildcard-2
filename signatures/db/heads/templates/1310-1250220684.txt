@@ -1,1 +1,0 @@
-template <class T1,class T2,class T3,class T4> inline void RD(T1 &x,T2 &y,T3 &z,T4 &w)	{ RD(x);	RD(y);	RD(z);	RD(w); }

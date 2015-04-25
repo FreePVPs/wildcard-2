@@ -1,1 +1,0 @@
-#define RFI(t)     for(TYP(t+0)_=t,i=0;i<=_;++i)

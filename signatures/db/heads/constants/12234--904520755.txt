@@ -1,1 +1,0 @@
-const LL INF=LL(inf)*inf;

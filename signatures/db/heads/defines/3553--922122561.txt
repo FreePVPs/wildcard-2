@@ -1,1 +1,0 @@
-#define forsubs(x) for (int s = x; s >= 0; s = (s > 0) ? (s - 1)&x : -1)

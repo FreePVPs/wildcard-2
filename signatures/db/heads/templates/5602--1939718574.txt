@@ -1,1 +1,0 @@
-template <typename T> void DEN(typename map<T,int>::const_iterator b,typename map<T,int>::const_iterator e,vector<T>&r,T z=1){if(b==e){r.push_back(z);return;}TYP(b)c=b;++c;RFZ(b->second){DEN(c,e,r,z);z*=b->first;}}

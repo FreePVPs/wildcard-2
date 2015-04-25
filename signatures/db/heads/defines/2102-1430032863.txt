@@ -1,1 +1,0 @@
-#define FORX(i,x) for(i=0;i<x;i++)

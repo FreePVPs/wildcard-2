@@ -1,1 +1,0 @@
-#define jjs(i, s, x) for (int i = (s); i < (x); i++)

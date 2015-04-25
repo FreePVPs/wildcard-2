@@ -1,1 +1,0 @@
-#define FORR(a,b,c) for(long a=b;a>=c;a--)

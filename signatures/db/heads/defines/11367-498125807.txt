@@ -1,1 +1,0 @@
-#define rg(i,a,b)for(int i=a,i##e=b;i<i##e;++i)

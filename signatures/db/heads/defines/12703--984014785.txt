@@ -1,1 +1,0 @@
-#define FIA(var,beg,end,inc) for(int var=(beg);var<=(end);var+=(inc))

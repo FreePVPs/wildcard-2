@@ -1,1 +1,0 @@
-const long long BASE = 239017;

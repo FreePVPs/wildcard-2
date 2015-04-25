@@ -1,1 +1,0 @@
-  const vi& getSa() const { return sa;}

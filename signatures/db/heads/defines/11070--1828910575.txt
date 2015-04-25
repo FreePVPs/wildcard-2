@@ -1,1 +1,0 @@
-#define RFR(i, a, b,dec) for(  i = (a); i >= (b); i-=dec )

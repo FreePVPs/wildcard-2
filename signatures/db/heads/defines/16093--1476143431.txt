@@ -1,1 +1,0 @@
-#define RREP1(a,b) for(int a=b;a>0;a--)

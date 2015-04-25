@@ -1,1 +1,0 @@
-#define fordb(i, n, b) for (int i = (int)(n) - 1; i >= b; --i)

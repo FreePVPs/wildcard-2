@@ -1,1 +1,0 @@
-#define DA(a,n)                     {cout<<#a": [";forall(i,0,n)cout<<a[i]<<" ";cout<<"]\n";}

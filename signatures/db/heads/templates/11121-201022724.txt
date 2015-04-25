@@ -1,1 +1,0 @@
-template <class T> T get() { T x ; cin >> x ; return x ; }

@@ -1,1 +1,0 @@
-const ll LINF = (ll)1e16 + 5;

@@ -1,1 +1,0 @@
-Const           fr      ='';//Newyear_A.inp';

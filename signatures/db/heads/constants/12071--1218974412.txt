@@ -1,1 +1,0 @@
-const intl A = 1 << 13;

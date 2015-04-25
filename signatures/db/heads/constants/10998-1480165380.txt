@@ -1,1 +1,0 @@
-const int QMAX = 300000, NMAX = QMAX;

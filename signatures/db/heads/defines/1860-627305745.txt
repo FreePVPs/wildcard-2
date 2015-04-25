@@ -1,1 +1,0 @@
-#define scan(Z,a,b) for (int __z = a; __z < b; __z ++) cin >> Z[__z];

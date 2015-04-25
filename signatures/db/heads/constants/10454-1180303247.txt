@@ -1,1 +1,0 @@
-const int INTMAX = 99999999;

@@ -1,1 +1,0 @@
-#define RFJ(t)     for(TYP(t+0)_=t,j=0;j<=_;++j)

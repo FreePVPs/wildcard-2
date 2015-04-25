@@ -1,1 +1,0 @@
-const double OO=1e15;

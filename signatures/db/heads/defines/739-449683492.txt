@@ -1,1 +1,0 @@
-#define fork(s,e) for(k=s;k<=e;k++)

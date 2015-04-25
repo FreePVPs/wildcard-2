@@ -1,1 +1,0 @@
-#define for_nonempty_subsets(subset,set) for (int subset=set;subset;subset=(subset-1)&(set))

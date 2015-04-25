@@ -1,1 +1,0 @@
-#define sc(n)                   {char temp[4]; ss(temp); n=temp[0];}

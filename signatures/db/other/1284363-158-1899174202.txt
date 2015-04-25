@@ -1,2 +1,0 @@
-
-#define contain(S,X) ((S)&two(X))//NOTES:contain(

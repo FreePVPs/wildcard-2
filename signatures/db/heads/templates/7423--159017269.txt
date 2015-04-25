@@ -1,1 +1,0 @@
-template< class T > string tos(T x) {stringstream s ; s << x; return s.str();}

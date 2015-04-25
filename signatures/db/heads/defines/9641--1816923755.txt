@@ -1,1 +1,0 @@
-#define FORTEST int test; scanf("%d",&test); for( int tt=1 ; tt<=test ; tt++ )

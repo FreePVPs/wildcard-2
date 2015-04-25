@@ -1,1 +1,0 @@
-#define PR2(a,n,m) REP(i,n){REP(j,m)cout<<a[i][j]<<" ";cout<<endl;}

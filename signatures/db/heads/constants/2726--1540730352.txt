@@ -1,1 +1,0 @@
-				const std::complex<T> x = result[j] - result[k];

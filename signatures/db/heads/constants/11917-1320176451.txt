@@ -1,1 +1,0 @@
-    const int mod = v[0] % d;

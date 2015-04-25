@@ -1,1 +1,0 @@
-#define ForL(i,a,n)  for(i=a;i<n;i++)

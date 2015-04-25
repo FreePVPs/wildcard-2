@@ -1,2 +1,0 @@
-
-#define pi(x) printf("%d\n",x)

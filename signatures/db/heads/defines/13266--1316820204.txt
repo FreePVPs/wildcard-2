@@ -1,1 +1,0 @@
-#define GC ({char t;scanf("%c",&t);t;})

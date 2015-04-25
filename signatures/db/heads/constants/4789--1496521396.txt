@@ -1,1 +1,0 @@
-const char cc[]={'A','T','G','C'};

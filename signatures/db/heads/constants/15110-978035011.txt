@@ -1,1 +1,0 @@
-const int CHILD_NUM = 26;

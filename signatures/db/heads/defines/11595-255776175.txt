@@ -1,1 +1,0 @@
-#define For(it,c) for(typeof(c) it = ((c).begin()); it != ((c).end()) ; ++it)

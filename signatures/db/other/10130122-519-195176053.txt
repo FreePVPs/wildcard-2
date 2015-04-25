@@ -1,1 +1,0 @@
-template<class T> T cube(T x) { return x * x * x; }

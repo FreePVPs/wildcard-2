@@ -1,1 +1,0 @@
-#define forj(q,w) for(int j=q;j<w;j++)

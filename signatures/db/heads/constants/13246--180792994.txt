@@ -1,1 +1,0 @@
-const LD pi=(LD)2.0*acosl(0);

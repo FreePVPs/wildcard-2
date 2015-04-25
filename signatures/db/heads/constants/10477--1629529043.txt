@@ -1,1 +1,0 @@
-const int Sn = 1010;

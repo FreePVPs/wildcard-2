@@ -1,1 +1,0 @@
-template<class T> T toDec(string s){stringstream is(s);T res;is>>res;RE res;} //toDec

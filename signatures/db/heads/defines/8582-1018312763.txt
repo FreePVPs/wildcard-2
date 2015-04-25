@@ -1,1 +1,0 @@
-#define read(n) long long n; cin>>n;

@@ -1,1 +1,0 @@
-#define fi(it,n) for(__typeof(n.begin()) it=n.begin();it!=n.end();it++)

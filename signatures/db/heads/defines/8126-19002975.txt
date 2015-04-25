@@ -1,1 +1,0 @@
-#define _fr(i,n,s) for(int i=n-1;i>=s;--i)

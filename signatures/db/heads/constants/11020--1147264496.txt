@@ -1,1 +1,0 @@
-const int maxm = 210000,maxn = 110000,maxk = 510,Inf = (1<<29)+1;

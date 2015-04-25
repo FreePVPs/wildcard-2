@@ -1,1 +1,0 @@
-    const auto &helper = radj[k];

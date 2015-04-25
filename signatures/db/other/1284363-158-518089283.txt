@@ -1,2 +1,0 @@
-
-{if(a<0){T d=euclide(-a,b,x,y);x=-x;return d;}

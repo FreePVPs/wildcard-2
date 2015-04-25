@@ -1,1 +1,0 @@
-#define print_int_matrix(mat,n) rep(i,n-1){printf("%d ",mat[i]);}printf("%d\n",mat[n-1]);

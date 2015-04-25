@@ -1,1 +1,0 @@
-#define FORE(i,a)  for(VAR(i,a.begin()); i!=a.end(); ++i)

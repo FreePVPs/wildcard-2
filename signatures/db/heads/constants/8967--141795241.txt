@@ -1,1 +1,0 @@
-		const V value) { a.a[i] = value; }

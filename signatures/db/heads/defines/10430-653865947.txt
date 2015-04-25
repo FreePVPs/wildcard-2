@@ -1,1 +1,0 @@
-#define rep(i, from, to) for (i = from; i < to; ++i)

@@ -1,1 +1,0 @@
-#define FOD(i, A, B) for(i=A; i>=B; i--)

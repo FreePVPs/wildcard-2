@@ -1,1 +1,0 @@
-#define frrdm(t,i,n,m,l) for(t i = (n); i > (m); i-=l)

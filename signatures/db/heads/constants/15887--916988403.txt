@@ -1,1 +1,0 @@
-const int FL_INF = 1e9;

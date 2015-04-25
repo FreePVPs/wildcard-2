@@ -1,1 +1,0 @@
-#define MAPIT(i,c,k) for (__typeof__((c).equal_range((k))).first i = (c).equal_range((k)).first; i!= (c).equal_range((k)).second; i++)

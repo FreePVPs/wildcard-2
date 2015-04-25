@@ -1,1 +1,0 @@
-#define pr(...) {static const char* _fmt=fmt(" ","",__VA_ARGS__).s.c_str(); printf(_fmt,__VA_ARGS__);}

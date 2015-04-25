@@ -1,1 +1,0 @@
-#define printAP(mat,sz) {rep(j,0,sz) cout << "("<< mat[j].first << ","<< mat[j].second <<") "; cout << endl;}

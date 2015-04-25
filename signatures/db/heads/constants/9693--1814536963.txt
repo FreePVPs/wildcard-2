@@ -1,1 +1,0 @@
-const int MAX = 300 + 50;

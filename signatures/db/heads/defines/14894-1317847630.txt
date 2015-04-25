@@ -1,1 +1,0 @@
-#define scna(a,n,type) uint (n); sc((n)); type* (a)=new type[(n)]; scn((a),(n));

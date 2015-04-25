@@ -1,1 +1,0 @@
-#define prm(a,b,c,m,n) f1(i,b,m+b){prni(a[i],c,n);cout<<endl;}

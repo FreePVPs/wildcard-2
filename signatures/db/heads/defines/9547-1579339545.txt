@@ -1,1 +1,0 @@
-#define exch(a,b) {int t111=a;a=b;b=t111;}

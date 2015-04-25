@@ -1,1 +1,0 @@
-#define Ev(x) {if (DE) {cerr <<#x <<" = "; FORE(it, (x)) cerr <<*it <<", "; cout <<endl; }}

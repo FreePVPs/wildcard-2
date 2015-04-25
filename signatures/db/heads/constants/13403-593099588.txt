@@ -1,1 +1,0 @@
-const long long int LINF = LLONG_MAX;

@@ -1,1 +1,0 @@
-#define FOR(i, s, n)  for(TYPE(n) VAR(start)=(s),   VAR(end)=(n), i=VAR(start);  i <  VAR(end);  i++)

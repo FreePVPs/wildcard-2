@@ -1,1 +1,0 @@
-const int N = 17, M = 128;

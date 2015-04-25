@@ -1,1 +1,0 @@
-#define rep(i,a,b) for(dt i=a;i<=b;i++)

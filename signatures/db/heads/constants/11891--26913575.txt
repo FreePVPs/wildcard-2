@@ -1,1 +1,0 @@
-const int SZ = 3003;

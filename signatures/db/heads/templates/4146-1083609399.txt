@@ -1,1 +1,0 @@
-template<>struct FloatFrom<ui64>{typedef long double R;};

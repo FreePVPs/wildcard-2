@@ -1,1 +1,0 @@
-const double PI = M_PI ;

@@ -1,1 +1,0 @@
-#define REPV(vec, i) for (int i = 0; i < (int)(vec.size()); ++i) 

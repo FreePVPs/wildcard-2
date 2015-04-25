@@ -1,1 +1,0 @@
-#define GF ({double t;scanf("%lf",&t);t;})              //NOTE: Don't comma separate two inputs.

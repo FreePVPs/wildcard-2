@@ -1,1 +1,0 @@
-template<class T>inline void scan_vect(vector<T>& x,int n){T temp;rep(i,n){scan(temp);x.pb(temp);}}

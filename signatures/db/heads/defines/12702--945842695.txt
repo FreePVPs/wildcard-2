@@ -1,1 +1,0 @@
-#define FI(var,beg,end) for(int var=(beg);var<=(end);++var)

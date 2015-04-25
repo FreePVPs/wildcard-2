@@ -1,1 +1,0 @@
-const digits:array [0..1] of char = ('0','1');

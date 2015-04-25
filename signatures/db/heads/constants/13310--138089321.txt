@@ -1,1 +1,0 @@
-const int MAXAN = 1000010;

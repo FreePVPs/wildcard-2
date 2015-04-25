@@ -1,1 +1,0 @@
-const intl B = 1953125;

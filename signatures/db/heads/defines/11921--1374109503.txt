@@ -1,1 +1,0 @@
-#define FOR0(i,n) for(LLI i=0;i<n;i++) ///looping

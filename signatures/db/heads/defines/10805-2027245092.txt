@@ -1,1 +1,0 @@
-#define F(i,x,st) for(long i=st;i<x;i++)

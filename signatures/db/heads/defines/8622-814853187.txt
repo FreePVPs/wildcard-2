@@ -1,1 +1,0 @@
-#define SWAP(a,b) {typeof(a) T; T=a; a=b; b=T;}

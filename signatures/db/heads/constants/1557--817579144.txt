@@ -1,1 +1,0 @@
-const long long MININT_64 = numeric_limits<ll>::min();

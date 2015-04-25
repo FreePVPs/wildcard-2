@@ -1,1 +1,0 @@
-#define CFOR(i) for(;i>0;i--)

@@ -1,1 +1,0 @@
-#define forj(lim) for(int (j) = (0); (j) < (lim);(j)++ )

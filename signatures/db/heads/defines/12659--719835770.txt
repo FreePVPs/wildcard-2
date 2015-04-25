@@ -1,1 +1,0 @@
-#define getChar(c) char c; scanf("%c", &c);

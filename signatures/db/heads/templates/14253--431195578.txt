@@ -1,1 +1,0 @@
-template <typename T>string toString( T Number ){stringstream st;st << Number;return st.str();}

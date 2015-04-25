@@ -1,1 +1,0 @@
-    const char *q = a.c_str();

@@ -1,1 +1,0 @@
-const int max_len = 1000500, max_alpha = 5;

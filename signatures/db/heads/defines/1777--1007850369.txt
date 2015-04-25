@@ -1,1 +1,0 @@
-#define arrMax(arr,n,mmmax) mmmax=arr[0]; REP(i,n){ if(arr[i]>mmmax) {mmmax=arr[i];}}

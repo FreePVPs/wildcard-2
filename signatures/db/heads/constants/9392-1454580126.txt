@@ -1,1 +1,0 @@
-const long long LINF = ~(((long long)0x1)<<63)/2;

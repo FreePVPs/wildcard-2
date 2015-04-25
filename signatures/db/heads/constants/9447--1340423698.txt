@@ -1,1 +1,0 @@
-        const size_t size = randomInt(2, maxSize);

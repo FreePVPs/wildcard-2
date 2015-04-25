@@ -1,1 +1,0 @@
-#define fit(x,a,b) for(typeof(a) x = a; x != b; x++)

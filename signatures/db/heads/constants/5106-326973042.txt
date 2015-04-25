@@ -1,1 +1,0 @@
-const int max_fv = 18;

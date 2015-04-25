@@ -1,1 +1,0 @@
-#define FOR(i,mn,mx) for(int i=mn;(i)<=(mx);i++)

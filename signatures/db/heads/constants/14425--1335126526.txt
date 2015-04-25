@@ -1,1 +1,0 @@
-const long long LMIN = LONG_MIN;

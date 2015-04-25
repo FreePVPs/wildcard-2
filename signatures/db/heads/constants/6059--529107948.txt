@@ -1,1 +1,0 @@
-const   inf     =2*trunc(1e5);

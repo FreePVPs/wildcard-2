@@ -1,1 +1,0 @@
-template<class T> inline string toa(T x) {stringstream ss; ss << x; string ret; ss >> ret; return ret;}

@@ -1,1 +1,0 @@
-#define REP_3(i,a,b) for(int i=(a);i<=(b);++i)

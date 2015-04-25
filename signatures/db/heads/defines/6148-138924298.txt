@@ -1,1 +1,0 @@
-	#define tr(i, c)	for(auto i = begin(c); i != end(c); i++)

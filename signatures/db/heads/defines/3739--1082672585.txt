@@ -1,1 +1,0 @@
-#define nrint(x) int x; rint(x);

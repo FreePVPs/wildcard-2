@@ -1,1 +1,0 @@
-#define forr(i,a,b,c) for(i = (a); i < (b); i+=(c))

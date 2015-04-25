@@ -1,1 +1,0 @@
-template<class T>string tostring(T t){stringstream s;s<<t;return s.str();}

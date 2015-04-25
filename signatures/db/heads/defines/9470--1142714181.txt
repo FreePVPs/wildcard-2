@@ -1,1 +1,0 @@
-#define f_in for (int i=0;i<n;++i)

@@ -1,1 +1,0 @@
-const int max1=500005;

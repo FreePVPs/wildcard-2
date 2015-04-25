@@ -1,1 +1,0 @@
-#define FORSIZE(i,j,v) for(int i=j; i<v.size(); i++)

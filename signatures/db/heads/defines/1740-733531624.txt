@@ -1,1 +1,0 @@
-#define FOR(i,k,l)   for(int i(k); i<l; i++)

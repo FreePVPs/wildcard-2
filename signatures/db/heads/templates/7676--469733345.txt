@@ -1,1 +1,0 @@
-template<class T> inline T& SRT(T &A){sort(ALL(A)); return A;}

@@ -1,1 +1,0 @@
-const double gen2 = sqrt(2.0);

@@ -1,1 +1,0 @@
-const int MaxT = 2000;

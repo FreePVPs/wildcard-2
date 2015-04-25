@@ -1,1 +1,0 @@
-template<class T> inline bool isPrime(T n) {if (n < 2) return false; T kk = (T)sqrt(n + 0.); for (T i = 2; i <= kk; ++i) if (!(n % i)) return false; return true;}

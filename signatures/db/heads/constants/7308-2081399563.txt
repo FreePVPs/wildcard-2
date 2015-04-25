@@ -1,1 +1,0 @@
-const int MINI = MAXI + 1; //-2^31

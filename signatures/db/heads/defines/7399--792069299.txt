@@ -1,1 +1,0 @@
-#define fec(i,a) for(__typeof((a).end())i=(a).begin();i!=(a).end();++i)

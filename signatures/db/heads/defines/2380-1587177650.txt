@@ -1,1 +1,0 @@
-#define Iterator(it, l) for (typeof(l.begin()) it = l.begin(); it != l.end(); it++)

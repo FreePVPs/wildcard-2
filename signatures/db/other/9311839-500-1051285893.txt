@@ -1,2 +1,0 @@
-
-#define RI(x) scanf("%d",&x)

@@ -1,1 +1,0 @@
-#define READ(f) {ifstream infile(f) ;if(infile.good()) freopen(f, "r", stdin);}

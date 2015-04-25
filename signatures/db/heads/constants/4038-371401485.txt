@@ -1,1 +1,0 @@
-const int ALPH = 26; // Latin alphabet size

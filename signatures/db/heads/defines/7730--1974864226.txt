@@ -1,1 +1,0 @@
-#define EACH(it,v)   for(LET(it,v.begin());it!=v.end();++it)

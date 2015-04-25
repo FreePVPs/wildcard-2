@@ -1,1 +1,0 @@
-#define debug(i,st,arr) fori(i,0,st){cout<<arr[i]<<" ";}cout<<endl;

@@ -1,1 +1,0 @@
-#define fer(__, _) for(edge *_ = h[(__)]; _; _ = _ -> nt)

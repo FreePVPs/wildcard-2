@@ -1,6 +1,0 @@
-
-    String nextToken() throws IOException {
-        while (!st.hasMoreTokens())
-            st = new StringTokenizer(in.readLine());
-        return st.nextToken();
-    }

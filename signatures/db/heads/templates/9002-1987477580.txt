@@ -1,1 +1,0 @@
-template<class T> inline T gcd2(T a,T b,T &x,T &y){if(a<0){T d=gcd2(-a,b,x,y);x=-x;return d;}if(b<0)

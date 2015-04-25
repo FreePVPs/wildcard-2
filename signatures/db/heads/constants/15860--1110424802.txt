@@ -1,1 +1,0 @@
-const int mxs = 111111;

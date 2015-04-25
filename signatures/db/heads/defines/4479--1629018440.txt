@@ -1,1 +1,0 @@
-#define f(i, ...) for (auto i = (FIRSTARG_((__VA_ARGS__))); i < decltype(i)(SECONDARG_((__VA_ARGS__))); ++i) // This is still a for loop (from C++21)

@@ -1,1 +1,0 @@
-#define FJ(st,fn,in) for(j=st;j<=fn;j+=in)

@@ -1,1 +1,0 @@
-const long long dofiga = 2 * 1e18;

@@ -1,1 +1,0 @@
-const Lint Linf = 1e18+5;

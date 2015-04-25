@@ -1,1 +1,0 @@
-const int lmax=3005;

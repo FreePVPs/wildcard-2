@@ -1,1 +1,0 @@
-#define fer(i, x, n) for (ll i = (ll)(x), _n = (ll)(n); i < _n; i++)

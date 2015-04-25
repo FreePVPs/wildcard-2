@@ -1,1 +1,0 @@
-#define printArray(x) {for(int prt=0;prt<N;prt++){cout << x[prt] << ',';} cout << endl;}

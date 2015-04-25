@@ -1,1 +1,0 @@
-#define repeat(i,j,k) for(int__ i=(j);i<(k);i++)

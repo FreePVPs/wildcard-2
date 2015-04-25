@@ -1,1 +1,0 @@
-#define fr_pos(i,in,j) for(int i=in; i<j; i++)

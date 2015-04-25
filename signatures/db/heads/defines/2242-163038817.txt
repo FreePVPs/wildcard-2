@@ -1,1 +1,0 @@
-#define rep(s,n)    for(long i=s; i<=n;i++)

@@ -1,1 +1,0 @@
-#define FOR(i,ST,FN) for(int i=ST;i<=FN;i++)

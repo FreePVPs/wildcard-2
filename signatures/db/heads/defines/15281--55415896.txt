@@ -1,1 +1,0 @@
-#define DBG4(w, x, y, z) {if(DEBUG){DBG0(w); DBG3(x, y, z);}}

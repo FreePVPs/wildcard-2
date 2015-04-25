@@ -1,1 +1,0 @@
-#define FOR(it,v) for(it = v.begin(); it != v.end(); ++it)

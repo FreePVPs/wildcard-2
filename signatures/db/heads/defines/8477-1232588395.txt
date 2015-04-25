@@ -1,1 +1,0 @@
-#define testcase(tc) int tc;readn(tc);for(int kase=1;kase<=tc;++kase)

@@ -1,1 +1,0 @@
-#define foreach(it,c)                       for( decltype  ( (c).begin()) it =  (c).begin(); it != (c).end() ; ++it )  //To access current element item you use *it.

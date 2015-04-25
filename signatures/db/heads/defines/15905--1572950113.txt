@@ -1,1 +1,0 @@
-#define drep(i,t,s) for(int i=t;i>=s;--i)

@@ -1,1 +1,0 @@
-#define FOR(i,t,n) for((i)=(t);(i)<(n);(i)++)
